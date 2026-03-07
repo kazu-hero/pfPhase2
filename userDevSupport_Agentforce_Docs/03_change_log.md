@@ -138,6 +138,42 @@
 
 ---
 
+### 2026-03-07 確認待ち項目の確定とスキーマエクスポート
+
+**概要**:
+- `02_solution_definition.md` の確認待ち項目4件について対応
+- Salesforce組織からスキーマ情報をエクスポート（Org Alias: pfPhase2Org）
+- エラーハンドリング・ログレベルのポリシーを確定
+
+**対象**:
+- `02_solution_definition.md`
+- `Salesforce_DevDocs/org-schema/pfPhase2Org/latest/`（新規作成）
+- `03_change_log.md`（本エントリ）
+
+**確定事項**:
+1. 実環境スキーマ取得: `scripts/schema/export-org-schema.ps1` を実行、`Salesforce_DevDocs/org-schema/pfPhase2Org/latest/` にエクスポート完了
+2. Agentforce環境: セットアップ済み、構成確認のみ
+3. CRUD権限確認: 実装後の動作テスト時に実施（確認待ち項目として継続）
+4. エラーリトライ回数: 3回
+5. ログレベル: ERROR + WARNING + INFO（全操作記録）
+
+**理由**:
+- フェーズ1完了に向けて、未確定事項を可能な限り確定するため
+- 実環境のデータモデル定義を取得し、04_existing_data_model.mdへの反映準備を完了するため
+- エラーハンドリングとログ出力の運用方針を明確化するため
+
+**影響範囲**:
+- `02_solution_definition.md`: 確認待ち項目4件のうち3件が確定済みに移行、1件は継続調査
+- スキーマ情報がエクスポートされ、今後の実装時に正確なオブジェクト・項目定義を参照可能
+
+**Branch**: main
+**PR**: -
+**Commit**: （実施予定）
+
+**承認**: ユーザー回答確認済み
+
+---
+
 ### 次回変更時の記録フォーマット
 
 ```markdown
