@@ -1,6 +1,7 @@
 param(
-    [string]$OrgAlias = "pfPhase2Org",
-    [string]$OutputRoot = "docs/org-schema"
+    [Parameter(Mandatory=$true)]
+    [string]$OrgAlias,
+    [string]$OutputRoot = "Salesforce_DevDocs/org-schema"
 )
 
 $ErrorActionPreference = "Stop"
