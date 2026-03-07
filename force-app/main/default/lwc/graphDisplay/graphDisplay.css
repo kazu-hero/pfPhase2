@@ -35,14 +35,17 @@
     position: relative;
 }
 .floating-legend-inside {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: #fff;
-    z-index: 20;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
-    border-radius: 0 0 8px 8px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3vh;
+    width: 54vw;
+    max-width: 70vw;
+    min-width: 40vw;
+    background: rgba(255, 255, 255, 0.98);
+    z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+    border-radius: 8px 8px 0 0;
     padding: 10px 18px 8px 18px;
 }
 
