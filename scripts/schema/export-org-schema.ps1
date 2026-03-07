@@ -1,7 +1,7 @@
 param(
     [Parameter(Mandatory=$true)]
     [string]$OrgAlias,
-    [string]$OutputRoot = "Salesforce_DevDocs/org-schema"
+    [string]$OutputRoot = "AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema"
 )
 
 $ErrorActionPreference = "Stop"

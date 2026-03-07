@@ -12,8 +12,8 @@
 
 各 Org エイリアスに対して、以下の構造でファイルが生成されます：
 
-- `Salesforce_DevDocs/org-schema/<OrgAlias>/latest/`
-- `Salesforce_DevDocs/org-schema/<OrgAlias>/history/<yyyyMMdd-HHmmss>/`
+- `AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/<OrgAlias>/latest/`
+- `AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/<OrgAlias>/history/<yyyyMMdd-HHmmss>/`
 
 生成されるファイル：
 

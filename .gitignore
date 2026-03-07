@@ -48,5 +48,5 @@ $RECYCLE.BIN/
 **/venv/
 
 # Salesforce Schema Snapshots (keep README, ignore snapshot data)
-Salesforce_DevDocs/org-schema/*/
-!Salesforce_DevDocs/org-schema/README.md
+AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/*/
+!AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/README.md
