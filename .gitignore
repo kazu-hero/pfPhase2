@@ -46,3 +46,7 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Salesforce Schema Snapshots (keep README, ignore snapshot data)
+Salesforce_DevDocs/org-schema/*/
+!Salesforce_DevDocs/org-schema/README.md
