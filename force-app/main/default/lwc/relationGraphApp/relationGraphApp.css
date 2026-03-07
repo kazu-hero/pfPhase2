@@ -1,0 +1,99 @@
+/* 画面全体をさらに下げる */
+/* 画面全体をさらに上2px、下10px伸ばす */
+/* 画面全体をさらに上5px、下30px伸ばす */
+/* 画面全体をさらに上5px、下5px伸ばす */
+.horizontal-panels {
+    position: fixed;
+    top: 93px;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 10;
+    height: 76vh;
+}
+/* フィルタ・詳細パネルの幅と下方向の拡張 */
+/* フィルタ・詳細パネルの幅と下方向の拡張（フィルタ左20px、詳細右20px、下10px） */
+/* フィルタ・詳細パネルの幅と下方向の拡張（フィルタ左30px、詳細右30px、下30px） */
+/* フィルタ・詳細パネルの幅と下方向の拡張（フィルタ左10px、詳細右10px、下5px） */
+/* フィルタ・詳細パネルの高さを80vhに統一 */
+/* フィルタ・詳細パネルの高さを85vhに統一 */
+/* フィルタ・詳細パネルの高さを83vhに統一 */
+.side-panel {
+    width: 330px;
+    min-width: 250px;
+    max-width: 370px;
+    height: 83vh;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    padding: 18px 8px 78px 8px;
+}
+/* グラフパネルも下方向に15px伸ばす */
+/* グラフパネルも下方向に10px伸ばす */
+/* グラフパネルも下方向に30px伸ばす */
+/* グラフパネルも下方向に5px伸ばす */
+/* グラフパネルの高さを100%に戻す（伸び続け防止） */
+/* グラフパネルの高さをやや拡張（短すぎ防止） */
+/* グラフパネル全体を下に15px伸ばす */
+/* グラフパネル全体の高さを70vhで固定 */
+/* グラフパネル全体の高さを100vhに */
+/* グラフパネル全体の高さを80vhに */
+/* グラフパネル全体の高さを85vhに */
+/* グラフパネル全体の高さを83vhに */
+.graph-panel-fixed {
+    width: 60vw;
+    min-width: 400px;
+    max-width: 1200px;
+    height: 83vh;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 0 0 0;
+    overflow: visible;
+}
+.side-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    color: #222;
+    background: rgba(255,255,255,0.95);
+    padding: 6px 12px 4px 12px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    margin-bottom: 10px;
+    text-align: left;
+}
+/* フローティングパネルもさらに下げる */
+/* フローティングパネルもさらに上2px、下10px伸ばす */
+/* フローティングパネルもさらに上5px、下30px伸ばす */
+/* フローティングパネルもさらに上5px、下5px伸ばす */
+.floating-panel {
+    position: fixed;
+    top: 93px;
+    height: 76vh;
+    background: #fff;
+    z-index: 20;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.custom-col-15 {
+    flex-basis: 15% !important;
+    max-width: 15% !important;
+}
+.custom-col-70 {
+    flex-basis: 70% !important;
+    max-width: 70% !important;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastSegmentMemberCountError</fullName>
+    <inlineHelpText>選択したセグメントエンティティのエラー数。GDPR 要件がカウントに影響する場合があります。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

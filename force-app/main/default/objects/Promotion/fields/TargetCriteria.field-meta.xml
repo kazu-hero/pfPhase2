@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TargetCriteria</fullName>
+    <inlineHelpText>カートが任意の対象またはすべての対象の条件を満たす必要があるかどうかを定義します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

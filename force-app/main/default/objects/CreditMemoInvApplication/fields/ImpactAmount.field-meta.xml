@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpactAmount</fullName>
+    <inlineHelpText>クレジットメモと請求書の残高への影響。[適用解除済み] 種別の申請では負の影響があり、[適用済み] 種別の申請では正の影響があります。</inlineHelpText>
+</CustomField>

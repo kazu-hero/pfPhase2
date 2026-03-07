@@ -1,0 +1,12 @@
+.qr-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.qr-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+}

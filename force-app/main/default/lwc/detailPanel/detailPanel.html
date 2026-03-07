@@ -1,0 +1,62 @@
+<template>
+    <lightning-card title="詳細">
+        <template if:true={selectedNode}>
+            <!-- レコード名（ハイパーリンク） -->
+            <div class="slds-p-around_small">
+                <h3 class="slds-text-heading_small">
+                    <a href={recordUrl} target="_blank">{selectedNode.label}</a>
+                </h3>
+                <p>ステータス: <lightning-badge label={selectedNode.status}></lightning-badge></p>
+            </div>
+            
+            <!-- 関連レコード -->
+            <div class="slds-p-around_small">
+                <h4 class="slds-text-heading_small">上流レコード</h4>
+                <template if:true={hasUpstream}>
+                    <ul class="bullet-list">
+                        <template for:each={upstreamRecords} for:item="record">
+                            <li key={record.id} class={record.cssClass}>
+                                <lightning-icon 
+                                    if:true={record.isFilteredOut} 
+                                    icon-name="utility:hide" 
+                                    size="x-small">
+                                </lightning-icon>
+                                <a href={record.url} target="_blank">{record.name}</a>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+                <template if:false={hasUpstream}>
+                    <p class="slds-text-color_weak">なし</p>
+                </template>
+            </div>
+            
+            <div class="slds-p-around_small">
+                <h4 class="slds-text-heading_small">下流レコード</h4>
+                <template if:true={hasDownstream}>
+                    <ul class="bullet-list">
+                        <template for:each={downstreamRecords} for:item="record">
+                            <li key={record.id} class={record.cssClass}>
+                                <lightning-icon 
+                                    if:true={record.isFilteredOut} 
+                                    icon-name="utility:hide" 
+                                    size="x-small">
+                                </lightning-icon>
+                                <a href={record.url} target="_blank">{record.name}</a>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+                <template if:false={hasDownstream}>
+                    <p class="slds-text-color_weak">なし</p>
+                </template>
+            </div>
+        </template>
+        
+        <template if:false={selectedNode}>
+            <div class="slds-p-around_small slds-text-align_center">
+                <p>ノードを選択してください</p>
+            </div>
+        </template>
+    </lightning-card>
+</template>

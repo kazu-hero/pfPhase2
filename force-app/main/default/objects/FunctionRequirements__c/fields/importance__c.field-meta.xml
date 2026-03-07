@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>importance__c</fullName>
+    <label>重要度</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>目立った影響はない</fullName>
+                <default>false</default>
+                <label>目立った影響はない</label>
+            </value>
+            <value>
+                <fullName>事業運営に影響がある</fullName>
+                <default>false</default>
+                <label>事業運営に影響がある</label>
+            </value>
+            <value>
+                <fullName>組織の利益に重大な影響がある</fullName>
+                <default>false</default>
+                <label>組織の利益に重大な影響がある</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

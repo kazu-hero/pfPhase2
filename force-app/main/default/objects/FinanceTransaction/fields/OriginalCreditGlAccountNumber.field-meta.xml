@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OriginalCreditGlAccountNumber</fullName>
+    <inlineHelpText>金融取引が作成されたときの金融取引の貸方 GL 勘定名。</inlineHelpText>
+</CustomField>

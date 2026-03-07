@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AttendeeLimit</fullName>
+    <inlineHelpText>グループサービス予定に出席できるサービス予定出席者の最大数を入力します。予定カテゴリがグループの場合、この項目は必須です。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

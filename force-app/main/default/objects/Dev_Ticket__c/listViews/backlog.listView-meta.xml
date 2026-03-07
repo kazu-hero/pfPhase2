@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>backlog</fullName>
+    <columns>onbord__c</columns>
+    <columns>status__c</columns>
+    <columns>logNo__c</columns>
+    <columns>NAME</columns>
+    <columns>created_releasenote__c</columns>
+    <columns>created_howto__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>notEqual</operation>
+        <value>DONE,DROP</value>
+    </filters>
+    <label>backlog</label>
+</ListView>

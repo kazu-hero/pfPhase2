@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpactAmount</fullName>
+    <inlineHelpText>顧客の財務状況に対する金融取引の影響</inlineHelpText>
+</CustomField>

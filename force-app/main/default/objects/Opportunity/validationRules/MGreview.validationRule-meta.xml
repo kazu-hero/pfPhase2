@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MGreview</fullName>
+    <active>true</active>
+    <errorConditionFormula>and( MGreview__c=False ,
+       or(ispickval( StageName ,&quot;提案交渉&quot;),ispickval( StageName ,&quot;レビュー&quot;))
+)</errorConditionFormula>
+    <errorMessage>提案レビューのため、承認申請をしてください</errorMessage>
+</ValidationRule>

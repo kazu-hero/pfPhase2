@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DiscountOrder</fullName>
+    <inlineHelpText>最初に最高値の商品と最安値の商品のどちらに割引を適用するかを選択します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

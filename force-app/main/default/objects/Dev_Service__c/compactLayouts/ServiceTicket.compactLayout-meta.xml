@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceTicket</fullName>
+    <fields>Name</fields>
+    <fields>StatusSignal__c</fields>
+    <fields>countIssue__c</fields>
+    <fields>logNo__c</fields>
+    <fields>CreatedById</fields>
+    <fields>OwnerId</fields>
+    <fields>LastModifiedById</fields>
+    <label>ServiceTicket</label>
+</CompactLayout>

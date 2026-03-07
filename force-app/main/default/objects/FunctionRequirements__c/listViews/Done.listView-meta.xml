@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Done</fullName>
+    <columns>NAME</columns>
+    <columns>status__c</columns>
+    <columns>cntDevTicket__c</columns>
+    <columns>requirementTarget__c</columns>
+    <columns>priority__c</columns>
+    <columns>requirementsCategory__c</columns>
+    <columns>departmentOfUse__c</columns>
+    <columns>content__c</columns>
+    <columns>urgencyFlag__c</columns>
+    <columns>importanceFlag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>DONE</value>
+    </filters>
+    <label>Done</label>
+</ListView>

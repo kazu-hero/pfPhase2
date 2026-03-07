@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrikethroughPricebookId</fullName>
+    <inlineHelpText>商品の元のリスト価格とバイヤーの割引価格が含まれる価格表を表示します。</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

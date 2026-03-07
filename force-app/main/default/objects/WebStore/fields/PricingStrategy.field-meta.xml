@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PricingStrategy</fullName>
+    <inlineHelpText>バイヤーに表示する価格を最適な価格、または最も優先度の高い価格表の価格のいずれかから選択します。</inlineHelpText>
+</CustomField>

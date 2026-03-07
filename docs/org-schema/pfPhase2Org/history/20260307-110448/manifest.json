@@ -1,0 +1,16 @@
+﻿{
+    "generatedAt":  "2026-03-07T11:04:56.4423280+09:00",
+    "orgAlias":  "pfPhase2Org",
+    "outputRoot":  "docs/org-schema",
+    "historyPath":  "C:\\Users\\kazut\\OneDrive\\デスクトップ\\Salesforce学習\\My-SalesforceDE\\pfPhase2\\docs\\org-schema\\pfPhase2Org\\history\\20260307-110448",
+    "latestPath":  "C:\\Users\\kazut\\OneDrive\\デスクトップ\\Salesforce学習\\My-SalesforceDE\\pfPhase2\\docs\\org-schema\\pfPhase2Org\\latest",
+    "files":  [
+                  "entity-definitions.csv",
+                  "custom-objects.csv"
+              ],
+    "customObjectCount":  0,
+    "describeFailureCount":  0,
+    "describeFailures":  [
+
+                         ]
+}

@@ -1,0 +1,1775 @@
+﻿QualifiedApiName,Label,KeyPrefix,DurableId,NamespacePrefix,IsCustomizable,IsCustomSetting
+AcceptedEventRelation,参加行動リレーション,,AcceptedEventRelation,,false,false
+Account,取引先,001,Account,,true,false
+AccountChangeEvent,取引先 変更イベント,1CE,AccountChangeEvent,,false,false
+AccountCleanInfo,取引先クリーンアップ情報,1CA,AccountCleanInfo,,true,false
+AccountCleanInfoChangeEvent,取引先クリーンアップ情報 変更イベント,1CE,AccountCleanInfoChangeEvent,,false,false
+AccountContactRole,取引先責任者の役割,02Z,AccountContactRole,,false,false
+AccountContactRoleChangeEvent,取引先責任者の役割 変更イベント,1CE,AccountContactRoleChangeEvent,,false,false
+AccountFeed,取引先フィード,0D5,AccountFeed,,false,false
+AccountHistory,取引先履歴,017,AccountHistory,,false,false
+AccountPartner,取引先パートナー,00I,AccountPartner,,false,false
+AccountShare,取引先の共有,00r,AccountShare,,false,false
+ActionLinkGroupTemplate,アクションリンクグループテンプレート,07g,ActionLinkGroupTemplate,,false,false
+ActionLinkTemplate,アクションリンクテンプレート,07l,ActionLinkTemplate,,false,false
+ActivationTarget,有効化対象,85U,ActivationTarget,,true,false
+ActivationTargetFeed,有効化対象 フィード,0D5,ActivationTargetFeed,,false,false
+ActivationTargetHistory,有効化対象履歴,017,ActivationTargetHistory,,false,false
+ActivationTargetPlatform,有効化対象プラットフォーム,4q9,ActivationTargetPlatform,,false,false
+ActivationTargetPlatformHistory,有効化対象プラットフォーム履歴,017,ActivationTargetPlatformHistory,,false,false
+ActivationTargetPlatformShare,有効化対象プラットフォーム 共有,02c,ActivationTargetPlatformShare,,false,false
+ActivationTargetSecureFTP,有効化対象セキュア FTP,16R,ActivationTargetSecureFTP,,false,false
+ActivationTargetShare,有効化対象 共有,02c,ActivationTargetShare,,false,false
+ActivationTrgtIntOrgAccess,有効化対象の内部組織アクセス,85V,ActivationTrgtIntOrgAccess,,false,false
+ActivationTrgtIntOrgAccessFeed,有効化対象の内部組織アクセス フィード,0D5,ActivationTrgtIntOrgAccessFeed,,false,false
+ActivationTrgtIntOrgAccessHistory,有効化対象の内部組織アクセス履歴,017,ActivationTrgtIntOrgAccessHistory,,false,false
+ActivationTrgtIntOrgAccessShare,有効化対象の内部組織アクセス 共有,02c,ActivationTrgtIntOrgAccessShare,,false,false
+ActiveFeatureLicenseMetric,有効な機能ライセンスメトリクス,5H2,ActiveFeatureLicenseMetric,,false,false
+ActivePermSetLicenseMetric,有効な権限セットライセンスメトリクス,5H1,ActivePermSetLicenseMetric,,false,false
+ActiveProfileMetric,有効なプロファイルメトリクス,5H0,ActiveProfileMetric,,false,false
+ActiveScratchOrg,有効なスクラッチ組織,2AS,ActiveScratchOrg,,true,false
+ActiveScratchOrgFeed,有効なスクラッチ組織フィード,0D5,ActiveScratchOrgFeed,,false,false
+ActiveScratchOrgHistory,有効なスクラッチ組織の履歴,017,ActiveScratchOrgHistory,,false,false
+ActiveScratchOrgShare,有効なスクラッチ組織 共有,02c,ActiveScratchOrgShare,,false,false
+ActivityFieldHistory,Activity Field Histories,2fp,ActivityFieldHistory,,false,false
+ActivityHistory,活動履歴,,ActivityHistory,,false,false
+ActorReactiveAskRespEvent,アクター反応型質問応答イベント,1s9,ActorReactiveAskRespEvent,,false,false
+ActualAmount__c,実績,a12,01IdL00000Bcl2n,,true,false
+ActualAmount__ChangeEvent,変更イベント: 実績,1CE,01IdL00000Bcl2n.ChangeEvent,,false,false
+ActualAmount__History,履歴: 実績,017,01IdL00000Bcl2n.History,,false,false
+ActvTgtPlatformFieldValue,有効化対象プラットフォーム項目値,3q9,ActvTgtPlatformFieldValue,,false,false
+ActvTgtPlatformFieldValueHistory,有効化対象プラットフォーム項目値履歴,017,ActvTgtPlatformFieldValueHistory,,false,false
+ActvTgtPlatformFieldValueShare,有効化対象プラットフォーム項目値 共有,02c,ActvTgtPlatformFieldValueShare,,false,false
+AdditionalNumber,追加ディレクトリ番号,04m,AdditionalNumber,,false,false
+Address,住所,130,Address,,true,false
+AddressHistory,住所履歴,017,AddressHistory,,false,false
+AgentWork,エージェントの作業,0Bz,AgentWork,,true,false
+AgentWorkChangeEvent,エージェントの作業 変更イベント,1CE,AgentWorkChangeEvent,,false,false
+AgentWorkShare,エージェントの作業 共有,02c,AgentWorkShare,,false,false
+AggregateResult,集計結果,,AggregateResult,,false,false
+AIAgentStatusEvent,AI Agent Status Event,1Re,AIAgentStatusEvent,,false,false
+AIApplication,AI アプリケーション,0Pp,AIApplication,,false,false
+AIApplicationConfig,AI アプリケーション設定,6S9,AIApplicationConfig,,false,false
+AIInsightAction,AIInsightActions,9qd,AIInsightAction,,false,false
+AIInsightFeedback,AI インサイトフィードバック,9bq,AIInsightFeedback,,false,false
+AIInsightReason,AI インサイト理由,0T2,AIInsightReason,,false,false
+AIInsightValue,AI Insight Value,9qc,AIInsightValue,,false,false
+AiJobRun,AI ジョブ実行,91b,AiJobRun,,false,false
+AiJobRunItem,AI ジョブ実行項目,91c,AiJobRunItem,,false,false
+AiJobRunItemShare,AI ジョブ実行項目 共有,02c,AiJobRunItemShare,,false,false
+AiJobRunShare,AI ジョブ実行 共有,02c,AiJobRunShare,,false,false
+AiJobRunStatusEvent,AI ジョブ実行状況イベント,91d,AiJobRunStatusEvent,,false,false
+AiPluginUtteranceDef,生成 AI プラグイン発言定義,31N,AiPluginUtteranceDef,,false,false
+AIPredictionEvent,AI 予測イベント,0ae,AIPredictionEvent,,false,false
+AiPromptTemplateGenEvent,AI Prompt Template Generated Event,3pt,AiPromptTemplateGenEvent,,false,false
+AIRecordInsight,AI レコードインサイト,9qb,AIRecordInsight,,false,false
+AITrustAttribute,AI 信頼属性,9HO,AITrustAttribute,,false,false
+AITrustAttrSetup,AI 信頼属性設定,8H2,AITrustAttrSetup,,false,false
+AIWorksheetColProcEvent,AI ワークシート列処理イベント,1W8,AIWorksheetColProcEvent,,false,false
+AlternativePaymentMethod,代替支払方法,8Z7,AlternativePaymentMethod,,true,false
+AlternativePaymentMethodShare,代替支払方法 共有,02c,AlternativePaymentMethodShare,,false,false
+AnalyticsAssetAction,Analytics Asset Action,2U9,AnalyticsAssetAction,,false,false
+AnalyticsButtonWidgetDef,Analytics Button Widget Definition,1DB,AnalyticsButtonWidgetDef,,false,false
+AnalyticsContainerWidgetDef,Analytics コンテナウィジェット定義,2aa,AnalyticsContainerWidgetDef,,false,false
+AnalyticsDashboard,Analytics ダッシュボード,0Tr,AnalyticsDashboard,,false,false
+AnalyticsDashboardLayout,Analytics Dashboard Layout,0Wn,AnalyticsDashboardLayout,,false,false
+AnalyticsDashboardPage,Analytics Dashboard Page,0kh,AnalyticsDashboardPage,,false,false
+AnalyticsDashboardViewDef,Analytics Dashboard Custom View,1OL,AnalyticsDashboardViewDef,,false,false
+AnalyticsDashboardViewSpec,Analytics ダッシュボードカスタムビュー仕様,1OK,AnalyticsDashboardViewSpec,,false,false
+AnalyticsDashboardWidget,Analytics Dashboard Widget,0Wd,AnalyticsDashboardWidget,,false,false
+AnalyticsDashPageWidget,Analytics Dashboard Page Widget,0Wm,AnalyticsDashPageWidget,,false,false
+AnalyticsFilterWidgetDef,Analytics Filter Widget Definition,1Ad,AnalyticsFilterWidgetDef,,false,false
+AnalyticsMetricWidgetDef,Analytics Metric Widget Definition,1Fa,AnalyticsMetricWidgetDef,,false,false
+AnalyticsParamWidgetDef,Analytics Parameter Widget Definition,1Fb,AnalyticsParamWidgetDef,,false,false
+AnalyticsTaskStatusEvent,AnalyticsTaskStatusEvent,1JX,AnalyticsTaskStatusEvent,,false,false
+AnalyticsTextWidgetDef,Analytics Text Widget Definition,1Ab,AnalyticsTextWidgetDef,,false,false
+AnalyticsUserAttrFuncTkn,分析ユーザー属性関数トークン,1P3,AnalyticsUserAttrFuncTkn,,false,false
+AnalyticsUserAttrFuncTknShare,分析ユーザー属性関数トークン 共有,02c,AnalyticsUserAttrFuncTknShare,,false,false
+AnalyticsVisualization,Analytics Visualization,1AK,AnalyticsVisualization,,false,false
+AnalyticsVizField,Analytics Visualization Field,1Hb,AnalyticsVizField,,false,false
+AnalyticsVizViewDef,Analytics Visualization View Definition,1Ha,AnalyticsVizViewDef,,false,false
+AnalyticsVizWidgetDef,Analytics Visualization Widget Definition,1AL,AnalyticsVizWidgetDef,,false,false
+AnalyticsWorkspace,分析ワークスペース,1Dy,AnalyticsWorkspace,,false,false
+AnalyticsWorkspaceAsset,分析ワークスペースアセット,1Dz,AnalyticsWorkspaceAsset,,false,false
+Announcement,お知らせ,0Bt,Announcement,,false,false
+ApexClass,Apex クラス,01p,ApexClass,,false,false
+ApexComponent,Visualforce コンポーネント,099,ApexComponent,,false,false
+ApexEmailNotification,Apex メール通知,06j,ApexEmailNotification,,false,false
+ApexLog,Apex デバッグログ,07L,ApexLog,,false,false
+ApexPage,Visualforce ページ,066,ApexPage,,false,false
+ApexPageInfo,Apex ページ情報,4ve,ApexPageInfo,,false,false
+ApexTestQueueItem,Apex テストキュー項目,709,ApexTestQueueItem,,false,false
+ApexTestResult,アプリケーションテスト結果,07M,ApexTestResult,,false,false
+ApexTestResultLimits,Apex テスト結果制限,05n,ApexTestResultLimits,,false,false
+ApexTestRunResult,Apex テスト実行結果,05m,ApexTestRunResult,,false,false
+ApexTestSuite,Apex テストスイート,05F,ApexTestSuite,,false,false
+ApexTrigger,Apex トリガー,01q,ApexTrigger,,false,false
+ApexTypeImplementor,Apex 型実装者,0kt,ApexTypeImplementor,,false,false
+ApiAnomalyEvent,API 異常イベント,0j5,ApiAnomalyEvent,,false,false
+ApiAnomalyEventStore,API 異常イベントストア,0j6,ApiAnomalyEventStore,,false,false
+ApiAnomalyEventStoreFeed,API 異常イベントストアフィード,0D5,ApiAnomalyEventStoreFeed,,false,false
+ApiEvent,API イベント,07t,ApiEvent,,false,false
+ApiEventStream,API イベントストリーム,0QI,ApiEventStream,,false,false
+ApiPrtcPolicyChangeEvent,API 保護ポリシーの変更イベント,1Z3,ApiPrtcPolicyChangeEvent,,false,false
+AppAnalyticsQueryRequest,アプリケーション分析クエリ要求,0XI,AppAnalyticsQueryRequest,,false,false
+AppDefinition,アプリケーション定義,06m,AppDefinition,,false,false
+AppMenuItem,アプリケーションメニュー項目,0DS,AppMenuItem,,false,false
+AppointmentAssignmentPolicy,予定の割り当てポリシー,0mT,AppointmentAssignmentPolicy,,false,false
+AppointmentCategory,予定カテゴリ,11x,AppointmentCategory,,true,false
+AppointmentCategoryFeed,__MISSING LABEL__ PropertyFile - val AppointmentCategory not found in section StandardFeedLabel,0D5,AppointmentCategoryFeed,,false,false
+AppointmentCategoryHistory,予定カテゴリ履歴,017,AppointmentCategoryHistory,,false,false
+AppointmentInvitation,予定招待,1S8,AppointmentInvitation,,true,false
+AppointmentInvitationFeed,__MISSING LABEL__ PropertyFile - val AppointmentInvitation not found in section StandardFeedLabel,0D5,AppointmentInvitationFeed,,false,false
+AppointmentInvitationHistory,予定招待の履歴,017,AppointmentInvitationHistory,,false,false
+AppointmentInvitationShare,予定招待 共有,02c,AppointmentInvitationShare,,false,false
+AppointmentInvitee,予定招待者,0y6,AppointmentInvitee,,true,false
+AppointmentScheduleAggr,Appointment Schedule Aggregates,7yO,AppointmentScheduleAggr,,false,false
+AppointmentScheduleLog,Appointment Schedule Logs,5mU,AppointmentScheduleLog,,false,false
+AppointmentSchedulingPolicy,予定スケジュールポリシー,0Vr,AppointmentSchedulingPolicy,,false,false
+AppointmentTopicTimeSlot,予定のトピック時間枠,0mS,AppointmentTopicTimeSlot,,true,false
+AppointmentTopicTimeSlotFeed,__MISSING LABEL__ PropertyFile - val AppointmentTopicTimeSlot not found in section StandardFeedLabel,0D5,AppointmentTopicTimeSlotFeed,,false,false
+AppointmentTopicTimeSlotHistory,予定のトピック時間枠履歴,017,AppointmentTopicTimeSlotHistory,,false,false
+ApprovalSubmission,提出した承認申請,9iP,ApprovalSubmission,,true,false
+ApprovalSubmissionDetail,提出した承認申請の詳細,1XE,ApprovalSubmissionDetail,,true,false
+ApprovalSubmissionDetailFeed,__MISSING LABEL__ PropertyFile - val ApprovalSubmissionDetail not found in section StandardFeedLabel,0D5,ApprovalSubmissionDetailFeed,,false,false
+ApprovalSubmissionDetailHistory,提出した承認申請の詳細履歴,017,ApprovalSubmissionDetailHistory,,false,false
+ApprovalSubmissionFeed,__MISSING LABEL__ PropertyFile - val ApprovalSubmission not found in section StandardFeedLabel,0D5,ApprovalSubmissionFeed,,false,false
+ApprovalSubmissionHistory,提出した承認申請履歴,017,ApprovalSubmissionHistory,,false,false
+ApprovalSubmissionShare,提出した承認申請 共有,02c,ApprovalSubmissionShare,,false,false
+ApprovalWorkItem,承認作業項目,9jR,ApprovalWorkItem,,true,false
+ApprovalWorkItemFeed,__MISSING LABEL__ PropertyFile - val ApprovalWorkItem not found in section StandardFeedLabel,0D5,ApprovalWorkItemFeed,,false,false
+ApprovalWorkItemHistory,承認作業項目履歴,017,ApprovalWorkItemHistory,,false,false
+AppTabMember,アプリケーションタブメンバー,06o,AppTabMember,,false,false
+AppUsageAssignment,アプリケーション利用割り当て,0j8,AppUsageAssignment,,false,false
+AsgnRsrcApptSchdEvent,割り当て済みリソースの予定のスケジュールイベント,4OG,AsgnRsrcApptSchdEvent,,false,false
+Asset,納入商品,02i,Asset,,true,false
+AssetAction,納入商品アクション,4nL,AssetAction,,true,false
+AssetActionSource,納入商品アクションソース,4nM,AssetActionSource,,true,false
+AssetChangeEvent,納入商品 変更イベント,1CE,AssetChangeEvent,,false,false
+AssetFeed,納入商品フィード,0D5,AssetFeed,,false,false
+AssetHistory,納入商品履歴,017,AssetHistory,,false,false
+AssetRelationship,納入商品リレーション,1AR,AssetRelationship,,true,false
+AssetRelationshipChangeEvent,納入商品リレーション 変更イベント,1CE,AssetRelationshipChangeEvent,,false,false
+AssetRelationshipFeed,納入商品リレーションフィード,0D5,AssetRelationshipFeed,,false,false
+AssetRelationshipHistory,納入商品リレーション履歴,017,AssetRelationshipHistory,,false,false
+AssetShare,納入商品共有,70a,AssetShare,,false,false
+AssetStatePeriod,納入商品状態期間,4nK,AssetStatePeriod,,true,false
+AssetTokenEvent,納入商品トークンイベント,0Li,AssetTokenEvent,,false,false
+AssignedResource,割り当て済みリソース,03r,AssignedResource,,true,false
+AssignedResourceChangeEvent,割り当て済みリソース 変更イベント,1CE,AssignedResourceChangeEvent,,false,false
+AssignedResourceFeed,割り当て済みリソースフィード,0D5,AssignedResourceFeed,,false,false
+AssignedResourceHistory,割り当て済みリソース履歴,017,AssignedResourceHistory,,false,false
+AssignmentRule,割り当てルール,01Q,AssignmentRule,,false,false
+AssociatedLocation,関連付けられたロケーション,0Kt,AssociatedLocation,,true,false
+AssociatedLocationChangeEvent,関連付けられたロケーション 変更イベント,1CE,AssociatedLocationChangeEvent,,false,false
+AssociatedLocationHistory,関連付けられたロケーション履歴,017,AssociatedLocationHistory,,false,false
+AsyncApexJob,Apex ジョブ,707,AsyncApexJob,,false,false
+AsyncOperationEvent,Async Operation Event,0Xw,AsyncOperationEvent,,false,false
+AsyncOperationLog,非同期操作ログ,1ao,AsyncOperationLog,,false,false
+AsyncOperationStatus,Async Operation Status,0YD,AsyncOperationStatus,,false,false
+AttachedContentDocument,添付されたコンテンツドキュメント,,AttachedContentDocument,,false,false
+AttachedContentNote,メモ,,AttachedContentNote,,false,false
+Attachment,添付ファイル,00P,Attachment,,false,false
+AuraDefinition,Lightning コンポーネント定義,0Ad,AuraDefinition,,false,false
+AuraDefinitionBundle,Aura コンポーネントバンドル,0Ab,AuraDefinitionBundle,,false,false
+AuraDefinitionBundleInfo,Aura 定義バンドル情報,0ab,AuraDefinitionBundleInfo,,false,false
+AuraDefinitionInfo,Aura 定義情報,0ad,AuraDefinitionInfo,,false,false
+AuthConfig,認証設定,07T,AuthConfig,,false,false
+AuthConfigProviders,認証設定認証プロバイダー,07U,AuthConfigProviders,,false,false
+AuthorizationForm,認証フォーム,0cI,AuthorizationForm,,true,false
+AuthorizationFormChangeEvent,認証フォーム 変更イベント,1CE,AuthorizationFormChangeEvent,,false,false
+AuthorizationFormConsent,認証フォーム同意,0cK,AuthorizationFormConsent,,true,false
+AuthorizationFormConsentChangeEvent,認証フォーム同意 変更イベント,1CE,AuthorizationFormConsentChangeEvent,,false,false
+AuthorizationFormConsentHistory,認証フォーム同意履歴,017,AuthorizationFormConsentHistory,,false,false
+AuthorizationFormConsentShare,認証フォーム同意 共有,02c,AuthorizationFormConsentShare,,false,false
+AuthorizationFormDataUse,認証フォームデータの使用,0cM,AuthorizationFormDataUse,,true,false
+AuthorizationFormDataUseChangeEvent,認証フォームデータの使用 変更イベント,1CE,AuthorizationFormDataUseChangeEvent,,false,false
+AuthorizationFormDataUseHistory,認証フォームデータの使用履歴,017,AuthorizationFormDataUseHistory,,false,false
+AuthorizationFormDataUseShare,認証フォームデータの使用 共有,02c,AuthorizationFormDataUseShare,,false,false
+AuthorizationFormHistory,認証フォーム履歴,017,AuthorizationFormHistory,,false,false
+AuthorizationFormShare,認証フォーム 共有,02c,AuthorizationFormShare,,false,false
+AuthorizationFormText,認証フォームテキスト,0cN,AuthorizationFormText,,true,false
+AuthorizationFormTextChangeEvent,認証フォームテキスト 変更イベント,1CE,AuthorizationFormTextChangeEvent,,false,false
+AuthorizationFormTextFeed,認証フォームテキストフィード,0D5,AuthorizationFormTextFeed,,false,false
+AuthorizationFormTextHistory,認証フォームテキスト履歴,017,AuthorizationFormTextHistory,,false,false
+AuthProvider,認証プロバイダー,0SO,AuthProvider,,false,false
+AuthProvParamFwdAllowlist,認証プロバイダーパラメーター転送許可リスト,1Dg,AuthProvParamFwdAllowlist,,false,false
+AuthSession,認証セッション,0Ak,AuthSession,,false,false
+BackgroundOperation,バックグラウンド操作,08P,BackgroundOperation,,false,false
+BatchApexErrorEvent,Apex エラープラットフォームイベントの一括処理,1QQ,BatchApexErrorEvent,,false,false
+BotDefinition,ボット,0Xx,BotDefinition,,false,false
+BotVersion,ボットバージョン,0X9,BotVersion,,false,false
+BrandingSet,ブランドセット,0Lw,BrandingSet,,false,false
+BrandingSetProperty,ブランドセットプロパティ,0Ly,BrandingSetProperty,,false,false
+BrandTemplate,レターヘッド,016,BrandTemplate,,false,false
+BriefcaseAssignment,ブリーフケースの割り当て,5LH,BriefcaseAssignment,,false,false
+BriefcaseAssignmentChangeEvent,ブリーフケースの割り当て 変更イベント,1CE,BriefcaseAssignmentChangeEvent,,false,false
+BriefcaseDefinition,ブリーフケース定義,1rY,BriefcaseDefinition,,false,false
+BriefcaseDefinitionChangeEvent,ブリーフケース定義 変更イベント,1CE,BriefcaseDefinitionChangeEvent,,false,false
+BriefcaseRule,ブリーフケースルール,1rX,BriefcaseRule,,false,false
+BriefcaseRuleFilter,ブリーフケースルール検索条件,1rZ,BriefcaseRuleFilter,,false,false
+BrowserPolicyViolation,ブラウザーポリシー違反,19y,BrowserPolicyViolation,,false,false
+Budget__c,予算,a11,01IdL00000Bcl1B,,true,false
+Budget__ChangeEvent,変更イベント: 予算,1CE,01IdL00000Bcl1B.ChangeEvent,,false,false
+Budget__History,履歴: 予算,017,01IdL00000Bcl1B.History,,false,false
+BudgetAndActuals__c,予算と実績,a10,01IdL00000Bckxx,,true,false
+BudgetAndActuals__ChangeEvent,変更イベント: 予算と実績,1CE,01IdL00000Bckxx.ChangeEvent,,false,false
+BudgetAndActuals__History,履歴: 予算と実績,017,01IdL00000Bckxx.History,,false,false
+BudgetAndActuals__Share,共有: 予算と実績,02c,01IdL00000Bckxx.Share,,false,false
+BudgetCategory__c,予算カテゴリ,a0z,01IdL00000BckwL,,true,false
+BudgetCategory__ChangeEvent,変更イベント: 予算カテゴリ,1CE,01IdL00000BckwL.ChangeEvent,,false,false
+BudgetCategory__History,履歴: 予算カテゴリ,017,01IdL00000BckwL.History,,false,false
+BudgetCategory__Share,共有: 予算カテゴリ,02c,01IdL00000BckwL.Share,,false,false
+BulkApiResultEvent,Bulk API 結果イベント,0hx,BulkApiResultEvent,,false,false
+BulkApiResultEventStore,Bulk API 結果イベントストア,0hJ,BulkApiResultEventStore,,false,false
+BusinessBrand,ビジネスブランド,1BU,BusinessBrand,,true,false
+BusinessBrandChangeEvent,ビジネスブランド 変更イベント,1CE,BusinessBrandChangeEvent,,false,false
+BusinessBrandShare,ビジネスブランド 共有,02c,BusinessBrandShare,,false,false
+BusinessHours,営業時間,01m,BusinessHours,,false,false
+BusinessProcess,ビジネスプロセス,019,BusinessProcess,,false,false
+BuyerGroup,バイヤーグループ,0ZI,BuyerGroup,,true,false
+BuyerGroupFeed,バイヤーグループフィード,0D5,BuyerGroupFeed,,false,false
+BuyerGroupHistory,バイヤーグループ履歴,017,BuyerGroupHistory,,false,false
+BuyerGroupShare,バイヤーグループ 共有,02c,BuyerGroupShare,,false,false
+CalcInsightStatusEvent,計算済みインサイト状況イベント,1e3,CalcInsightStatusEvent,,false,false
+Calendar,カレンダー,023,Calendar,,false,false
+CalendarView,カレンダー,03A,CalendarView,,false,false
+CalendarViewChangeEvent,カレンダー 変更イベント,1CE,CalendarViewChangeEvent,,false,false
+CalendarViewShare,カレンダー 共有,02c,CalendarViewShare,,false,false
+CallCenter,Call Center,04v,CallCenter,,false,false
+CallCenterRoutingMap,コールセンタールーティングマップ,35A,CallCenterRoutingMap,,false,false
+CallCoachingMediaProvider,CallCoachingMediaProvider,0hn,CallCoachingMediaProvider,,false,false
+Campaign,キャンペーン,701,Campaign,,true,false
+CampaignChangeEvent,キャンペーン 変更イベント,1CE,CampaignChangeEvent,,false,false
+CampaignFeed,キャンペーンフィード,0D5,CampaignFeed,,false,false
+CampaignHistory,キャンペーン項目履歴,017,CampaignHistory,,false,false
+CampaignInfluence,キャンペーンインフルエンス,0KK,CampaignInfluence,,true,false
+CampaignInfluenceModel,キャンペーンインフルエンスモデル,03V,CampaignInfluenceModel,,false,false
+CampaignMember,キャンペーンメンバー,00v,CampaignMember,,true,false
+CampaignMemberChangeEvent,キャンペーンメンバー 変更イベント,1CE,CampaignMemberChangeEvent,,false,false
+CampaignMemberStatus,キャンペーンメンバーの状況,01Y,CampaignMemberStatus,,false,false
+CampaignMemberStatusChangeEvent,キャンペーンメンバーの状況 変更イベント,1CE,CampaignMemberStatusChangeEvent,,false,false
+CampaignShare,キャンペーンの共有,08s,CampaignShare,,false,false
+CardPaymentMethod,カード決済方法,03O,CardPaymentMethod,,true,false
+CartCheckoutSession,カートチェックアウトセッション,2z9,CartCheckoutSession,,false,false
+CartDeliveryGroup,カート配送グループ,0a7,CartDeliveryGroup,,true,false
+CartDeliveryGroupChangeEvent,カート配送グループ 変更イベント,1CE,CartDeliveryGroupChangeEvent,,false,false
+CartDeliveryGroupMethod,カート配送グループ化方法,7cd,CartDeliveryGroupMethod,,true,false
+CartItem,カート項目,0a9,CartItem,,true,false
+CartItemChangeEvent,カート項目 変更イベント,1CE,CartItemChangeEvent,,false,false
+CartItemPriceAdjustment,カート品目価格調整,0U1,CartItemPriceAdjustment,,true,false
+CartItemPriceAdjustmentChangeEvent,カート品目価格調整 変更イベント,1CE,CartItemPriceAdjustmentChangeEvent,,false,false
+CartRelatedItem,カート関連項目,0aA,CartRelatedItem,,false,false
+CartRelatedItemChangeEvent,カート関連項目 変更イベント,1CE,CartRelatedItemChangeEvent,,false,false
+CartTax,カートの税額,0gT,CartTax,,true,false
+CartTaxChangeEvent,カートの税額 変更イベント,1CE,CartTaxChangeEvent,,false,false
+CartValidationOutput,カートメッセージ,0dP,CartValidationOutput,,true,false
+CartValidationOutputChangeEvent,カートメッセージ 変更イベント,1CE,CartValidationOutputChangeEvent,,false,false
+Case,ケース,500,Case,,true,false
+CaseChangeEvent,ケース 変更イベント,1CE,CaseChangeEvent,,false,false
+CaseComment,ケースコメント,00a,CaseComment,,false,false
+CaseContactRole,ケース 取引先責任者の役割,03j,CaseContactRole,,false,false
+CaseFeed,ケースフィード,0D5,CaseFeed,,false,false
+CaseHistory,ケース履歴,017,CaseHistory,,false,false
+CaseHistory2,ケース履歴,02D,CaseHistory2,,false,false
+CaseHistory2ChangeEvent,ケース履歴 変更イベント,1CE,CaseHistory2ChangeEvent,,false,false
+CaseMilestone,ケースマイルストーン,555,CaseMilestone,,false,false
+CaseRelatedIssue,ケース関連の問題,0oL,CaseRelatedIssue,,true,false
+CaseShare,ケースの共有,01n,CaseShare,,false,false
+CaseSolution,ケース ソリューション,010,CaseSolution,,false,false
+CaseStatus,ケースの状況値,,CaseStatus,,false,false
+CaseTeamMember,ケースチームのメンバー,0B6,CaseTeamMember,,false,false
+CaseTeamRole,ケースチームメンバーロール,0B7,CaseTeamRole,,false,false
+CaseTeamTemplate,定義済みケースチーム,0B4,CaseTeamTemplate,,false,false
+CaseTeamTemplateMember,定義済みケースチームのメンバー,0B5,CaseTeamTemplateMember,,false,false
+CaseTeamTemplateRecord,定義済みケースチームレコード,0B8,CaseTeamTemplateRecord,,false,false
+CategoryData,カテゴリデータ,02o,CategoryData,,false,false
+CategoryNode,カテゴリノード,02n,CategoryNode,,false,false
+CategoryNodeLocalization,カテゴリノードのローカライズ,01j,CategoryNodeLocalization,,false,false
+ChangeRequest,変更要求,0oW,ChangeRequest,,true,false
+ChangeRequestFeed,変更要求フィード,0D5,ChangeRequestFeed,,false,false
+ChangeRequestHistory,変更要求履歴,017,ChangeRequestHistory,,false,false
+ChangeRequestRelatedIssue,変更要求関連の問題,0oK,ChangeRequestRelatedIssue,,true,false
+ChangeRequestRelatedIssueFeed,変更要求関連の問題フィード,0D5,ChangeRequestRelatedIssueFeed,,false,false
+ChangeRequestRelatedIssueHistory,変更要求関連の問題履歴,017,ChangeRequestRelatedIssueHistory,,false,false
+ChangeRequestRelatedItem,変更要求関連項目,0tC,ChangeRequestRelatedItem,,true,false
+ChangeRequestRelatedItemChangeEvent,変更要求関連項目 変更イベント,1CE,ChangeRequestRelatedItemChangeEvent,,false,false
+ChangeRequestRelatedItemFeed,変更要求関連項目フィード,0D5,ChangeRequestRelatedItemFeed,,false,false
+ChangeRequestRelatedItemHistory,変更要求関連項目履歴,017,ChangeRequestRelatedItemHistory,,false,false
+ChangeRequestShare,変更要求 共有,02c,ChangeRequestShare,,false,false
+ChatRetirementRdyMetrics,チャットの廃止準備状況メトリクス,8JY,ChatRetirementRdyMetrics,,false,false
+ChatterActivity,Chatter 活動,0ca,ChatterActivity,,false,false
+ChatterExtension,拡張,0MY,ChatterExtension,,false,false
+ChatterExtensionConfig,Chatter 拡張設定,0Ob,ChatterExtensionConfig,,false,false
+ChatterExtensionLocalization,翻訳,01j,ChatterExtensionLocalization,,false,false
+ClientBrowser,クライアントブラウザー,713,ClientBrowser,,false,false
+CollaborationGroup,グループ,0F9,CollaborationGroup,,false,false
+CollaborationGroupFeed,グループフィード,0D5,CollaborationGroupFeed,,false,false
+CollaborationGroupMember,グループメンバー,0FB,CollaborationGroupMember,,false,false
+CollaborationGroupMemberRequest,グループメンバー要請,0I5,CollaborationGroupMemberRequest,,false,false
+CollaborationGroupRecord,グループレコード,0Aa,CollaborationGroupRecord,,false,false
+CollaborationGroupRecordChangeEvent,グループレコード 変更イベント,1CE,CollaborationGroupRecordChangeEvent,,false,false
+CollaborationInvitation,Chatter 招待,0H1,CollaborationInvitation,,false,false
+ColorDefinition,色定義,05k,ColorDefinition,,false,false
+CombinedAttachment,メモ、添付ファイル、Google ドキュメントおよびファイル,,CombinedAttachment,,false,false
+CommSubscription,コミュニケーション登録,0Xl,CommSubscription,,true,false
+CommSubscriptionChangeEvent,コミュニケーション登録 変更イベント,1CE,CommSubscriptionChangeEvent,,false,false
+CommSubscriptionChannelType,コミュニケーション登録チャネル種別,0eB,CommSubscriptionChannelType,,true,false
+CommSubscriptionChannelTypeChangeEvent,コミュニケーション登録チャネル種別 変更イベント,1CE,CommSubscriptionChannelTypeChangeEvent,,false,false
+CommSubscriptionChannelTypeFeed,コミュニケーション登録チャネル種別フィード,0D5,CommSubscriptionChannelTypeFeed,,false,false
+CommSubscriptionChannelTypeHistory,コミュニケーション登録チャネル種別の履歴,017,CommSubscriptionChannelTypeHistory,,false,false
+CommSubscriptionChannelTypeShare,コミュニケーション登録チャネル種別 共有,02c,CommSubscriptionChannelTypeShare,,false,false
+CommSubscriptionConsent,コミュニケーション登録の同意,0dY,CommSubscriptionConsent,,true,false
+CommSubscriptionConsentChangeEvent,コミュニケーション登録の同意 変更イベント,1CE,CommSubscriptionConsentChangeEvent,,false,false
+CommSubscriptionConsentFeed,コミュニケーション登録の同意フィード,0D5,CommSubscriptionConsentFeed,,false,false
+CommSubscriptionConsentHistory,コミュニケーション登録の同意の履歴,017,CommSubscriptionConsentHistory,,false,false
+CommSubscriptionConsentShare,コミュニケーション登録の同意 共有,02c,CommSubscriptionConsentShare,,false,false
+CommSubscriptionFeed,コミュニケーション登録フィード,0D5,CommSubscriptionFeed,,false,false
+CommSubscriptionHistory,コミュニケーション登録の履歴,017,CommSubscriptionHistory,,false,false
+CommSubscriptionShare,コミュニケーション登録 共有,02c,CommSubscriptionShare,,false,false
+CommSubscriptionTiming,コミュニケーション登録タイミング,0al,CommSubscriptionTiming,,true,false
+CommSubscriptionTimingChangeEvent,コミュニケーション登録タイミング 変更イベント,1CE,CommSubscriptionTimingChangeEvent,,false,false
+CommSubscriptionTimingFeed,コミュニケーション登録タイミングフィード,0D5,CommSubscriptionTimingFeed,,false,false
+CommSubscriptionTimingHistory,コミュニケーション登録タイミングの履歴,017,CommSubscriptionTimingHistory,,false,false
+Community,ゾーン,09a,Community,,false,false
+ConcurLongRunApexErrEvent,実行時間が長い同時 Apex エラーイベント,1QR,ConcurLongRunApexErrEvent,,false,false
+ConferenceNumber,Conference Numbers,0Ah,ConferenceNumber,,false,false
+ConferenceNumberChangeEvent,Conference Numbers 変更イベント,1CE,ConferenceNumberChangeEvent,,false,false
+ConnectedApplication,接続アプリケーション,0H4,ConnectedApplication,,false,false
+ConsumptionRate,消費率,0Mo,ConsumptionRate,,true,false
+ConsumptionRateHistory,消費率履歴 ID,017,ConsumptionRateHistory,,false,false
+ConsumptionSchedule,消費スケジュール,0Mh,ConsumptionSchedule,,true,false
+ConsumptionScheduleFeed,ConsumptionSchedule,0D5,ConsumptionScheduleFeed,,false,false
+ConsumptionScheduleHistory,消費スケジュール履歴 ID,017,ConsumptionScheduleHistory,,false,false
+ConsumptionScheduleShare,消費スケジュール 共有,02c,ConsumptionScheduleShare,,false,false
+Contact,取引先責任者,003,Contact,,true,false
+ContactCenterBulkOp,コンタクトセンター一括操作,9Xm,ContactCenterBulkOp,,false,false
+ContactCenterChannel,コンタクトセンターチャネル,8GU,ContactCenterChannel,,false,false
+ContactChangeEvent,取引先責任者 変更イベント,1CE,ContactChangeEvent,,false,false
+ContactCleanInfo,取引先責任者クリーンアップ情報,1CC,ContactCleanInfo,,true,false
+ContactCleanInfoChangeEvent,取引先責任者クリーンアップ情報 変更イベント,1CE,ContactCleanInfoChangeEvent,,false,false
+ContactFeed,取引先責任者フィード,0D5,ContactFeed,,false,false
+ContactHistory,取引先責任者履歴,017,ContactHistory,,false,false
+ContactPointAddress,連絡先住所,8lW,ContactPointAddress,,true,false
+ContactPointAddressChangeEvent,連絡先住所 変更イベント,1CE,ContactPointAddressChangeEvent,,false,false
+ContactPointAddressHistory,連絡先住所履歴,017,ContactPointAddressHistory,,false,false
+ContactPointAddressShare,連絡先住所 共有,02c,ContactPointAddressShare,,false,false
+ContactPointConsent,連絡先の同意,0ZX,ContactPointConsent,,true,false
+ContactPointConsentChangeEvent,連絡先の同意 変更イベント,1CE,ContactPointConsentChangeEvent,,false,false
+ContactPointConsentHistory,連絡先の同意の履歴,017,ContactPointConsentHistory,,false,false
+ContactPointConsentShare,連絡先の同意 共有,02c,ContactPointConsentShare,,false,false
+ContactPointEmail,連絡先メール,9Vl,ContactPointEmail,,true,false
+ContactPointEmailChangeEvent,連絡先メール 変更イベント,1CE,ContactPointEmailChangeEvent,,false,false
+ContactPointEmailHistory,連絡先メール履歴,017,ContactPointEmailHistory,,false,false
+ContactPointEmailShare,連絡先メール 共有,02c,ContactPointEmailShare,,false,false
+ContactPointPhone,連絡先電話番号,0Ow,ContactPointPhone,,true,false
+ContactPointPhoneChangeEvent,連絡先電話番号 変更イベント,1CE,ContactPointPhoneChangeEvent,,false,false
+ContactPointPhoneHistory,連絡先電話履歴,017,ContactPointPhoneHistory,,false,false
+ContactPointPhoneShare,連絡先電話番号 共有,02c,ContactPointPhoneShare,,false,false
+ContactPointTypeConsent,連絡先種別承諾,0ZY,ContactPointTypeConsent,,true,false
+ContactPointTypeConsentChangeEvent,連絡先種別承諾 変更イベント,1CE,ContactPointTypeConsentChangeEvent,,false,false
+ContactPointTypeConsentHistory,連絡先種別承諾の履歴,017,ContactPointTypeConsentHistory,,false,false
+ContactPointTypeConsentShare,連絡先種別承諾 共有,02c,ContactPointTypeConsentShare,,false,false
+ContactRequest,問い合わせ要求,0Tz,ContactRequest,,true,false
+ContactRequestShare,問い合わせ要求 共有,02c,ContactRequestShare,,false,false
+ContactShare,取引先責任者の共有,03s,ContactShare,,false,false
+ContentAsset,アセットファイル,03S,ContentAsset,,false,false
+ContentBody,コンテンツ本文,05T,ContentBody,,false,false
+ContentDistribution,コンテンツ配信,05D,ContentDistribution,,false,false
+ContentDistributionView,コンテンツ配信ビュー,05H,ContentDistributionView,,false,false
+ContentDocument,コンテンツドキュメント,069,ContentDocument,,false,false
+ContentDocumentChangeEvent,コンテンツドキュメント 変更イベント,1CE,ContentDocumentChangeEvent,,false,false
+ContentDocumentFeed,ContentDocument フィード,0D5,ContentDocumentFeed,,false,false
+ContentDocumentHistory,コンテンツドキュメント履歴,017,ContentDocumentHistory,,false,false
+ContentDocumentLink,コンテンツドキュメントリンク,06A,ContentDocumentLink,,false,false
+ContentDocumentLinkChangeEvent,コンテンツドキュメントリンク 変更イベント,1CE,ContentDocumentLinkChangeEvent,,false,false
+ContentDocumentSubscription,コンテンツドキュメントの登録,057,ContentDocumentSubscription,,false,false
+ContentFolder,コンテンツフォルダー,07H,ContentFolder,,false,false
+ContentFolderChangeEvent,コンテンツフォルダー 変更イベント,1CE,ContentFolderChangeEvent,,false,false
+ContentFolderItem,コンテンツフォルダー項目,,ContentFolderItem,,false,false
+ContentFolderLink,コンテンツフォルダーリンク,07v,ContentFolderLink,,false,false
+ContentFolderMember,コンテンツフォルダーメンバー,07I,ContentFolderMember,,false,false
+ContentNote,メモ,069,ContentNote,,false,false
+ContentNotification,コンテンツ通知,05V,ContentNotification,,false,false
+ContentTagSubscription,コンテンツタグの登録,05Q,ContentTagSubscription,,false,false
+ContentTaxonomy,コンテンツ分類,15b,ContentTaxonomy,,false,false
+ContentTaxonomyRelatedTerm,コンテンツ分類関連用語,15j,ContentTaxonomyRelatedTerm,,false,false
+ContentTaxonomyTerm,コンテンツ分類用語,15d,ContentTaxonomyTerm,,false,false
+ContentTaxonomyTermRelatedTerm,コンテンツ分類用語関連用語,15e,ContentTaxonomyTermRelatedTerm,,false,false
+ContentTaxonomyTermRelationshipType,コンテンツ分類用語リレーション種別,15c,ContentTaxonomyTermRelationshipType,,false,false
+ContentUserSubscription,コンテンツユーザーの登録,05S,ContentUserSubscription,,false,false
+ContentVersion,コンテンツバージョン,068,ContentVersion,,true,false
+ContentVersionChangeEvent,コンテンツバージョン 変更イベント,1CE,ContentVersionChangeEvent,,false,false
+ContentVersionComment,コンテンツバージョンのコメント,05C,ContentVersionComment,,false,false
+ContentVersionHistory,コンテンツバージョン履歴,017,ContentVersionHistory,,false,false
+ContentVersionRating,コンテンツバージョン評価,05J,ContentVersionRating,,false,false
+ContentVersionRenditionContent,コンテンツ変換,05K,ContentVersionRenditionContent,,false,false
+ContentWorkspace,ライブラリ,058,ContentWorkspace,,false,false
+ContentWorkspaceDoc,ライブラリドキュメント,059,ContentWorkspaceDoc,,false,false
+ContentWorkspaceMember,ライブラリメンバー,05A,ContentWorkspaceMember,,false,false
+ContentWorkspacePermission,ライブラリ権限,05P,ContentWorkspacePermission,,false,false
+ContentWorkspaceSubscription,コンテンツワークスペースの登録,05R,ContentWorkspaceSubscription,,false,false
+ContextParamMap,コンテキストパラメーターマップ,15z,ContextParamMap,,false,false
+Contract,契約,800,Contract,,true,false
+ContractChangeEvent,契約 変更イベント,1CE,ContractChangeEvent,,false,false
+ContractContactRole,契約 取引先責任者の役割,02a,ContractContactRole,,false,false
+ContractFeed,契約フィード,0D5,ContractFeed,,false,false
+ContractHistory,契約履歴,017,ContractHistory,,false,false
+ContractLineItem,契約品目名,811,ContractLineItem,,true,false
+ContractLineItemChangeEvent,契約品目名 変更イベント,1CE,ContractLineItemChangeEvent,,false,false
+ContractLineItemFeed,契約品目名フィード,0D5,ContractLineItemFeed,,false,false
+ContractLineItemHistory,契約品目名履歴,017,ContractLineItemHistory,,false,false
+ContractStatus,契約状況値,,ContractStatus,,false,false
+ConvDefDialogDailyMetric,会話定義ダイアログメトリクス (日次),593,ConvDefDialogDailyMetric,,false,false
+ConvDefDialogHourlyMetric,会話定義ダイアログメトリクス (1 時間),0lq,ConvDefDialogHourlyMetric,,false,false
+ConvDefSessionMetric,会話定義セッションメトリクス,0f5,ConvDefSessionMetric,,false,false
+ConvEntryRelatedRecordCopy,会話エントリ関連レコードコピー,2c6,ConvEntryRelatedRecordCopy,,true,false
+Conversation,会話,0dw,Conversation,,false,false
+ConversationApiLog,会話 API ログ,1Nc,ConversationApiLog,,false,false
+ConversationApiLogObjSum,会話 API ログオブジェクト概要,1Nd,ConversationApiLogObjSum,,false,false
+ConversationApiLogShare,会話 API ログ 共有,02c,ConversationApiLogShare,,false,false
+ConversationChannelDefinition,会話チャネル定義,11v,ConversationChannelDefinition,,false,false
+ConversationDefinitionDialog,ダイアログ,0Xd,ConversationDefinitionDialog,,false,false
+ConversationDefinitionDialogLocalization,翻訳,01j,ConversationDefinitionDialogLocalization,,false,false
+ConversationDefinitionEventLog,Conversation Definition Event Logs,0eR,ConversationDefinitionEventLog,,false,false
+ConversationDefinitionSession,会話定義セッション,5CB,ConversationDefinitionSession,,false,false
+ConversationDefinitionSessionEngagement,会話定義セッションエンゲージメント,5SE,ConversationDefinitionSessionEngagement,,false,false
+ConversationEntry,会話エントリ,0Zy,ConversationEntry,,false,false
+ConversationEntryCopy,会話エントリコピー,2c5,ConversationEntryCopy,,true,false
+ConversationParticipant,会話参加者,0ec,ConversationParticipant,,false,false
+ConversationVendorInfo,会話ベンダー情報,0m8,ConversationVendorInfo,,false,false
+ConvIntelligenceSignalRule,Conversation Intelligence Signal Rule,5d3,ConvIntelligenceSignalRule,,false,false
+ConvIntelligenceSignalSubRule,Conversation Intelligence Signal Sub-Rule,8Q2,ConvIntelligenceSignalSubRule,,false,false
+ConvMessageSendRequest,会話メッセージ送信要求,1sr,ConvMessageSendRequest,,false,false
+CorsWhitelistEntry,CORS 許可オリジンリスト,074,CorsWhitelistEntry,,false,false
+Coupon,クーポン,0lC,Coupon,,true,false
+CouponChangeEvent,クーポン 変更イベント,1CE,CouponChangeEvent,,false,false
+CouponCodeRedemption,クーポンコード受け取り,0zD,CouponCodeRedemption,,false,false
+CouponCodeRedemptionShare,クーポンコード受け取り 共有,02c,CouponCodeRedemptionShare,,false,false
+CouponFeed,クーポンフィード,0D5,CouponFeed,,false,false
+CouponHistory,クーポン履歴,017,CouponHistory,,false,false
+CouponShare,クーポン 共有,02c,CouponShare,,false,false
+CredentialStuffingEvent,クレデンシャルスタッフィングイベント,0fi,CredentialStuffingEvent,,false,false
+CredentialStuffingEventStore,クレデンシャルスタッフィングイベントストア,0fj,CredentialStuffingEventStore,,false,false
+CredentialStuffingEventStoreFeed,クレデンシャルスタッフィングイベントストアフィード,0D5,CredentialStuffingEventStoreFeed,,false,false
+CreditMemo,クレジットメモ,50g,CreditMemo,,true,false
+CreditMemoFeed,クレジットメモフィード,0D5,CreditMemoFeed,,false,false
+CreditMemoHistory,クレジットメモ履歴,017,CreditMemoHistory,,false,false
+CreditMemoInvApplication,クレジットメモ請求書アプリケーション,4sF,CreditMemoInvApplication,,true,false
+CreditMemoInvApplicationFeed,__MISSING LABEL__ PropertyFile - val CreditMemoInvApplication not found in section StandardFeedLabel,0D5,CreditMemoInvApplicationFeed,,false,false
+CreditMemoLine,クレジットメモ品目,9yx,CreditMemoLine,,true,false
+CreditMemoLineFeed,クレジットメモ品目フィード,0D5,CreditMemoLineFeed,,false,false
+CreditMemoLineHistory,クレジットメモ品目履歴,017,CreditMemoLineHistory,,false,false
+CreditMemoShare,クレジットメモ 共有,02c,CreditMemoShare,,false,false
+CronJobDetail,Cron ジョブ,08a,CronJobDetail,,false,false
+CronTrigger,スケジュール済みジョブ,08e,CronTrigger,,false,false
+CspTrustedSite,信頼済み URL,08y,CspTrustedSite,,false,false
+CuratedExpJobEvent,厳選エクスペリエンスジョブイベント,1DR,CuratedExpJobEvent,,false,false
+CuratedExpPlanEvent,厳選エクスペリエンスプランイベント,1DP,CuratedExpPlanEvent,,false,false
+CustomBrand,Custom Brand,07W,CustomBrand,,false,false
+CustomBrandAsset,カスタムブランドアセット,07X,CustomBrandAsset,,false,false
+Customer,顧客,0o6,Customer,,true,false
+CustomerShare,顧客 共有,02c,CustomerShare,,false,false
+CustomHelpMenuItem,カスタムヘルプメニュー項目,2Ca,CustomHelpMenuItem,,false,false
+CustomHelpMenuSection,カスタムヘルプメニューセクション,2Cx,CustomHelpMenuSection,,false,false
+CustomHttpHeader,カスタム HTTP ヘッダー,0XH,CustomHttpHeader,,false,false
+CustomMsgChannel,カスタムメッセージングチャネル,3yk,CustomMsgChannel,,false,false
+CustomNotificationType,カスタム通知種別,0ML,CustomNotificationType,,false,false
+CustomPermission,カスタム権限,0CP,CustomPermission,,false,false
+CustomPermissionDependency,カスタム権限の連動関係,0PD,CustomPermissionDependency,,false,false
+DandBCompany,D&B 企業,06E,DandBCompany,,true,false
+Dashboard,ダッシュボード,01Z,Dashboard,,false,false
+DashboardComponent,ダッシュボードコンポーネント,01a,DashboardComponent,,false,false
+DashboardComponentFeed,ダッシュボードコンポーネントフィード,0D5,DashboardComponentFeed,,false,false
+DashboardComponentLocalization,翻訳,01j,DashboardComponentLocalization,,false,false
+DashboardFeed,ダッシュボードフィード,0D5,DashboardFeed,,false,false
+DashboardLocalization,翻訳,01j,DashboardLocalization,,false,false
+DataAction,データアクション,3o9,DataAction,,false,false
+DataActionFeed,データアクションフィード,0D5,DataActionFeed,,false,false
+DataActionHistory,データアクション履歴,017,DataActionHistory,,false,false
+DataActionJobStatusEvent,Data action job status event,17U,DataActionJobStatusEvent,,false,false
+DataActionJobSummary,Data Action Job Summary,1A5,DataActionJobSummary,,false,false
+DataActionJobSummaryFeed,Data Action Job Summaries フィード,0D5,DataActionJobSummaryFeed,,false,false
+DataActionJobSummaryHistory,Data Action Job Summaries 履歴,017,DataActionJobSummaryHistory,,false,false
+DataActionJobSummaryShare,Data Action Job Summary  共有,02c,DataActionJobSummaryShare,,false,false
+DataActionTarget,データアクション対象,9sq,DataActionTarget,,false,false
+DataActionTargetFeed,データアクション対象フィード,0D5,DataActionTargetFeed,,false,false
+DataActionTargetHistory,データアクション対象履歴,017,DataActionTargetHistory,,false,false
+DataActionTargetShare,データアクション対象 共有,02c,DataActionTargetShare,,false,false
+DataAssessmentFieldMetric,データ評価項目メトリクス,03Q,DataAssessmentFieldMetric,,false,false
+DataAssessmentMetric,データ評価メトリクス,03P,DataAssessmentMetric,,false,false
+DataAssessmentValueMetric,データ評価項目値メトリクス,03R,DataAssessmentValueMetric,,false,false
+DataAssetPromotionRequest,データアセットプロモーション要求,1NE,DataAssetPromotionRequest,,false,false
+DatacloudAddress,Data.com 住所,07m,DatacloudAddress,,false,false
+DatacloudCompany,Data.com 会社,09K,DatacloudCompany,,false,false
+DatacloudContact,Data.com 取引先責任者,08C,DatacloudContact,,false,false
+DatacloudDandBCompany,D&B 企業,09N,DatacloudDandBCompany,,false,false
+DatacloudOwnedEntity,Data.com 所有エンティティ,09O,DatacloudOwnedEntity,,false,false
+DatacloudPurchaseUsage,Data.com 利用状況,09F,DatacloudPurchaseUsage,,false,false
+DataCommCapDim,制限ディメンション定義,1E7,DataCommCapDim,,false,false
+DataCommCapDimValue,データディメンション値,1E5,DataCommCapDimValue,,false,false
+DataCommunicationCap,コミュニケーション制限,19j,DataCommunicationCap,,false,false
+DataCommunicationCapFeed,__MISSING LABEL__ PropertyFile - val DataCommunicationCap not found in section StandardFeedLabel,0D5,DataCommunicationCapFeed,,false,false
+DataCommunicationCapHistory,コミュニケーション制限,017,DataCommunicationCapHistory,,false,false
+DataCommunicationCapShare,コミュニケーション制限 共有,02c,DataCommunicationCapShare,,false,false
+DataConctCredExpiryEvent,データ接続ログイン情報有効期限イベント,1Gr,DataConctCredExpiryEvent,,false,false
+DataConnectorStatusEvent,データコネクタ状況イベント,0ue,DataConnectorStatusEvent,,false,false
+DataContentLensSource,データコンテンツレンズソース,4Uc,DataContentLensSource,,false,false
+DataContentLensSourceFeed,__MISSING LABEL__ PropertyFile - val DataContentLensSource not found in section StandardFeedLabel,0D5,DataContentLensSourceFeed,,false,false
+DataContentLensSourceHistory,__MISSING LABEL__ PropertyFile - val DataContentLensSource not found in section StandardHistoryLabel,017,DataContentLensSourceHistory,,false,false
+DataCustomCodeStatEvent,Data Custom Code Status Event,1O8,DataCustomCodeStatEvent,,false,false
+DataEncryptionKey,Data Encryption Key,1Pj,DataEncryptionKey,,false,false
+DataFeatureDeprovisionEvent,Data Cloud 機能プロビジョニング解除イベント,1b5,DataFeatureDeprovisionEvent,,false,false
+DataGraph,データグラフ,0g7,DataGraph,,false,false
+DataHarmonizedModelObjRef,データハーモナイズモデルオブジェクト参照,3hs,DataHarmonizedModelObjRef,,false,false
+DataKitDeployEvent,データキットリリースイベント,3Dc,DataKitDeployEvent,,false,false
+DataKitDeploymentLog,データキットリリースログ,1D0,DataKitDeploymentLog,,true,false
+DataKitDeploymentLogShare,データキットリリースログ 共有,02c,DataKitDeploymentLogShare,,false,false
+DataKnowledgeSpace,ナレッジスペース,1aM,DataKnowledgeSpace,,false,false
+DataKnowledgeSpaceSession,ナレッジスペースセッション,1aK,DataKnowledgeSpaceSession,,false,false
+DataKnowledgeSpaceShare,ナレッジスペース 共有,02c,DataKnowledgeSpaceShare,,false,false
+DataKnowledgeSrcFileRef,ナレッジソースファイル参照,1aI,DataKnowledgeSrcFileRef,,false,false
+DataKnowledgeSrcFileRefShare,ナレッジソースファイル参照 共有,02c,DataKnowledgeSrcFileRefShare,,false,false
+DataLakeObjectInstance,データレイクオブジェクト,1dl,DataLakeObjectInstance,,false,false
+DataLakeObjectInstanceFeed,データレイクオブジェクトフィード,0D5,DataLakeObjectInstanceFeed,,false,false
+DataLakeObjectInstanceHistory,データレイクオブジェクトの履歴,017,DataLakeObjectInstanceHistory,,false,false
+DataLineageFullRefStEvent,系統フル更新状況イベント,7Cr,DataLineageFullRefStEvent,,false,false
+DataLineageNodeDefSyncLog,データ系統ノード定義同期ログ,1Rf,DataLineageNodeDefSyncLog,,false,false
+DataLineageNodeDefSyncLogFeed,データ系統ノード定義同期ログフィード,0D5,DataLineageNodeDefSyncLogFeed,,false,false
+DataLineageNodeDefSyncLogHistory,データ系統ノード定義同期ログ履歴,017,DataLineageNodeDefSyncLogHistory,,false,false
+DataLineageNodeDefSyncLogShare,データ系統ノード定義同期ログ 共有,02c,DataLineageNodeDefSyncLogShare,,false,false
+DataMaskCustomValueLibrary,カスタムライブラリ,9dl,DataMaskCustomValueLibrary,,true,false
+DataMaskCustomValueLibraryShare,カスタムライブラリ 共有,02c,DataMaskCustomValueLibraryShare,,false,false
+DataMceUmaMigStrmStsEvnt,Data MCE UMA Migration Stream Status Event,8kz,DataMceUmaMigStrmStsEvnt,,false,false
+DataMltOrgMdatChgsetEvent,データ複数組織メタデータ変更セットイベント,1Tf,DataMltOrgMdatChgsetEvent,,false,false
+DataMultiOrgConnection,Data Multi Org Connections,262,DataMultiOrgConnection,,false,false
+DataMultiOrgObjectRef,Multi-org Object References,265,DataMultiOrgObjectRef,,false,false
+DataMultiOrgServiceEvent,複数組織サービスイベント,0QY,DataMultiOrgServiceEvent,,false,false
+DataMultiOrgSyncStatus,Multi Org Sync Statuses,264,DataMultiOrgSyncStatus,,false,false
+DataObjBillableStatusEvent,データオブジェクト請求可能状況イベント,1DC,DataObjBillableStatusEvent,,false,false
+DataObjectDataChgEvent,データオブジェクトデータ変更イベント,1e5,DataObjectDataChgEvent,,false,false
+DataObjectMetadataChgEvent,データオブジェクトメタデータ変更イベント,1e4,DataObjectMetadataChgEvent,,false,false
+DataObjSecondaryIndex,セカンダリインデックス,1Tx,DataObjSecondaryIndex,,false,false
+DataObjSecondaryIndexFeed,__MISSING LABEL__ PropertyFile - val DataObjSecondaryIndex not found in section StandardFeedLabel,0D5,DataObjSecondaryIndexFeed,,false,false
+DataObjSecondaryIndexHistory,セカンダリインデックス履歴,017,DataObjSecondaryIndexHistory,,false,false
+DataOrgExtShareEvent,データ組織外部共有イベント,2e3,DataOrgExtShareEvent,,false,false
+DataQueryWorkspace,クエリエディター,20m,DataQueryWorkspace,,true,false
+DataQueryWorkspaceFeed,クエリエディターフィード,0D5,DataQueryWorkspaceFeed,,false,false
+DataQueryWorkspaceHistory,クエリエディター履歴,017,DataQueryWorkspaceHistory,,false,false
+DataQueryWorkspaceShare,クエリエディター 共有,02c,DataQueryWorkspaceShare,,false,false
+DataQueryWorkspaceTab,クエリタブ,20n,DataQueryWorkspaceTab,,false,false
+DataSemanticSearch,検索インデックス,18l,DataSemanticSearch,,false,false
+DataSemanticSearchFeed,__MISSING LABEL__ PropertyFile - val DataSemanticSearch not found in section StandardFeedLabel,0D5,DataSemanticSearchFeed,,false,false
+DataSemanticSearchHistory,__MISSING LABEL__ PropertyFile - val DataSemanticSearch not found in section StandardHistoryLabel,017,DataSemanticSearchHistory,,false,false
+DataShellTntUpgradeEvent,シェルテナントアップグレードイベント,1D8,DataShellTntUpgradeEvent,,false,false
+DataShrMappingStatusEvent,データ共有マッピング状況イベント,2e2,DataShrMappingStatusEvent,,false,false
+DataSourceBundle,データソースバンドル,8Sj,DataSourceBundle,,false,false
+DataSourceBundleShare,データソースバンドル 共有,02c,DataSourceBundleShare,,false,false
+DataStatistics,Data Statistics,05a,DataStatistics,,false,false
+DataStream,データストリーム,1ds,DataStream,,false,false
+DataStreamFeed,データストリームフィード,0D5,DataStreamFeed,,false,false
+DataStreamHistory,データストリーム履歴,017,DataStreamHistory,,false,false
+DataStreamNewFieldEvent,データストリーム新規項目イベント,1e8,DataStreamNewFieldEvent,,false,false
+DataStreamStatusEvent,データストリーム状況イベント,1e0,DataStreamStatusEvent,,false,false
+DataSyncConnectorEvent,データ同期コネクタ状況イベント,9cs,DataSyncConnectorEvent,,false,false
+DataType,データ型,4dt,DataType,,false,false
+DataUseLegalBasis,データ使用の法的根拠,0ZT,DataUseLegalBasis,,true,false
+DataUseLegalBasisChangeEvent,データ使用の法的根拠 変更イベント,1CE,DataUseLegalBasisChangeEvent,,false,false
+DataUseLegalBasisHistory,データ使用の法的根拠の履歴,017,DataUseLegalBasisHistory,,false,false
+DataUseLegalBasisShare,データ使用の法的根拠 共有,02c,DataUseLegalBasisShare,,false,false
+DataUsePurpose,データ使用目的,0ZW,DataUsePurpose,,true,false
+DataUsePurposeChangeEvent,データ使用目的 変更イベント,1CE,DataUsePurposeChangeEvent,,false,false
+DataUsePurposeHistory,データ使用目的の履歴,017,DataUsePurposeHistory,,false,false
+DataUsePurposeShare,データ使用目的 共有,02c,DataUsePurposeShare,,false,false
+DataWeaveResource,DataWeave リソース,7FY,DataWeaveResource,,false,false
+DeclinedEventRelation,不参加行動リレーション,,DeclinedEventRelation,,false,false
+DeleteEvent,ごみ箱項目,00C,DeleteEvent,,false,false
+DeliveryEstimationSetup,配送見積設定,2A0,DeliveryEstimationSetup,,true,false
+DeliveryEstimationSetupFeed,__MISSING LABEL__ PropertyFile - val DeliveryEstimationSetup not found in section StandardFeedLabel,0D5,DeliveryEstimationSetupFeed,,false,false
+DeliveryEstimationSetupHistory,配送見積設定履歴,017,DeliveryEstimationSetupHistory,,false,false
+DeliveryEstimationSetupShare,配送見積設定 共有,02c,DeliveryEstimationSetupShare,,false,false
+DesignDiagram__c,設計チャート,a0B,01IdL00000BLWTB,,true,false
+DesignDiagram__ChangeEvent,変更イベント: 設計チャート,1CE,01IdL00000BLWTB.ChangeEvent,,false,false
+DesignDiagram__Feed,フィード: 設計チャート,0D5,01IdL00000BLWTB.Feed,,false,false
+DesignDiagram__History,履歴: 設計チャート,017,01IdL00000BLWTB.History,,false,false
+DesignDiagram__Share,共有: 設計チャート,02c,01IdL00000BLWTB.Share,,false,false
+Dev_Service__c,ユーザサポート,a01,01IdL00000BAt9l,,true,false
+Dev_Service__ChangeEvent,変更イベント: ユーザサポート,1CE,01IdL00000BAt9l.ChangeEvent,,false,false
+Dev_Service__Feed,フィード: ユーザサポート,0D5,01IdL00000BAt9l.Feed,,false,false
+Dev_Service__History,履歴: ユーザサポート,017,01IdL00000BAt9l.History,,false,false
+Dev_Service__Share,共有: ユーザサポート,02c,01IdL00000BAt9l.Share,,false,false
+Dev_Ticket__c,開発チケット,a00,01IdL00000B9oaL,,true,false
+Dev_Ticket__ChangeEvent,変更イベント: 開発チケット,1CE,01IdL00000B9oaL.ChangeEvent,,false,false
+Dev_Ticket__Feed,フィード: 開発チケット,0D5,01IdL00000B9oaL.Feed,,false,false
+Dev_Ticket__History,履歴: 開発チケット,017,01IdL00000B9oaL.History,,false,false
+Dev_Ticket__Share,共有: 開発チケット,02c,01IdL00000B9oaL.Share,,false,false
+DevopsEnvironment,環境,1Qe,DevopsEnvironment,,false,false
+DevopsEnvironmentFeed,__MISSING LABEL__ PropertyFile - val DevopsEnvironment not found in section StandardFeedLabel,0D5,DevopsEnvironmentFeed,,false,false
+DevopsEnvironmentHistory,__MISSING LABEL__ PropertyFile - val DevopsEnvironment not found in section StandardHistoryLabel,017,DevopsEnvironmentHistory,,false,false
+DevopsEnvironmentShare,環境 共有,02c,DevopsEnvironmentShare,,false,false
+DevopsRequestInfo,要求情報,8Mw,DevopsRequestInfo,,false,false
+DevopsRequestInfoChangeEvent,要求情報 変更イベント,1CE,DevopsRequestInfoChangeEvent,,false,false
+DevopsRequestInfoEvent,DevOps 要求情報イベント,3fT,DevopsRequestInfoEvent,,false,false
+DevopsRequestInfoFeed,__MISSING LABEL__ PropertyFile - val DevopsRequestInfo not found in section StandardFeedLabel,0D5,DevopsRequestInfoFeed,,false,false
+DevopsRequestInfoHistory,__MISSING LABEL__ PropertyFile - val DevopsRequestInfo not found in section StandardHistoryLabel,017,DevopsRequestInfoHistory,,false,false
+DevopsRequestInfoShare,要求情報 共有,02c,DevopsRequestInfoShare,,false,false
+DigitalWallet,Digital Wallet,1DW,DigitalWallet,,true,false
+DocProcessingStatusEvent,ドキュメント処理状況イベント,1Td,DocProcessingStatusEvent,,false,false
+Document,ドキュメント,015,Document,,false,false
+DocumentAttachmentMap,ドキュメントエンティティの対応付け,05X,DocumentAttachmentMap,,false,false
+Domain,ドメイン,0I4,Domain,,false,false
+DomainSite,カスタム URL,0Jf,DomainSite,,false,false
+DuplicateRecordItem,重複レコード項目,0GL,DuplicateRecordItem,,true,false
+DuplicateRecordSet,重複レコードセット,0GK,DuplicateRecordSet,,true,false
+DuplicateRule,重複ルール,0Bm,DuplicateRule,,false,false
+EmailBounceEvent,メールバウンスイベント,16M,EmailBounceEvent,,false,false
+EmailCapture,EmailCapture,06F,EmailCapture,,false,false
+EmailDomainFilter,メールドメイン検索条件,0T6,EmailDomainFilter,,false,false
+EmailDomainKey,メールドメインキー,09P,EmailDomainKey,,false,false
+EmailMessage,メールメッセージ,02s,EmailMessage,,true,false
+EmailMessageChangeEvent,メールメッセージ 変更イベント,1CE,EmailMessageChangeEvent,,false,false
+EmailMessageRelation,メールメッセージリレーション,0CZ,EmailMessageRelation,,false,false
+EmailRelay,メールリレー,26Z,EmailRelay,,false,false
+EmailServicesAddress,メールサービスアドレス,093,EmailServicesAddress,,false,false
+EmailServicesFunction,メールサービス,091,EmailServicesFunction,,false,false
+EmailStatus,メール状況,018,EmailStatus,,false,false
+EmailTemplate,メールテンプレート,00X,EmailTemplate,,false,false
+EmailTemplateChangeEvent,メールテンプレート 変更イベント,1CE,EmailTemplateChangeEvent,,false,false
+EmbeddedServiceDetail,組み込みサービス,0Lq,EmbeddedServiceDetail,,false,false
+EmbeddedServiceLabel,組み込みサービスラベル,0Uu,EmbeddedServiceLabel,,false,false
+EngagementChannelType,エンゲージメントチャネル種別,0eF,EngagementChannelType,,true,false
+EngagementChannelTypeChangeEvent,エンゲージメントチャネル種別 変更イベント,1CE,EngagementChannelTypeChangeEvent,,false,false
+EngagementChannelTypeFeed,エンゲージメントチャネル種別フィード,0D5,EngagementChannelTypeFeed,,false,false
+EngagementChannelTypeHistory,エンゲージメントチャネル種別の履歴,017,EngagementChannelTypeHistory,,false,false
+EngagementChannelTypeShare,エンゲージメントチャネル種別 共有,02c,EngagementChannelTypeShare,,false,false
+EngagementChannelWorkType,エンゲージメントチャネル作業種別,0xz,EngagementChannelWorkType,,true,false
+EngagementChannelWorkTypeFeed,エンゲージメントチャネル作業種別フィード,0D5,EngagementChannelWorkTypeFeed,,false,false
+EngagementChannelWorkTypeHistory,エンゲージメントチャネル作業種別の履歴,017,EngagementChannelWorkTypeHistory,,false,false
+EngmtChannelTypeSettings,Generic Email Setting Result,19I,EngmtChannelTypeSettings,,false,false
+EnhancedLetterhead,拡張レターヘッド,0Rn,EnhancedLetterhead,,false,false
+EnhancedLetterheadFeed,拡張レターヘッドフィード,0D5,EnhancedLetterheadFeed,,false,false
+Entitlement,エンタイトルメント,550,Entitlement,,true,false
+EntitlementChangeEvent,エンタイトルメント 変更イベント,1CE,EntitlementChangeEvent,,false,false
+EntitlementContact,エンタイトルメント取引先責任者,0E7,EntitlementContact,,false,false
+EntitlementFeed,エンタイトルメントフィード,0D5,EntitlementFeed,,false,false
+EntitlementHistory,エンタイトルメント履歴,017,EntitlementHistory,,false,false
+EntitlementTemplate,エンタイトルメントテンプレート,551,EntitlementTemplate,,false,false
+EntityDefinition,エンティティ定義,4ie,EntityDefinition,,false,false
+EntityMilestone,オブジェクトマイルストーン,1EM,EntityMilestone,,true,false
+EntityMilestoneFeed,オブジェクトマイルストーンフィード,0D5,EntityMilestoneFeed,,false,false
+EntityMilestoneHistory,オブジェクトマイルストーン履歴,017,EntityMilestoneHistory,,false,false
+EntityParticle,エンティティパーティクル,0Nv,EntityParticle,,false,false
+EntitySubscription,エンティティ登録,0E8,EntitySubscription,,false,false
+Event,行動,00U,Event,,true,false
+EventBusSubscriber,プラットフォームイベント登録,0Cd,EventBusSubscriber,,false,false
+EventChangeEvent,行動 変更イベント,1CE,EventChangeEvent,,false,false
+EventFeed,行動フィード,0D5,EventFeed,,false,false
+EventLogFile,イベントログファイル,0AT,EventLogFile,,false,false
+EventRelation,行動リレーション,0RE,EventRelation,,false,false
+EventRelationChangeEvent,行動リレーション 変更イベント,1CE,EventRelationChangeEvent,,false,false
+EventRelayConfig,イベントリレー設定,7k2,EventRelayConfig,,false,false
+EventRelayConfigChangeEvent,イベントリレー設定 変更イベント,1CE,EventRelayConfigChangeEvent,,false,false
+EventRelayFeedback,イベントリレーフィードバック,7k4,EventRelayFeedback,,false,false
+EventRequirements__c,イベント定義,a0F,01IdL00000BMCnN,,true,false
+EventRequirements__ChangeEvent,変更イベント: イベント定義,1CE,01IdL00000BMCnN.ChangeEvent,,false,false
+EventRequirements__Feed,フィード: イベント定義,0D5,01IdL00000BMCnN.Feed,,false,false
+EventRequirements__History,履歴: イベント定義,017,01IdL00000BMCnN.History,,false,false
+EventRequirements__Share,共有: イベント定義,02c,01IdL00000BMCnN.Share,,false,false
+EventStagedInviteeEmail,行動ステージング済み被招集者メール,5EI,EventStagedInviteeEmail,,false,false
+EvfPipelineSubTaskDetails,Evf Pipeline Sub Tasks Details,99v,EvfPipelineSubTaskDetails,,false,false
+ExpressionFilter,式検索条件,1GS,ExpressionFilter,,false,false
+ExpressionFilterCriteria,式検索条件基準,8BM,ExpressionFilterCriteria,,false,false
+ExpressionSetView,式セットテンプレート,0pz,ExpressionSetView,,false,false
+ExtDataShare,データ共有,1ed,ExtDataShare,,false,false
+ExtDataShareFeed,データ共有フィード,0D5,ExtDataShareFeed,,false,false
+ExtDataShareHistory,データ共有履歴,017,ExtDataShareHistory,,false,false
+ExtDataShareTarget,データ共有対象,1et,ExtDataShareTarget,,false,false
+ExtDataShareTargetFeed,データ共有対象フィード,0D5,ExtDataShareTargetFeed,,false,false
+ExtDataShareTargetHistory,データ共有対象履歴,017,ExtDataShareTargetHistory,,false,false
+ExtDataShareTargetShare,データ共有対象 共有,02c,ExtDataShareTargetShare,,false,false
+ExternalAIModel,外部 AI モデル,0b4,ExternalAIModel,,false,false
+ExternalClientApplication,External Client Applications,0xI,ExternalClientApplication,,false,false
+ExternalDataSource,外部データソース,0XC,ExternalDataSource,,false,false
+ExternalDataSrcDescriptor,外部データソース記述子,6Ay,ExternalDataSrcDescriptor,,false,false
+ExternalDataUserAuth,外部データユーザー認証,0XU,ExternalDataUserAuth,,false,false
+ExternalEncryptionRootKey,External Encryption Root Key,48q,ExternalEncryptionRootKey,,false,false
+ExternalEvent,外部イベント,0AY,ExternalEvent,,false,false
+ExternalEventChangeEvent,外部イベント 変更イベント,1CE,ExternalEventChangeEvent,,false,false
+ExternalEventMapping,External Event Mappings,08N,ExternalEventMapping,,false,false
+ExternalEventMappingShare,External Event Mappings 共有,02c,ExternalEventMappingShare,,false,false
+ExternalSourceStatusEvent,外部取得元状況イベント,2e1,ExternalSourceStatusEvent,,false,false
+ExtlClntAppAndroidPushConfig,外部クライアントアプリケーション Android 転送設定,1Dh,ExtlClntAppAndroidPushConfig,,false,false
+ExtlClntAppApplePushConfig,外部クライアントアプリケーション Apple 転送設定,1DJ,ExtlClntAppApplePushConfig,,false,false
+ExtlClntAppMobileSettings,外部クライアントアプリケーションモバイル設定,38z,ExtlClntAppMobileSettings,,false,false
+ExtlClntAppMobPlcyConfig,外部クライアントアプリケーションモバイルポリシー設定,8AQ,ExtlClntAppMobPlcyConfig,,false,false
+ExtlClntAppNotifSettings,外部クライアントアプリケーション通知設定,15x,ExtlClntAppNotifSettings,,false,false
+ExtlClntAppNotifType,外部クライアントアプリケーション通知種別,18N,ExtlClntAppNotifType,,false,false
+ExtlClntAppOauthConsumer,外部クライアントアプリケーショングローバル OAuth コンシューマー,13P,ExtlClntAppOauthConsumer,,false,false
+ExtlClntAppOauthIpRange,外部クライアントアプリケーション OAuth IP 範囲,6Wj,ExtlClntAppOauthIpRange,,false,false
+ExtlClntAppOauthPlcyAttr,外部クライアントアプリケーション OAuth ポリシーカスタム属性,15g,ExtlClntAppOauthPlcyAttr,,false,false
+ExtlClntAppOauthPlcyCnfg,外部クライアントアプリケーション OAuth ポリシー設定,0yO,ExtlClntAppOauthPlcyCnfg,,false,false
+ExtlClntAppOauthPlcyCustmScp,外部クライアントアプリケーション OAuth ポリシーカスタム範囲,1Cb,ExtlClntAppOauthPlcyCustmScp,,false,false
+ExtlClntAppOauthSetAttr,外部クライアントアプリケーション OAuth 設定カスタム属性,15h,ExtlClntAppOauthSetAttr,,false,false
+ExtlClntAppOauthSetCustmScp,外部クライアントアプリケーション Oauth 設定カスタム範囲,1Cf,ExtlClntAppOauthSetCustmScp,,false,false
+ExtlClntAppOauthSettings,外部クライアントアプリケーション OAuth 設定,3SN,ExtlClntAppOauthSettings,,false,false
+ExtlClntAppPlcyCnfg,外部クライアントアプリケーションポリシー設定,196,ExtlClntAppPlcyCnfg,,false,false
+ExtlClntAppPushPolicyConfig,外部クライアントアプリケーション転送ポリシー設定,1HP,ExtlClntAppPushPolicyConfig,,false,false
+ExtlClntAppPushSettings,外部クライアントアプリケーション転送設定,1Cg,ExtlClntAppPushSettings,,false,false
+ExtlClntAppSamplePlcyCnfg,外部クライアントアプリケーションサンプルポリシー設定,4B5,ExtlClntAppSamplePlcyCnfg,,false,false
+ExtlClntAppSampleSettings,外部クライアントアプリケーションサンプル設定,3AG,ExtlClntAppSampleSettings,,false,false
+FeatureUsageEvent,機能利用状況イベント,1di,FeatureUsageEvent,,false,false
+FeedAttachment,フィード添付,08M,FeedAttachment,,false,false
+FeedComment,フィードコメント,0D7,FeedComment,,false,false
+FeedItem,フィード項目,0D5,FeedItem,,false,false
+FeedLike,フィード「いいね!」,0I0,FeedLike,,false,false
+FeedPollChoice,Feed Poll Choice,09A,FeedPollChoice,,false,false
+FeedPollVote,Feed Poll Vote,09B,FeedPollVote,,false,false
+FeedRevision,フィードリビジョン,08U,FeedRevision,,false,false
+FeedSignal,フィード信号,0QJ,FeedSignal,,false,false
+FeedTrackedChange,変更追跡フィード,0D6,FeedTrackedChange,,false,false
+FieldDefinition,項目定義,4fe,FieldDefinition,,false,false
+FieldPermissions,項目権限,01k,FieldPermissions,,false,false
+FieldSecurityClassification,項目セキュリティ分類,,FieldSecurityClassification,,false,false
+FileEvent,ファイルイベント,0vI,FileEvent,,false,false
+FileEventStore,ファイルイベントストア,0wg,FileEventStore,,false,false
+FileSearchActivity,FileSearchActivity,06h,FileSearchActivity,,false,false
+FinanceBalanceSnapshot,金融残高スナップショット,2kA,FinanceBalanceSnapshot,,true,false
+FinanceBalanceSnapshotChangeEvent,金融残高スナップショット 変更イベント,1CE,FinanceBalanceSnapshotChangeEvent,,false,false
+FinanceBalanceSnapshotShare,金融残高スナップショット 共有,02c,FinanceBalanceSnapshotShare,,false,false
+FinanceTransaction,金融取引,0n3,FinanceTransaction,,true,false
+FinanceTransactionChangeEvent,金融取引 変更イベント,1CE,FinanceTransactionChangeEvent,,false,false
+FinanceTransactionShare,金融取引 共有,02c,FinanceTransactionShare,,false,false
+FiscalYearSettings,会計年度設定,022,FiscalYearSettings,,false,false
+FlexQueueItem,Flex キュー項目,06i,FlexQueueItem,,false,false
+FlowDebugRefreshEvent,フローのデバッグ更新イベント,8ko,FlowDebugRefreshEvent,,false,false
+FlowDefinitionView,フロー定義,3dd,FlowDefinitionView,,false,false
+FlowExecutionErrorEvent,フロー実行エラーイベント,0eC,FlowExecutionErrorEvent,,false,false
+FlowInterview,Flow Interview,0Fo,FlowInterview,,false,false
+FlowInterviewLog,フローインタビューログ,8gZ,FlowInterviewLog,,false,false
+FlowInterviewLogEntry,フローインタビューログエントリ,0f6,FlowInterviewLogEntry,,false,false
+FlowInterviewLogShare,フローインタビューログ 共有,02c,FlowInterviewLogShare,,false,false
+FlowInterviewShare,Flow Interview 共有,02c,FlowInterviewShare,,false,false
+FlowOrchestration,オーケストレーション,1Fe,FlowOrchestration,,false,false
+FlowOrchestrationChangeEvent,オーケストレーション 変更イベント,1CE,FlowOrchestrationChangeEvent,,false,false
+FlowOrchestrationEvent,オーケストレーションイベント,0jo,FlowOrchestrationEvent,,false,false
+FlowOrchestrationInstance,オーケストレーション実行,0jE,FlowOrchestrationInstance,,true,false
+FlowOrchestrationInstanceShare,オーケストレーション実行 共有,02c,FlowOrchestrationInstanceShare,,false,false
+FlowOrchestrationLog,オーケストレーション実行ログ,0mZ,FlowOrchestrationLog,,true,false
+FlowOrchestrationStageInstance,オーケストレーションフェーズ実行,0jF,FlowOrchestrationStageInstance,,true,false
+FlowOrchestrationStageInstanceShare,オーケストレーションフェーズ実行 共有,02c,FlowOrchestrationStageInstanceShare,,false,false
+FlowOrchestrationStepInstance,オーケストレーションステップ実行,0jL,FlowOrchestrationStepInstance,,true,false
+FlowOrchestrationStepInstanceShare,オーケストレーションステップ実行 共有,02c,FlowOrchestrationStepInstanceShare,,false,false
+FlowOrchestrationVersion,オーケストレーションバージョン,1Ff,FlowOrchestrationVersion,,false,false
+FlowOrchestrationVersionChangeEvent,オーケストレーションバージョン 変更イベント,1CE,FlowOrchestrationVersionChangeEvent,,false,false
+FlowOrchestrationWorkItem,オーケストレーション作業項目,0jf,FlowOrchestrationWorkItem,,true,false
+FlowOrchestrationWorkItemShare,オーケストレーション作業項目 共有,02c,FlowOrchestrationWorkItemShare,,false,false
+FlowRecord,フロー,2aF,FlowRecord,,false,false
+FlowRecordChangeEvent,フロー 変更イベント,1CE,FlowRecordChangeEvent,,false,false
+FlowRecordElement,フロー要素,11M,FlowRecordElement,,false,false
+FlowRecordElementChangeEvent,フロー要素 変更イベント,1CE,FlowRecordElementChangeEvent,,false,false
+FlowRecordElementOccurrence,フローレコード要素発生,2XP,FlowRecordElementOccurrence,,false,false
+FlowRecordHistory,フローレコード履歴,017,FlowRecordHistory,,false,false
+FlowRecordRelation,フローレコードリレーション,31z,FlowRecordRelation,,false,false
+FlowRecordShare,フロー 共有,02c,FlowRecordShare,,false,false
+FlowRecordVersion,フローバージョン,10v,FlowRecordVersion,,false,false
+FlowRecordVersionChangeEvent,フローバージョン 変更イベント,1CE,FlowRecordVersionChangeEvent,,false,false
+FlowRecordVersionOccurrence,フローバージョン発生,10p,FlowRecordVersionOccurrence,,false,false
+FlowStageRelation,フローインタビューフェーズリレーション,31y,FlowStageRelation,,false,false
+FlowTestResult,フローテスト結果,2hU,FlowTestResult,,false,false
+FlowTestResultShare,フローテスト結果 共有,02c,FlowTestResultShare,,false,false
+FlowTestView,フローテストビュー,4YB,FlowTestView,,false,false
+FlowVariableView,フローの変数,3ad,FlowVariableView,,false,false
+FlowVersionView,フローのバージョン,3vd,FlowVersionView,,false,false
+Folder,フォルダー,00l,Folder,,false,false
+FolderedContentDocument,フォルダー内のコンテンツドキュメント,,FolderedContentDocument,,false,false
+FormulaFunction,数式関数,0Kn,FormulaFunction,,false,false
+FormulaFunctionAllowedType,数式コンテキスト関数,0fE,FormulaFunctionAllowedType,,false,false
+FormulaFunctionCategory,数式関数カテゴリ,0Kh,FormulaFunctionCategory,,false,false
+FOStatusChangedEvent,履行注文状況変更イベント,0d1,FOStatusChangedEvent,,false,false
+FulfillmentOrder,履行注文,0a3,FulfillmentOrder,,true,false
+FulfillmentOrderChangeEvent,履行注文 変更イベント,1CE,FulfillmentOrderChangeEvent,,false,false
+FulfillmentOrderFeed,履行注文フィード,0D5,FulfillmentOrderFeed,,false,false
+FulfillmentOrderItemAdjustment,履行注文品目調整,0c4,FulfillmentOrderItemAdjustment,,true,false
+FulfillmentOrderItemAdjustmentFeed,履行注文品目調整フィード,0D5,FulfillmentOrderItemAdjustmentFeed,,false,false
+FulfillmentOrderItemTax,履行注文品目税,0co,FulfillmentOrderItemTax,,true,false
+FulfillmentOrderItemTaxChangeEvent,履行注文品目税 変更イベント,1CE,FulfillmentOrderItemTaxChangeEvent,,false,false
+FulfillmentOrderItemTaxFeed,履行注文品目税フィード,0D5,FulfillmentOrderItemTaxFeed,,false,false
+FulfillmentOrderLineItem,履行注文商品,0a4,FulfillmentOrderLineItem,,true,false
+FulfillmentOrderLineItemChangeEvent,履行注文商品 変更イベント,1CE,FulfillmentOrderLineItemChangeEvent,,false,false
+FulfillmentOrderLineItemFeed,履行注文商品フィード,0D5,FulfillmentOrderLineItemFeed,,false,false
+FulfillmentOrderShare,履行注文 共有,02c,FulfillmentOrderShare,,false,false
+FulfillOrdItemQtyChgEvent,履行注文品目数量変更イベント,1Fq,FulfillOrdItemQtyChgEvent,,false,false
+FunctionRequirements__c,機能要件,a07,01IdL00000BL3EH,,true,false
+FunctionRequirements__ChangeEvent,変更イベント: 機能要件,1CE,01IdL00000BL3EH.ChangeEvent,,false,false
+FunctionRequirements__Feed,フィード: 機能要件,0D5,01IdL00000BL3EH.Feed,,false,false
+FunctionRequirements__History,履歴: 機能要件,017,01IdL00000BL3EH.History,,false,false
+FunctionRequirements__Share,共有: 機能要件,02c,01IdL00000BL3EH.Share,,false,false
+GenAiFunctionDefinition,生成 AI 関数定義,172,GenAiFunctionDefinition,,false,false
+GenAiPlannerAttrDefinition,生成 AI プランナー属性定義,17F,GenAiPlannerAttrDefinition,,false,false
+GenAiPlannerDefinition,生成 AI プランナー定義,16j,GenAiPlannerDefinition,,false,false
+GenAiPlannerFunctionDef,生成 AI プランナー関数定義,17D,GenAiPlannerFunctionDef,,false,false
+GenAiPluginDefinition,生成 AI プラグイン定義,179,GenAiPluginDefinition,,false,false
+GenAiPluginFunctionDef,生成 AI プラグイン関数定義,17E,GenAiPluginFunctionDef,,false,false
+GenAiPluginInstructionDef,生成 AI プラグイン手順定義,1C7,GenAiPluginInstructionDef,,false,false
+GisPrvdCnctrJobObjRun,GIS プロバイダーコネクタオブジェクトジョブ実行,1fT,GisPrvdCnctrJobObjRun,,false,false
+GrantedByLicense,Setting Granted By License,06d,GrantedByLicense,,false,false
+Group,グループ,00G,Group,,false,false
+GroupMember,グループメンバー,011,GroupMember,,false,false
+GtwyProvPaymentMethodType,ゲートウェイプロバイダー支払方法種別,1gp,GtwyProvPaymentMethodType,,false,false
+GuestUserAnomalyEvent,ゲストユーザー異常イベント,18y,GuestUserAnomalyEvent,,false,false
+GuestUserAnomalyEventStore,ゲストユーザー異常イベントストア,18z,GuestUserAnomalyEventStore,,false,false
+GuestUserAnomalyEventStoreFeed,ゲストユーザー異常イベントストアフィード,0D5,GuestUserAnomalyEventStoreFeed,,false,false
+Holiday,休日,0C0,Holiday,,false,false
+IconDefinition,アイコン定義,09k,IconDefinition,,false,false
+Idea,アイデア,087,Idea,,true,false
+IdeaComment,アイデアのコメント,00a,IdeaComment,,false,false
+IdentityProviderEventStore,ID プロバイダーイベントストア,0k8,IdentityProviderEventStore,,false,false
+IdentityResolution,ID 解決,1ir,IdentityResolution,,false,false
+IdentityResolutionFeed,ID 解決フィード,0D5,IdentityResolutionFeed,,false,false
+IdentityResolutionHistory,ID 解決の履歴,017,IdentityResolutionHistory,,false,false
+IdentityVerificationEvent,ID 検証イベント,0Jx,IdentityVerificationEvent,,false,false
+IdpEventLog,ID プロバイダーイベントログ,0Yu,IdpEventLog,,false,false
+IdRsolStatusEvent,ID 解決状況イベント,1e6,IdRsolStatusEvent,,false,false
+IframeWhiteListUrl,Trusted Domains for Inline Frames,6TS,IframeWhiteListUrl,,false,false
+Image,画像,4YL,Image,,true,false
+ImageFeed,画像フィード,0D5,ImageFeed,,false,false
+ImageHistory,画像履歴,017,ImageHistory,,false,false
+ImageShare,画像 共有,02c,ImageShare,,false,false
+Incident,障害,0ny,Incident,,true,false
+IncidentChangeEvent,障害 変更イベント,1CE,IncidentChangeEvent,,false,false
+IncidentFeed,障害フィード,0D5,IncidentFeed,,false,false
+IncidentHistory,障害履歴,017,IncidentHistory,,false,false
+IncidentRelatedItem,障害関連項目,0tA,IncidentRelatedItem,,true,false
+IncidentRelatedItemChangeEvent,障害関連項目 変更イベント,1CE,IncidentRelatedItemChangeEvent,,false,false
+IncidentRelatedItemFeed,障害関連項目フィード,0D5,IncidentRelatedItemFeed,,false,false
+IncidentRelatedItemHistory,障害関連項目履歴,017,IncidentRelatedItemHistory,,false,false
+IncidentShare,障害 共有,02c,IncidentShare,,false,false
+Individual,個人,0PK,Individual,,true,false
+IndividualChangeEvent,個人 変更イベント,1CE,IndividualChangeEvent,,false,false
+IndividualHistory,個人履歴,017,IndividualHistory,,false,false
+IndividualShare,個人共有,0T5,IndividualShare,,false,false
+InstalledMobileApp,インストール済みモバイルアプリケーション,0El,InstalledMobileApp,,false,false
+InventoryItemReservation,在庫品目予約,10s,InventoryItemReservation,,true,false
+InventoryReservation,在庫予約,10r,InventoryReservation,,true,false
+InventoryReservationShare,在庫予約 共有,02c,InventoryReservationShare,,false,false
+Invoice,請求書,3tt,Invoice,,true,false
+InvoiceFeed,請求書フィード,0D5,InvoiceFeed,,false,false
+InvoiceHistory,請求書履歴,017,InvoiceHistory,,false,false
+InvoiceLine,請求書品目,5TV,InvoiceLine,,true,false
+InvoiceLineFeed,請求書品目フィード,0D5,InvoiceLineFeed,,false,false
+InvoiceLineHistory,請求書品目履歴,017,InvoiceLineHistory,,false,false
+InvoiceShare,請求書 共有,02c,InvoiceShare,,false,false
+IPAddressRange,IP アドレス範囲,9s4,IPAddressRange,,false,false
+Issue__c,課題・要望,a06,01IdL00000BL36D,,true,false
+Issue__ChangeEvent,変更イベント: 課題・要望,1CE,01IdL00000BL36D.ChangeEvent,,false,false
+Issue__Feed,フィード: 課題・要望,0D5,01IdL00000BL36D.Feed,,false,false
+Issue__History,履歴: 課題・要望,017,01IdL00000BL36D.History,,false,false
+Issue__Share,共有: 課題・要望,02c,01IdL00000BL36D.Share,,false,false
+KnowledgeableUser,知識のあるユーザー,0in,KnowledgeableUser,,false,false
+Lead,リード,00Q,Lead,,true,false
+LeadChangeEvent,リード 変更イベント,1CE,LeadChangeEvent,,false,false
+LeadCleanInfo,リードクリーンアップ情報,1CL,LeadCleanInfo,,true,false
+LeadFeed,リードフィード,0D5,LeadFeed,,false,false
+LeadHistory,リード履歴,017,LeadHistory,,false,false
+LeadShare,リードの共有,01o,LeadShare,,false,false
+LeadStatus,リードの状況値,01J,LeadStatus,,false,false
+LegalEntity,法人,0fw,LegalEntity,,true,false
+LegalEntityFeed,__MISSING LABEL__ PropertyFile - val LegalEntity not found in section StandardFeedLabel,0D5,LegalEntityFeed,,false,false
+LegalEntityHistory,法人履歴,017,LegalEntityHistory,,false,false
+LegalEntityShare,法人 共有,02c,LegalEntityShare,,false,false
+LightningExitByPageMetrics,Lightning ページ別終了メトリクス,0V9,LightningExitByPageMetrics,,false,false
+LightningExperienceTheme,Lightning Experience のテーマ,0S1,LightningExperienceTheme,,false,false
+LightningOnboardingConfig,Lightning オンボーディング設定,7MM,LightningOnboardingConfig,,false,false
+LightningToggleMetrics,Lightning 切り替えメトリクス,1o1,LightningToggleMetrics,,false,false
+LightningUriEvent,Lightning URI イベント,0bh,LightningUriEvent,,false,false
+LightningUriEventStream,Lightning URI イベントストリーム,0bi,LightningUriEventStream,,false,false
+LightningUsageByAppTypeMetrics,Lightning アプリケーション種別別使用状況メトリクス,62C,LightningUsageByAppTypeMetrics,,false,false
+LightningUsageByBrowserMetrics,Lightning ブラウザー別使用状況メトリクス,3mK,LightningUsageByBrowserMetrics,,false,false
+LightningUsageByFlexiPageMetrics,FlexPage 別 Lightning 使用状況メトリクス,7pV,LightningUsageByFlexiPageMetrics,,false,false
+LightningUsageByPageMetrics,Lightning ページ別使用状況メトリクス,0U5,LightningUsageByPageMetrics,,false,false
+ListEmail,リストメール,0XB,ListEmail,,false,false
+ListEmailChangeEvent,リストメール 変更イベント,1CE,ListEmailChangeEvent,,false,false
+ListEmailIndividualRecipient,List Email Individual Recipients,0XF,ListEmailIndividualRecipient,,false,false
+ListEmailRecipientSource,List Email Recipient Sources,0XD,ListEmailRecipientSource,,false,false
+ListEmailSentResult,List Email Sent Results,0XE,ListEmailSentResult,,false,false
+ListEmailSentResultChangeEvent,List Email Sent Results 変更イベント,1CE,ListEmailSentResultChangeEvent,,false,false
+ListEmailShare,リストメール 共有,02c,ListEmailShare,,false,false
+ListView,リストビュー,00B,ListView,,false,false
+ListViewChart,リストビューグラフ,0Dd,ListViewChart,,false,false
+ListViewChartInstance,リストビューグラフインスタンス,0De,ListViewChartInstance,,false,false
+ListViewEvent,リストビューイベント,0X8,ListViewEvent,,false,false
+ListViewEventStream,リストビューイベントストリーム,0XG,ListViewEventStream,,false,false
+LiveChatSensitiveDataRule,機密データルール,0GO,LiveChatSensitiveDataRule,,false,false
+Location,ロケーション,131,Location,,true,false
+LocationChangeEvent,ロケーション 変更イベント,1CE,LocationChangeEvent,,false,false
+LocationFeed,ロケーションフィード,0D5,LocationFeed,,false,false
+LocationGroup,ロケーショングループ,0gh,LocationGroup,,true,false
+LocationGroupAssignment,ロケーショングループ割り当て,0gx,LocationGroupAssignment,,true,false
+LocationGroupAssignmentChangeEvent,ロケーショングループ割り当て 変更イベント,1CE,LocationGroupAssignmentChangeEvent,,false,false
+LocationGroupChangeEvent,ロケーショングループ 変更イベント,1CE,LocationGroupChangeEvent,,false,false
+LocationGroupFeed,ロケーショングループフィード,0D5,LocationGroupFeed,,false,false
+LocationGroupHistory,ロケーショングループ履歴,017,LocationGroupHistory,,false,false
+LocationGroupShare,ロケーショングループ 共有,02c,LocationGroupShare,,false,false
+LocationHistory,ロケーション履歴,017,LocationHistory,,false,false
+LocationShare,ロケーション 共有,02c,LocationShare,,false,false
+LocationShippingCarrierMethod,ロケーション配送業者方法,2A3,LocationShippingCarrierMethod,,true,false
+LocationShippingCarrierMethodFeed,__MISSING LABEL__ PropertyFile - val LocationShippingCarrierMethod not found in section StandardFeedLabel,0D5,LocationShippingCarrierMethodFeed,,false,false
+LocationShippingCarrierMethodHistory,ロケーション配送業者方法履歴,017,LocationShippingCarrierMethodHistory,,false,false
+LocationShippingCarrierMethodShare,ロケーション配送業者方法 共有,02c,LocationShippingCarrierMethodShare,,false,false
+LoginAnomalyEvent,ログイン異常イベント,1Rt,LoginAnomalyEvent,,false,false
+LoginAnomalyEventStore,ログイン異常イベントストア,1S0,LoginAnomalyEventStore,,false,false
+LoginAnomalyEventStoreFeed,ログイン異常イベントストアフィード,0D5,LoginAnomalyEventStoreFeed,,false,false
+LoginAsEvent,LoginAs イベント,0VX,LoginAsEvent,,false,false
+LoginAsEventStream,LoginAs イベントストリーム,0VY,LoginAsEventStream,,false,false
+LoginEvent,ログインイベント,1HB,LoginEvent,,false,false
+LoginEventStream,ログインイベントストリーム,0Ll,LoginEventStream,,false,false
+LoginGeo,ログイン地理情報データ,04F,LoginGeo,,false,false
+LoginHistory,ログイン履歴,0Ya,LoginHistory,,false,false
+LoginIp,ログイン IP,710,LoginIp,,false,false
+LogoutEvent,ログアウトイベント,06M,LogoutEvent,,false,false
+LogoutEventStream,Logout Event Streams,0PH,LogoutEventStream,,false,false
+LookedUpFromActivity,活動から検索,,LookedUpFromActivity,,false,false
+Macro,マクロ,0JZ,Macro,,true,false
+MacroChangeEvent,マクロ 変更イベント,1CE,MacroChangeEvent,,false,false
+MacroHistory,マクロ履歴,017,MacroHistory,,false,false
+MacroInstruction,マクロの説明,0Ji,MacroInstruction,,false,false
+MacroInstructionChangeEvent,マクロの説明 変更イベント,1CE,MacroInstructionChangeEvent,,false,false
+MacroShare,マクロ 共有,02c,MacroShare,,false,false
+MacroUsage,マクロ利用状況,5ML,MacroUsage,,false,false
+MacroUsageShare,マクロ利用状況 共有,02c,MacroUsageShare,,false,false
+MailmergeTemplate,差し込み印刷テンプレート,01H,MailmergeTemplate,,false,false
+ManagedContent,管理コンテンツ,20Y,ManagedContent,,false,false
+ManagedContentChangeEvent,管理コンテンツ 変更イベント,1CE,ManagedContentChangeEvent,,false,false
+ManagedContentChannel,管理コンテンツチャネル,0ap,ManagedContentChannel,,false,false
+ManagedContentSpace,管理コンテンツ空間,0Zu,ManagedContentSpace,,false,false
+ManagedContentVariant,管理コンテンツバリエーション,9Ps,ManagedContentVariant,,false,false
+ManagedContentVariantChangeEvent,管理コンテンツバリエーション 変更イベント,1CE,ManagedContentVariantChangeEvent,,false,false
+MarketSegment,セグメント,1sg,MarketSegment,,false,false
+MarketSegmentActivation,有効化,85R,MarketSegmentActivation,,false,false
+MarketSegmentActivationChangeEvent,有効化 変更イベント,1CE,MarketSegmentActivationChangeEvent,,false,false
+MarketSegmentActivationFeed,有効化 フィード,0D5,MarketSegmentActivationFeed,,false,false
+MarketSegmentActivationHistory,有効化履歴,017,MarketSegmentActivationHistory,,false,false
+MarketSegmentChangeEvent,セグメント 変更イベント,1CE,MarketSegmentChangeEvent,,false,false
+MarketSegmentDefMapping,マーケットセグメント定義マッピング,5I4,MarketSegmentDefMapping,,false,false
+MarketSegmentFeed,セグメント フィード,0D5,MarketSegmentFeed,,false,false
+MarketSegmentHistory,セグメント履歴,017,MarketSegmentHistory,,false,false
+MarketSegmentStatusEvent,マーケットセグメント状況イベント,1e1,MarketSegmentStatusEvent,,false,false
+MarketSgmtActvStatusEvent,マーケットセグメント有効化状況イベント,1e2,MarketSgmtActvStatusEvent,,false,false
+MatchingInformation,Matching Information,0Ib,MatchingInformation,,false,false
+MatchingRule,一致ルール,0JD,MatchingRule,,false,false
+MatchingRuleItem,一致ルール項目,0JE,MatchingRuleItem,,false,false
+MessagingChannel,メッセージングチャネル,0Mj,MessagingChannel,,false,false
+MessagingChannelSkill,Messaging Channel Skills,1cN,MessagingChannelSkill,,false,false
+MessagingChannelUsage,メッセージングチャネル利用状況,0gL,MessagingChannelUsage,,false,false
+MessagingConfiguration,Messaging Configurations,0Uh,MessagingConfiguration,,false,false
+MessagingDeliveryError,メッセージ配信エラー,0Ut,MessagingDeliveryError,,false,false
+MessagingEndUser,メッセージングユーザー,0PA,MessagingEndUser,,true,false
+MessagingEndUserChangeEvent,メッセージングユーザー 変更イベント,1CE,MessagingEndUserChangeEvent,,false,false
+MessagingEndUserHistory,メッセージングユーザー履歴,017,MessagingEndUserHistory,,false,false
+MessagingEndUserShare,メッセージングユーザー 共有,02c,MessagingEndUserShare,,false,false
+MessagingLink,Messaging Links,0Mm,MessagingLink,,false,false
+MessagingSession,メッセージングセッション,0Mw,MessagingSession,,true,false
+MessagingSessionChangeEvent,メッセージングセッション 変更イベント,1CE,MessagingSessionChangeEvent,,false,false
+MessagingSessionFeed,メッセージングセッションフィード,0D5,MessagingSessionFeed,,false,false
+MessagingSessionHistory,メッセージングセッション履歴,017,MessagingSessionHistory,,false,false
+MessagingSessionMetrics,メッセージングセッションメトリクス,5Mw,MessagingSessionMetrics,,false,false
+MessagingSessionShare,メッセージングセッション 共有,02c,MessagingSessionShare,,false,false
+MessagingTemplate,メッセージングテンプレート,0TD,MessagingTemplate,,false,false
+MilestoneType,マイルストーン,557,MilestoneType,,false,false
+MktCalculatedInsight,計算済みインサイト,0kX,MktCalculatedInsight,,false,false
+MktCalculatedInsightFeed,計算済みインサイトフィード,0D5,MktCalculatedInsightFeed,,false,false
+MktCalculatedInsightHistory,計算済みインサイト履歴,017,MktCalculatedInsightHistory,,false,false
+MktDataTransform,データ変換,1dt,MktDataTransform,,false,false
+MktDataTransformEvent,データ変換イベント,1e7,MktDataTransformEvent,,false,false
+MktDataTransformFeed,データ変換フィード,0D5,MktDataTransformFeed,,false,false
+MktDataTransformHistory,データ変換の履歴,017,MktDataTransformHistory,,false,false
+MktDataTransformShare,データ変換 共有,02c,MktDataTransformShare,,false,false
+MktMLModel,モデル,0wn,MktMLModel,,false,false
+MktMLModelFeed,__MISSING LABEL__ PropertyFile - val MktMLModel not found in section StandardFeedLabel,0D5,MktMLModelFeed,,false,false
+MktMLModelHistory,モデル履歴,017,MktMLModelHistory,,false,false
+MktMLModelShare,モデル 共有,02c,MktMLModelShare,,false,false
+MktMLPredictionJob,モデルの予測ジョブ,0yq,MktMLPredictionJob,,false,false
+MktMLPredictionJobFeed,__MISSING LABEL__ PropertyFile - val MktMLPredictionJob not found in section StandardFeedLabel,0D5,MktMLPredictionJobFeed,,false,false
+MktMLPredictionJobHistory,モデルの予測ジョブ履歴,017,MktMLPredictionJobHistory,,false,false
+MktMLSetupRunChgEvent,ML 設定実行変更イベント,1e9,MktMLSetupRunChgEvent,,false,false
+MktSgmntActvtnAudAttribute,有効化属性,85S,MktSgmntActvtnAudAttribute,,false,false
+MktSgmntActvtnContactPoint,有効化連絡先,85T,MktSgmntActvtnContactPoint,,false,false
+MktSgmtActvContactPtField,有効化連絡先項目,0nX,MktSgmtActvContactPtField,,false,false
+MktSgmtActvContactPtSrc,有効化連絡先ソース,0nW,MktSgmtActvContactPtSrc,,false,false
+MktSgmtActvDataModelFld,有効化データモデル項目,98X,MktSgmtActvDataModelFld,,false,false
+MktSgmtActvDataSource,有効化データソース,0i4,MktSgmtActvDataSource,,false,false
+MktSgmtDefCalcInsightFld,マーケットセグメント計算済みインサイト項目,2rt,MktSgmtDefCalcInsightFld,,false,false
+MktSgmtDefDataMdlObjFld,マーケットセグメント定義データモデルオブジェクト項目,9WA,MktSgmtDefDataMdlObjFld,,false,false
+MLEngagementEvent,ML Engagement Events,9Qb,MLEngagementEvent,,false,false
+MlFeatureValueMetric,ML Feature Value Metrics,48i,MlFeatureValueMetric,,false,false
+MlIntentUtterance,インテント発言,1M4,MlIntentUtterance,,false,false
+MlIntentUtteranceSuggestion,インテント発言の提案,1M9,MlIntentUtteranceSuggestion,,false,false
+MLModel,ML モデル,873,MLModel,,false,false
+MLModelFactor,ML モデル要素,876,MLModelFactor,,false,false
+MLModelFactorComponent,ML モデル要素コンポーネント,877,MLModelFactorComponent,,false,false
+MLModelMetric,ML モデルメトリクス,874,MLModelMetric,,false,false
+MLPredictionDefinition,ML 予測定義,6gt,MLPredictionDefinition,,false,false
+MLRecommendationDefinition,ML おすすめ定義,7gh,MLRecommendationDefinition,,false,false
+MobileApplicationDetail,モバイルアプリケーションの詳細,0IW,MobileApplicationDetail,,false,false
+MsgChannelAvailability,メッセージングチャネル対応可能状況,1Lp,MsgChannelAvailability,,false,false
+MsgChannelLanguageKeyword,メッセージングチャネル言語キーワード,3Or,MsgChannelLanguageKeyword,,false,false
+MsgChannelUsageExternalOrg,メッセージングチャネル利用状況外部組織,0od,MsgChannelUsageExternalOrg,,false,false
+MsgSessStatusChangedEvent,メッセージングセッション状況変更イベント,1JJ,MsgSessStatusChangedEvent,,false,false
+MutingPermissionSet,権限セットのミュート,0QM,MutingPermissionSet,,false,false
+MyDomainDiscoverableLogin,[私のドメイン] 検出可能ログイン,4hy,MyDomainDiscoverableLogin,,false,false
+Name,名前,,Name,,false,false
+NamedCredential,指定ログイン情報,0XA,NamedCredential,,false,false
+NamespaceRegistry,Namespace Registries,1NR,NamespaceRegistry,,true,false
+NamespaceRegistryFeed,Namespace Registriesフィード,0D5,NamespaceRegistryFeed,,false,false
+NamespaceRegistryHistory,Namespace Registry History,017,NamespaceRegistryHistory,,false,false
+Note,メモ,002,Note,,false,false
+NoteAndAttachment,メモと添付ファイル,,NoteAndAttachment,,false,false
+OauthCustomScope,Oauth カスタムスコープ,7ud,OauthCustomScope,,false,false
+OauthCustomScopeApp,Oauth カスタム範囲アプリケーション,7ue,OauthCustomScopeApp,,false,false
+OauthToken,Oauth トークン,0CQ,OauthToken,,false,false
+OauthTokenExchangeHandler,OAuth トークン Exchange ハンドラー,17Z,OauthTokenExchangeHandler,,false,false
+OauthTokenExchHandlerApp,Oauth トークン Exchange ハンドラーアプリケーション,17z,OauthTokenExchHandlerApp,,false,false
+ObjectMilestonePauseTime,マイルストーン一時停止時間項目,1YR,ObjectMilestonePauseTime,,false,false
+ObjectPermissions,オブジェクト権限,110,ObjectPermissions,,false,false
+ObjectRequirement__c,オブジェクト定義,a0C,01IdL00000BLX97,,true,false
+ObjectRequirement__ChangeEvent,変更イベント: オブジェクト定義,1CE,01IdL00000BLX97.ChangeEvent,,false,false
+ObjectRequirement__Feed,フィード: オブジェクト定義,0D5,01IdL00000BLX97.Feed,,false,false
+ObjectRequirement__History,履歴: オブジェクト定義,017,01IdL00000BLX97.History,,false,false
+ObjectRequirement__Share,共有: オブジェクト定義,02c,01IdL00000BLX97.Share,,false,false
+OmniRoutingEventStore,Omni ルーティングイベントストア,0is,OmniRoutingEventStore,,false,false
+OmniSpvsrConfigAIAgent,オムニスーパーバイザー設定 AI エージェント,1Tw,OmniSpvsrConfigAIAgent,,false,false
+OmniSupervisorConfig,オムニスーパーバイザー設定,0Q2,OmniSupervisorConfig,,false,false
+OmniSupervisorConfigAction,オムニスーパーバイザー設定アクション,3UC,OmniSupervisorConfigAction,,false,false
+OmniSupervisorConfigGroup,公開グループのオムニスーパーバイザー設定,0QE,OmniSupervisorConfigGroup,,false,false
+OmniSupervisorConfigProfile,プロファイルのオムニスーパーバイザー設定,0QC,OmniSupervisorConfigProfile,,false,false
+OmniSupervisorConfigQueue,オムニスーパーバイザー設定キュー,0sf,OmniSupervisorConfigQueue,,false,false
+OmniSupervisorConfigSkill,オムニスーパーバイザー設定スキル,0qg,OmniSupervisorConfigSkill,,false,false
+OmniSupervisorConfigTab,オムニスーパーバイザー設定タブ,18L,OmniSupervisorConfigTab,,false,false
+OmniSupervisorConfigUser,ユーザーのオムニスーパーバイザー設定,0Q4,OmniSupervisorConfigUser,,false,false
+OnboardingMetrics,オンボーディングメトリクス,0UG,OnboardingMetrics,,false,false
+OpenActivity,活動予定,,OpenActivity,,false,false
+OperatingHours,営業時間,0OH,OperatingHours,,true,false
+OperatingHoursChangeEvent,営業時間 変更イベント,1CE,OperatingHoursChangeEvent,,false,false
+OperatingHoursFeed,営業時間フィード,0D5,OperatingHoursFeed,,false,false
+OperatingHoursHistory,業務時間履歴,017,OperatingHoursHistory,,false,false
+OperatingHoursHoliday,業務時間休日,0jG,OperatingHoursHoliday,,true,false
+OperatingHoursHolidayChangeEvent,業務時間休日 変更イベント,1CE,OperatingHoursHolidayChangeEvent,,false,false
+OperatingHoursHolidayFeed,業務時間休日フィード,0D5,OperatingHoursHolidayFeed,,false,false
+OperatingHoursHolidayHistory,業務時間休日履歴,017,OperatingHoursHolidayHistory,,false,false
+OperatingHoursShare,営業時間 共有,02c,OperatingHoursShare,,false,false
+OperationFlow__c,運用フロー,a0G,01IdL00000BMMwP,,true,false
+OperationFlow__ChangeEvent,変更イベント: 運用フロー,1CE,01IdL00000BMMwP.ChangeEvent,,false,false
+OperationFlow__Feed,フィード: 運用フロー,0D5,01IdL00000BMMwP.Feed,,false,false
+OperationFlow__History,履歴: 運用フロー,017,01IdL00000BMMwP.History,,false,false
+OperationFlow__Share,共有: 運用フロー,02c,01IdL00000BMMwP.Share,,false,false
+Opportunity,商談,006,Opportunity,,true,false
+OpportunityChangeEvent,商談 変更イベント,1CE,OpportunityChangeEvent,,false,false
+OpportunityCompetitor,商談: 競合,00J,OpportunityCompetitor,,false,false
+OpportunityContactRole,商談 取引先責任者の役割,00K,OpportunityContactRole,,true,false
+OpportunityContactRoleChangeEvent,商談 取引先責任者の役割 変更イベント,1CE,OpportunityContactRoleChangeEvent,,false,false
+OpportunityFeed,商談フィード,0D5,OpportunityFeed,,false,false
+OpportunityFieldHistory,商談項目履歴,017,OpportunityFieldHistory,,false,false
+OpportunityHistory,商談履歴,008,OpportunityHistory,,false,false
+OpportunityLineItem,商談商品,00k,OpportunityLineItem,,true,false
+OpportunityLineItemChangeEvent,商談商品 変更イベント,1CE,OpportunityLineItemChangeEvent,,false,false
+OpportunityPartner,商談パートナー,00I,OpportunityPartner,,false,false
+OpportunityRelatedDeleteLog,商談関連削除ログ,0oe,OpportunityRelatedDeleteLog,,false,false
+OpportunityShare,商談の共有,00t,OpportunityShare,,false,false
+OpportunityStage,商談フェーズ,01J,OpportunityStage,,false,false
+Order,注文,801,Order,,true,false
+OrderChangeEvent,注文 変更イベント,1CE,OrderChangeEvent,,false,false
+OrderFeed,注文フィード,0D5,OrderFeed,,false,false
+OrderHistory,注文履歴,017,OrderHistory,,false,false
+OrderItem,注文商品,802,OrderItem,,true,false
+OrderItemChangeEvent,注文商品 変更イベント,1CE,OrderItemChangeEvent,,false,false
+OrderItemFeed,注文商品フィード,0D5,OrderItemFeed,,false,false
+OrderItemHistory,注文商品履歴,017,OrderItemHistory,,false,false
+OrderShare,注文共有,0Fy,OrderShare,,false,false
+OrderStatus,注文状況値,,OrderStatus,,false,false
+Organization,組織,00D,Organization,,false,false
+OrgEmailAddressSecurity,組織のメールアドレスセキュリティ,0D3,OrgEmailAddressSecurity,,false,false
+OrgLifecycleNotification,Org Lifecycle Notification,0OL,OrgLifecycleNotification,,false,false
+OrgMetric,組織メトリクス,3v1,OrgMetric,,false,false
+OrgMetricScanSummary,組織メトリクスのスキャン概要,6mX,OrgMetricScanSummary,,false,false
+OrgWideEmailAddress,組織の送信元メールアドレス,0D2,OrgWideEmailAddress,,false,false
+OutgoingEmail,送信メール,0Q1,OutgoingEmail,,false,false
+OutgoingEmailRelation,送信メールリレーション,0Q3,OutgoingEmailRelation,,false,false
+OwnedContentDocument,ユーザー所有のファイル,,OwnedContentDocument,,false,false
+OwnerChangeOptionInfo,所有者オプション情報を変更,0Cy,OwnerChangeOptionInfo,,false,false
+PackageLicense,パッケージライセンス,050,PackageLicense,,false,false
+Participant,関係者,0lH,Participant,,false,false
+Partner,パートナー,00I,Partner,,false,false
+PartnerRole,パートナー役割値,,PartnerRole,,false,false
+PartyConsent,関係者の同意,0g8,PartyConsent,,true,false
+PartyConsentChangeEvent,関係者の同意 変更イベント,1CE,PartyConsentChangeEvent,,false,false
+PartyConsentFeed,関係者の同意フィード,0D5,PartyConsentFeed,,false,false
+PartyConsentHistory,関係者の同意の履歴,017,PartyConsentHistory,,false,false
+PartyConsentShare,関係者の同意 共有,02c,PartyConsentShare,,false,false
+Payment,支払い,0aQ,Payment,,true,false
+PaymentAuthAdjustment,支払承認調整,9tv,PaymentAuthAdjustment,,true,false
+PaymentAuthorization,支払承認,0Xc,PaymentAuthorization,,true,false
+PaymentCredit,支払クレジット,1pC,PaymentCredit,,true,false
+PaymentCreditLinePayment,支払クレジット品目支払,1cP,PaymentCreditLinePayment,,true,false
+PaymentCreditTransaction,支払クレジット取引,1cT,PaymentCreditTransaction,,true,false
+PaymentFeed,__MISSING LABEL__ PropertyFile - val Payment not found in section StandardFeedLabel,0D5,PaymentFeed,,false,false
+PaymentGateway,支払いゲートウェイ,0b0,PaymentGateway,,true,false
+PaymentGatewayLog,支払ゲートウェイログ,0Xt,PaymentGatewayLog,,false,false
+PaymentGatewayProvider,支払いゲートウェイプロバイダー,0cJ,PaymentGatewayProvider,,false,false
+PaymentGroup,支払グループ,9zx,PaymentGroup,,true,false
+PaymentLineInvoice,支払い行請求書,1PL,PaymentLineInvoice,,true,false
+PaymentMethod,支払方法,0aa,PaymentMethod,,true,false
+PaymentPageChangeEvent,支払ページ変更イベント,0CI,PaymentPageChangeEvent,,false,false
+PendingOrderSummary,保留中の注文概要,29s,PendingOrderSummary,,false,false
+PendingOrderSummaryChangeEvent,保留中の注文概要 変更イベント,1CE,PendingOrderSummaryChangeEvent,,false,false
+PendingOrdSumProcEvent,保留中の注文概要処理イベント,0rL,PendingOrdSumProcEvent,,false,false
+PendingServiceRouting,待機中のサービスルーティング,0JR,PendingServiceRouting,,false,false
+PendingServiceRoutingChangeEvent,待機中のサービスルーティング 変更イベント,1CE,PendingServiceRoutingChangeEvent,,false,false
+PendingServiceRoutingInteractionInfo,待機中のサービスルーティングのやりとり情報,0oq,PendingServiceRoutingInteractionInfo,,false,false
+PendingServiceRoutingShare,待機中のサービスルーティング 共有,02c,PendingServiceRoutingShare,,false,false
+Period,期間,026,Period,,false,false
+PermissionRequirement__c,権限定義,a0E,01IdL00000BMCiX,,true,false
+PermissionRequirement__ChangeEvent,変更イベント: 権限定義,1CE,01IdL00000BMCiX.ChangeEvent,,false,false
+PermissionRequirement__Feed,フィード: 権限定義,0D5,01IdL00000BMCiX.Feed,,false,false
+PermissionRequirement__History,履歴: 権限定義,017,01IdL00000BMCiX.History,,false,false
+PermissionRequirement__Share,共有: 権限定義,02c,01IdL00000BMCiX.Share,,false,false
+PermissionSet,権限セット,0PS,PermissionSet,,false,false
+PermissionSetAssignment,権限セットの割り当て,0Pa,PermissionSetAssignment,,false,false
+PermissionSetEvent,権限セットイベント,0f3,PermissionSetEvent,,false,false
+PermissionSetEventStore,権限セットイベントストア,0f9,PermissionSetEventStore,,false,false
+PermissionSetGroup,権限セットグループ,0PG,PermissionSetGroup,,false,false
+PermissionSetGroupComponent,権限セットグループコンポーネント,0PM,PermissionSetGroupComponent,,false,false
+PermissionSetLicense,Permission Set License,0PL,PermissionSetLicense,,false,false
+PermissionSetLicenseAssign,権限セットライセンスの割り当て,2LA,PermissionSetLicenseAssign,,false,false
+PermissionSetTabSetting,権限セットのタブ設定,01P,PermissionSetTabSetting,,false,false
+PicklistValueInfo,選択リスト値情報,4pv,PicklistValueInfo,,false,false
+PipelineInspectionListView,パイプラインインスペクションリストビュー,4c2,PipelineInspectionListView,,false,false
+PlatformAction,プラットフォームアクション,0JV,PlatformAction,,false,false
+PlatformCachePartition,プラットフォームキャッシュ区分,0Er,PlatformCachePartition,,false,false
+PlatformCachePartitionType,プラットフォームキャッシュ区分種別,0Ev,PlatformCachePartitionType,,false,false
+PlatformEventUsageMetric,Platform Event Usage Metric,8Kk,PlatformEventUsageMetric,,false,false
+PlatformStatusAlertEvent,プラットフォーム状況アラートイベント,0V2,PlatformStatusAlertEvent,,false,false
+PracticeTest__c,PracticeTest,a16,01IdL00000CeU3h,,true,false
+PracticeTest__ChangeEvent,変更イベント: PracticeTest,1CE,01IdL00000CeU3h.ChangeEvent,,false,false
+PracticeTest__Share,共有: PracticeTest,02c,01IdL00000CeU3h.Share,,false,false
+PresenceConfigDeclineReason,プレゼンス設定拒否理由,0KP,PresenceConfigDeclineReason,,false,false
+PresenceDeclineReason,プレゼンス拒否理由,0KR,PresenceDeclineReason,,false,false
+PresenceUserConfig,プレゼンス設定,0Nd,PresenceUserConfig,,false,false
+PresenceUserConfigProfile,プロファイルのプレゼンス設定,0Nf,PresenceUserConfigProfile,,false,false
+PresenceUserConfigUser,ユーザーのプレゼンス設定,0Ne,PresenceUserConfigUser,,false,false
+Pricebook2,価格表,01s,Pricebook2,,true,false
+Pricebook2ChangeEvent,価格表 変更イベント,1CE,Pricebook2ChangeEvent,,false,false
+Pricebook2History,価格表履歴,017,Pricebook2History,,false,false
+PricebookEntry,価格表エントリ,01u,PricebookEntry,,true,false
+PricebookEntryChangeEvent,価格表エントリ 変更イベント,1CE,PricebookEntryChangeEvent,,false,false
+PricebookEntryHistory,価格表エントリ履歴,017,PricebookEntryHistory,,false,false
+PrivacyJobSession,プライバシージョブセッション,8sp,PrivacyJobSession,,false,false
+PrivacyJobSessionShare,プライバシージョブセッション 共有,02c,PrivacyJobSessionShare,,false,false
+PrivacyObjectSession,プライバシーオブジェクトセッション,8sq,PrivacyObjectSession,,false,false
+PrivacyObjectSessionShare,プライバシーオブジェクトセッション 共有,02c,PrivacyObjectSessionShare,,false,false
+PrivacyPolicy,スケジュールポリシー,8so,PrivacyPolicy,,false,false
+PrivacyPolicyDefinition,プライバシーポリシー定義,8sk,PrivacyPolicyDefinition,,false,false
+PrivacyRTBFRequest,プライバシーに関する RTBF 要求,13q,PrivacyRTBFRequest,,true,false
+PrivacyRTBFRequestFeed,プライバシー RTBF 要求,0D5,PrivacyRTBFRequestFeed,,false,false
+PrivacyRTBFRequestHistory,プライバシーに関する RTBF 要求履歴,017,PrivacyRTBFRequestHistory,,false,false
+PrivacyRTBFRequestShare,プライバシーに関する RTBF 要求 共有,02c,PrivacyRTBFRequestShare,,false,false
+PrivacySessionRecordFailure,プライバシーセッションレコード失敗,138,PrivacySessionRecordFailure,,false,false
+PrivacySessionRecordFailureShare,プライバシーセッションレコード失敗 共有,02c,PrivacySessionRecordFailureShare,,false,false
+Problem,問題,0o2,Problem,,true,false
+ProblemChangeEvent,問題 変更イベント,1CE,ProblemChangeEvent,,false,false
+ProblemFeed,問題フィード,0D5,ProblemFeed,,false,false
+ProblemHistory,問題履歴,017,ProblemHistory,,false,false
+ProblemIncident,関連する問題と障害,0oE,ProblemIncident,,true,false
+ProblemIncidentChangeEvent,関連する問題と障害 変更イベント,1CE,ProblemIncidentChangeEvent,,false,false
+ProblemIncidentFeed,関連する問題と障害フィード,0D5,ProblemIncidentFeed,,false,false
+ProblemIncidentHistory,問題障害履歴,017,ProblemIncidentHistory,,false,false
+ProblemRelatedItem,問題関連項目,0tB,ProblemRelatedItem,,true,false
+ProblemRelatedItemChangeEvent,問題関連項目 変更イベント,1CE,ProblemRelatedItemChangeEvent,,false,false
+ProblemRelatedItemFeed,問題関連項目フィード,0D5,ProblemRelatedItemFeed,,false,false
+ProblemRelatedItemHistory,問題関連項目履歴,017,ProblemRelatedItemHistory,,false,false
+ProblemShare,問題 共有,02c,ProblemShare,,false,false
+ProcessDefinition,プロセスの定義,04a,ProcessDefinition,,false,false
+ProcessException,プロセス例外,2Pe,ProcessException,,true,false
+ProcessExceptionChangeEvent,プロセス例外 変更イベント,1CE,ProcessExceptionChangeEvent,,false,false
+ProcessExceptionEvent,プロセス例外イベント,4v2,ProcessExceptionEvent,,false,false
+ProcessExceptionShare,プロセス例外 共有,02c,ProcessExceptionShare,,false,false
+ProcessFlowMigration,プロセスフローの移行,11Q,ProcessFlowMigration,,false,false
+ProcessInstance,プロセスインスタンス,04g,ProcessInstance,,false,false
+ProcessInstanceChangeEvent,プロセスインスタンス 変更イベント,1CE,ProcessInstanceChangeEvent,,false,false
+ProcessInstanceHistory,プロセスインスタンス履歴,,ProcessInstanceHistory,,false,false
+ProcessInstanceNode,プロセスインスタンスノード,0OO,ProcessInstanceNode,,false,false
+ProcessInstanceStep,プロセスインスタンスステップ,04h,ProcessInstanceStep,,false,false
+ProcessInstanceStepChangeEvent,プロセスインスタンスステップ 変更イベント,1CE,ProcessInstanceStepChangeEvent,,false,false
+ProcessInstanceWorkitem,承認申請,04i,ProcessInstanceWorkitem,,false,false
+ProcessNode,プロセスノード,04b,ProcessNode,,false,false
+Product2,商品,01t,Product2,,true,false
+Product2ChangeEvent,商品 変更イベント,1CE,Product2ChangeEvent,,false,false
+Product2Feed,商品フィード,0D5,Product2Feed,,false,false
+Product2History,商品履歴,017,Product2History,,false,false
+ProductAttribute,商品属性,0iU,ProductAttribute,,true,false
+ProductAttributeChangeEvent,商品属性 変更イベント,1CE,ProductAttributeChangeEvent,,false,false
+ProductAttributeSet,商品属性セット,0iY,ProductAttributeSet,,false,false
+ProductAttributeSetItem,商品属性セットアイテム,0iX,ProductAttributeSetItem,,false,false
+ProductAttributeSetProduct,商品属性設定商品,0iZ,ProductAttributeSetProduct,,true,false
+ProductCatalog,カタログ,0ZS,ProductCatalog,,true,false
+ProductCatalogChangeEvent,カタログ 変更イベント,1CE,ProductCatalogChangeEvent,,false,false
+ProductCatalogFeed,カタログフィード,0D5,ProductCatalogFeed,,false,false
+ProductCatalogHistory,商品カタログ履歴,017,ProductCatalogHistory,,false,false
+ProductCatalogShare,カタログ 共有,02c,ProductCatalogShare,,false,false
+ProductCategory,カテゴリ,0ZG,ProductCategory,,true,false
+ProductCategoryChangeEvent,カテゴリ 変更イベント,1CE,ProductCategoryChangeEvent,,false,false
+ProductCategoryFeed,カテゴリフィード,0D5,ProductCategoryFeed,,false,false
+ProductCategoryHistory,商品カテゴリ履歴,017,ProductCategoryHistory,,false,false
+ProductCategoryProduct,商品カテゴリ商品,0ZR,ProductCategoryProduct,,true,false
+ProductCategoryProductChangeEvent,商品カテゴリ商品 変更イベント,1CE,ProductCategoryProductChangeEvent,,false,false
+ProductCategoryProductHistory,商品カテゴリ商品履歴,017,ProductCategoryProductHistory,,false,false
+ProductConsumptionSchedule,商品消費スケジュール,0Mq,ProductConsumptionSchedule,,true,false
+ProductEntitlementTemplate,商品エンタイトルメントテンプレート,0E9,ProductEntitlementTemplate,,false,false
+Profile,プロファイル,00e,Profile,,false,false
+Promotion,プロモーション,0c8,Promotion,,true,false
+PromotionChangeEvent,プロモーション 変更イベント,1CE,PromotionChangeEvent,,false,false
+PromotionFeed,プロモーションフィード,0D5,PromotionFeed,,false,false
+PromotionHistory,プロモーション履歴,017,PromotionHistory,,false,false
+PromotionLineItemRule,プロモーション品目ルール,13F,PromotionLineItemRule,,true,false
+PromotionLineItemRuleShare,プロモーション品目ルール 共有,02c,PromotionLineItemRuleShare,,false,false
+PromotionMarketSegment,プロモーションマーケットセグメント,5CF,PromotionMarketSegment,,true,false
+PromotionMarketSegmentChangeEvent,プロモーションマーケットセグメント 変更イベント,1CE,PromotionMarketSegmentChangeEvent,,false,false
+PromotionMarketSegmentFeed,プロモーションマーケットセグメントフィード,0D5,PromotionMarketSegmentFeed,,false,false
+PromotionMarketSegmentHistory,プロモーションマーケットセグメント履歴,017,PromotionMarketSegmentHistory,,false,false
+PromotionQualifier,プロモーション修飾子,0kU,PromotionQualifier,,true,false
+PromotionQualifierFeed,プロモーション修飾子フィード,0D5,PromotionQualifierFeed,,false,false
+PromotionQualifierHistory,プロモーション修飾子履歴,017,PromotionQualifierHistory,,false,false
+PromotionSegment,プロモーションセグメント,0kw,PromotionSegment,,true,false
+PromotionSegmentBuyerGroup,プロモーションセグメントバイヤーグループ,0kq,PromotionSegmentBuyerGroup,,true,false
+PromotionSegmentBuyerGroupFeed,プロモーションセグメントバイヤーグループフィード,0D5,PromotionSegmentBuyerGroupFeed,,false,false
+PromotionSegmentBuyerGroupHistory,プロモーションセグメントバイヤーグループ履歴,017,PromotionSegmentBuyerGroupHistory,,false,false
+PromotionSegmentFeed,プロモーションセグメントフィード,0D5,PromotionSegmentFeed,,false,false
+PromotionSegmentHistory,プロモーションセグメント履歴,017,PromotionSegmentHistory,,false,false
+PromotionSegmentSalesStore,プロモーションセグメント販売店,0kp,PromotionSegmentSalesStore,,true,false
+PromotionSegmentSalesStoreFeed,プロモーションセグメント販売店フィード,0D5,PromotionSegmentSalesStoreFeed,,false,false
+PromotionSegmentSalesStoreHistory,プロモーションセグメント販売店履歴,017,PromotionSegmentSalesStoreHistory,,false,false
+PromotionSegmentShare,プロモーションセグメント 共有,02c,PromotionSegmentShare,,false,false
+PromotionShare,プロモーション 共有,02c,PromotionShare,,false,false
+PromotionTarget,プロモーション対象,2Pt,PromotionTarget,,true,false
+PromotionTargetFeed,プロモーション対象フィード,0D5,PromotionTargetFeed,,false,false
+PromotionTargetHistory,プロモーション対象履歴,017,PromotionTargetHistory,,false,false
+PromotionTier,プロモーションランク,0zG,PromotionTier,,true,false
+PromotionTierFeed,プロモーションランクフィード,0D5,PromotionTierFeed,,false,false
+PromotionTierHistory,プロモーションランク履歴,017,PromotionTierHistory,,false,false
+Prompt,プロンプト,0bs,Prompt,,false,false
+PromptAction,プロンプトアクション,0bu,PromptAction,,false,false
+PromptActionShare,プロンプトアクション 共有,02c,PromptActionShare,,false,false
+PromptError,プロンプトエラー,4Dr,PromptError,,false,false
+PromptErrorShare,プロンプトエラー 共有,02c,PromptErrorShare,,false,false
+PromptLocalization,翻訳,01j,PromptLocalization,,false,false
+PromptVersion,プロンプトバージョン,0bt,PromptVersion,,false,false
+PromptVersionLocalization,翻訳,01j,PromptVersionLocalization,,false,false
+Publisher,パブリッシャー,4pb,Publisher,,false,false
+PushTopic,転送トピック,0IF,PushTopic,,false,false
+QueueRoutingConfig,ルーティング設定,0K9,QueueRoutingConfig,,false,false
+QueueSobject,キューの sObject,03g,QueueSobject,,false,false
+QuickText,クイックテキスト,574,QuickText,,true,false
+QuickTextChangeEvent,クイックテキスト 変更イベント,1CE,QuickTextChangeEvent,,false,false
+QuickTextHistory,クイックテキスト履歴,017,QuickTextHistory,,false,false
+QuickTextShare,クイックテキスト 共有,02c,QuickTextShare,,false,false
+QuickTextUsage,クイックテキストの利用状況,5QL,QuickTextUsage,,false,false
+QuickTextUsageChangeEvent,クイックテキストの利用状況 変更イベント,1CE,QuickTextUsageChangeEvent,,false,false
+QuickTextUsageShare,クイックテキストの利用状況 共有,02c,QuickTextUsageShare,,false,false
+QuoteTemplateRichTextData,Quote Template Rich Text Data,0QR,QuoteTemplateRichTextData,,false,false
+RecentlyViewed,最近参照したデータ,,RecentlyViewed,,false,false
+Recommendation,おすすめ,0pr,Recommendation,,true,false
+RecommendationChangeEvent,おすすめ 変更イベント,1CE,RecommendationChangeEvent,,false,false
+RecommendationResponse,おすすめの応答,0rr,RecommendationResponse,,false,false
+RecordAction,RecordAction,0Rw,RecordAction,,true,false
+RecordActionHistory,レコードアクション履歴,0Ub,RecordActionHistory,,false,false
+RecordType,レコードタイプ,012,RecordType,,false,false
+RecordTypeLocalization,翻訳,01j,RecordTypeLocalization,,false,false
+RedirectWhitelistUrl,リダイレクト用 URL を許可,9V6,RedirectWhitelistUrl,,false,false
+Refund,返金,0cb,Refund,,true,false
+RefundLinePayment,品目支払の返金,0dR,RefundLinePayment,,true,false
+RelatedListColumnDefinition,関連リスト列定義,0rc,RelatedListColumnDefinition,,false,false
+RelatedListDefinition,関連リスト定義,0rl,RelatedListDefinition,,false,false
+Relation_DesignDiagram2Event__c,Relation_DesignDiagram2Event,a0P,01IdL00000BMQbp,,true,false
+Relation_DesignDiagram2Event__ChangeEvent,変更イベント: Relation_DesignDiagram2Event,1CE,01IdL00000BMQbp.ChangeEvent,,false,false
+Relation_Dev2DesignDiagram__c,Relation_Dev2DesignDiagram,a0S,01IdL00000BMSFR,,true,false
+Relation_Dev2DesignDiagram__ChangeEvent,変更イベント: Relation_Dev2DesignDiagram,1CE,01IdL00000BMSFR.ChangeEvent,,false,false
+Relation_Dev2ObjectReq__c,Relation_Dev2ObjectReq,a0T,01IdL00000BMSH3,,true,false
+Relation_Dev2ObjectReq__ChangeEvent,変更イベント: Relation_Dev2ObjectReq,1CE,01IdL00000BMSH3.ChangeEvent,,false,false
+Relation_Dev2PermissionReq__c,Relation_Dev2PermissionReq,a0V,01IdL00000BMSLt,,true,false
+Relation_Dev2PermissionReq__ChangeEvent,変更イベント: Relation_Dev2PermissionReq,1CE,01IdL00000BMSLt.ChangeEvent,,false,false
+Relation_Dev2ReportReq__c,Relation_Dev2ReportReq,a0U,01IdL00000BMSIf,,true,false
+Relation_Dev2ReportReq__ChangeEvent,変更イベント: Relation_Dev2ReportReq,1CE,01IdL00000BMSIf.ChangeEvent,,false,false
+Relation_Dev2suite__c,Relation_Dev2suite,a0Z,01IdL00000BO0lJ,,true,false
+Relation_Dev2suite__ChangeEvent,変更イベント: Relation_Dev2suite,1CE,01IdL00000BO0lJ.ChangeEvent,,false,false
+Relation_Dev2Tag__c,Relation_Dev2Tag,a04,01IdL00000BApob,,true,false
+Relation_Dev2Tag__ChangeEvent,変更イベント: Relation_Dev2Tag,1CE,01IdL00000BApob.ChangeEvent,,false,false
+Relation_Dev2Tag__Feed,フィード: Relation_Dev2Tag,0D5,01IdL00000BApob.Feed,,false,false
+Relation_Dev2Testcase__c,Relation_Dev2Testcase,a0R,01IdL00000BMSDp,,true,false
+Relation_Dev2Testcase__ChangeEvent,変更イベント: Relation_Dev2Testcase,1CE,01IdL00000BMSDp.ChangeEvent,,false,false
+Relation_Issue2Plan__c,Relation_Issue2Plan,a09,01IdL00000BL91x,,true,false
+Relation_Issue2Tag__c,Relation_Issue2Tag,a15,01IdL00000By0mn,,true,false
+Relation_Issue2Tag__ChangeEvent,変更イベント: Relation_Issue2Tag,1CE,01IdL00000By0mn.ChangeEvent,,false,false
+Relation_ObjectReq2Event__c,Relation_ObjectReq2Event,a0Q,01IdL00000BMQdR,,true,false
+Relation_ObjectReq2Event__ChangeEvent,変更イベント: Relation_ObjectReq2Event,1CE,01IdL00000BMQdR.ChangeEvent,,false,false
+Relation_OperationFlow2Tag__c,Relation_OperationFlow2Tag,a0H,01IdL00000BMN4T,,true,false
+Relation_OperationFlow2Tag__ChangeEvent,変更イベント: Relation_OperationFlow2Tag,1CE,01IdL00000BMN4T.ChangeEvent,,false,false
+Relation_OptFlow2Dev__c,Relation_OptFlow2Dev,a0b,01IdL00000Bc28v,,true,false
+Relation_OptFlow2Dev__ChangeEvent,変更イベント: Relation_OptFlow2Dev,1CE,01IdL00000Bc28v.ChangeEvent,,false,false
+Relation_OptFlow2Req__c,Relation_OptFlow2Req,a0W,01IdL00000BNuj7,,true,false
+Relation_OptFlow2Req__ChangeEvent,変更イベント: Relation_OptFlow2Req,1CE,01IdL00000BNuj7.ChangeEvent,,false,false
+Relation_Plan2Requirements__c,Relation_Plan2Requirements,a0J,01IdL00000BMPmD,,true,false
+Relation_Plan2Requirements__ChangeEvent,変更イベント: Relation_Plan2Requirements,1CE,01IdL00000BMPmD.ChangeEvent,,false,false
+Relation_Plan2Tag__c,Relation_Plan2Tag,a14,01IdL00000By0lB,,true,false
+Relation_Plan2Tag__ChangeEvent,変更イベント: Relation_Plan2Tag,1CE,01IdL00000By0lB.ChangeEvent,,false,false
+Relation_Requirements2DesignDiagram__c,Relation_Requirements2DesignDiagram,a0L,01IdL00000BMPlV,,true,false
+Relation_Requirements2DesignDiagram__ChangeEvent,変更イベント: Relation_Requirements2DesignDiagram,1CE,01IdL00000BMPlV.ChangeEvent,,false,false
+Relation_Requirements2Dev__c,Relation_Requirements2Dev,a0a,01IdL00000BbTzB,,true,false
+Relation_Requirements2Dev__ChangeEvent,変更イベント: Relation_Requirements2Dev,1CE,01IdL00000BbTzB.ChangeEvent,,false,false
+Relation_Requirements2ObjectReq__c,Relation_Requirements2ObjectReq,a0M,01IdL00000BMQQX,,true,false
+Relation_Requirements2ObjectReq__ChangeEvent,変更イベント: Relation_Requirements2ObjectReq,1CE,01IdL00000BMQQX.ChangeEvent,,false,false
+Relation_Requirements2PermissionReq__c,Relation_Requirements2PermissionReq,a0O,01IdL00000BMQTl,,true,false
+Relation_Requirements2PermissionReq__ChangeEvent,変更イベント: Relation_Requirements2PermissionReq,1CE,01IdL00000BMQTl.ChangeEvent,,false,false
+Relation_Requirements2ReportReq__c,Relation_Requirements2ReportReq,a0N,01IdL00000BMQS9,,true,false
+Relation_Requirements2ReportReq__ChangeEvent,変更イベント: Relation_Requirements2ReportReq,1CE,01IdL00000BMQS9.ChangeEvent,,false,false
+Relation_Requirements2Tag__c,Relation_Requirements2Tag,a13,01IdL00000By0jZ,,true,false
+Relation_Requirements2Tag__ChangeEvent,変更イベント: Relation_Requirements2Tag,1CE,01IdL00000By0jZ.ChangeEvent,,false,false
+Relation_Requirements2Testcase__c,Relation_Requirements2Testcase,a0K,01IdL00000BMQ7B,,true,false
+Relation_Requirements2Testcase__ChangeEvent,変更イベント: Relation_Requirements2Testcase,1CE,01IdL00000BMQ7B.ChangeEvent,,false,false
+Relation_Service2Tag__c,Relation_Service2Tag,a05,01IdL00000BAzjp,,true,false
+Relation_Service2Tag__ChangeEvent,変更イベント: Relation_Service2Tag,1CE,01IdL00000BAzjp.ChangeEvent,,false,false
+Relation_Service2Tag__Feed,フィード: Relation_Service2Tag,0D5,01IdL00000BAzjp.Feed,,false,false
+Relation_Support2Issue__c,Relation_Support2Issue,a0I,01IdL00000BMNCX,,true,false
+Relation_Support2Issue__ChangeEvent,変更イベント: Relation_Support2Issue,1CE,01IdL00000BMNCX.ChangeEvent,,false,false
+Relation_testCase2suite__c,Relation_testCase2suite,a0Y,01IdL00000BNwHt,,true,false
+Relation_testCase2suite__ChangeEvent,変更イベント: Relation_testCase2suite,1CE,01IdL00000BNwHt.ChangeEvent,,false,false
+RelationshipDomain,リレーションドメイン,0Jv,RelationshipDomain,,false,false
+RelationshipInfo,リレーション,0Ju,RelationshipInfo,,false,false
+RemoteKeyCalloutEvent,Remote Key Callout Event,0VA,RemoteKeyCalloutEvent,,false,false
+ReplyEmailSettings,Generic Reply Email Setting Result,20l,ReplyEmailSettings,,false,false
+Report,レポート,00O,Report,,false,false
+ReportAnomalyEvent,レポート異常イベント,0Yv,ReportAnomalyEvent,,false,false
+ReportAnomalyEventStore,レポート異常イベントストア,0Z7,ReportAnomalyEventStore,,false,false
+ReportAnomalyEventStoreFeed,レポート異常イベントストアフィード,0D5,ReportAnomalyEventStoreFeed,,false,false
+ReportEvent,レポートイベント,0Qu,ReportEvent,,false,false
+ReportEventStream,レポートイベントストリーム,0Ol,ReportEventStream,,false,false
+ReportFeed,レポートフィード,0D5,ReportFeed,,false,false
+ReportLocalization,翻訳,01j,ReportLocalization,,false,false
+ReportRequirement__c,レポート定義,a0D,01IdL00000BLXVh,,true,false
+ReportRequirement__ChangeEvent,変更イベント: レポート定義,1CE,01IdL00000BLXVh.ChangeEvent,,false,false
+ReportRequirement__Feed,フィード: レポート定義,0D5,01IdL00000BLXVh.Feed,,false,false
+ReportRequirement__History,履歴: レポート定義,017,01IdL00000BLXVh.History,,false,false
+ReportRequirement__Share,共有: レポート定義,02c,01IdL00000BLXVh.Share,,false,false
+ResourceAbsence,リソースの不在,0Hw,ResourceAbsence,,true,false
+ResourceAbsenceChangeEvent,リソースの不在 変更イベント,1CE,ResourceAbsenceChangeEvent,,false,false
+ResourceAbsenceFeed,リソースの不在フィード,0D5,ResourceAbsenceFeed,,false,false
+ResourceAbsenceHistory,リソースの不在履歴,017,ResourceAbsenceHistory,,false,false
+ResourcePreference,リソース設定,0Kz,ResourcePreference,,true,false
+ResourcePreferenceChangeEvent,リソース設定 変更イベント,1CE,ResourcePreferenceChangeEvent,,false,false
+ResourcePreferenceFeed,リソース設定フィード,0D5,ResourcePreferenceFeed,,false,false
+ResourcePreferenceHistory,リソース設定履歴,017,ResourcePreferenceHistory,,false,false
+RetentionStoreUsage,Retention Store Usages,1FD,RetentionStoreUsage,,false,false
+RetentionStoreUsageShare,Retention Store Usages 共有,02c,RetentionStoreUsageShare,,false,false
+ReturnOrder,返品注文,2oN,ReturnOrder,,true,false
+ReturnOrderChangeEvent,返品注文 変更イベント,1CE,ReturnOrderChangeEvent,,false,false
+ReturnOrderFeed,返品注文フィード,0D5,ReturnOrderFeed,,false,false
+ReturnOrderHistory,返品注文履歴,017,ReturnOrderHistory,,false,false
+ReturnOrderItemAdjustment,返品注文品目調整,7FH,ReturnOrderItemAdjustment,,true,false
+ReturnOrderItemAdjustmentChangeEvent,返品注文品目調整 変更イベント,1CE,ReturnOrderItemAdjustmentChangeEvent,,false,false
+ReturnOrderItemTax,返品注文品目税,9Jj,ReturnOrderItemTax,,true,false
+ReturnOrderItemTaxChangeEvent,返品注文品目税 変更イベント,1CE,ReturnOrderItemTaxChangeEvent,,false,false
+ReturnOrderLineItem,返品注文品目,0Sn,ReturnOrderLineItem,,true,false
+ReturnOrderLineItemChangeEvent,返品注文品目 変更イベント,1CE,ReturnOrderLineItemChangeEvent,,false,false
+ReturnOrderLineItemFeed,返品注文品目フィード,0D5,ReturnOrderLineItemFeed,,false,false
+ReturnOrderLineItemHistory,返品注文品目履歴,017,ReturnOrderLineItemHistory,,false,false
+ReturnOrderShare,返品注文 共有,02c,ReturnOrderShare,,false,false
+SalesStore,販売店,0aH,SalesStore,,true,false
+SamlSsoConfig,SAML SSO 設定,0LE,SamlSsoConfig,,false,false
+Scontrol,カスタムSコントロール,01N,Scontrol,,false,false
+ScontrolLocalization,Sコントロールのローカライズ,01j,ScontrolLocalization,,false,false
+Scorecard,スコアカード,01f,Scorecard,,true,false
+ScorecardAssociation,スコアカード割り当て,0Qn,ScorecardAssociation,,true,false
+ScorecardMetric,スコアカードメトリクス,0Om,ScorecardMetric,,true,false
+ScorecardShare,スコアカード 共有,02c,ScorecardShare,,false,false
+ScratchOrgInfo,スクラッチ組織情報,2SR,ScratchOrgInfo,,true,false
+ScratchOrgInfoFeed,スクラッチ組織情報フィード,0D5,ScratchOrgInfoFeed,,false,false
+ScratchOrgInfoHistory,スクラッチ組織情報の履歴,017,ScratchOrgInfoHistory,,false,false
+ScratchOrgInfoShare,スクラッチ組織情報 共有,02c,ScratchOrgInfoShare,,false,false
+SearchIndexJobStatusEvent,検索インデックスジョブ変更イベント,1BG,SearchIndexJobStatusEvent,,false,false
+SearchLayout,検索レイアウト,4co,SearchLayout,,false,false
+SearchPromotionRule,検索プロモーションルール,0MD,SearchPromotionRule,,false,false
+SecurityCustomBaseline,Security Custom Baselines,09v,SecurityCustomBaseline,,false,false
+SecurityHealthCheckAlertRecipient,Security Health Check Alert Recipient,1d2,SecurityHealthCheckAlertRecipient,,false,false
+SecurityHealthCheckResult,Security Health Check Result,2XZ,SecurityHealthCheckResult,,false,false
+Seller,販売業者,0q6,Seller,,true,false
+SellerHistory,販売業者履歴,017,SellerHistory,,false,false
+SellerShare,販売業者 共有,02c,SellerShare,,false,false
+SemanticModelChangeEvent,Semantic Model Change Event,1iJ,SemanticModelChangeEvent,,false,false
+ServiceAppointment,サービス予定,08p,ServiceAppointment,,true,false
+ServiceAppointmentAttendee,サービス予定出席者,17y,ServiceAppointmentAttendee,,true,false
+ServiceAppointmentAttendeeFeed,__MISSING LABEL__ PropertyFile - val ServiceAppointmentAttendee not found in section StandardFeedLabel,0D5,ServiceAppointmentAttendeeFeed,,false,false
+ServiceAppointmentAttendeeHistory,サービス予定出席者履歴,017,ServiceAppointmentAttendeeHistory,,false,false
+ServiceAppointmentAttendeeShare,サービス予定出席者 共有,02c,ServiceAppointmentAttendeeShare,,false,false
+ServiceAppointmentChangeEvent,サービス予定 変更イベント,1CE,ServiceAppointmentChangeEvent,,false,false
+ServiceAppointmentEvent,サービス予定イベント,155,ServiceAppointmentEvent,,false,false
+ServiceAppointmentFeed,サービス予定フィード,0D5,ServiceAppointmentFeed,,false,false
+ServiceAppointmentHistory,サービス予定履歴,017,ServiceAppointmentHistory,,false,false
+ServiceAppointmentShare,サービス予定 共有,02c,ServiceAppointmentShare,,false,false
+ServiceAppointmentStatus,サービス予定状況値,,ServiceAppointmentStatus,,false,false
+ServiceChannel,サービスチャネル,0N9,ServiceChannel,,false,false
+ServiceChannelStatus,サービスチャネル状況,0NC,ServiceChannelStatus,,false,false
+ServiceContract,サービス契約,810,ServiceContract,,true,false
+ServiceContractChangeEvent,サービス契約 変更イベント,1CE,ServiceContractChangeEvent,,false,false
+ServiceContractFeed,サービス契約フィード,0D5,ServiceContractFeed,,false,false
+ServiceContractHistory,サービス契約履歴,017,ServiceContractHistory,,false,false
+ServiceContractShare,サービス契約 共有,02c,ServiceContractShare,,false,false
+ServicePresenceStatus,サービスプレゼンス状況,0N5,ServicePresenceStatus,,false,false
+ServiceResource,サービスリソース,0Hn,ServiceResource,,true,false
+ServiceResourceChangeEvent,サービスリソース 変更イベント,1CE,ServiceResourceChangeEvent,,false,false
+ServiceResourceFeed,サービスリソースフィード,0D5,ServiceResourceFeed,,false,false
+ServiceResourceHistory,サービスリソース履歴,017,ServiceResourceHistory,,false,false
+ServiceResourceShare,サービスリソース 共有,02c,ServiceResourceShare,,false,false
+ServiceResourceSkill,サービスリソーススキル,0Hv,ServiceResourceSkill,,true,false
+ServiceResourceSkillChangeEvent,サービスリソーススキル 変更イベント,1CE,ServiceResourceSkillChangeEvent,,false,false
+ServiceResourceSkillFeed,サービスリソーススキルフィード,0D5,ServiceResourceSkillFeed,,false,false
+ServiceResourceSkillHistory,サービスリソーススキル履歴,017,ServiceResourceSkillHistory,,false,false
+ServiceSetupProvisioning,Service Setup Provisioning,9gd,ServiceSetupProvisioning,,false,false
+ServiceTerritory,サービステリトリー,0Hh,ServiceTerritory,,true,false
+ServiceTerritoryChangeEvent,サービステリトリー 変更イベント,1CE,ServiceTerritoryChangeEvent,,false,false
+ServiceTerritoryFeed,サービステリトリーフィード,0D5,ServiceTerritoryFeed,,false,false
+ServiceTerritoryHistory,サービステリトリー履歴,017,ServiceTerritoryHistory,,false,false
+ServiceTerritoryMember,サービステリトリーメンバー,0Hu,ServiceTerritoryMember,,true,false
+ServiceTerritoryMemberChangeEvent,サービステリトリーメンバー 変更イベント,1CE,ServiceTerritoryMemberChangeEvent,,false,false
+ServiceTerritoryMemberFeed,サービステリトリーメンバーフィード,0D5,ServiceTerritoryMemberFeed,,false,false
+ServiceTerritoryMemberHistory,サービステリトリーメンバー履歴,017,ServiceTerritoryMemberHistory,,false,false
+ServiceTerritoryShare,サービステリトリー 共有,02c,ServiceTerritoryShare,,false,false
+ServiceTerritoryWorkType,サービステリトリー作業種別,0VE,ServiceTerritoryWorkType,,true,false
+ServiceTerritoryWorkTypeFeed,サービステリトリー作業種別フィード,0D5,ServiceTerritoryWorkTypeFeed,,false,false
+ServiceTerritoryWorkTypeHistory,サービステリトリー作業種別履歴,017,ServiceTerritoryWorkTypeHistory,,false,false
+SessionHijackingEvent,セッションハイジャックイベント,0Zh,SessionHijackingEvent,,false,false
+SessionHijackingEventStore,セッションハイジャックイベントストア,0Zj,SessionHijackingEventStore,,false,false
+SessionHijackingEventStoreFeed,セッションハイジャックイベントストアフィード,0D5,SessionHijackingEventStoreFeed,,false,false
+SessionPermSetActivation,セッション権限セットの有効化,5Pa,SessionPermSetActivation,,false,false
+SetupAssistantStep,Setup Assistant Step,3Ys,SetupAssistantStep,,false,false
+SetupAuditTrail,設定変更履歴エントリ,0Ym,SetupAuditTrail,,false,false
+SetupEntityAccess,設定エンティティアクセス権,0J0,SetupEntityAccess,,false,false
+sf_devops__Async_Operation_Result__c,非同期操作の結果,a0c,01IdL00000Bc3mY,sf_devops,true,false
+sf_devops__Async_Operation_Result__ChangeEvent,変更イベント: 非同期操作の結果,1CE,01IdL00000Bc3mY.ChangeEvent,sf_devops,false,false
+sf_devops__Async_Operation_Result__Share,共有: 非同期操作の結果,02c,01IdL00000Bc3mY.Share,sf_devops,false,false
+sf_devops__Back_Sync__c,後方同期,a0d,01IdL00000Bc3mZ,sf_devops,true,false
+sf_devops__Back_Sync__ChangeEvent,変更イベント: 後方同期,1CE,01IdL00000Bc3mZ.ChangeEvent,sf_devops,false,false
+sf_devops__Back_Sync__Share,共有: 後方同期,02c,01IdL00000Bc3mZ.Share,sf_devops,false,false
+sf_devops__Branch__c,ブランチ,a0e,01IdL00000Bc3ma,sf_devops,true,false
+sf_devops__Branch__ChangeEvent,変更イベント: ブランチ,1CE,01IdL00000Bc3ma.ChangeEvent,sf_devops,false,false
+sf_devops__Branch__Share,共有: ブランチ,02c,01IdL00000Bc3ma.Share,sf_devops,false,false
+sf_devops__Change_Bundle__c,変更バンドル,a0g,01IdL00000Bc3mc,sf_devops,true,false
+sf_devops__Change_Bundle__ChangeEvent,変更イベント: 変更バンドル,1CE,01IdL00000Bc3mc.ChangeEvent,sf_devops,false,false
+sf_devops__Change_Bundle_Install__c,変更バンドルインストール,a0f,01IdL00000Bc3mb,sf_devops,true,false
+sf_devops__Change_Bundle_Install__ChangeEvent,変更イベント: 変更バンドルインストール,1CE,01IdL00000Bc3mb.ChangeEvent,sf_devops,false,false
+sf_devops__Change_Submission__c,変更申請,a0h,01IdL00000Bc3md,sf_devops,true,false
+sf_devops__Change_Submission__ChangeEvent,変更イベント: 変更申請,1CE,01IdL00000Bc3md.ChangeEvent,sf_devops,false,false
+sf_devops__Deploy_Component__c,リリースコンポーネント,a0i,01IdL00000Bc3me,sf_devops,true,false
+sf_devops__Deploy_Component__ChangeEvent,変更イベント: リリースコンポーネント,1CE,01IdL00000Bc3me.ChangeEvent,sf_devops,false,false
+sf_devops__Deployment__e,Deployment,e00,01IdL00000Bc3mg,sf_devops,true,false
+sf_devops__Deployment_Result__c,リリース結果,a0j,01IdL00000Bc3mf,sf_devops,true,false
+sf_devops__Deployment_Result__ChangeEvent,変更イベント: リリース結果,1CE,01IdL00000Bc3mf.ChangeEvent,sf_devops,false,false
+sf_devops__Deployment_Result__Share,共有: リリース結果,02c,01IdL00000Bc3mf.Share,sf_devops,false,false
+sf_devops__Environment__c,環境,a0k,01IdL00000Bc3mh,sf_devops,true,false
+sf_devops__Environment__ChangeEvent,変更イベント: 環境,1CE,01IdL00000Bc3mh.ChangeEvent,sf_devops,false,false
+sf_devops__Hidden_Remote_Change__c,非表示のリモート変更,a0l,01IdL00000Bc3mi,sf_devops,true,false
+sf_devops__Hidden_Remote_Change__ChangeEvent,変更イベント: 非表示のリモート変更,1CE,01IdL00000Bc3mi.ChangeEvent,sf_devops,false,false
+sf_devops__Merge_Result__c,マージ結果,a0m,01IdL00000Bc3mj,sf_devops,true,false
+sf_devops__Merge_Result__ChangeEvent,変更イベント: マージ結果,1CE,01IdL00000Bc3mj.ChangeEvent,sf_devops,false,false
+sf_devops__Merge_Result__Share,共有: マージ結果,02c,01IdL00000Bc3mj.Share,sf_devops,false,false
+sf_devops__Object_Activity__c,オブジェクト活動,a0n,01IdL00000Bc3mk,sf_devops,true,false
+sf_devops__Object_Activity__ChangeEvent,変更イベント: オブジェクト活動,1CE,01IdL00000Bc3mk.ChangeEvent,sf_devops,false,false
+sf_devops__Pipeline__c,パイプライン,a0p,01IdL00000Bc3mm,sf_devops,true,false
+sf_devops__Pipeline__ChangeEvent,変更イベント: パイプライン,1CE,01IdL00000Bc3mm.ChangeEvent,sf_devops,false,false
+sf_devops__Pipeline_Stage__c,パイプラインフェーズ,a0o,01IdL00000Bc3ml,sf_devops,true,false
+sf_devops__Pipeline_Stage__ChangeEvent,変更イベント: パイプラインフェーズ,1CE,01IdL00000Bc3ml.ChangeEvent,sf_devops,false,false
+sf_devops__Project__c,プロジェクト,a0q,01IdL00000Bc3mn,sf_devops,true,false
+sf_devops__Project__ChangeEvent,変更イベント: プロジェクト,1CE,01IdL00000Bc3mn.ChangeEvent,sf_devops,false,false
+sf_devops__Project__Share,共有: プロジェクト,02c,01IdL00000Bc3mn.Share,sf_devops,false,false
+sf_devops__Remote_Change__c,リモート変更,a0r,01IdL00000Bc3mo,sf_devops,true,false
+sf_devops__Remote_Change__ChangeEvent,変更イベント: リモート変更,1CE,01IdL00000Bc3mo.ChangeEvent,sf_devops,false,false
+sf_devops__Repository__c,リポジトリ,a0s,01IdL00000Bc3mp,sf_devops,true,false
+sf_devops__Repository__ChangeEvent,変更イベント: リポジトリ,1CE,01IdL00000Bc3mp.ChangeEvent,sf_devops,false,false
+sf_devops__Repository__Share,共有: リポジトリ,02c,01IdL00000Bc3mp.Share,sf_devops,false,false
+sf_devops__Service_Provider__mdt,サービスプロバイダー,m01,01IdL00000Bc3mq,sf_devops,true,false
+sf_devops__Source_Member_Reference__c,ソースメンバー参照,a0t,01IdL00000Bc3ms,sf_devops,true,false
+sf_devops__Source_Member_Reference__ChangeEvent,変更イベント: ソースメンバー参照,1CE,01IdL00000Bc3ms.ChangeEvent,sf_devops,false,false
+sf_devops__Submit_Component__c,申請コンポーネント,a0u,01IdL00000Bc3mt,sf_devops,true,false
+sf_devops__Submit_Component__ChangeEvent,変更イベント: 申請コンポーネント,1CE,01IdL00000Bc3mt.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs__c,システム,a0w,01IdL00000Bc3mv,sf_devops,true,false
+sf_devops__Vcs__ChangeEvent,変更イベント: システム,1CE,01IdL00000Bc3mv.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs__Share,共有: システム,02c,01IdL00000Bc3mv.Share,sf_devops,false,false
+sf_devops__Vcs_Synch_State__c,VCS 同期状態,a0v,01IdL00000Bc3mu,sf_devops,true,false
+sf_devops__Vcs_Synch_State__ChangeEvent,変更イベント: VCS 同期状態,1CE,01IdL00000Bc3mu.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs_Synch_State__Share,共有: VCS 同期状態,02c,01IdL00000Bc3mu.Share,sf_devops,false,false
+sf_devops__Work_Item__c,作業項目,a0y,01IdL00000Bc3n2,sf_devops,true,false
+sf_devops__Work_Item__ChangeEvent,変更イベント: 作業項目,1CE,01IdL00000Bc3n2.ChangeEvent,sf_devops,false,false
+sf_devops__Work_Item_Commit__e,Work Item Commit,e01,01IdL00000Bc3mx,sf_devops,true,false
+sf_devops__Work_Item_Merged_Change_Request__e,Work Item Merged Change Request,e02,01IdL00000Bc3my,sf_devops,true,false
+sf_devops__Work_Item_Open_Change_Request__e,Work Item Open Change Request,e03,01IdL00000Bc3mz,sf_devops,true,false
+sf_devops__Work_Item_Promote__c,作業項目昇格,a0x,01IdL00000Bc3n0,sf_devops,true,false
+sf_devops__Work_Item_Promote__ChangeEvent,変更イベント: 作業項目昇格,1CE,01IdL00000Bc3n0.ChangeEvent,sf_devops,false,false
+sf_devops__Work_Item_State_Change__e,Work Item State Change,e04,01IdL00000Bc3n1,sf_devops,true,false
+ShapeRepresentation,図形表現,3SR,ShapeRepresentation,,false,false
+Shift,シフト,0a0,Shift,,true,false
+ShiftChangeEvent,シフト 変更イベント,1CE,ShiftChangeEvent,,false,false
+ShiftEngagementChannel,シフトエンゲージメントチャネル,0xK,ShiftEngagementChannel,,true,false
+ShiftEngagementChannelFeed,シフトエンゲージメントチャネルフィード,0D5,ShiftEngagementChannelFeed,,false,false
+ShiftEngagementChannelHistory,シフトエンゲージメントチャネルの履歴,017,ShiftEngagementChannelHistory,,false,false
+ShiftFeed,シフトフィード,0D5,ShiftFeed,,false,false
+ShiftHistory,シフト履歴,017,ShiftHistory,,false,false
+ShiftShare,シフト 共有,02c,ShiftShare,,false,false
+ShiftStatus,シフト状況値,,ShiftStatus,,false,false
+ShiftWorkTopic,シフト作業トピック,0xH,ShiftWorkTopic,,true,false
+ShiftWorkTopicFeed,シフト作業トピックフィード,0D5,ShiftWorkTopicFeed,,false,false
+ShiftWorkTopicHistory,シフト作業トピックの履歴,017,ShiftWorkTopicHistory,,false,false
+Shipment,出荷,0OB,Shipment,,true,false
+ShipmentChangeEvent,出荷 変更イベント,1CE,ShipmentChangeEvent,,false,false
+ShipmentFeed,出荷フィード,0D5,ShipmentFeed,,false,false
+ShipmentHistory,出荷履歴,017,ShipmentHistory,,false,false
+ShipmentItem,出荷項目,0ob,ShipmentItem,,true,false
+ShipmentItemFeed,__MISSING LABEL__ PropertyFile - val ShipmentItem not found in section StandardFeedLabel,0D5,ShipmentItemFeed,,false,false
+ShipmentItemHistory,__MISSING LABEL__ PropertyFile - val ShipmentItem not found in section StandardHistoryLabel,017,ShipmentItemHistory,,false,false
+ShipmentShare,出荷 共有,02c,ShipmentShare,,false,false
+ShippingCarrier,配送業者,2A2,ShippingCarrier,,true,false
+ShippingCarrierFeed,__MISSING LABEL__ PropertyFile - val ShippingCarrier not found in section StandardFeedLabel,0D5,ShippingCarrierFeed,,false,false
+ShippingCarrierHistory,配送業者履歴,017,ShippingCarrierHistory,,false,false
+ShippingCarrierMethod,配送業者方法,2A1,ShippingCarrierMethod,,true,false
+ShippingCarrierMethodFeed,__MISSING LABEL__ PropertyFile - val ShippingCarrierMethod not found in section StandardFeedLabel,0D5,ShippingCarrierMethodFeed,,false,false
+ShippingCarrierMethodHistory,配送業者方法履歴,017,ShippingCarrierMethodHistory,,false,false
+ShippingCarrierMethodShare,配送業者方法 共有,02c,ShippingCarrierMethodShare,,false,false
+ShippingCarrierShare,配送業者 共有,02c,ShippingCarrierShare,,false,false
+ShippingConfigurationSet,配送設定セット,7LA,ShippingConfigurationSet,,false,false
+ShippingConfigurationSetShare,配送設定セット 共有,02c,ShippingConfigurationSetShare,,false,false
+ShippingRateArea,配送レート領域,12h,ShippingRateArea,,false,false
+ShippingRateGroup,配送レートグループ,8Ni,ShippingRateGroup,,false,false
+Site,サイト,0DM,Site,,false,false
+SiteDetail,サイトの詳細,0GV,SiteDetail,,false,false
+SiteFeed,サイト,0D5,SiteFeed,,false,false
+SiteHistory,サイト履歴,017,SiteHistory,,false,false
+SiteIframeWhiteListUrl,Trusted Domains for Inline Frames,0Xs,SiteIframeWhiteListUrl,,false,false
+SiteRedirectMapping,サイトリダイレクトマッピング,0H0,SiteRedirectMapping,,false,false
+Skill,スキル,0C5,Skill,,false,false
+SkillChangeEvent,スキル 変更イベント,1CE,SkillChangeEvent,,false,false
+SkillRequirement,スキル要件,0Hx,SkillRequirement,,true,false
+SkillRequirementChangeEvent,スキル要件 変更イベント,1CE,SkillRequirementChangeEvent,,false,false
+SkillRequirementFeed,スキル要件フィード,0D5,SkillRequirementFeed,,false,false
+SkillRequirementHistory,スキル要件履歴,017,SkillRequirementHistory,,false,false
+SkillType,スキル種別,13B,SkillType,,false,false
+SlackChannelRelatedRecord,Slack Channel Related Record,1NM,SlackChannelRelatedRecord,,false,false
+SlaProcess,エンタイトルメントプロセス,552,SlaProcess,,false,false
+Solution,ソリューション,501,Solution,,true,false
+SolutionFeed,ソリューションフィード,0D5,SolutionFeed,,false,false
+SolutionHistory,ソリューション履歴,017,SolutionHistory,,false,false
+SolutionStatus,ソリューションの状況値,,SolutionStatus,,false,false
+SPSamlAttributes,サービスプロバイダー SAML 属性,0J4,SPSamlAttributes,,false,false
+SrcPredJobStatusChgEvent,ソース予測ジョブ状況変更イベント,0xp,SrcPredJobStatusChgEvent,,false,false
+StagedInviteeEmail,ステージング済み被招集者メール,5IE,StagedInviteeEmail,,false,false
+StagedInviteeEmailShare,ステージング済み被招集者メール 共有,02c,StagedInviteeEmailShare,,false,false
+Stamp,スタンプ,1ST,Stamp,,false,false
+StampAssignment,スタンプの割り当て,1SA,StampAssignment,,false,false
+StampLocalization,翻訳,01j,StampLocalization,,false,false
+StandardInvocableActionType,標準呼び出し可能アクション種別,0QO,StandardInvocableActionType,,false,false
+StandardShippingRate,標準配送レート,5fy,StandardShippingRate,,false,false
+StaticResource,静的リソース,081,StaticResource,,false,false
+StreamingChannel,ストリーミングチャネル,0M6,StreamingChannel,,false,false
+StreamingChannelShare,ストリーミングチャネル 共有,02c,StreamingChannelShare,,false,false
+SvcApptSchdEvent,サービス予定のスケジュールイベント,1eq,SvcApptSchdEvent,,false,false
+TabDefinition,タブ定義,0KD,TabDefinition,,false,false
+TableauHostMapping,Tableau ホスト対応付け,0ZP,TableauHostMapping,,false,false
+TableauHostMappingShare,Tableau ホスト対応付け 共有,02c,TableauHostMappingShare,,false,false
+Tag__c,タグ,a03,01IdL00000BAzdN,,true,false
+Tag__ChangeEvent,変更イベント: タグ,1CE,01IdL00000BAzdN.ChangeEvent,,false,false
+Tag__Feed,フィード: タグ,0D5,01IdL00000BAzdN.Feed,,false,false
+Tag__History,履歴: タグ,017,01IdL00000BAzdN.History,,false,false
+Tag__Share,共有: タグ,02c,01IdL00000BAzdN.Share,,false,false
+Task,ToDo,00T,Task,,true,false
+TaskChangeEvent,ToDo 変更イベント,1CE,TaskChangeEvent,,false,false
+TaskFeed,ToDoフィード,0D5,TaskFeed,,false,false
+TaskPriority,ToDo の優先度値,,TaskPriority,,false,false
+TaskStatus,ToDo の状況値,,TaskStatus,,false,false
+TechActionPlan__c,対応施策,a08,01IdL00000BL5sn,,true,false
+TechActionPlan__Share,共有: 対応施策,02c,01IdL00000BL5sn.Share,,false,false
+TenantUsageEntitlement,Tenant Usage Entitlements,0UT,TenantUsageEntitlement,,false,false
+Testcase__c,テストケース,a0A,01IdL00000BLRjd,,true,false
+Testcase__Share,共有: テストケース,02c,01IdL00000BLRjd.Share,,false,false
+TestSuite__c,テストスイート,a0X,01IdL00000BNw9p,,true,false
+TestSuite__ChangeEvent,変更イベント: テストスイート,1CE,01IdL00000BNw9p.ChangeEvent,,false,false
+TestSuite__Feed,フィード: テストスイート,0D5,01IdL00000BNw9p.Feed,,false,false
+TestSuite__History,履歴: テストスイート,017,01IdL00000BNw9p.History,,false,false
+TestSuite__Share,共有: テストスイート,02c,01IdL00000BNw9p.Share,,false,false
+TestSuiteMembership,テストスイートメンバーシップ,0Hd,TestSuiteMembership,,false,false
+ThirdPartyAccountLink,サードパーティアカウントのリンク,0Jr,ThirdPartyAccountLink,,false,false
+ThreatDetectionFeedback,脅威検出フィードバック,0hY,ThreatDetectionFeedback,,false,false
+ThreatDetectionFeedbackFeed,脅威検出フィードバックフィード,0D5,ThreatDetectionFeedbackFeed,,false,false
+TimeSlot,時間枠,0Gj,TimeSlot,,true,false
+TimeSlotChangeEvent,時間枠 変更イベント,1CE,TimeSlotChangeEvent,,false,false
+TimeSlotHistory,時間枠履歴,017,TimeSlotHistory,,false,false
+TodayGoal,Goals,0Jz,TodayGoal,,false,false
+TodayGoalChangeEvent,Goals 変更イベント,1CE,TodayGoalChangeEvent,,false,false
+TodayGoalShare,Goals 共有,02c,TodayGoalShare,,false,false
+Topic,トピック,0TO,Topic,,false,false
+TopicAssignment,トピックの割り当て,0FT,TopicAssignment,,false,false
+TopicFeed,トピックフィード,0D5,TopicFeed,,false,false
+TopicLocalization,翻訳,01j,TopicLocalization,,false,false
+TopicUserEvent,トピックユーザーの行動,0te,TopicUserEvent,,false,false
+TransactionSecurityPolicy,Transaction Security Policy,0NI,TransactionSecurityPolicy,,false,false
+Translation,言語翻訳,01h,Translation,,false,false
+UiFormulaCriterion,UI 数式条件,0Gp,UiFormulaCriterion,,false,false
+UiFormulaRule,UI 数式ルール,09t,UiFormulaRule,,false,false
+UndecidedEventRelation,未決定行動リレーション,,UndecidedEventRelation,,false,false
+UniversalAnomalyEvent,ユニバーサル異常イベント,1f1,UniversalAnomalyEvent,,false,false
+UniversalAnomalyEventStore,ユニバーサル異常イベントストア,1f2,UniversalAnomalyEventStore,,false,false
+UniversalAnomalyEventStoreFeed,ユニバーサル異常イベントストアフィード,0D5,UniversalAnomalyEventStoreFeed,,false,false
+UnstructuredStorageSpace,UnstructuredStorageSpace,1GU,UnstructuredStorageSpace,,true,false
+UnstructuredStorageSpaceShare,UnstructuredStorageSpace 共有,02c,UnstructuredStorageSpaceShare,,false,false
+UriEvent,URI イベント,0Uw,UriEvent,,false,false
+UriEventStream,URI Event Stream,0Ux,UriEventStream,,false,false
+User,ユーザー,005,User,,true,false
+UserAppInfo,最後に使用したアプリケーション,0Ds,UserAppInfo,,false,false
+UserAppInfoChangeEvent,最後に使用したアプリケーション 変更イベント,1CE,UserAppInfoChangeEvent,,false,false
+UserAppMenuCustomization,UserAppMenuCustomization,0Nw,UserAppMenuCustomization,,false,false
+UserAppMenuCustomizationShare,UserAppMenuCustomization 共有,02c,UserAppMenuCustomizationShare,,false,false
+UserAppMenuItem,アプリケーション,07p,UserAppMenuItem,,false,false
+UserChangeEvent,ユーザー 変更イベント,1CE,UserChangeEvent,,false,false
+UserDefinedLabel,表示ラベル,0vm,UserDefinedLabel,,false,false
+UserDefinedLabelAssignment,表示ラベルの割り当て,0vn,UserDefinedLabelAssignment,,false,false
+UserDefinedLabelAssignmentShare,表示ラベルの割り当て 共有,02c,UserDefinedLabelAssignmentShare,,false,false
+UserDefinedLabelShare,表示ラベル 共有,02c,UserDefinedLabelShare,,false,false
+UserEmailPreferredPerson,ユーザーメールアドレス優先ユーザー,0UV,UserEmailPreferredPerson,,false,false
+UserEmailPreferredPersonChangeEvent,ユーザーメールアドレス優先ユーザー 変更イベント,1CE,UserEmailPreferredPersonChangeEvent,,false,false
+UserEmailPreferredPersonShare,ユーザーメールアドレス優先ユーザー 共有,02c,UserEmailPreferredPersonShare,,false,false
+UserEntityAccess,ユーザーエンティティアクセス権,07u,UserEntityAccess,,false,false
+UserFeed,ユーザーフィード,0D5,UserFeed,,false,false
+UserFieldAccess,ユーザー項目アクセス権,4fp,UserFieldAccess,,false,false
+UserHistory,ユーザー履歴,017,UserHistory,,false,false
+UserLicense,ユーザーライセンス,100,UserLicense,,false,false
+UserListView,ユーザーリストビュー,0Na,UserListView,,false,false
+UserListViewCriterion,ユーザーリストビュー条件,0JU,UserListViewCriterion,,false,false
+UserLocalWebServerIdentity,ユーザーのローカル Web サーバー ID,1I9,UserLocalWebServerIdentity,,false,false
+UserLocalWebServerIdentityShare,ユーザーのローカル Web サーバー ID 共有,02c,UserLocalWebServerIdentityShare,,false,false
+UserLogin,ユーザーログイン,0Yw,UserLogin,,false,false
+UserPackageLicense,ユーザーパッケージライセンス,051,UserPackageLicense,,false,false
+UserPermissionAccess,ユーザー権限アクセス,0up,UserPermissionAccess,,false,false
+UserPreference,User Preference,03u,UserPreference,,false,false
+UserPrioritizedRecord,ユーザー優先レコード,2g0,UserPrioritizedRecord,,false,false
+UserPrioritizedRecordShare,ユーザー優先レコード 共有,02c,UserPrioritizedRecordShare,,false,false
+UserProvAccount,ユーザープロビジョニングアカウント,0Ni,UserProvAccount,,false,false
+UserProvAccountStaging,ユーザープロビジョニングアカウントのステージング,0HY,UserProvAccountStaging,,false,false
+UserProvisioningConfig,ユーザープロビジョニング設定,0Je,UserProvisioningConfig,,false,false
+UserProvisioningLog,ユーザープロビジョニングのログ,0Hs,UserProvisioningLog,,false,false
+UserProvisioningRequest,ユーザープロビジョニング要求,0HP,UserProvisioningRequest,,true,false
+UserProvisioningRequestShare,ユーザープロビジョニング要求 共有,02c,UserProvisioningRequestShare,,false,false
+UserProvMockTarget,ユーザープロビジョニングの疑似ターゲット,0HX,UserProvMockTarget,,false,false
+UserRecordAccess,ユーザーレコードアクセス,,UserRecordAccess,,false,false
+UserRole,ロール,00E,UserRole,,false,false
+UserServicePresence,ユーザープレゼンス,0R1,UserServicePresence,,true,false
+UserServicePresenceChangeEvent,ユーザープレゼンス 変更イベント,1CE,UserServicePresenceChangeEvent,,false,false
+UserServicePresenceShare,ユーザープレゼンス 共有,02c,UserServicePresenceShare,,false,false
+UserSetupEntityAccess,ユーザー設定エンティティアクセス,0g2,UserSetupEntityAccess,,false,false
+UserShare,ユーザー共有,0N2,UserShare,,false,false
+UserSharedFeature,ユーザー共有機能,2US,UserSharedFeature,,false,false
+VendorCallCenterStatusMap,ベンダーコールセンター状況の対応付け,6oM,VendorCallCenterStatusMap,,false,false
+VerificationHistory,ID 検証履歴,0Qt,VerificationHistory,,false,false
+VisualforceAccessMetrics,Visualforce Access Metrics,0OP,VisualforceAccessMetrics,,false,false
+VoiceCall,音声通話,0LQ,VoiceCall,,true,false
+VoiceCallChangeEvent,音声通話 変更イベント,1CE,VoiceCallChangeEvent,,false,false
+VoiceCallFeed,音声通話フィード,0D5,VoiceCallFeed,,false,false
+VoiceCallMetrics,音声通話メトリクス,0il,VoiceCallMetrics,,false,false
+VoiceCallRecording,Voice Call Recording,0Ox,VoiceCallRecording,,false,false
+VoiceCallRecordingChangeEvent,Voice Call Recording 変更イベント,1CE,VoiceCallRecordingChangeEvent,,false,false
+VoiceCallShare,音声通話共有,02c,VoiceCallShare,,false,false
+VoiceChnlInteractionEvent,音声チャネルインタラクションイベント,0gD,VoiceChnlInteractionEvent,,false,false
+VoiceChnlInteractionEventShare,音声チャネルインタラクションイベント 共有,02c,VoiceChnlInteractionEventShare,,false,false
+VoiceChnlIntrctnDtlEvent,音声チャネルインタラクションの詳細イベント,0gK,VoiceChnlIntrctnDtlEvent,,false,false
+VoiceMailGreeting2,音声メール挨拶,1by,VoiceMailGreeting2,,false,false
+VoiceMailGreeting2Rep,音声メール挨拶担当者,1eN,VoiceMailGreeting2Rep,,false,false
+VoiceMailGreeting2RepShare,音声メール挨拶担当者 共有,02c,VoiceMailGreeting2RepShare,,false,false
+VoiceMailGreeting2Share,音声メール挨拶 共有,02c,VoiceMailGreeting2Share,,false,false
+VoiceVendorInfo,Voice Vendor Infos,0L1,VoiceVendorInfo,,false,false
+Vote,投票,083,Vote,,false,false
+Waitlist,待機リスト,11w,Waitlist,,true,false
+WaitlistFeed,__MISSING LABEL__ PropertyFile - val Waitlist not found in section StandardFeedLabel,0D5,WaitlistFeed,,false,false
+WaitlistHistory,待機リスト履歴,017,WaitlistHistory,,false,false
+WaitlistParticipant,待機リスト参加者,12o,WaitlistParticipant,,true,false
+WaitlistParticipantFeed,__MISSING LABEL__ PropertyFile - val WaitlistParticipant not found in section StandardFeedLabel,0D5,WaitlistParticipantFeed,,false,false
+WaitlistParticipantHistory,待機リスト参加者履歴,017,WaitlistParticipantHistory,,false,false
+WaitlistServiceResource,待機リストサービスリソース,11y,WaitlistServiceResource,,true,false
+WaitlistServiceResourceFeed,__MISSING LABEL__ PropertyFile - val WaitlistServiceResource not found in section StandardFeedLabel,0D5,WaitlistServiceResourceFeed,,false,false
+WaitlistServiceResourceHistory,待機リストサービスリソース履歴,017,WaitlistServiceResourceHistory,,false,false
+WaitlistShare,待機リスト 共有,02c,WaitlistShare,,false,false
+WaitlistWorkType,待機リスト作業種別,12e,WaitlistWorkType,,true,false
+WaitlistWorkTypeFeed,__MISSING LABEL__ PropertyFile - val WaitlistWorkType not found in section StandardFeedLabel,0D5,WaitlistWorkTypeFeed,,false,false
+WaitlistWorkTypeHistory,待機リスト作業種別履歴,017,WaitlistWorkTypeHistory,,false,false
+WaveAutoInstallRequest,Wave 自動インストール要求,0UZ,WaveAutoInstallRequest,,false,false
+WaveAutoInstallRequestChangeEvent,Wave 自動インストール要求 変更イベント,1CE,WaveAutoInstallRequestChangeEvent,,false,false
+WaveCompatibilityCheckItem,Wave 互換チェック項目,0OZ,WaveCompatibilityCheckItem,,false,false
+WebCart,カート,0a6,WebCart,,true,false
+WebCartAdjustmentBasis,Cart Adjustment Basis,4rO,WebCartAdjustmentBasis,,true,false
+WebCartAdjustmentBasisChangeEvent,Cart Adjustment Basis 変更イベント,1CE,WebCartAdjustmentBasisChangeEvent,,false,false
+WebCartAdjustmentGroup,カート調整グループ,0m9,WebCartAdjustmentGroup,,true,false
+WebCartAdjustmentGroupChangeEvent,カート調整グループ 変更イベント,1CE,WebCartAdjustmentGroupChangeEvent,,false,false
+WebCartChangeEvent,カート 変更イベント,1CE,WebCartChangeEvent,,false,false
+WebCartCredit,Web カートクレジット,1Rq,WebCartCredit,,true,false
+WebCartHistory,カート履歴,017,WebCartHistory,,false,false
+WebCartShare,カート 共有,02c,WebCartShare,,false,false
+WebLink,カスタムボタンまたはカスタムリンク,00b,WebLink,,false,false
+WebLinkLocalization,カスタムリンクのローカライズ,01j,WebLinkLocalization,,false,false
+WebStore,ストア,0ZE,WebStore,,true,false
+WebStoreBuyerGroup,ストアバイヤーグループ,0cD,WebStoreBuyerGroup,,true,false
+WebStoreBuyerGroupChangeEvent,ストアバイヤーグループ 変更イベント,1CE,WebStoreBuyerGroupChangeEvent,,false,false
+WebStoreCatalog,ストアカタログ,0Zp,WebStoreCatalog,,true,false
+WebStoreCatalogChangeEvent,ストアカタログ 変更イベント,1CE,WebStoreCatalogChangeEvent,,false,false
+WebStoreCatalogHistory,店舗カタログ履歴,017,WebStoreCatalogHistory,,false,false
+WebStoreChangeEvent,ストア 変更イベント,1CE,WebStoreChangeEvent,,false,false
+WebStoreInventorySource,Web ストア在庫ソース,10t,WebStoreInventorySource,,true,false
+WebStoreShare,ストア 共有,02c,WebStoreShare,,false,false
+WorkOrder,作業指示,0WO,WorkOrder,,true,false
+WorkOrderChangeEvent,作業指示 変更イベント,1CE,WorkOrderChangeEvent,,false,false
+WorkOrderFeed,作業指示フィード,0D5,WorkOrderFeed,,false,false
+WorkOrderHistory,作業指示履歴,017,WorkOrderHistory,,false,false
+WorkOrderLineItem,作業指示品目,1WL,WorkOrderLineItem,,true,false
+WorkOrderLineItemChangeEvent,作業指示品目 変更イベント,1CE,WorkOrderLineItemChangeEvent,,false,false
+WorkOrderLineItemFeed,作業指示品目名フィード,0D5,WorkOrderLineItemFeed,,false,false
+WorkOrderLineItemHistory,作業指示品目履歴,017,WorkOrderLineItemHistory,,false,false
+WorkOrderLineItemStatus,作業指示品目の状況値,,WorkOrderLineItemStatus,,false,false
+WorkOrderShare,作業指示 共有,02c,WorkOrderShare,,false,false
+WorkOrderStatus,作業指示の状況値,,WorkOrderStatus,,false,false
+WorkPlan,作業プラン,0gq,WorkPlan,,true,false
+WorkPlanChangeEvent,作業プラン 変更イベント,1CE,WorkPlanChangeEvent,,false,false
+WorkPlanFeed,作業プランフィード,0D5,WorkPlanFeed,,false,false
+WorkPlanHistory,作業プラン履歴,017,WorkPlanHistory,,false,false
+WorkPlanShare,作業プラン 共有,02c,WorkPlanShare,,false,false
+WorkPlanTemplate,作業プランテンプレート,7Iy,WorkPlanTemplate,,true,false
+WorkPlanTemplateChangeEvent,作業プランテンプレート 変更イベント,1CE,WorkPlanTemplateChangeEvent,,false,false
+WorkPlanTemplateEntry,作業プランテンプレートエントリ,8xu,WorkPlanTemplateEntry,,true,false
+WorkPlanTemplateEntryChangeEvent,作業プランテンプレートエントリ 変更イベント,1CE,WorkPlanTemplateEntryChangeEvent,,false,false
+WorkPlanTemplateEntryFeed,作業プランテンプレートエントリフィード,0D5,WorkPlanTemplateEntryFeed,,false,false
+WorkPlanTemplateEntryHistory,作業プランテンプレートエントリ履歴,017,WorkPlanTemplateEntryHistory,,false,false
+WorkPlanTemplateFeed,作業プランテンプレートフィード,0D5,WorkPlanTemplateFeed,,false,false
+WorkPlanTemplateHistory,作業プランテンプレート履歴,017,WorkPlanTemplateHistory,,false,false
+WorkPlanTemplateShare,作業プランテンプレート 共有,02c,WorkPlanTemplateShare,,false,false
+WorkStep,作業ステップ,0hF,WorkStep,,true,false
+WorkStepChangeEvent,作業ステップ 変更イベント,1CE,WorkStepChangeEvent,,false,false
+WorkStepFeed,作業ステップフィード,0D5,WorkStepFeed,,false,false
+WorkStepHistory,作業手順履歴,017,WorkStepHistory,,false,false
+WorkStepStatus,作業ステップ状況値,,WorkStepStatus,,false,false
+WorkStepTemplate,作業ステップテンプレート,4L0,WorkStepTemplate,,true,false
+WorkStepTemplateChangeEvent,作業ステップテンプレート 変更イベント,1CE,WorkStepTemplateChangeEvent,,false,false
+WorkStepTemplateFeed,作業ステップテンプレートフィード,0D5,WorkStepTemplateFeed,,false,false
+WorkStepTemplateHistory,作業ステップテンプレート履歴,017,WorkStepTemplateHistory,,false,false
+WorkStepTemplateShare,作業ステップテンプレート 共有,02c,WorkStepTemplateShare,,false,false
+WorkType,作業種別,08q,WorkType,,true,false
+WorkTypeChangeEvent,作業種別 変更イベント,1CE,WorkTypeChangeEvent,,false,false
+WorkTypeFeed,作業種別フィード,0D5,WorkTypeFeed,,false,false
+WorkTypeGroup,作業種別グループ,0VS,WorkTypeGroup,,true,false
+WorkTypeGroupFeed,作業種別グループフィード,0D5,WorkTypeGroupFeed,,false,false
+WorkTypeGroupHistory,作業種別グループ履歴,017,WorkTypeGroupHistory,,false,false
+WorkTypeGroupMember,作業種別グループメンバー,0Wz,WorkTypeGroupMember,,true,false
+WorkTypeGroupMemberFeed,作業種別グループメンバーフィード,0D5,WorkTypeGroupMemberFeed,,false,false
+WorkTypeGroupMemberHistory,作業種別グループメンバー履歴,017,WorkTypeGroupMemberHistory,,false,false
+WorkTypeGroupShare,作業種別グループ 共有,02c,WorkTypeGroupShare,,false,false
+WorkTypeHistory,作業種別履歴,017,WorkTypeHistory,,false,false
+WorkTypeShare,作業種別 共有,02c,WorkTypeShare,,false,false

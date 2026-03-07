@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cytoscape.js サンプル - タスク依存関係グラフ</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            overflow-x: hidden;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .main-container {
+            display: flex;
+            gap: 20px;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        
+        .graph-area {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #cy {
+            width: 100%;
+            height: 900px;
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+        
+        .graph-controls {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+        
+        .control-btn {
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            background-color: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        
+        .control-btn:hover {
+            background-color: #f0f0f0;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+            transform: scale(1.05);
+        }
+        
+        .control-btn:active {
+            transform: scale(0.95);
+        }
+        
+        .info-panel {
+            width: 400px;
+            height: 900px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cytoscape.js - タスク依存関係グラフのサンプル</h1>
+    <div class="description">
+        <p>📌 ノードをドラッグして移動できます / クリックするとノード情報が表示されます</p>
+    </div>
+    
+    <div class="main-container">
+        <div class="graph-area">
+            <div class="graph-controls">
+                <button class="control-btn" id="zoom-in" title="拡大">➕</button>
+                <button class="control-btn" id="zoom-out" title="縮小">➖</button>
+                <button class="control-btn" id="fit" title="全体表示">⊡</button>
+                <button class="control-btn" id="reset" title="リセット">↻</button>
+            </div>
+            <div id="cy"></div>
+        </div>
+        
+        <div class="info-panel">
+            <h3>凡例（ステータス）</h3>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #bbb;"></div>
+                    <span>Todo（未着手）</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #f9ca24;"></div>
+                    <span>WIP（進行中）</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #6ab04c;"></div>
+                    <span>Done（完了）</span>
+                </div>
+            </div>
+            
+            <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+            
+            <div id="node-info" style="margin-top: 15px; color: #666;">
+                ノードをクリックすると詳細が表示されます
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // グラフデータの定義
+        var cy = cytoscape({
+            container: document.getElementById('cy'),
+            
+            elements: [
+                // ノード（課題タスク）
+                { 
+                    data: { 
+                        id: 'task1', 
+                        label: '課題A\nログイン速度改善', 
+                        type: '課題タスク',
+                        status: 'wip',
+                        assignee: '田中太郎',
+                        dueDate: '2025-12-01'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'task2', 
+                        label: '課題B\nエラー率削減', 
+                        type: '課題タスク',
+                        status: 'done',
+                        assignee: '佐藤花子',
+                        dueDate: '2025-11-30'
+                    } 
+                },
+                
+                // ノード（施策タスク）
+                { 
+                    data: { 
+                        id: 'solution1', 
+                        label: '施策1\nキャッシュ最適化', 
+                        type: '施策タスク',
+                        status: 'wip',
+                        assignee: '鈴木一郎',
+                        dueDate: '2025-11-28'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'solution2', 
+                        label: '施策2\nDB接続プール改善', 
+                        type: '施策タスク',
+                        status: 'todo',
+                        assignee: '未割当',
+                        dueDate: '2025-12-05'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'solution3', 
+                        label: '施策3\n例外処理追加', 
+                        type: '施策タスク',
+                        status: 'done',
+                        assignee: '佐藤花子',
+                        dueDate: '2025-11-25'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'solution4', 
+                        label: '施策4\nログ改善', 
+                        type: '施策タスク',
+                        status: 'done',
+                        assignee: '山田次郎',
+                        dueDate: '2025-11-26'
+                    } 
+                },
+                
+                // ノード（機能要件）
+                { 
+                    data: { 
+                        id: 'feature1', 
+                        label: '機能要件1\nセッション管理機能', 
+                        type: '機能要件',
+                        status: 'wip',
+                        assignee: '鈴木一郎',
+                        dueDate: '2025-11-27'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'feature2', 
+                        label: '機能要件2\nクエリ最適化機能', 
+                        type: '機能要件',
+                        status: 'todo',
+                        assignee: '未割当',
+                        dueDate: '2025-12-03'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'feature3', 
+                        label: '機能要件3\nエラーハンドリング', 
+                        type: '機能要件',
+                        status: 'done',
+                        assignee: '佐藤花子',
+                        dueDate: '2025-11-24'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'feature4', 
+                        label: '機能要件4\nログ出力機能', 
+                        type: '機能要件',
+                        status: 'done',
+                        assignee: '山田次郎',
+                        dueDate: '2025-11-25'
+                    } 
+                },
+                
+                // ノード（開発チケット）
+                { 
+                    data: { 
+                        id: 'ticket1', 
+                        label: 'チケット1\nRedis導入', 
+                        type: '開発チケット',
+                        status: 'done',
+                        assignee: '鈴木一郎',
+                        dueDate: '2025-11-26'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket2', 
+                        label: 'チケット2\nセッションAPI実装', 
+                        type: '開発チケット',
+                        status: 'wip',
+                        assignee: '鈴木一郎',
+                        dueDate: '2025-11-27'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket3', 
+                        label: 'チケット3\nインデックス追加', 
+                        type: '開発チケット',
+                        status: 'todo',
+                        assignee: '未割当',
+                        dueDate: '2025-12-02'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket4', 
+                        label: 'チケット4\nN+1問題解消', 
+                        type: '開発チケット',
+                        status: 'todo',
+                        assignee: '未割当',
+                        dueDate: '2025-12-03'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket5', 
+                        label: 'チケット5\ntry-catch実装', 
+                        type: '開発チケット',
+                        status: 'done',
+                        assignee: '佐藤花子',
+                        dueDate: '2025-11-23'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket6', 
+                        label: 'チケット6\nカスタム例外作成', 
+                        type: '開発チケット',
+                        status: 'done',
+                        assignee: '佐藤花子',
+                        dueDate: '2025-11-24'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket7', 
+                        label: 'チケット7\nログレベル設定', 
+                        type: '開発チケット',
+                        status: 'done',
+                        assignee: '山田次郎',
+                        dueDate: '2025-11-24'
+                    } 
+                },
+                { 
+                    data: { 
+                        id: 'ticket8', 
+                        label: 'チケット8\nログローテーション', 
+                        type: '開発チケット',
+                        status: 'done',
+                        assignee: '山田次郎',
+                        dueDate: '2025-11-25'
+                    } 
+                },
+                
+                // エッジ（関係性）
+                // 課題 → 施策
+                { data: { source: 'task1', target: 'solution1' } },
+                { data: { source: 'task1', target: 'solution2' } },
+                { data: { source: 'task2', target: 'solution2' } },
+                { data: { source: 'task2', target: 'solution3' } },
+                { data: { source: 'task2', target: 'solution4' } },
+                
+                // 施策 → 機能要件
+                { data: { source: 'solution1', target: 'feature1' } },
+                { data: { source: 'solution2', target: 'feature2' } },
+                { data: { source: 'solution2', target: 'feature3' } },
+                { data: { source: 'solution3', target: 'feature3' } },
+                { data: { source: 'solution4', target: 'feature4' } },
+                
+                // 機能要件 → 開発チケット
+                { data: { source: 'feature1', target: 'ticket1' } },
+                { data: { source: 'feature1', target: 'ticket2' } },
+                { data: { source: 'feature2', target: 'ticket2' } },
+                { data: { source: 'feature2', target: 'ticket4' } },
+                { data: { source: 'feature3', target: 'ticket5' } },
+                { data: { source: 'feature3', target: 'ticket3' } },
+                { data: { source: 'feature3', target: 'ticket6' } },
+                { data: { source: 'feature4', target: 'ticket7' } },
+                { data: { source: 'feature4', target: 'ticket8' } }
+            ],
+            
+            // スタイル定義
+            style: [
+                {
+                    selector: 'node',
+                    style: {
+                        'label': 'data(label)',
+                        'text-valign': 'center',
+                        'text-halign': 'center',
+                        'text-wrap': 'wrap',
+                        'text-max-width': '80px',
+                        'width': 100,
+                        'height': 100,
+                        'border-width': 3,
+                        'border-color': '#333',
+                        'font-size': '12px',
+                        'font-weight': 'bold'
+                    }
+                },
+                // ステータスごとの色分け
+                {
+                    selector: 'node[status="todo"]',
+                    style: {
+                        'background-color': '#bbb'
+                    }
+                },
+                {
+                    selector: 'node[status="wip"]',
+                    style: {
+                        'background-color': '#f9ca24'
+                    }
+                },
+                {
+                    selector: 'node[status="done"]',
+                    style: {
+                        'background-color': '#6ab04c'
+                    }
+                },
+                // 課題タスクは四角形
+                {
+                    selector: 'node[type="課題タスク"]',
+                    style: {
+                        'shape': 'roundrectangle'
+                    }
+                },
+                // 施策タスクは円形
+                {
+                    selector: 'node[type="施策タスク"]',
+                    style: {
+                        'shape': 'ellipse'
+                    }
+                },
+                // 機能要件は六角形
+                {
+                    selector: 'node[type="機能要件"]',
+                    style: {
+                        'shape': 'hexagon'
+                    }
+                },
+                // 開発チケットは菱形
+                {
+                    selector: 'node[type="開発チケット"]',
+                    style: {
+                        'shape': 'diamond',
+                        'width': 110,
+                        'height': 110
+                    }
+                },
+                // エッジのスタイル
+                {
+                    selector: 'edge',
+                    style: {
+                        'width': 3,
+                        'line-color': '#999',
+                        'target-arrow-color': '#999',
+                        'target-arrow-shape': 'triangle',
+                        'curve-style': 'bezier',
+                        'arrow-scale': 1.5
+                    }
+                },
+                // 選択時のスタイル
+                {
+                    selector: ':selected',
+                    style: {
+                        'border-width': 5,
+                        'border-color': '#e74c3c'
+                    }
+                }
+            ],
+            
+            // レイアウト設定
+            layout: {
+                name: 'dagre',  // Directed Acyclic Graph レイアウトに変更
+                rankDir: 'LR',  // Left to Right（左から右）
+                nodeSep: 80,    // ノード間の横間隔
+                rankSep: 150,   // 階層間の間隔
+                padding: 30
+            }
+        });
+        
+        // ノードクリック時のイベント
+        cy.on('tap', 'node', function(evt){
+            var node = evt.target;
+            var data = node.data();
+            
+            var statusText = {
+                'todo': '未着手',
+                'wip': '進行中',
+                'done': '完了'
+            }[data.status];
+            
+            var info = `
+                <strong>📋 ${data.type}</strong><br>
+                タスク名: ${data.label.replace('\n', ' ')}<br>
+                ステータス: ${statusText}<br>
+                担当者: ${data.assignee}<br>
+                期限: ${data.dueDate}
+            `;
+            
+            document.getElementById('node-info').innerHTML = info;
+        });
+        
+        // エッジクリック時のイベント
+        cy.on('tap', 'edge', function(evt){
+            var edge = evt.target;
+            var sourceNode = cy.getElementById(edge.data('source'));
+            var targetNode = cy.getElementById(edge.data('target'));
+            
+            var info = `
+                <strong>🔗 タスク依存関係</strong><br>
+                ${sourceNode.data('label').replace('\n', ' ')} 
+                → 
+                ${targetNode.data('label').replace('\n', ' ')}
+            `;
+            
+            document.getElementById('node-info').innerHTML = info;
+        });
+        
+        // コントロールボタンのイベント
+        document.getElementById('zoom-in').addEventListener('click', function() {
+            cy.zoom(cy.zoom() * 1.2);
+            cy.center();
+        });
+        
+        document.getElementById('zoom-out').addEventListener('click', function() {
+            cy.zoom(cy.zoom() * 0.8);
+            cy.center();
+        });
+        
+        document.getElementById('fit').addEventListener('click', function() {
+            cy.fit(null, 50);
+        });
+        
+        document.getElementById('reset').addEventListener('click', function() {
+            cy.zoom(1);
+            cy.center();
+        });
+    </script>
+</body>
+</html>

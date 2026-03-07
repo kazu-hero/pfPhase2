@@ -1,0 +1,1775 @@
+﻿QualifiedApiName,Label,KeyPrefix,DurableId,NamespacePrefix,IsCustomizable,IsCustomSetting
+AcceptedEventRelation,蜿ょ刈陦悟虚繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,,AcceptedEventRelation,,false,false
+Account,蜿門ｼ募・,001,Account,,true,false
+AccountChangeEvent,蜿門ｼ募・ 螟画峩繧､繝吶Φ繝・1CE,AccountChangeEvent,,false,false
+AccountCleanInfo,蜿門ｼ募・繧ｯ繝ｪ繝ｼ繝ｳ繧｢繝・・諠・ｱ,1CA,AccountCleanInfo,,true,false
+AccountCleanInfoChangeEvent,蜿門ｼ募・繧ｯ繝ｪ繝ｼ繝ｳ繧｢繝・・諠・ｱ 螟画峩繧､繝吶Φ繝・1CE,AccountCleanInfoChangeEvent,,false,false
+AccountContactRole,蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ,02Z,AccountContactRole,,false,false
+AccountContactRoleChangeEvent,蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ 螟画峩繧､繝吶Φ繝・1CE,AccountContactRoleChangeEvent,,false,false
+AccountFeed,蜿門ｼ募・繝輔ぅ繝ｼ繝・0D5,AccountFeed,,false,false
+AccountHistory,蜿門ｼ募・螻･豁ｴ,017,AccountHistory,,false,false
+AccountPartner,蜿門ｼ募・繝代・繝医リ繝ｼ,00I,AccountPartner,,false,false
+AccountShare,蜿門ｼ募・縺ｮ蜈ｱ譛・00r,AccountShare,,false,false
+ActionLinkGroupTemplate,繧｢繧ｯ繧ｷ繝ｧ繝ｳ繝ｪ繝ｳ繧ｯ繧ｰ繝ｫ繝ｼ繝励ユ繝ｳ繝励Ξ繝ｼ繝・07g,ActionLinkGroupTemplate,,false,false
+ActionLinkTemplate,繧｢繧ｯ繧ｷ繝ｧ繝ｳ繝ｪ繝ｳ繧ｯ繝・Φ繝励Ξ繝ｼ繝・07l,ActionLinkTemplate,,false,false
+ActivationTarget,譛牙柑蛹門ｯｾ雎｡,85U,ActivationTarget,,true,false
+ActivationTargetFeed,譛牙柑蛹門ｯｾ雎｡ 繝輔ぅ繝ｼ繝・0D5,ActivationTargetFeed,,false,false
+ActivationTargetHistory,譛牙柑蛹門ｯｾ雎｡螻･豁ｴ,017,ActivationTargetHistory,,false,false
+ActivationTargetPlatform,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝,4q9,ActivationTargetPlatform,,false,false
+ActivationTargetPlatformHistory,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝螻･豁ｴ,017,ActivationTargetPlatformHistory,,false,false
+ActivationTargetPlatformShare,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝 蜈ｱ譛・02c,ActivationTargetPlatformShare,,false,false
+ActivationTargetSecureFTP,譛牙柑蛹門ｯｾ雎｡繧ｻ繧ｭ繝･繧｢ FTP,16R,ActivationTargetSecureFTP,,false,false
+ActivationTargetShare,譛牙柑蛹門ｯｾ雎｡ 蜈ｱ譛・02c,ActivationTargetShare,,false,false
+ActivationTrgtIntOrgAccess,譛牙柑蛹門ｯｾ雎｡縺ｮ蜀・Κ邨・ｹ斐い繧ｯ繧ｻ繧ｹ,85V,ActivationTrgtIntOrgAccess,,false,false
+ActivationTrgtIntOrgAccessFeed,譛牙柑蛹門ｯｾ雎｡縺ｮ蜀・Κ邨・ｹ斐い繧ｯ繧ｻ繧ｹ 繝輔ぅ繝ｼ繝・0D5,ActivationTrgtIntOrgAccessFeed,,false,false
+ActivationTrgtIntOrgAccessHistory,譛牙柑蛹門ｯｾ雎｡縺ｮ蜀・Κ邨・ｹ斐い繧ｯ繧ｻ繧ｹ螻･豁ｴ,017,ActivationTrgtIntOrgAccessHistory,,false,false
+ActivationTrgtIntOrgAccessShare,譛牙柑蛹門ｯｾ雎｡縺ｮ蜀・Κ邨・ｹ斐い繧ｯ繧ｻ繧ｹ 蜈ｱ譛・02c,ActivationTrgtIntOrgAccessShare,,false,false
+ActiveFeatureLicenseMetric,譛牙柑縺ｪ讖溯・繝ｩ繧､繧ｻ繝ｳ繧ｹ繝｡繝医Μ繧ｯ繧ｹ,5H2,ActiveFeatureLicenseMetric,,false,false
+ActivePermSetLicenseMetric,譛牙柑縺ｪ讓ｩ髯舌そ繝・ヨ繝ｩ繧､繧ｻ繝ｳ繧ｹ繝｡繝医Μ繧ｯ繧ｹ,5H1,ActivePermSetLicenseMetric,,false,false
+ActiveProfileMetric,譛牙柑縺ｪ繝励Ο繝輔ぃ繧､繝ｫ繝｡繝医Μ繧ｯ繧ｹ,5H0,ActiveProfileMetric,,false,false
+ActiveScratchOrg,譛牙柑縺ｪ繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ・2AS,ActiveScratchOrg,,true,false
+ActiveScratchOrgFeed,譛牙柑縺ｪ繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ斐ヵ繧｣繝ｼ繝・0D5,ActiveScratchOrgFeed,,false,false
+ActiveScratchOrgHistory,譛牙柑縺ｪ繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ斐・螻･豁ｴ,017,ActiveScratchOrgHistory,,false,false
+ActiveScratchOrgShare,譛牙柑縺ｪ繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ・蜈ｱ譛・02c,ActiveScratchOrgShare,,false,false
+ActivityFieldHistory,Activity Field Histories,2fp,ActivityFieldHistory,,false,false
+ActivityHistory,豢ｻ蜍募ｱ･豁ｴ,,ActivityHistory,,false,false
+ActorReactiveAskRespEvent,繧｢繧ｯ繧ｿ繝ｼ蜿榊ｿ懷梛雉ｪ蝠丞ｿ懃ｭ斐う繝吶Φ繝・1s9,ActorReactiveAskRespEvent,,false,false
+ActualAmount__c,螳溽ｸｾ,a12,01IdL00000Bcl2n,,true,false
+ActualAmount__ChangeEvent,螟画峩繧､繝吶Φ繝・ 螳溽ｸｾ,1CE,01IdL00000Bcl2n.ChangeEvent,,false,false
+ActualAmount__History,螻･豁ｴ: 螳溽ｸｾ,017,01IdL00000Bcl2n.History,,false,false
+ActvTgtPlatformFieldValue,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝鬆・岼蛟､,3q9,ActvTgtPlatformFieldValue,,false,false
+ActvTgtPlatformFieldValueHistory,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝鬆・岼蛟､螻･豁ｴ,017,ActvTgtPlatformFieldValueHistory,,false,false
+ActvTgtPlatformFieldValueShare,譛牙柑蛹門ｯｾ雎｡繝励Λ繝・ヨ繝輔か繝ｼ繝鬆・岼蛟､ 蜈ｱ譛・02c,ActvTgtPlatformFieldValueShare,,false,false
+AdditionalNumber,霑ｽ蜉繝・ぅ繝ｬ繧ｯ繝医Μ逡ｪ蜿ｷ,04m,AdditionalNumber,,false,false
+Address,菴乗園,130,Address,,true,false
+AddressHistory,菴乗園螻･豁ｴ,017,AddressHistory,,false,false
+AgentWork,繧ｨ繝ｼ繧ｸ繧ｧ繝ｳ繝医・菴懈･ｭ,0Bz,AgentWork,,true,false
+AgentWorkChangeEvent,繧ｨ繝ｼ繧ｸ繧ｧ繝ｳ繝医・菴懈･ｭ 螟画峩繧､繝吶Φ繝・1CE,AgentWorkChangeEvent,,false,false
+AgentWorkShare,繧ｨ繝ｼ繧ｸ繧ｧ繝ｳ繝医・菴懈･ｭ 蜈ｱ譛・02c,AgentWorkShare,,false,false
+AggregateResult,髮・ｨ育ｵ先棡,,AggregateResult,,false,false
+AIAgentStatusEvent,AI Agent Status Event,1Re,AIAgentStatusEvent,,false,false
+AIApplication,AI 繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,0Pp,AIApplication,,false,false
+AIApplicationConfig,AI 繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ險ｭ螳・6S9,AIApplicationConfig,,false,false
+AIInsightAction,AIInsightActions,9qd,AIInsightAction,,false,false
+AIInsightFeedback,AI 繧､繝ｳ繧ｵ繧､繝医ヵ繧｣繝ｼ繝峨ヰ繝・け,9bq,AIInsightFeedback,,false,false
+AIInsightReason,AI 繧､繝ｳ繧ｵ繧､繝育炊逕ｱ,0T2,AIInsightReason,,false,false
+AIInsightValue,AI Insight Value,9qc,AIInsightValue,,false,false
+AiJobRun,AI 繧ｸ繝ｧ繝門ｮ溯｡・91b,AiJobRun,,false,false
+AiJobRunItem,AI 繧ｸ繝ｧ繝門ｮ溯｡碁・岼,91c,AiJobRunItem,,false,false
+AiJobRunItemShare,AI 繧ｸ繝ｧ繝門ｮ溯｡碁・岼 蜈ｱ譛・02c,AiJobRunItemShare,,false,false
+AiJobRunShare,AI 繧ｸ繝ｧ繝門ｮ溯｡・蜈ｱ譛・02c,AiJobRunShare,,false,false
+AiJobRunStatusEvent,AI 繧ｸ繝ｧ繝門ｮ溯｡檎憾豕√う繝吶Φ繝・91d,AiJobRunStatusEvent,,false,false
+AiPluginUtteranceDef,逕滓・ AI 繝励Λ繧ｰ繧､繝ｳ逋ｺ險螳夂ｾｩ,31N,AiPluginUtteranceDef,,false,false
+AIPredictionEvent,AI 莠域ｸｬ繧､繝吶Φ繝・0ae,AIPredictionEvent,,false,false
+AiPromptTemplateGenEvent,AI Prompt Template Generated Event,3pt,AiPromptTemplateGenEvent,,false,false
+AIRecordInsight,AI 繝ｬ繧ｳ繝ｼ繝峨う繝ｳ繧ｵ繧､繝・9qb,AIRecordInsight,,false,false
+AITrustAttribute,AI 菫｡鬆ｼ螻樊ｧ,9HO,AITrustAttribute,,false,false
+AITrustAttrSetup,AI 菫｡鬆ｼ螻樊ｧ險ｭ螳・8H2,AITrustAttrSetup,,false,false
+AIWorksheetColProcEvent,AI 繝ｯ繝ｼ繧ｯ繧ｷ繝ｼ繝亥・蜃ｦ逅・う繝吶Φ繝・1W8,AIWorksheetColProcEvent,,false,false
+AlternativePaymentMethod,莉｣譖ｿ謾ｯ謇墓婿豕・8Z7,AlternativePaymentMethod,,true,false
+AlternativePaymentMethodShare,莉｣譖ｿ謾ｯ謇墓婿豕・蜈ｱ譛・02c,AlternativePaymentMethodShare,,false,false
+AnalyticsAssetAction,Analytics Asset Action,2U9,AnalyticsAssetAction,,false,false
+AnalyticsButtonWidgetDef,Analytics Button Widget Definition,1DB,AnalyticsButtonWidgetDef,,false,false
+AnalyticsContainerWidgetDef,Analytics 繧ｳ繝ｳ繝・リ繧ｦ繧｣繧ｸ繧ｧ繝・ヨ螳夂ｾｩ,2aa,AnalyticsContainerWidgetDef,,false,false
+AnalyticsDashboard,Analytics 繝繝・す繝･繝懊・繝・0Tr,AnalyticsDashboard,,false,false
+AnalyticsDashboardLayout,Analytics Dashboard Layout,0Wn,AnalyticsDashboardLayout,,false,false
+AnalyticsDashboardPage,Analytics Dashboard Page,0kh,AnalyticsDashboardPage,,false,false
+AnalyticsDashboardViewDef,Analytics Dashboard Custom View,1OL,AnalyticsDashboardViewDef,,false,false
+AnalyticsDashboardViewSpec,Analytics 繝繝・す繝･繝懊・繝峨き繧ｹ繧ｿ繝繝薙Η繝ｼ莉墓ｧ・1OK,AnalyticsDashboardViewSpec,,false,false
+AnalyticsDashboardWidget,Analytics Dashboard Widget,0Wd,AnalyticsDashboardWidget,,false,false
+AnalyticsDashPageWidget,Analytics Dashboard Page Widget,0Wm,AnalyticsDashPageWidget,,false,false
+AnalyticsFilterWidgetDef,Analytics Filter Widget Definition,1Ad,AnalyticsFilterWidgetDef,,false,false
+AnalyticsMetricWidgetDef,Analytics Metric Widget Definition,1Fa,AnalyticsMetricWidgetDef,,false,false
+AnalyticsParamWidgetDef,Analytics Parameter Widget Definition,1Fb,AnalyticsParamWidgetDef,,false,false
+AnalyticsTaskStatusEvent,AnalyticsTaskStatusEvent,1JX,AnalyticsTaskStatusEvent,,false,false
+AnalyticsTextWidgetDef,Analytics Text Widget Definition,1Ab,AnalyticsTextWidgetDef,,false,false
+AnalyticsUserAttrFuncTkn,蛻・梵繝ｦ繝ｼ繧ｶ繝ｼ螻樊ｧ髢｢謨ｰ繝医・繧ｯ繝ｳ,1P3,AnalyticsUserAttrFuncTkn,,false,false
+AnalyticsUserAttrFuncTknShare,蛻・梵繝ｦ繝ｼ繧ｶ繝ｼ螻樊ｧ髢｢謨ｰ繝医・繧ｯ繝ｳ 蜈ｱ譛・02c,AnalyticsUserAttrFuncTknShare,,false,false
+AnalyticsVisualization,Analytics Visualization,1AK,AnalyticsVisualization,,false,false
+AnalyticsVizField,Analytics Visualization Field,1Hb,AnalyticsVizField,,false,false
+AnalyticsVizViewDef,Analytics Visualization View Definition,1Ha,AnalyticsVizViewDef,,false,false
+AnalyticsVizWidgetDef,Analytics Visualization Widget Definition,1AL,AnalyticsVizWidgetDef,,false,false
+AnalyticsWorkspace,蛻・梵繝ｯ繝ｼ繧ｯ繧ｹ繝壹・繧ｹ,1Dy,AnalyticsWorkspace,,false,false
+AnalyticsWorkspaceAsset,蛻・梵繝ｯ繝ｼ繧ｯ繧ｹ繝壹・繧ｹ繧｢繧ｻ繝・ヨ,1Dz,AnalyticsWorkspaceAsset,,false,false
+Announcement,縺顔衍繧峨○,0Bt,Announcement,,false,false
+ApexClass,Apex 繧ｯ繝ｩ繧ｹ,01p,ApexClass,,false,false
+ApexComponent,Visualforce 繧ｳ繝ｳ繝昴・繝阪Φ繝・099,ApexComponent,,false,false
+ApexEmailNotification,Apex 繝｡繝ｼ繝ｫ騾夂衍,06j,ApexEmailNotification,,false,false
+ApexLog,Apex 繝・ヰ繝・げ繝ｭ繧ｰ,07L,ApexLog,,false,false
+ApexPage,Visualforce 繝壹・繧ｸ,066,ApexPage,,false,false
+ApexPageInfo,Apex 繝壹・繧ｸ諠・ｱ,4ve,ApexPageInfo,,false,false
+ApexTestQueueItem,Apex 繝・せ繝医く繝･繝ｼ鬆・岼,709,ApexTestQueueItem,,false,false
+ApexTestResult,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝・せ繝育ｵ先棡,07M,ApexTestResult,,false,false
+ApexTestResultLimits,Apex 繝・せ繝育ｵ先棡蛻ｶ髯・05n,ApexTestResultLimits,,false,false
+ApexTestRunResult,Apex 繝・せ繝亥ｮ溯｡檎ｵ先棡,05m,ApexTestRunResult,,false,false
+ApexTestSuite,Apex 繝・せ繝医せ繧､繝ｼ繝・05F,ApexTestSuite,,false,false
+ApexTrigger,Apex 繝医Μ繧ｬ繝ｼ,01q,ApexTrigger,,false,false
+ApexTypeImplementor,Apex 蝙句ｮ溯｣・・0kt,ApexTypeImplementor,,false,false
+ApiAnomalyEvent,API 逡ｰ蟶ｸ繧､繝吶Φ繝・0j5,ApiAnomalyEvent,,false,false
+ApiAnomalyEventStore,API 逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い,0j6,ApiAnomalyEventStore,,false,false
+ApiAnomalyEventStoreFeed,API 逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,ApiAnomalyEventStoreFeed,,false,false
+ApiEvent,API 繧､繝吶Φ繝・07t,ApiEvent,,false,false
+ApiEventStream,API 繧､繝吶Φ繝医せ繝医Μ繝ｼ繝,0QI,ApiEventStream,,false,false
+ApiPrtcPolicyChangeEvent,API 菫晁ｭｷ繝昴Μ繧ｷ繝ｼ縺ｮ螟画峩繧､繝吶Φ繝・1Z3,ApiPrtcPolicyChangeEvent,,false,false
+AppAnalyticsQueryRequest,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ蛻・梵繧ｯ繧ｨ繝ｪ隕∵ｱ・0XI,AppAnalyticsQueryRequest,,false,false
+AppDefinition,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ螳夂ｾｩ,06m,AppDefinition,,false,false
+AppMenuItem,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝｡繝九Η繝ｼ鬆・岼,0DS,AppMenuItem,,false,false
+AppointmentAssignmentPolicy,莠亥ｮ壹・蜑ｲ繧雁ｽ薙※繝昴Μ繧ｷ繝ｼ,0mT,AppointmentAssignmentPolicy,,false,false
+AppointmentCategory,莠亥ｮ壹き繝・ざ繝ｪ,11x,AppointmentCategory,,true,false
+AppointmentCategoryFeed,__MISSING LABEL__ PropertyFile - val AppointmentCategory not found in section StandardFeedLabel,0D5,AppointmentCategoryFeed,,false,false
+AppointmentCategoryHistory,莠亥ｮ壹き繝・ざ繝ｪ螻･豁ｴ,017,AppointmentCategoryHistory,,false,false
+AppointmentInvitation,莠亥ｮ壽魚蠕・1S8,AppointmentInvitation,,true,false
+AppointmentInvitationFeed,__MISSING LABEL__ PropertyFile - val AppointmentInvitation not found in section StandardFeedLabel,0D5,AppointmentInvitationFeed,,false,false
+AppointmentInvitationHistory,莠亥ｮ壽魚蠕・・螻･豁ｴ,017,AppointmentInvitationHistory,,false,false
+AppointmentInvitationShare,莠亥ｮ壽魚蠕・蜈ｱ譛・02c,AppointmentInvitationShare,,false,false
+AppointmentInvitee,莠亥ｮ壽魚蠕・・0y6,AppointmentInvitee,,true,false
+AppointmentScheduleAggr,Appointment Schedule Aggregates,7yO,AppointmentScheduleAggr,,false,false
+AppointmentScheduleLog,Appointment Schedule Logs,5mU,AppointmentScheduleLog,,false,false
+AppointmentSchedulingPolicy,莠亥ｮ壹せ繧ｱ繧ｸ繝･繝ｼ繝ｫ繝昴Μ繧ｷ繝ｼ,0Vr,AppointmentSchedulingPolicy,,false,false
+AppointmentTopicTimeSlot,莠亥ｮ壹・繝医ヴ繝・け譎る俣譫,0mS,AppointmentTopicTimeSlot,,true,false
+AppointmentTopicTimeSlotFeed,__MISSING LABEL__ PropertyFile - val AppointmentTopicTimeSlot not found in section StandardFeedLabel,0D5,AppointmentTopicTimeSlotFeed,,false,false
+AppointmentTopicTimeSlotHistory,莠亥ｮ壹・繝医ヴ繝・け譎る俣譫螻･豁ｴ,017,AppointmentTopicTimeSlotHistory,,false,false
+ApprovalSubmission,謠仙・縺励◆謇ｿ隱咲筏隲・9iP,ApprovalSubmission,,true,false
+ApprovalSubmissionDetail,謠仙・縺励◆謇ｿ隱咲筏隲九・隧ｳ邏ｰ,1XE,ApprovalSubmissionDetail,,true,false
+ApprovalSubmissionDetailFeed,__MISSING LABEL__ PropertyFile - val ApprovalSubmissionDetail not found in section StandardFeedLabel,0D5,ApprovalSubmissionDetailFeed,,false,false
+ApprovalSubmissionDetailHistory,謠仙・縺励◆謇ｿ隱咲筏隲九・隧ｳ邏ｰ螻･豁ｴ,017,ApprovalSubmissionDetailHistory,,false,false
+ApprovalSubmissionFeed,__MISSING LABEL__ PropertyFile - val ApprovalSubmission not found in section StandardFeedLabel,0D5,ApprovalSubmissionFeed,,false,false
+ApprovalSubmissionHistory,謠仙・縺励◆謇ｿ隱咲筏隲句ｱ･豁ｴ,017,ApprovalSubmissionHistory,,false,false
+ApprovalSubmissionShare,謠仙・縺励◆謇ｿ隱咲筏隲・蜈ｱ譛・02c,ApprovalSubmissionShare,,false,false
+ApprovalWorkItem,謇ｿ隱堺ｽ懈･ｭ鬆・岼,9jR,ApprovalWorkItem,,true,false
+ApprovalWorkItemFeed,__MISSING LABEL__ PropertyFile - val ApprovalWorkItem not found in section StandardFeedLabel,0D5,ApprovalWorkItemFeed,,false,false
+ApprovalWorkItemHistory,謇ｿ隱堺ｽ懈･ｭ鬆・岼螻･豁ｴ,017,ApprovalWorkItemHistory,,false,false
+AppTabMember,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｿ繝悶Γ繝ｳ繝舌・,06o,AppTabMember,,false,false
+AppUsageAssignment,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ蛻ｩ逕ｨ蜑ｲ繧雁ｽ薙※,0j8,AppUsageAssignment,,false,false
+AsgnRsrcApptSchdEvent,蜑ｲ繧雁ｽ薙※貂医∩繝ｪ繧ｽ繝ｼ繧ｹ縺ｮ莠亥ｮ壹・繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ繧､繝吶Φ繝・4OG,AsgnRsrcApptSchdEvent,,false,false
+Asset,邏榊・蝠・刀,02i,Asset,,true,false
+AssetAction,邏榊・蝠・刀繧｢繧ｯ繧ｷ繝ｧ繝ｳ,4nL,AssetAction,,true,false
+AssetActionSource,邏榊・蝠・刀繧｢繧ｯ繧ｷ繝ｧ繝ｳ繧ｽ繝ｼ繧ｹ,4nM,AssetActionSource,,true,false
+AssetChangeEvent,邏榊・蝠・刀 螟画峩繧､繝吶Φ繝・1CE,AssetChangeEvent,,false,false
+AssetFeed,邏榊・蝠・刀繝輔ぅ繝ｼ繝・0D5,AssetFeed,,false,false
+AssetHistory,邏榊・蝠・刀螻･豁ｴ,017,AssetHistory,,false,false
+AssetRelationship,邏榊・蝠・刀繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,1AR,AssetRelationship,,true,false
+AssetRelationshipChangeEvent,邏榊・蝠・刀繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,AssetRelationshipChangeEvent,,false,false
+AssetRelationshipFeed,邏榊・蝠・刀繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,AssetRelationshipFeed,,false,false
+AssetRelationshipHistory,邏榊・蝠・刀繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,AssetRelationshipHistory,,false,false
+AssetShare,邏榊・蝠・刀蜈ｱ譛・70a,AssetShare,,false,false
+AssetStatePeriod,邏榊・蝠・刀迥ｶ諷区悄髢・4nK,AssetStatePeriod,,true,false
+AssetTokenEvent,邏榊・蝠・刀繝医・繧ｯ繝ｳ繧､繝吶Φ繝・0Li,AssetTokenEvent,,false,false
+AssignedResource,蜑ｲ繧雁ｽ薙※貂医∩繝ｪ繧ｽ繝ｼ繧ｹ,03r,AssignedResource,,true,false
+AssignedResourceChangeEvent,蜑ｲ繧雁ｽ薙※貂医∩繝ｪ繧ｽ繝ｼ繧ｹ 螟画峩繧､繝吶Φ繝・1CE,AssignedResourceChangeEvent,,false,false
+AssignedResourceFeed,蜑ｲ繧雁ｽ薙※貂医∩繝ｪ繧ｽ繝ｼ繧ｹ繝輔ぅ繝ｼ繝・0D5,AssignedResourceFeed,,false,false
+AssignedResourceHistory,蜑ｲ繧雁ｽ薙※貂医∩繝ｪ繧ｽ繝ｼ繧ｹ螻･豁ｴ,017,AssignedResourceHistory,,false,false
+AssignmentRule,蜑ｲ繧雁ｽ薙※繝ｫ繝ｼ繝ｫ,01Q,AssignmentRule,,false,false
+AssociatedLocation,髢｢騾｣莉倥￠繧峨ｌ縺溘Ο繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,0Kt,AssociatedLocation,,true,false
+AssociatedLocationChangeEvent,髢｢騾｣莉倥￠繧峨ｌ縺溘Ο繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,AssociatedLocationChangeEvent,,false,false
+AssociatedLocationHistory,髢｢騾｣莉倥￠繧峨ｌ縺溘Ο繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,AssociatedLocationHistory,,false,false
+AsyncApexJob,Apex 繧ｸ繝ｧ繝・707,AsyncApexJob,,false,false
+AsyncOperationEvent,Async Operation Event,0Xw,AsyncOperationEvent,,false,false
+AsyncOperationLog,髱槫酔譛滓桃菴懊Ο繧ｰ,1ao,AsyncOperationLog,,false,false
+AsyncOperationStatus,Async Operation Status,0YD,AsyncOperationStatus,,false,false
+AttachedContentDocument,豺ｻ莉倥＆繧後◆繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝・,AttachedContentDocument,,false,false
+AttachedContentNote,繝｡繝｢,,AttachedContentNote,,false,false
+Attachment,豺ｻ莉倥ヵ繧｡繧､繝ｫ,00P,Attachment,,false,false
+AuraDefinition,Lightning 繧ｳ繝ｳ繝昴・繝阪Φ繝亥ｮ夂ｾｩ,0Ad,AuraDefinition,,false,false
+AuraDefinitionBundle,Aura 繧ｳ繝ｳ繝昴・繝阪Φ繝医ヰ繝ｳ繝峨Ν,0Ab,AuraDefinitionBundle,,false,false
+AuraDefinitionBundleInfo,Aura 螳夂ｾｩ繝舌Φ繝峨Ν諠・ｱ,0ab,AuraDefinitionBundleInfo,,false,false
+AuraDefinitionInfo,Aura 螳夂ｾｩ諠・ｱ,0ad,AuraDefinitionInfo,,false,false
+AuthConfig,隱崎ｨｼ險ｭ螳・07T,AuthConfig,,false,false
+AuthConfigProviders,隱崎ｨｼ險ｭ螳夊ｪ崎ｨｼ繝励Ο繝舌う繝繝ｼ,07U,AuthConfigProviders,,false,false
+AuthorizationForm,隱崎ｨｼ繝輔か繝ｼ繝,0cI,AuthorizationForm,,true,false
+AuthorizationFormChangeEvent,隱崎ｨｼ繝輔か繝ｼ繝 螟画峩繧､繝吶Φ繝・1CE,AuthorizationFormChangeEvent,,false,false
+AuthorizationFormConsent,隱崎ｨｼ繝輔か繝ｼ繝蜷梧э,0cK,AuthorizationFormConsent,,true,false
+AuthorizationFormConsentChangeEvent,隱崎ｨｼ繝輔か繝ｼ繝蜷梧э 螟画峩繧､繝吶Φ繝・1CE,AuthorizationFormConsentChangeEvent,,false,false
+AuthorizationFormConsentHistory,隱崎ｨｼ繝輔か繝ｼ繝蜷梧э螻･豁ｴ,017,AuthorizationFormConsentHistory,,false,false
+AuthorizationFormConsentShare,隱崎ｨｼ繝輔か繝ｼ繝蜷梧э 蜈ｱ譛・02c,AuthorizationFormConsentShare,,false,false
+AuthorizationFormDataUse,隱崎ｨｼ繝輔か繝ｼ繝繝・・繧ｿ縺ｮ菴ｿ逕ｨ,0cM,AuthorizationFormDataUse,,true,false
+AuthorizationFormDataUseChangeEvent,隱崎ｨｼ繝輔か繝ｼ繝繝・・繧ｿ縺ｮ菴ｿ逕ｨ 螟画峩繧､繝吶Φ繝・1CE,AuthorizationFormDataUseChangeEvent,,false,false
+AuthorizationFormDataUseHistory,隱崎ｨｼ繝輔か繝ｼ繝繝・・繧ｿ縺ｮ菴ｿ逕ｨ螻･豁ｴ,017,AuthorizationFormDataUseHistory,,false,false
+AuthorizationFormDataUseShare,隱崎ｨｼ繝輔か繝ｼ繝繝・・繧ｿ縺ｮ菴ｿ逕ｨ 蜈ｱ譛・02c,AuthorizationFormDataUseShare,,false,false
+AuthorizationFormHistory,隱崎ｨｼ繝輔か繝ｼ繝螻･豁ｴ,017,AuthorizationFormHistory,,false,false
+AuthorizationFormShare,隱崎ｨｼ繝輔か繝ｼ繝 蜈ｱ譛・02c,AuthorizationFormShare,,false,false
+AuthorizationFormText,隱崎ｨｼ繝輔か繝ｼ繝繝・く繧ｹ繝・0cN,AuthorizationFormText,,true,false
+AuthorizationFormTextChangeEvent,隱崎ｨｼ繝輔か繝ｼ繝繝・く繧ｹ繝・螟画峩繧､繝吶Φ繝・1CE,AuthorizationFormTextChangeEvent,,false,false
+AuthorizationFormTextFeed,隱崎ｨｼ繝輔か繝ｼ繝繝・く繧ｹ繝医ヵ繧｣繝ｼ繝・0D5,AuthorizationFormTextFeed,,false,false
+AuthorizationFormTextHistory,隱崎ｨｼ繝輔か繝ｼ繝繝・く繧ｹ繝亥ｱ･豁ｴ,017,AuthorizationFormTextHistory,,false,false
+AuthProvider,隱崎ｨｼ繝励Ο繝舌う繝繝ｼ,0SO,AuthProvider,,false,false
+AuthProvParamFwdAllowlist,隱崎ｨｼ繝励Ο繝舌う繝繝ｼ繝代Λ繝｡繝ｼ繧ｿ繝ｼ霆｢騾∬ｨｱ蜿ｯ繝ｪ繧ｹ繝・1Dg,AuthProvParamFwdAllowlist,,false,false
+AuthSession,隱崎ｨｼ繧ｻ繝・す繝ｧ繝ｳ,0Ak,AuthSession,,false,false
+BackgroundOperation,繝舌ャ繧ｯ繧ｰ繝ｩ繧ｦ繝ｳ繝画桃菴・08P,BackgroundOperation,,false,false
+BatchApexErrorEvent,Apex 繧ｨ繝ｩ繝ｼ繝励Λ繝・ヨ繝輔か繝ｼ繝繧､繝吶Φ繝医・荳諡ｬ蜃ｦ逅・1QQ,BatchApexErrorEvent,,false,false
+BotDefinition,繝懊ャ繝・0Xx,BotDefinition,,false,false
+BotVersion,繝懊ャ繝医ヰ繝ｼ繧ｸ繝ｧ繝ｳ,0X9,BotVersion,,false,false
+BrandingSet,繝悶Λ繝ｳ繝峨そ繝・ヨ,0Lw,BrandingSet,,false,false
+BrandingSetProperty,繝悶Λ繝ｳ繝峨そ繝・ヨ繝励Ο繝代ユ繧｣,0Ly,BrandingSetProperty,,false,false
+BrandTemplate,繝ｬ繧ｿ繝ｼ繝倥ャ繝・016,BrandTemplate,,false,false
+BriefcaseAssignment,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ縺ｮ蜑ｲ繧雁ｽ薙※,5LH,BriefcaseAssignment,,false,false
+BriefcaseAssignmentChangeEvent,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ縺ｮ蜑ｲ繧雁ｽ薙※ 螟画峩繧､繝吶Φ繝・1CE,BriefcaseAssignmentChangeEvent,,false,false
+BriefcaseDefinition,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ螳夂ｾｩ,1rY,BriefcaseDefinition,,false,false
+BriefcaseDefinitionChangeEvent,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ螳夂ｾｩ 螟画峩繧､繝吶Φ繝・1CE,BriefcaseDefinitionChangeEvent,,false,false
+BriefcaseRule,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ繝ｫ繝ｼ繝ｫ,1rX,BriefcaseRule,,false,false
+BriefcaseRuleFilter,繝悶Μ繝ｼ繝輔こ繝ｼ繧ｹ繝ｫ繝ｼ繝ｫ讀懃ｴ｢譚｡莉ｶ,1rZ,BriefcaseRuleFilter,,false,false
+BrowserPolicyViolation,繝悶Λ繧ｦ繧ｶ繝ｼ繝昴Μ繧ｷ繝ｼ驕募渚,19y,BrowserPolicyViolation,,false,false
+Budget__c,莠育ｮ・a11,01IdL00000Bcl1B,,true,false
+Budget__ChangeEvent,螟画峩繧､繝吶Φ繝・ 莠育ｮ・1CE,01IdL00000Bcl1B.ChangeEvent,,false,false
+Budget__History,螻･豁ｴ: 莠育ｮ・017,01IdL00000Bcl1B.History,,false,false
+BudgetAndActuals__c,莠育ｮ励→螳溽ｸｾ,a10,01IdL00000Bckxx,,true,false
+BudgetAndActuals__ChangeEvent,螟画峩繧､繝吶Φ繝・ 莠育ｮ励→螳溽ｸｾ,1CE,01IdL00000Bckxx.ChangeEvent,,false,false
+BudgetAndActuals__History,螻･豁ｴ: 莠育ｮ励→螳溽ｸｾ,017,01IdL00000Bckxx.History,,false,false
+BudgetAndActuals__Share,蜈ｱ譛・ 莠育ｮ励→螳溽ｸｾ,02c,01IdL00000Bckxx.Share,,false,false
+BudgetCategory__c,莠育ｮ励き繝・ざ繝ｪ,a0z,01IdL00000BckwL,,true,false
+BudgetCategory__ChangeEvent,螟画峩繧､繝吶Φ繝・ 莠育ｮ励き繝・ざ繝ｪ,1CE,01IdL00000BckwL.ChangeEvent,,false,false
+BudgetCategory__History,螻･豁ｴ: 莠育ｮ励き繝・ざ繝ｪ,017,01IdL00000BckwL.History,,false,false
+BudgetCategory__Share,蜈ｱ譛・ 莠育ｮ励き繝・ざ繝ｪ,02c,01IdL00000BckwL.Share,,false,false
+BulkApiResultEvent,Bulk API 邨先棡繧､繝吶Φ繝・0hx,BulkApiResultEvent,,false,false
+BulkApiResultEventStore,Bulk API 邨先棡繧､繝吶Φ繝医せ繝医い,0hJ,BulkApiResultEventStore,,false,false
+BusinessBrand,繝薙ず繝阪せ繝悶Λ繝ｳ繝・1BU,BusinessBrand,,true,false
+BusinessBrandChangeEvent,繝薙ず繝阪せ繝悶Λ繝ｳ繝・螟画峩繧､繝吶Φ繝・1CE,BusinessBrandChangeEvent,,false,false
+BusinessBrandShare,繝薙ず繝阪せ繝悶Λ繝ｳ繝・蜈ｱ譛・02c,BusinessBrandShare,,false,false
+BusinessHours,蝟ｶ讌ｭ譎る俣,01m,BusinessHours,,false,false
+BusinessProcess,繝薙ず繝阪せ繝励Ο繧ｻ繧ｹ,019,BusinessProcess,,false,false
+BuyerGroup,繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝・0ZI,BuyerGroup,,true,false
+BuyerGroupFeed,繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝励ヵ繧｣繝ｼ繝・0D5,BuyerGroupFeed,,false,false
+BuyerGroupHistory,繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝怜ｱ･豁ｴ,017,BuyerGroupHistory,,false,false
+BuyerGroupShare,繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝・蜈ｱ譛・02c,BuyerGroupShare,,false,false
+CalcInsightStatusEvent,險育ｮ玲ｸ医∩繧､繝ｳ繧ｵ繧､繝育憾豕√う繝吶Φ繝・1e3,CalcInsightStatusEvent,,false,false
+Calendar,繧ｫ繝ｬ繝ｳ繝繝ｼ,023,Calendar,,false,false
+CalendarView,繧ｫ繝ｬ繝ｳ繝繝ｼ,03A,CalendarView,,false,false
+CalendarViewChangeEvent,繧ｫ繝ｬ繝ｳ繝繝ｼ 螟画峩繧､繝吶Φ繝・1CE,CalendarViewChangeEvent,,false,false
+CalendarViewShare,繧ｫ繝ｬ繝ｳ繝繝ｼ 蜈ｱ譛・02c,CalendarViewShare,,false,false
+CallCenter,Call Center,04v,CallCenter,,false,false
+CallCenterRoutingMap,繧ｳ繝ｼ繝ｫ繧ｻ繝ｳ繧ｿ繝ｼ繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ繝槭ャ繝・35A,CallCenterRoutingMap,,false,false
+CallCoachingMediaProvider,CallCoachingMediaProvider,0hn,CallCoachingMediaProvider,,false,false
+Campaign,繧ｭ繝｣繝ｳ繝壹・繝ｳ,701,Campaign,,true,false
+CampaignChangeEvent,繧ｭ繝｣繝ｳ繝壹・繝ｳ 螟画峩繧､繝吶Φ繝・1CE,CampaignChangeEvent,,false,false
+CampaignFeed,繧ｭ繝｣繝ｳ繝壹・繝ｳ繝輔ぅ繝ｼ繝・0D5,CampaignFeed,,false,false
+CampaignHistory,繧ｭ繝｣繝ｳ繝壹・繝ｳ鬆・岼螻･豁ｴ,017,CampaignHistory,,false,false
+CampaignInfluence,繧ｭ繝｣繝ｳ繝壹・繝ｳ繧､繝ｳ繝輔Ν繧ｨ繝ｳ繧ｹ,0KK,CampaignInfluence,,true,false
+CampaignInfluenceModel,繧ｭ繝｣繝ｳ繝壹・繝ｳ繧､繝ｳ繝輔Ν繧ｨ繝ｳ繧ｹ繝｢繝・Ν,03V,CampaignInfluenceModel,,false,false
+CampaignMember,繧ｭ繝｣繝ｳ繝壹・繝ｳ繝｡繝ｳ繝舌・,00v,CampaignMember,,true,false
+CampaignMemberChangeEvent,繧ｭ繝｣繝ｳ繝壹・繝ｳ繝｡繝ｳ繝舌・ 螟画峩繧､繝吶Φ繝・1CE,CampaignMemberChangeEvent,,false,false
+CampaignMemberStatus,繧ｭ繝｣繝ｳ繝壹・繝ｳ繝｡繝ｳ繝舌・縺ｮ迥ｶ豕・01Y,CampaignMemberStatus,,false,false
+CampaignMemberStatusChangeEvent,繧ｭ繝｣繝ｳ繝壹・繝ｳ繝｡繝ｳ繝舌・縺ｮ迥ｶ豕・螟画峩繧､繝吶Φ繝・1CE,CampaignMemberStatusChangeEvent,,false,false
+CampaignShare,繧ｭ繝｣繝ｳ繝壹・繝ｳ縺ｮ蜈ｱ譛・08s,CampaignShare,,false,false
+CardPaymentMethod,繧ｫ繝ｼ繝画ｱｺ貂域婿豕・03O,CardPaymentMethod,,true,false
+CartCheckoutSession,繧ｫ繝ｼ繝医メ繧ｧ繝・け繧｢繧ｦ繝医そ繝・す繝ｧ繝ｳ,2z9,CartCheckoutSession,,false,false
+CartDeliveryGroup,繧ｫ繝ｼ繝磯・騾√げ繝ｫ繝ｼ繝・0a7,CartDeliveryGroup,,true,false
+CartDeliveryGroupChangeEvent,繧ｫ繝ｼ繝磯・騾√げ繝ｫ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,CartDeliveryGroupChangeEvent,,false,false
+CartDeliveryGroupMethod,繧ｫ繝ｼ繝磯・騾√げ繝ｫ繝ｼ繝怜喧譁ｹ豕・7cd,CartDeliveryGroupMethod,,true,false
+CartItem,繧ｫ繝ｼ繝磯・岼,0a9,CartItem,,true,false
+CartItemChangeEvent,繧ｫ繝ｼ繝磯・岼 螟画峩繧､繝吶Φ繝・1CE,CartItemChangeEvent,,false,false
+CartItemPriceAdjustment,繧ｫ繝ｼ繝亥刀逶ｮ萓｡譬ｼ隱ｿ謨ｴ,0U1,CartItemPriceAdjustment,,true,false
+CartItemPriceAdjustmentChangeEvent,繧ｫ繝ｼ繝亥刀逶ｮ萓｡譬ｼ隱ｿ謨ｴ 螟画峩繧､繝吶Φ繝・1CE,CartItemPriceAdjustmentChangeEvent,,false,false
+CartRelatedItem,繧ｫ繝ｼ繝磯未騾｣鬆・岼,0aA,CartRelatedItem,,false,false
+CartRelatedItemChangeEvent,繧ｫ繝ｼ繝磯未騾｣鬆・岼 螟画峩繧､繝吶Φ繝・1CE,CartRelatedItemChangeEvent,,false,false
+CartTax,繧ｫ繝ｼ繝医・遞朱｡・0gT,CartTax,,true,false
+CartTaxChangeEvent,繧ｫ繝ｼ繝医・遞朱｡・螟画峩繧､繝吶Φ繝・1CE,CartTaxChangeEvent,,false,false
+CartValidationOutput,繧ｫ繝ｼ繝医Γ繝・そ繝ｼ繧ｸ,0dP,CartValidationOutput,,true,false
+CartValidationOutputChangeEvent,繧ｫ繝ｼ繝医Γ繝・そ繝ｼ繧ｸ 螟画峩繧､繝吶Φ繝・1CE,CartValidationOutputChangeEvent,,false,false
+Case,繧ｱ繝ｼ繧ｹ,500,Case,,true,false
+CaseChangeEvent,繧ｱ繝ｼ繧ｹ 螟画峩繧､繝吶Φ繝・1CE,CaseChangeEvent,,false,false
+CaseComment,繧ｱ繝ｼ繧ｹ繧ｳ繝｡繝ｳ繝・00a,CaseComment,,false,false
+CaseContactRole,繧ｱ繝ｼ繧ｹ 蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ,03j,CaseContactRole,,false,false
+CaseFeed,繧ｱ繝ｼ繧ｹ繝輔ぅ繝ｼ繝・0D5,CaseFeed,,false,false
+CaseHistory,繧ｱ繝ｼ繧ｹ螻･豁ｴ,017,CaseHistory,,false,false
+CaseHistory2,繧ｱ繝ｼ繧ｹ螻･豁ｴ,02D,CaseHistory2,,false,false
+CaseHistory2ChangeEvent,繧ｱ繝ｼ繧ｹ螻･豁ｴ 螟画峩繧､繝吶Φ繝・1CE,CaseHistory2ChangeEvent,,false,false
+CaseMilestone,繧ｱ繝ｼ繧ｹ繝槭う繝ｫ繧ｹ繝医・繝ｳ,555,CaseMilestone,,false,false
+CaseRelatedIssue,繧ｱ繝ｼ繧ｹ髢｢騾｣縺ｮ蝠城｡・0oL,CaseRelatedIssue,,true,false
+CaseShare,繧ｱ繝ｼ繧ｹ縺ｮ蜈ｱ譛・01n,CaseShare,,false,false
+CaseSolution,繧ｱ繝ｼ繧ｹ 繧ｽ繝ｪ繝･繝ｼ繧ｷ繝ｧ繝ｳ,010,CaseSolution,,false,false
+CaseStatus,繧ｱ繝ｼ繧ｹ縺ｮ迥ｶ豕∝､,,CaseStatus,,false,false
+CaseTeamMember,繧ｱ繝ｼ繧ｹ繝√・繝縺ｮ繝｡繝ｳ繝舌・,0B6,CaseTeamMember,,false,false
+CaseTeamRole,繧ｱ繝ｼ繧ｹ繝√・繝繝｡繝ｳ繝舌・繝ｭ繝ｼ繝ｫ,0B7,CaseTeamRole,,false,false
+CaseTeamTemplate,螳夂ｾｩ貂医∩繧ｱ繝ｼ繧ｹ繝√・繝,0B4,CaseTeamTemplate,,false,false
+CaseTeamTemplateMember,螳夂ｾｩ貂医∩繧ｱ繝ｼ繧ｹ繝√・繝縺ｮ繝｡繝ｳ繝舌・,0B5,CaseTeamTemplateMember,,false,false
+CaseTeamTemplateRecord,螳夂ｾｩ貂医∩繧ｱ繝ｼ繧ｹ繝√・繝繝ｬ繧ｳ繝ｼ繝・0B8,CaseTeamTemplateRecord,,false,false
+CategoryData,繧ｫ繝・ざ繝ｪ繝・・繧ｿ,02o,CategoryData,,false,false
+CategoryNode,繧ｫ繝・ざ繝ｪ繝弱・繝・02n,CategoryNode,,false,false
+CategoryNodeLocalization,繧ｫ繝・ざ繝ｪ繝弱・繝峨・繝ｭ繝ｼ繧ｫ繝ｩ繧､繧ｺ,01j,CategoryNodeLocalization,,false,false
+ChangeRequest,螟画峩隕∵ｱ・0oW,ChangeRequest,,true,false
+ChangeRequestFeed,螟画峩隕∵ｱゅヵ繧｣繝ｼ繝・0D5,ChangeRequestFeed,,false,false
+ChangeRequestHistory,螟画峩隕∵ｱょｱ･豁ｴ,017,ChangeRequestHistory,,false,false
+ChangeRequestRelatedIssue,螟画峩隕∵ｱる未騾｣縺ｮ蝠城｡・0oK,ChangeRequestRelatedIssue,,true,false
+ChangeRequestRelatedIssueFeed,螟画峩隕∵ｱる未騾｣縺ｮ蝠城｡後ヵ繧｣繝ｼ繝・0D5,ChangeRequestRelatedIssueFeed,,false,false
+ChangeRequestRelatedIssueHistory,螟画峩隕∵ｱる未騾｣縺ｮ蝠城｡悟ｱ･豁ｴ,017,ChangeRequestRelatedIssueHistory,,false,false
+ChangeRequestRelatedItem,螟画峩隕∵ｱる未騾｣鬆・岼,0tC,ChangeRequestRelatedItem,,true,false
+ChangeRequestRelatedItemChangeEvent,螟画峩隕∵ｱる未騾｣鬆・岼 螟画峩繧､繝吶Φ繝・1CE,ChangeRequestRelatedItemChangeEvent,,false,false
+ChangeRequestRelatedItemFeed,螟画峩隕∵ｱる未騾｣鬆・岼繝輔ぅ繝ｼ繝・0D5,ChangeRequestRelatedItemFeed,,false,false
+ChangeRequestRelatedItemHistory,螟画峩隕∵ｱる未騾｣鬆・岼螻･豁ｴ,017,ChangeRequestRelatedItemHistory,,false,false
+ChangeRequestShare,螟画峩隕∵ｱ・蜈ｱ譛・02c,ChangeRequestShare,,false,false
+ChatRetirementRdyMetrics,繝√Ε繝・ヨ縺ｮ蟒・ｭ｢貅門ｙ迥ｶ豕√Γ繝医Μ繧ｯ繧ｹ,8JY,ChatRetirementRdyMetrics,,false,false
+ChatterActivity,Chatter 豢ｻ蜍・0ca,ChatterActivity,,false,false
+ChatterExtension,諡｡蠑ｵ,0MY,ChatterExtension,,false,false
+ChatterExtensionConfig,Chatter 諡｡蠑ｵ險ｭ螳・0Ob,ChatterExtensionConfig,,false,false
+ChatterExtensionLocalization,鄙ｻ險ｳ,01j,ChatterExtensionLocalization,,false,false
+ClientBrowser,繧ｯ繝ｩ繧､繧｢繝ｳ繝医ヶ繝ｩ繧ｦ繧ｶ繝ｼ,713,ClientBrowser,,false,false
+CollaborationGroup,繧ｰ繝ｫ繝ｼ繝・0F9,CollaborationGroup,,false,false
+CollaborationGroupFeed,繧ｰ繝ｫ繝ｼ繝励ヵ繧｣繝ｼ繝・0D5,CollaborationGroupFeed,,false,false
+CollaborationGroupMember,繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・,0FB,CollaborationGroupMember,,false,false
+CollaborationGroupMemberRequest,繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・隕∬ｫ・0I5,CollaborationGroupMemberRequest,,false,false
+CollaborationGroupRecord,繧ｰ繝ｫ繝ｼ繝励Ξ繧ｳ繝ｼ繝・0Aa,CollaborationGroupRecord,,false,false
+CollaborationGroupRecordChangeEvent,繧ｰ繝ｫ繝ｼ繝励Ξ繧ｳ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,CollaborationGroupRecordChangeEvent,,false,false
+CollaborationInvitation,Chatter 諡帛ｾ・0H1,CollaborationInvitation,,false,false
+ColorDefinition,濶ｲ螳夂ｾｩ,05k,ColorDefinition,,false,false
+CombinedAttachment,繝｡繝｢縲∵ｷｻ莉倥ヵ繧｡繧､繝ｫ縲；oogle 繝峨く繝･繝｡繝ｳ繝医♀繧医・繝輔ぃ繧､繝ｫ,,CombinedAttachment,,false,false
+CommSubscription,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ,0Xl,CommSubscription,,true,false
+CommSubscriptionChangeEvent,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ 螟画峩繧､繝吶Φ繝・1CE,CommSubscriptionChangeEvent,,false,false
+CommSubscriptionChannelType,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝√Ε繝阪Ν遞ｮ蛻･,0eB,CommSubscriptionChannelType,,true,false
+CommSubscriptionChannelTypeChangeEvent,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝√Ε繝阪Ν遞ｮ蛻･ 螟画峩繧､繝吶Φ繝・1CE,CommSubscriptionChannelTypeChangeEvent,,false,false
+CommSubscriptionChannelTypeFeed,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝√Ε繝阪Ν遞ｮ蛻･繝輔ぅ繝ｼ繝・0D5,CommSubscriptionChannelTypeFeed,,false,false
+CommSubscriptionChannelTypeHistory,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝√Ε繝阪Ν遞ｮ蛻･縺ｮ螻･豁ｴ,017,CommSubscriptionChannelTypeHistory,,false,false
+CommSubscriptionChannelTypeShare,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝√Ε繝阪Ν遞ｮ蛻･ 蜈ｱ譛・02c,CommSubscriptionChannelTypeShare,,false,false
+CommSubscriptionConsent,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ蜷梧э,0dY,CommSubscriptionConsent,,true,false
+CommSubscriptionConsentChangeEvent,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ蜷梧э 螟画峩繧､繝吶Φ繝・1CE,CommSubscriptionConsentChangeEvent,,false,false
+CommSubscriptionConsentFeed,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ蜷梧э繝輔ぅ繝ｼ繝・0D5,CommSubscriptionConsentFeed,,false,false
+CommSubscriptionConsentHistory,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ蜷梧э縺ｮ螻･豁ｴ,017,CommSubscriptionConsentHistory,,false,false
+CommSubscriptionConsentShare,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ蜷梧э 蜈ｱ譛・02c,CommSubscriptionConsentShare,,false,false
+CommSubscriptionFeed,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繝輔ぅ繝ｼ繝・0D5,CommSubscriptionFeed,,false,false
+CommSubscriptionHistory,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ縺ｮ螻･豁ｴ,017,CommSubscriptionHistory,,false,false
+CommSubscriptionShare,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ 蜈ｱ譛・02c,CommSubscriptionShare,,false,false
+CommSubscriptionTiming,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繧ｿ繧､繝溘Φ繧ｰ,0al,CommSubscriptionTiming,,true,false
+CommSubscriptionTimingChangeEvent,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繧ｿ繧､繝溘Φ繧ｰ 螟画峩繧､繝吶Φ繝・1CE,CommSubscriptionTimingChangeEvent,,false,false
+CommSubscriptionTimingFeed,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繧ｿ繧､繝溘Φ繧ｰ繝輔ぅ繝ｼ繝・0D5,CommSubscriptionTimingFeed,,false,false
+CommSubscriptionTimingHistory,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ逋ｻ骭ｲ繧ｿ繧､繝溘Φ繧ｰ縺ｮ螻･豁ｴ,017,CommSubscriptionTimingHistory,,false,false
+Community,繧ｾ繝ｼ繝ｳ,09a,Community,,false,false
+ConcurLongRunApexErrEvent,螳溯｡梧凾髢薙′髟ｷ縺・酔譎・Apex 繧ｨ繝ｩ繝ｼ繧､繝吶Φ繝・1QR,ConcurLongRunApexErrEvent,,false,false
+ConferenceNumber,Conference Numbers,0Ah,ConferenceNumber,,false,false
+ConferenceNumberChangeEvent,Conference Numbers 螟画峩繧､繝吶Φ繝・1CE,ConferenceNumberChangeEvent,,false,false
+ConnectedApplication,謗･邯壹い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,0H4,ConnectedApplication,,false,false
+ConsumptionRate,豸郁ｲｻ邇・0Mo,ConsumptionRate,,true,false
+ConsumptionRateHistory,豸郁ｲｻ邇・ｱ･豁ｴ ID,017,ConsumptionRateHistory,,false,false
+ConsumptionSchedule,豸郁ｲｻ繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ,0Mh,ConsumptionSchedule,,true,false
+ConsumptionScheduleFeed,ConsumptionSchedule,0D5,ConsumptionScheduleFeed,,false,false
+ConsumptionScheduleHistory,豸郁ｲｻ繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ螻･豁ｴ ID,017,ConsumptionScheduleHistory,,false,false
+ConsumptionScheduleShare,豸郁ｲｻ繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ 蜈ｱ譛・02c,ConsumptionScheduleShare,,false,false
+Contact,蜿門ｼ募・雋ｬ莉ｻ閠・003,Contact,,true,false
+ContactCenterBulkOp,繧ｳ繝ｳ繧ｿ繧ｯ繝医そ繝ｳ繧ｿ繝ｼ荳諡ｬ謫堺ｽ・9Xm,ContactCenterBulkOp,,false,false
+ContactCenterChannel,繧ｳ繝ｳ繧ｿ繧ｯ繝医そ繝ｳ繧ｿ繝ｼ繝√Ε繝阪Ν,8GU,ContactCenterChannel,,false,false
+ContactChangeEvent,蜿門ｼ募・雋ｬ莉ｻ閠・螟画峩繧､繝吶Φ繝・1CE,ContactChangeEvent,,false,false
+ContactCleanInfo,蜿門ｼ募・雋ｬ莉ｻ閠・け繝ｪ繝ｼ繝ｳ繧｢繝・・諠・ｱ,1CC,ContactCleanInfo,,true,false
+ContactCleanInfoChangeEvent,蜿門ｼ募・雋ｬ莉ｻ閠・け繝ｪ繝ｼ繝ｳ繧｢繝・・諠・ｱ 螟画峩繧､繝吶Φ繝・1CE,ContactCleanInfoChangeEvent,,false,false
+ContactFeed,蜿門ｼ募・雋ｬ莉ｻ閠・ヵ繧｣繝ｼ繝・0D5,ContactFeed,,false,false
+ContactHistory,蜿門ｼ募・雋ｬ莉ｻ閠・ｱ･豁ｴ,017,ContactHistory,,false,false
+ContactPointAddress,騾｣邨｡蜈井ｽ乗園,8lW,ContactPointAddress,,true,false
+ContactPointAddressChangeEvent,騾｣邨｡蜈井ｽ乗園 螟画峩繧､繝吶Φ繝・1CE,ContactPointAddressChangeEvent,,false,false
+ContactPointAddressHistory,騾｣邨｡蜈井ｽ乗園螻･豁ｴ,017,ContactPointAddressHistory,,false,false
+ContactPointAddressShare,騾｣邨｡蜈井ｽ乗園 蜈ｱ譛・02c,ContactPointAddressShare,,false,false
+ContactPointConsent,騾｣邨｡蜈医・蜷梧э,0ZX,ContactPointConsent,,true,false
+ContactPointConsentChangeEvent,騾｣邨｡蜈医・蜷梧э 螟画峩繧､繝吶Φ繝・1CE,ContactPointConsentChangeEvent,,false,false
+ContactPointConsentHistory,騾｣邨｡蜈医・蜷梧э縺ｮ螻･豁ｴ,017,ContactPointConsentHistory,,false,false
+ContactPointConsentShare,騾｣邨｡蜈医・蜷梧э 蜈ｱ譛・02c,ContactPointConsentShare,,false,false
+ContactPointEmail,騾｣邨｡蜈医Γ繝ｼ繝ｫ,9Vl,ContactPointEmail,,true,false
+ContactPointEmailChangeEvent,騾｣邨｡蜈医Γ繝ｼ繝ｫ 螟画峩繧､繝吶Φ繝・1CE,ContactPointEmailChangeEvent,,false,false
+ContactPointEmailHistory,騾｣邨｡蜈医Γ繝ｼ繝ｫ螻･豁ｴ,017,ContactPointEmailHistory,,false,false
+ContactPointEmailShare,騾｣邨｡蜈医Γ繝ｼ繝ｫ 蜈ｱ譛・02c,ContactPointEmailShare,,false,false
+ContactPointPhone,騾｣邨｡蜈磯崕隧ｱ逡ｪ蜿ｷ,0Ow,ContactPointPhone,,true,false
+ContactPointPhoneChangeEvent,騾｣邨｡蜈磯崕隧ｱ逡ｪ蜿ｷ 螟画峩繧､繝吶Φ繝・1CE,ContactPointPhoneChangeEvent,,false,false
+ContactPointPhoneHistory,騾｣邨｡蜈磯崕隧ｱ螻･豁ｴ,017,ContactPointPhoneHistory,,false,false
+ContactPointPhoneShare,騾｣邨｡蜈磯崕隧ｱ逡ｪ蜿ｷ 蜈ｱ譛・02c,ContactPointPhoneShare,,false,false
+ContactPointTypeConsent,騾｣邨｡蜈育ｨｮ蛻･謇ｿ隲ｾ,0ZY,ContactPointTypeConsent,,true,false
+ContactPointTypeConsentChangeEvent,騾｣邨｡蜈育ｨｮ蛻･謇ｿ隲ｾ 螟画峩繧､繝吶Φ繝・1CE,ContactPointTypeConsentChangeEvent,,false,false
+ContactPointTypeConsentHistory,騾｣邨｡蜈育ｨｮ蛻･謇ｿ隲ｾ縺ｮ螻･豁ｴ,017,ContactPointTypeConsentHistory,,false,false
+ContactPointTypeConsentShare,騾｣邨｡蜈育ｨｮ蛻･謇ｿ隲ｾ 蜈ｱ譛・02c,ContactPointTypeConsentShare,,false,false
+ContactRequest,蝠上＞蜷医ｏ縺幄ｦ∵ｱ・0Tz,ContactRequest,,true,false
+ContactRequestShare,蝠上＞蜷医ｏ縺幄ｦ∵ｱ・蜈ｱ譛・02c,ContactRequestShare,,false,false
+ContactShare,蜿門ｼ募・雋ｬ莉ｻ閠・・蜈ｱ譛・03s,ContactShare,,false,false
+ContentAsset,繧｢繧ｻ繝・ヨ繝輔ぃ繧､繝ｫ,03S,ContentAsset,,false,false
+ContentBody,繧ｳ繝ｳ繝・Φ繝・悽譁・05T,ContentBody,,false,false
+ContentDistribution,繧ｳ繝ｳ繝・Φ繝・・菫｡,05D,ContentDistribution,,false,false
+ContentDistributionView,繧ｳ繝ｳ繝・Φ繝・・菫｡繝薙Η繝ｼ,05H,ContentDistributionView,,false,false
+ContentDocument,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝・069,ContentDocument,,false,false
+ContentDocumentChangeEvent,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝・螟画峩繧､繝吶Φ繝・1CE,ContentDocumentChangeEvent,,false,false
+ContentDocumentFeed,ContentDocument 繝輔ぅ繝ｼ繝・0D5,ContentDocumentFeed,,false,false
+ContentDocumentHistory,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝亥ｱ･豁ｴ,017,ContentDocumentHistory,,false,false
+ContentDocumentLink,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝医Μ繝ｳ繧ｯ,06A,ContentDocumentLink,,false,false
+ContentDocumentLinkChangeEvent,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝医Μ繝ｳ繧ｯ 螟画峩繧､繝吶Φ繝・1CE,ContentDocumentLinkChangeEvent,,false,false
+ContentDocumentSubscription,繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝医・逋ｻ骭ｲ,057,ContentDocumentSubscription,,false,false
+ContentFolder,繧ｳ繝ｳ繝・Φ繝・ヵ繧ｩ繝ｫ繝繝ｼ,07H,ContentFolder,,false,false
+ContentFolderChangeEvent,繧ｳ繝ｳ繝・Φ繝・ヵ繧ｩ繝ｫ繝繝ｼ 螟画峩繧､繝吶Φ繝・1CE,ContentFolderChangeEvent,,false,false
+ContentFolderItem,繧ｳ繝ｳ繝・Φ繝・ヵ繧ｩ繝ｫ繝繝ｼ鬆・岼,,ContentFolderItem,,false,false
+ContentFolderLink,繧ｳ繝ｳ繝・Φ繝・ヵ繧ｩ繝ｫ繝繝ｼ繝ｪ繝ｳ繧ｯ,07v,ContentFolderLink,,false,false
+ContentFolderMember,繧ｳ繝ｳ繝・Φ繝・ヵ繧ｩ繝ｫ繝繝ｼ繝｡繝ｳ繝舌・,07I,ContentFolderMember,,false,false
+ContentNote,繝｡繝｢,069,ContentNote,,false,false
+ContentNotification,繧ｳ繝ｳ繝・Φ繝・夂衍,05V,ContentNotification,,false,false
+ContentTagSubscription,繧ｳ繝ｳ繝・Φ繝・ち繧ｰ縺ｮ逋ｻ骭ｲ,05Q,ContentTagSubscription,,false,false
+ContentTaxonomy,繧ｳ繝ｳ繝・Φ繝・・鬘・15b,ContentTaxonomy,,false,false
+ContentTaxonomyRelatedTerm,繧ｳ繝ｳ繝・Φ繝・・鬘樣未騾｣逕ｨ隱・15j,ContentTaxonomyRelatedTerm,,false,false
+ContentTaxonomyTerm,繧ｳ繝ｳ繝・Φ繝・・鬘樒畑隱・15d,ContentTaxonomyTerm,,false,false
+ContentTaxonomyTermRelatedTerm,繧ｳ繝ｳ繝・Φ繝・・鬘樒畑隱樣未騾｣逕ｨ隱・15e,ContentTaxonomyTermRelatedTerm,,false,false
+ContentTaxonomyTermRelationshipType,繧ｳ繝ｳ繝・Φ繝・・鬘樒畑隱槭Μ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ遞ｮ蛻･,15c,ContentTaxonomyTermRelationshipType,,false,false
+ContentUserSubscription,繧ｳ繝ｳ繝・Φ繝・Θ繝ｼ繧ｶ繝ｼ縺ｮ逋ｻ骭ｲ,05S,ContentUserSubscription,,false,false
+ContentVersion,繧ｳ繝ｳ繝・Φ繝・ヰ繝ｼ繧ｸ繝ｧ繝ｳ,068,ContentVersion,,true,false
+ContentVersionChangeEvent,繧ｳ繝ｳ繝・Φ繝・ヰ繝ｼ繧ｸ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,ContentVersionChangeEvent,,false,false
+ContentVersionComment,繧ｳ繝ｳ繝・Φ繝・ヰ繝ｼ繧ｸ繝ｧ繝ｳ縺ｮ繧ｳ繝｡繝ｳ繝・05C,ContentVersionComment,,false,false
+ContentVersionHistory,繧ｳ繝ｳ繝・Φ繝・ヰ繝ｼ繧ｸ繝ｧ繝ｳ螻･豁ｴ,017,ContentVersionHistory,,false,false
+ContentVersionRating,繧ｳ繝ｳ繝・Φ繝・ヰ繝ｼ繧ｸ繝ｧ繝ｳ隧穂ｾ｡,05J,ContentVersionRating,,false,false
+ContentVersionRenditionContent,繧ｳ繝ｳ繝・Φ繝・､画鋤,05K,ContentVersionRenditionContent,,false,false
+ContentWorkspace,繝ｩ繧､繝悶Λ繝ｪ,058,ContentWorkspace,,false,false
+ContentWorkspaceDoc,繝ｩ繧､繝悶Λ繝ｪ繝峨く繝･繝｡繝ｳ繝・059,ContentWorkspaceDoc,,false,false
+ContentWorkspaceMember,繝ｩ繧､繝悶Λ繝ｪ繝｡繝ｳ繝舌・,05A,ContentWorkspaceMember,,false,false
+ContentWorkspacePermission,繝ｩ繧､繝悶Λ繝ｪ讓ｩ髯・05P,ContentWorkspacePermission,,false,false
+ContentWorkspaceSubscription,繧ｳ繝ｳ繝・Φ繝・Ρ繝ｼ繧ｯ繧ｹ繝壹・繧ｹ縺ｮ逋ｻ骭ｲ,05R,ContentWorkspaceSubscription,,false,false
+ContextParamMap,繧ｳ繝ｳ繝・く繧ｹ繝医ヱ繝ｩ繝｡繝ｼ繧ｿ繝ｼ繝槭ャ繝・15z,ContextParamMap,,false,false
+Contract,螂醍ｴ・800,Contract,,true,false
+ContractChangeEvent,螂醍ｴ・螟画峩繧､繝吶Φ繝・1CE,ContractChangeEvent,,false,false
+ContractContactRole,螂醍ｴ・蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ,02a,ContractContactRole,,false,false
+ContractFeed,螂醍ｴ・ヵ繧｣繝ｼ繝・0D5,ContractFeed,,false,false
+ContractHistory,螂醍ｴ・ｱ･豁ｴ,017,ContractHistory,,false,false
+ContractLineItem,螂醍ｴ・刀逶ｮ蜷・811,ContractLineItem,,true,false
+ContractLineItemChangeEvent,螂醍ｴ・刀逶ｮ蜷・螟画峩繧､繝吶Φ繝・1CE,ContractLineItemChangeEvent,,false,false
+ContractLineItemFeed,螂醍ｴ・刀逶ｮ蜷阪ヵ繧｣繝ｼ繝・0D5,ContractLineItemFeed,,false,false
+ContractLineItemHistory,螂醍ｴ・刀逶ｮ蜷榊ｱ･豁ｴ,017,ContractLineItemHistory,,false,false
+ContractStatus,螂醍ｴ・憾豕∝､,,ContractStatus,,false,false
+ConvDefDialogDailyMetric,莨夊ｩｱ螳夂ｾｩ繝繧､繧｢繝ｭ繧ｰ繝｡繝医Μ繧ｯ繧ｹ (譌･谺｡),593,ConvDefDialogDailyMetric,,false,false
+ConvDefDialogHourlyMetric,莨夊ｩｱ螳夂ｾｩ繝繧､繧｢繝ｭ繧ｰ繝｡繝医Μ繧ｯ繧ｹ (1 譎る俣),0lq,ConvDefDialogHourlyMetric,,false,false
+ConvDefSessionMetric,莨夊ｩｱ螳夂ｾｩ繧ｻ繝・す繝ｧ繝ｳ繝｡繝医Μ繧ｯ繧ｹ,0f5,ConvDefSessionMetric,,false,false
+ConvEntryRelatedRecordCopy,莨夊ｩｱ繧ｨ繝ｳ繝医Μ髢｢騾｣繝ｬ繧ｳ繝ｼ繝峨さ繝斐・,2c6,ConvEntryRelatedRecordCopy,,true,false
+Conversation,莨夊ｩｱ,0dw,Conversation,,false,false
+ConversationApiLog,莨夊ｩｱ API 繝ｭ繧ｰ,1Nc,ConversationApiLog,,false,false
+ConversationApiLogObjSum,莨夊ｩｱ API 繝ｭ繧ｰ繧ｪ繝悶ず繧ｧ繧ｯ繝域ｦりｦ・1Nd,ConversationApiLogObjSum,,false,false
+ConversationApiLogShare,莨夊ｩｱ API 繝ｭ繧ｰ 蜈ｱ譛・02c,ConversationApiLogShare,,false,false
+ConversationChannelDefinition,莨夊ｩｱ繝√Ε繝阪Ν螳夂ｾｩ,11v,ConversationChannelDefinition,,false,false
+ConversationDefinitionDialog,繝繧､繧｢繝ｭ繧ｰ,0Xd,ConversationDefinitionDialog,,false,false
+ConversationDefinitionDialogLocalization,鄙ｻ險ｳ,01j,ConversationDefinitionDialogLocalization,,false,false
+ConversationDefinitionEventLog,Conversation Definition Event Logs,0eR,ConversationDefinitionEventLog,,false,false
+ConversationDefinitionSession,莨夊ｩｱ螳夂ｾｩ繧ｻ繝・す繝ｧ繝ｳ,5CB,ConversationDefinitionSession,,false,false
+ConversationDefinitionSessionEngagement,莨夊ｩｱ螳夂ｾｩ繧ｻ繝・す繝ｧ繝ｳ繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝・5SE,ConversationDefinitionSessionEngagement,,false,false
+ConversationEntry,莨夊ｩｱ繧ｨ繝ｳ繝医Μ,0Zy,ConversationEntry,,false,false
+ConversationEntryCopy,莨夊ｩｱ繧ｨ繝ｳ繝医Μ繧ｳ繝斐・,2c5,ConversationEntryCopy,,true,false
+ConversationParticipant,莨夊ｩｱ蜿ょ刈閠・0ec,ConversationParticipant,,false,false
+ConversationVendorInfo,莨夊ｩｱ繝吶Φ繝繝ｼ諠・ｱ,0m8,ConversationVendorInfo,,false,false
+ConvIntelligenceSignalRule,Conversation Intelligence Signal Rule,5d3,ConvIntelligenceSignalRule,,false,false
+ConvIntelligenceSignalSubRule,Conversation Intelligence Signal Sub-Rule,8Q2,ConvIntelligenceSignalSubRule,,false,false
+ConvMessageSendRequest,莨夊ｩｱ繝｡繝・そ繝ｼ繧ｸ騾∽ｿ｡隕∵ｱ・1sr,ConvMessageSendRequest,,false,false
+CorsWhitelistEntry,CORS 險ｱ蜿ｯ繧ｪ繝ｪ繧ｸ繝ｳ繝ｪ繧ｹ繝・074,CorsWhitelistEntry,,false,false
+Coupon,繧ｯ繝ｼ繝昴Φ,0lC,Coupon,,true,false
+CouponChangeEvent,繧ｯ繝ｼ繝昴Φ 螟画峩繧､繝吶Φ繝・1CE,CouponChangeEvent,,false,false
+CouponCodeRedemption,繧ｯ繝ｼ繝昴Φ繧ｳ繝ｼ繝牙女縺大叙繧・0zD,CouponCodeRedemption,,false,false
+CouponCodeRedemptionShare,繧ｯ繝ｼ繝昴Φ繧ｳ繝ｼ繝牙女縺大叙繧・蜈ｱ譛・02c,CouponCodeRedemptionShare,,false,false
+CouponFeed,繧ｯ繝ｼ繝昴Φ繝輔ぅ繝ｼ繝・0D5,CouponFeed,,false,false
+CouponHistory,繧ｯ繝ｼ繝昴Φ螻･豁ｴ,017,CouponHistory,,false,false
+CouponShare,繧ｯ繝ｼ繝昴Φ 蜈ｱ譛・02c,CouponShare,,false,false
+CredentialStuffingEvent,繧ｯ繝ｬ繝・Φ繧ｷ繝｣繝ｫ繧ｹ繧ｿ繝・ヵ繧｣繝ｳ繧ｰ繧､繝吶Φ繝・0fi,CredentialStuffingEvent,,false,false
+CredentialStuffingEventStore,繧ｯ繝ｬ繝・Φ繧ｷ繝｣繝ｫ繧ｹ繧ｿ繝・ヵ繧｣繝ｳ繧ｰ繧､繝吶Φ繝医せ繝医い,0fj,CredentialStuffingEventStore,,false,false
+CredentialStuffingEventStoreFeed,繧ｯ繝ｬ繝・Φ繧ｷ繝｣繝ｫ繧ｹ繧ｿ繝・ヵ繧｣繝ｳ繧ｰ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,CredentialStuffingEventStoreFeed,,false,false
+CreditMemo,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢,50g,CreditMemo,,true,false
+CreditMemoFeed,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢繝輔ぅ繝ｼ繝・0D5,CreditMemoFeed,,false,false
+CreditMemoHistory,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢螻･豁ｴ,017,CreditMemoHistory,,false,false
+CreditMemoInvApplication,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢隲区ｱよ嶌繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,4sF,CreditMemoInvApplication,,true,false
+CreditMemoInvApplicationFeed,__MISSING LABEL__ PropertyFile - val CreditMemoInvApplication not found in section StandardFeedLabel,0D5,CreditMemoInvApplicationFeed,,false,false
+CreditMemoLine,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢蜩∫岼,9yx,CreditMemoLine,,true,false
+CreditMemoLineFeed,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢蜩∫岼繝輔ぅ繝ｼ繝・0D5,CreditMemoLineFeed,,false,false
+CreditMemoLineHistory,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢蜩∫岼螻･豁ｴ,017,CreditMemoLineHistory,,false,false
+CreditMemoShare,繧ｯ繝ｬ繧ｸ繝・ヨ繝｡繝｢ 蜈ｱ譛・02c,CreditMemoShare,,false,false
+CronJobDetail,Cron 繧ｸ繝ｧ繝・08a,CronJobDetail,,false,false
+CronTrigger,繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ貂医∩繧ｸ繝ｧ繝・08e,CronTrigger,,false,false
+CspTrustedSite,菫｡鬆ｼ貂医∩ URL,08y,CspTrustedSite,,false,false
+CuratedExpJobEvent,蜴ｳ驕ｸ繧ｨ繧ｯ繧ｹ繝壹Μ繧ｨ繝ｳ繧ｹ繧ｸ繝ｧ繝悶う繝吶Φ繝・1DR,CuratedExpJobEvent,,false,false
+CuratedExpPlanEvent,蜴ｳ驕ｸ繧ｨ繧ｯ繧ｹ繝壹Μ繧ｨ繝ｳ繧ｹ繝励Λ繝ｳ繧､繝吶Φ繝・1DP,CuratedExpPlanEvent,,false,false
+CustomBrand,Custom Brand,07W,CustomBrand,,false,false
+CustomBrandAsset,繧ｫ繧ｹ繧ｿ繝繝悶Λ繝ｳ繝峨い繧ｻ繝・ヨ,07X,CustomBrandAsset,,false,false
+Customer,鬘ｧ螳｢,0o6,Customer,,true,false
+CustomerShare,鬘ｧ螳｢ 蜈ｱ譛・02c,CustomerShare,,false,false
+CustomHelpMenuItem,繧ｫ繧ｹ繧ｿ繝繝倥Ν繝励Γ繝九Η繝ｼ鬆・岼,2Ca,CustomHelpMenuItem,,false,false
+CustomHelpMenuSection,繧ｫ繧ｹ繧ｿ繝繝倥Ν繝励Γ繝九Η繝ｼ繧ｻ繧ｯ繧ｷ繝ｧ繝ｳ,2Cx,CustomHelpMenuSection,,false,false
+CustomHttpHeader,繧ｫ繧ｹ繧ｿ繝 HTTP 繝倥ャ繝繝ｼ,0XH,CustomHttpHeader,,false,false
+CustomMsgChannel,繧ｫ繧ｹ繧ｿ繝繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν,3yk,CustomMsgChannel,,false,false
+CustomNotificationType,繧ｫ繧ｹ繧ｿ繝騾夂衍遞ｮ蛻･,0ML,CustomNotificationType,,false,false
+CustomPermission,繧ｫ繧ｹ繧ｿ繝讓ｩ髯・0CP,CustomPermission,,false,false
+CustomPermissionDependency,繧ｫ繧ｹ繧ｿ繝讓ｩ髯舌・騾｣蜍暮未菫・0PD,CustomPermissionDependency,,false,false
+DandBCompany,D&B 莨∵･ｭ,06E,DandBCompany,,true,false
+Dashboard,繝繝・す繝･繝懊・繝・01Z,Dashboard,,false,false
+DashboardComponent,繝繝・す繝･繝懊・繝峨さ繝ｳ繝昴・繝阪Φ繝・01a,DashboardComponent,,false,false
+DashboardComponentFeed,繝繝・す繝･繝懊・繝峨さ繝ｳ繝昴・繝阪Φ繝医ヵ繧｣繝ｼ繝・0D5,DashboardComponentFeed,,false,false
+DashboardComponentLocalization,鄙ｻ險ｳ,01j,DashboardComponentLocalization,,false,false
+DashboardFeed,繝繝・す繝･繝懊・繝峨ヵ繧｣繝ｼ繝・0D5,DashboardFeed,,false,false
+DashboardLocalization,鄙ｻ險ｳ,01j,DashboardLocalization,,false,false
+DataAction,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ,3o9,DataAction,,false,false
+DataActionFeed,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,DataActionFeed,,false,false
+DataActionHistory,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,DataActionHistory,,false,false
+DataActionJobStatusEvent,Data action job status event,17U,DataActionJobStatusEvent,,false,false
+DataActionJobSummary,Data Action Job Summary,1A5,DataActionJobSummary,,false,false
+DataActionJobSummaryFeed,Data Action Job Summaries 繝輔ぅ繝ｼ繝・0D5,DataActionJobSummaryFeed,,false,false
+DataActionJobSummaryHistory,Data Action Job Summaries 螻･豁ｴ,017,DataActionJobSummaryHistory,,false,false
+DataActionJobSummaryShare,Data Action Job Summary  蜈ｱ譛・02c,DataActionJobSummaryShare,,false,false
+DataActionTarget,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡,9sq,DataActionTarget,,false,false
+DataActionTargetFeed,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡繝輔ぅ繝ｼ繝・0D5,DataActionTargetFeed,,false,false
+DataActionTargetHistory,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡螻･豁ｴ,017,DataActionTargetHistory,,false,false
+DataActionTargetShare,繝・・繧ｿ繧｢繧ｯ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡ 蜈ｱ譛・02c,DataActionTargetShare,,false,false
+DataAssessmentFieldMetric,繝・・繧ｿ隧穂ｾ｡鬆・岼繝｡繝医Μ繧ｯ繧ｹ,03Q,DataAssessmentFieldMetric,,false,false
+DataAssessmentMetric,繝・・繧ｿ隧穂ｾ｡繝｡繝医Μ繧ｯ繧ｹ,03P,DataAssessmentMetric,,false,false
+DataAssessmentValueMetric,繝・・繧ｿ隧穂ｾ｡鬆・岼蛟､繝｡繝医Μ繧ｯ繧ｹ,03R,DataAssessmentValueMetric,,false,false
+DataAssetPromotionRequest,繝・・繧ｿ繧｢繧ｻ繝・ヨ繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ隕∵ｱ・1NE,DataAssetPromotionRequest,,false,false
+DatacloudAddress,Data.com 菴乗園,07m,DatacloudAddress,,false,false
+DatacloudCompany,Data.com 莨夂､ｾ,09K,DatacloudCompany,,false,false
+DatacloudContact,Data.com 蜿門ｼ募・雋ｬ莉ｻ閠・08C,DatacloudContact,,false,false
+DatacloudDandBCompany,D&B 莨∵･ｭ,09N,DatacloudDandBCompany,,false,false
+DatacloudOwnedEntity,Data.com 謇譛峨お繝ｳ繝・ぅ繝・ぅ,09O,DatacloudOwnedEntity,,false,false
+DatacloudPurchaseUsage,Data.com 蛻ｩ逕ｨ迥ｶ豕・09F,DatacloudPurchaseUsage,,false,false
+DataCommCapDim,蛻ｶ髯舌ョ繧｣繝｡繝ｳ繧ｷ繝ｧ繝ｳ螳夂ｾｩ,1E7,DataCommCapDim,,false,false
+DataCommCapDimValue,繝・・繧ｿ繝・ぅ繝｡繝ｳ繧ｷ繝ｧ繝ｳ蛟､,1E5,DataCommCapDimValue,,false,false
+DataCommunicationCap,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ蛻ｶ髯・19j,DataCommunicationCap,,false,false
+DataCommunicationCapFeed,__MISSING LABEL__ PropertyFile - val DataCommunicationCap not found in section StandardFeedLabel,0D5,DataCommunicationCapFeed,,false,false
+DataCommunicationCapHistory,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ蛻ｶ髯・017,DataCommunicationCapHistory,,false,false
+DataCommunicationCapShare,繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ蛻ｶ髯・蜈ｱ譛・02c,DataCommunicationCapShare,,false,false
+DataConctCredExpiryEvent,繝・・繧ｿ謗･邯壹Ο繧ｰ繧､繝ｳ諠・ｱ譛牙柑譛滄剞繧､繝吶Φ繝・1Gr,DataConctCredExpiryEvent,,false,false
+DataConnectorStatusEvent,繝・・繧ｿ繧ｳ繝阪け繧ｿ迥ｶ豕√う繝吶Φ繝・0ue,DataConnectorStatusEvent,,false,false
+DataContentLensSource,繝・・繧ｿ繧ｳ繝ｳ繝・Φ繝・Ξ繝ｳ繧ｺ繧ｽ繝ｼ繧ｹ,4Uc,DataContentLensSource,,false,false
+DataContentLensSourceFeed,__MISSING LABEL__ PropertyFile - val DataContentLensSource not found in section StandardFeedLabel,0D5,DataContentLensSourceFeed,,false,false
+DataContentLensSourceHistory,__MISSING LABEL__ PropertyFile - val DataContentLensSource not found in section StandardHistoryLabel,017,DataContentLensSourceHistory,,false,false
+DataCustomCodeStatEvent,Data Custom Code Status Event,1O8,DataCustomCodeStatEvent,,false,false
+DataEncryptionKey,Data Encryption Key,1Pj,DataEncryptionKey,,false,false
+DataFeatureDeprovisionEvent,Data Cloud 讖溯・繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ隗｣髯､繧､繝吶Φ繝・1b5,DataFeatureDeprovisionEvent,,false,false
+DataGraph,繝・・繧ｿ繧ｰ繝ｩ繝・0g7,DataGraph,,false,false
+DataHarmonizedModelObjRef,繝・・繧ｿ繝上・繝｢繝翫う繧ｺ繝｢繝・Ν繧ｪ繝悶ず繧ｧ繧ｯ繝亥盾辣ｧ,3hs,DataHarmonizedModelObjRef,,false,false
+DataKitDeployEvent,繝・・繧ｿ繧ｭ繝・ヨ繝ｪ繝ｪ繝ｼ繧ｹ繧､繝吶Φ繝・3Dc,DataKitDeployEvent,,false,false
+DataKitDeploymentLog,繝・・繧ｿ繧ｭ繝・ヨ繝ｪ繝ｪ繝ｼ繧ｹ繝ｭ繧ｰ,1D0,DataKitDeploymentLog,,true,false
+DataKitDeploymentLogShare,繝・・繧ｿ繧ｭ繝・ヨ繝ｪ繝ｪ繝ｼ繧ｹ繝ｭ繧ｰ 蜈ｱ譛・02c,DataKitDeploymentLogShare,,false,false
+DataKnowledgeSpace,繝翫Ξ繝・ず繧ｹ繝壹・繧ｹ,1aM,DataKnowledgeSpace,,false,false
+DataKnowledgeSpaceSession,繝翫Ξ繝・ず繧ｹ繝壹・繧ｹ繧ｻ繝・す繝ｧ繝ｳ,1aK,DataKnowledgeSpaceSession,,false,false
+DataKnowledgeSpaceShare,繝翫Ξ繝・ず繧ｹ繝壹・繧ｹ 蜈ｱ譛・02c,DataKnowledgeSpaceShare,,false,false
+DataKnowledgeSrcFileRef,繝翫Ξ繝・ず繧ｽ繝ｼ繧ｹ繝輔ぃ繧､繝ｫ蜿ら・,1aI,DataKnowledgeSrcFileRef,,false,false
+DataKnowledgeSrcFileRefShare,繝翫Ξ繝・ず繧ｽ繝ｼ繧ｹ繝輔ぃ繧､繝ｫ蜿ら・ 蜈ｱ譛・02c,DataKnowledgeSrcFileRefShare,,false,false
+DataLakeObjectInstance,繝・・繧ｿ繝ｬ繧､繧ｯ繧ｪ繝悶ず繧ｧ繧ｯ繝・1dl,DataLakeObjectInstance,,false,false
+DataLakeObjectInstanceFeed,繝・・繧ｿ繝ｬ繧､繧ｯ繧ｪ繝悶ず繧ｧ繧ｯ繝医ヵ繧｣繝ｼ繝・0D5,DataLakeObjectInstanceFeed,,false,false
+DataLakeObjectInstanceHistory,繝・・繧ｿ繝ｬ繧､繧ｯ繧ｪ繝悶ず繧ｧ繧ｯ繝医・螻･豁ｴ,017,DataLakeObjectInstanceHistory,,false,false
+DataLineageFullRefStEvent,邉ｻ邨ｱ繝輔Ν譖ｴ譁ｰ迥ｶ豕√う繝吶Φ繝・7Cr,DataLineageFullRefStEvent,,false,false
+DataLineageNodeDefSyncLog,繝・・繧ｿ邉ｻ邨ｱ繝弱・繝牙ｮ夂ｾｩ蜷梧悄繝ｭ繧ｰ,1Rf,DataLineageNodeDefSyncLog,,false,false
+DataLineageNodeDefSyncLogFeed,繝・・繧ｿ邉ｻ邨ｱ繝弱・繝牙ｮ夂ｾｩ蜷梧悄繝ｭ繧ｰ繝輔ぅ繝ｼ繝・0D5,DataLineageNodeDefSyncLogFeed,,false,false
+DataLineageNodeDefSyncLogHistory,繝・・繧ｿ邉ｻ邨ｱ繝弱・繝牙ｮ夂ｾｩ蜷梧悄繝ｭ繧ｰ螻･豁ｴ,017,DataLineageNodeDefSyncLogHistory,,false,false
+DataLineageNodeDefSyncLogShare,繝・・繧ｿ邉ｻ邨ｱ繝弱・繝牙ｮ夂ｾｩ蜷梧悄繝ｭ繧ｰ 蜈ｱ譛・02c,DataLineageNodeDefSyncLogShare,,false,false
+DataMaskCustomValueLibrary,繧ｫ繧ｹ繧ｿ繝繝ｩ繧､繝悶Λ繝ｪ,9dl,DataMaskCustomValueLibrary,,true,false
+DataMaskCustomValueLibraryShare,繧ｫ繧ｹ繧ｿ繝繝ｩ繧､繝悶Λ繝ｪ 蜈ｱ譛・02c,DataMaskCustomValueLibraryShare,,false,false
+DataMceUmaMigStrmStsEvnt,Data MCE UMA Migration Stream Status Event,8kz,DataMceUmaMigStrmStsEvnt,,false,false
+DataMltOrgMdatChgsetEvent,繝・・繧ｿ隍・焚邨・ｹ斐Γ繧ｿ繝・・繧ｿ螟画峩繧ｻ繝・ヨ繧､繝吶Φ繝・1Tf,DataMltOrgMdatChgsetEvent,,false,false
+DataMultiOrgConnection,Data Multi Org Connections,262,DataMultiOrgConnection,,false,false
+DataMultiOrgObjectRef,Multi-org Object References,265,DataMultiOrgObjectRef,,false,false
+DataMultiOrgServiceEvent,隍・焚邨・ｹ斐し繝ｼ繝薙せ繧､繝吶Φ繝・0QY,DataMultiOrgServiceEvent,,false,false
+DataMultiOrgSyncStatus,Multi Org Sync Statuses,264,DataMultiOrgSyncStatus,,false,false
+DataObjBillableStatusEvent,繝・・繧ｿ繧ｪ繝悶ず繧ｧ繧ｯ繝郁ｫ区ｱょ庄閭ｽ迥ｶ豕√う繝吶Φ繝・1DC,DataObjBillableStatusEvent,,false,false
+DataObjectDataChgEvent,繝・・繧ｿ繧ｪ繝悶ず繧ｧ繧ｯ繝医ョ繝ｼ繧ｿ螟画峩繧､繝吶Φ繝・1e5,DataObjectDataChgEvent,,false,false
+DataObjectMetadataChgEvent,繝・・繧ｿ繧ｪ繝悶ず繧ｧ繧ｯ繝医Γ繧ｿ繝・・繧ｿ螟画峩繧､繝吶Φ繝・1e4,DataObjectMetadataChgEvent,,false,false
+DataObjSecondaryIndex,繧ｻ繧ｫ繝ｳ繝繝ｪ繧､繝ｳ繝・ャ繧ｯ繧ｹ,1Tx,DataObjSecondaryIndex,,false,false
+DataObjSecondaryIndexFeed,__MISSING LABEL__ PropertyFile - val DataObjSecondaryIndex not found in section StandardFeedLabel,0D5,DataObjSecondaryIndexFeed,,false,false
+DataObjSecondaryIndexHistory,繧ｻ繧ｫ繝ｳ繝繝ｪ繧､繝ｳ繝・ャ繧ｯ繧ｹ螻･豁ｴ,017,DataObjSecondaryIndexHistory,,false,false
+DataOrgExtShareEvent,繝・・繧ｿ邨・ｹ泌､夜Κ蜈ｱ譛峨う繝吶Φ繝・2e3,DataOrgExtShareEvent,,false,false
+DataQueryWorkspace,繧ｯ繧ｨ繝ｪ繧ｨ繝・ぅ繧ｿ繝ｼ,20m,DataQueryWorkspace,,true,false
+DataQueryWorkspaceFeed,繧ｯ繧ｨ繝ｪ繧ｨ繝・ぅ繧ｿ繝ｼ繝輔ぅ繝ｼ繝・0D5,DataQueryWorkspaceFeed,,false,false
+DataQueryWorkspaceHistory,繧ｯ繧ｨ繝ｪ繧ｨ繝・ぅ繧ｿ繝ｼ螻･豁ｴ,017,DataQueryWorkspaceHistory,,false,false
+DataQueryWorkspaceShare,繧ｯ繧ｨ繝ｪ繧ｨ繝・ぅ繧ｿ繝ｼ 蜈ｱ譛・02c,DataQueryWorkspaceShare,,false,false
+DataQueryWorkspaceTab,繧ｯ繧ｨ繝ｪ繧ｿ繝・20n,DataQueryWorkspaceTab,,false,false
+DataSemanticSearch,讀懃ｴ｢繧､繝ｳ繝・ャ繧ｯ繧ｹ,18l,DataSemanticSearch,,false,false
+DataSemanticSearchFeed,__MISSING LABEL__ PropertyFile - val DataSemanticSearch not found in section StandardFeedLabel,0D5,DataSemanticSearchFeed,,false,false
+DataSemanticSearchHistory,__MISSING LABEL__ PropertyFile - val DataSemanticSearch not found in section StandardHistoryLabel,017,DataSemanticSearchHistory,,false,false
+DataShellTntUpgradeEvent,繧ｷ繧ｧ繝ｫ繝・リ繝ｳ繝医い繝・・繧ｰ繝ｬ繝ｼ繝峨う繝吶Φ繝・1D8,DataShellTntUpgradeEvent,,false,false
+DataShrMappingStatusEvent,繝・・繧ｿ蜈ｱ譛峨・繝・ヴ繝ｳ繧ｰ迥ｶ豕√う繝吶Φ繝・2e2,DataShrMappingStatusEvent,,false,false
+DataSourceBundle,繝・・繧ｿ繧ｽ繝ｼ繧ｹ繝舌Φ繝峨Ν,8Sj,DataSourceBundle,,false,false
+DataSourceBundleShare,繝・・繧ｿ繧ｽ繝ｼ繧ｹ繝舌Φ繝峨Ν 蜈ｱ譛・02c,DataSourceBundleShare,,false,false
+DataStatistics,Data Statistics,05a,DataStatistics,,false,false
+DataStream,繝・・繧ｿ繧ｹ繝医Μ繝ｼ繝,1ds,DataStream,,false,false
+DataStreamFeed,繝・・繧ｿ繧ｹ繝医Μ繝ｼ繝繝輔ぅ繝ｼ繝・0D5,DataStreamFeed,,false,false
+DataStreamHistory,繝・・繧ｿ繧ｹ繝医Μ繝ｼ繝螻･豁ｴ,017,DataStreamHistory,,false,false
+DataStreamNewFieldEvent,繝・・繧ｿ繧ｹ繝医Μ繝ｼ繝譁ｰ隕城・岼繧､繝吶Φ繝・1e8,DataStreamNewFieldEvent,,false,false
+DataStreamStatusEvent,繝・・繧ｿ繧ｹ繝医Μ繝ｼ繝迥ｶ豕√う繝吶Φ繝・1e0,DataStreamStatusEvent,,false,false
+DataSyncConnectorEvent,繝・・繧ｿ蜷梧悄繧ｳ繝阪け繧ｿ迥ｶ豕√う繝吶Φ繝・9cs,DataSyncConnectorEvent,,false,false
+DataType,繝・・繧ｿ蝙・4dt,DataType,,false,false
+DataUseLegalBasis,繝・・繧ｿ菴ｿ逕ｨ縺ｮ豕慕噪譬ｹ諡,0ZT,DataUseLegalBasis,,true,false
+DataUseLegalBasisChangeEvent,繝・・繧ｿ菴ｿ逕ｨ縺ｮ豕慕噪譬ｹ諡 螟画峩繧､繝吶Φ繝・1CE,DataUseLegalBasisChangeEvent,,false,false
+DataUseLegalBasisHistory,繝・・繧ｿ菴ｿ逕ｨ縺ｮ豕慕噪譬ｹ諡縺ｮ螻･豁ｴ,017,DataUseLegalBasisHistory,,false,false
+DataUseLegalBasisShare,繝・・繧ｿ菴ｿ逕ｨ縺ｮ豕慕噪譬ｹ諡 蜈ｱ譛・02c,DataUseLegalBasisShare,,false,false
+DataUsePurpose,繝・・繧ｿ菴ｿ逕ｨ逶ｮ逧・0ZW,DataUsePurpose,,true,false
+DataUsePurposeChangeEvent,繝・・繧ｿ菴ｿ逕ｨ逶ｮ逧・螟画峩繧､繝吶Φ繝・1CE,DataUsePurposeChangeEvent,,false,false
+DataUsePurposeHistory,繝・・繧ｿ菴ｿ逕ｨ逶ｮ逧・・螻･豁ｴ,017,DataUsePurposeHistory,,false,false
+DataUsePurposeShare,繝・・繧ｿ菴ｿ逕ｨ逶ｮ逧・蜈ｱ譛・02c,DataUsePurposeShare,,false,false
+DataWeaveResource,DataWeave 繝ｪ繧ｽ繝ｼ繧ｹ,7FY,DataWeaveResource,,false,false
+DeclinedEventRelation,荳榊盾蜉陦悟虚繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,,DeclinedEventRelation,,false,false
+DeleteEvent,縺斐∩邂ｱ鬆・岼,00C,DeleteEvent,,false,false
+DeliveryEstimationSetup,驟埼∬ｦ狗ｩ崎ｨｭ螳・2A0,DeliveryEstimationSetup,,true,false
+DeliveryEstimationSetupFeed,__MISSING LABEL__ PropertyFile - val DeliveryEstimationSetup not found in section StandardFeedLabel,0D5,DeliveryEstimationSetupFeed,,false,false
+DeliveryEstimationSetupHistory,驟埼∬ｦ狗ｩ崎ｨｭ螳壼ｱ･豁ｴ,017,DeliveryEstimationSetupHistory,,false,false
+DeliveryEstimationSetupShare,驟埼∬ｦ狗ｩ崎ｨｭ螳・蜈ｱ譛・02c,DeliveryEstimationSetupShare,,false,false
+DesignDiagram__c,險ｭ險医メ繝｣繝ｼ繝・a0B,01IdL00000BLWTB,,true,false
+DesignDiagram__ChangeEvent,螟画峩繧､繝吶Φ繝・ 險ｭ險医メ繝｣繝ｼ繝・1CE,01IdL00000BLWTB.ChangeEvent,,false,false
+DesignDiagram__Feed,繝輔ぅ繝ｼ繝・ 險ｭ險医メ繝｣繝ｼ繝・0D5,01IdL00000BLWTB.Feed,,false,false
+DesignDiagram__History,螻･豁ｴ: 險ｭ險医メ繝｣繝ｼ繝・017,01IdL00000BLWTB.History,,false,false
+DesignDiagram__Share,蜈ｱ譛・ 險ｭ險医メ繝｣繝ｼ繝・02c,01IdL00000BLWTB.Share,,false,false
+Dev_Service__c,繝ｦ繝ｼ繧ｶ繧ｵ繝昴・繝・a01,01IdL00000BAt9l,,true,false
+Dev_Service__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｦ繝ｼ繧ｶ繧ｵ繝昴・繝・1CE,01IdL00000BAt9l.ChangeEvent,,false,false
+Dev_Service__Feed,繝輔ぅ繝ｼ繝・ 繝ｦ繝ｼ繧ｶ繧ｵ繝昴・繝・0D5,01IdL00000BAt9l.Feed,,false,false
+Dev_Service__History,螻･豁ｴ: 繝ｦ繝ｼ繧ｶ繧ｵ繝昴・繝・017,01IdL00000BAt9l.History,,false,false
+Dev_Service__Share,蜈ｱ譛・ 繝ｦ繝ｼ繧ｶ繧ｵ繝昴・繝・02c,01IdL00000BAt9l.Share,,false,false
+Dev_Ticket__c,髢狗匱繝√こ繝・ヨ,a00,01IdL00000B9oaL,,true,false
+Dev_Ticket__ChangeEvent,螟画峩繧､繝吶Φ繝・ 髢狗匱繝√こ繝・ヨ,1CE,01IdL00000B9oaL.ChangeEvent,,false,false
+Dev_Ticket__Feed,繝輔ぅ繝ｼ繝・ 髢狗匱繝√こ繝・ヨ,0D5,01IdL00000B9oaL.Feed,,false,false
+Dev_Ticket__History,螻･豁ｴ: 髢狗匱繝√こ繝・ヨ,017,01IdL00000B9oaL.History,,false,false
+Dev_Ticket__Share,蜈ｱ譛・ 髢狗匱繝√こ繝・ヨ,02c,01IdL00000B9oaL.Share,,false,false
+DevopsEnvironment,迺ｰ蠅・1Qe,DevopsEnvironment,,false,false
+DevopsEnvironmentFeed,__MISSING LABEL__ PropertyFile - val DevopsEnvironment not found in section StandardFeedLabel,0D5,DevopsEnvironmentFeed,,false,false
+DevopsEnvironmentHistory,__MISSING LABEL__ PropertyFile - val DevopsEnvironment not found in section StandardHistoryLabel,017,DevopsEnvironmentHistory,,false,false
+DevopsEnvironmentShare,迺ｰ蠅・蜈ｱ譛・02c,DevopsEnvironmentShare,,false,false
+DevopsRequestInfo,隕∵ｱよュ蝣ｱ,8Mw,DevopsRequestInfo,,false,false
+DevopsRequestInfoChangeEvent,隕∵ｱよュ蝣ｱ 螟画峩繧､繝吶Φ繝・1CE,DevopsRequestInfoChangeEvent,,false,false
+DevopsRequestInfoEvent,DevOps 隕∵ｱよュ蝣ｱ繧､繝吶Φ繝・3fT,DevopsRequestInfoEvent,,false,false
+DevopsRequestInfoFeed,__MISSING LABEL__ PropertyFile - val DevopsRequestInfo not found in section StandardFeedLabel,0D5,DevopsRequestInfoFeed,,false,false
+DevopsRequestInfoHistory,__MISSING LABEL__ PropertyFile - val DevopsRequestInfo not found in section StandardHistoryLabel,017,DevopsRequestInfoHistory,,false,false
+DevopsRequestInfoShare,隕∵ｱよュ蝣ｱ 蜈ｱ譛・02c,DevopsRequestInfoShare,,false,false
+DigitalWallet,Digital Wallet,1DW,DigitalWallet,,true,false
+DocProcessingStatusEvent,繝峨く繝･繝｡繝ｳ繝亥・逅・憾豕√う繝吶Φ繝・1Td,DocProcessingStatusEvent,,false,false
+Document,繝峨く繝･繝｡繝ｳ繝・015,Document,,false,false
+DocumentAttachmentMap,繝峨く繝･繝｡繝ｳ繝医お繝ｳ繝・ぅ繝・ぅ縺ｮ蟇ｾ蠢應ｻ倥￠,05X,DocumentAttachmentMap,,false,false
+Domain,繝峨Γ繧､繝ｳ,0I4,Domain,,false,false
+DomainSite,繧ｫ繧ｹ繧ｿ繝 URL,0Jf,DomainSite,,false,false
+DuplicateRecordItem,驥崎､・Ξ繧ｳ繝ｼ繝蛾・岼,0GL,DuplicateRecordItem,,true,false
+DuplicateRecordSet,驥崎､・Ξ繧ｳ繝ｼ繝峨そ繝・ヨ,0GK,DuplicateRecordSet,,true,false
+DuplicateRule,驥崎､・Ν繝ｼ繝ｫ,0Bm,DuplicateRule,,false,false
+EmailBounceEvent,繝｡繝ｼ繝ｫ繝舌え繝ｳ繧ｹ繧､繝吶Φ繝・16M,EmailBounceEvent,,false,false
+EmailCapture,EmailCapture,06F,EmailCapture,,false,false
+EmailDomainFilter,繝｡繝ｼ繝ｫ繝峨Γ繧､繝ｳ讀懃ｴ｢譚｡莉ｶ,0T6,EmailDomainFilter,,false,false
+EmailDomainKey,繝｡繝ｼ繝ｫ繝峨Γ繧､繝ｳ繧ｭ繝ｼ,09P,EmailDomainKey,,false,false
+EmailMessage,繝｡繝ｼ繝ｫ繝｡繝・そ繝ｼ繧ｸ,02s,EmailMessage,,true,false
+EmailMessageChangeEvent,繝｡繝ｼ繝ｫ繝｡繝・そ繝ｼ繧ｸ 螟画峩繧､繝吶Φ繝・1CE,EmailMessageChangeEvent,,false,false
+EmailMessageRelation,繝｡繝ｼ繝ｫ繝｡繝・そ繝ｼ繧ｸ繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,0CZ,EmailMessageRelation,,false,false
+EmailRelay,繝｡繝ｼ繝ｫ繝ｪ繝ｬ繝ｼ,26Z,EmailRelay,,false,false
+EmailServicesAddress,繝｡繝ｼ繝ｫ繧ｵ繝ｼ繝薙せ繧｢繝峨Ξ繧ｹ,093,EmailServicesAddress,,false,false
+EmailServicesFunction,繝｡繝ｼ繝ｫ繧ｵ繝ｼ繝薙せ,091,EmailServicesFunction,,false,false
+EmailStatus,繝｡繝ｼ繝ｫ迥ｶ豕・018,EmailStatus,,false,false
+EmailTemplate,繝｡繝ｼ繝ｫ繝・Φ繝励Ξ繝ｼ繝・00X,EmailTemplate,,false,false
+EmailTemplateChangeEvent,繝｡繝ｼ繝ｫ繝・Φ繝励Ξ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,EmailTemplateChangeEvent,,false,false
+EmbeddedServiceDetail,邨・∩霎ｼ縺ｿ繧ｵ繝ｼ繝薙せ,0Lq,EmbeddedServiceDetail,,false,false
+EmbeddedServiceLabel,邨・∩霎ｼ縺ｿ繧ｵ繝ｼ繝薙せ繝ｩ繝吶Ν,0Uu,EmbeddedServiceLabel,,false,false
+EngagementChannelType,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν遞ｮ蛻･,0eF,EngagementChannelType,,true,false
+EngagementChannelTypeChangeEvent,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν遞ｮ蛻･ 螟画峩繧､繝吶Φ繝・1CE,EngagementChannelTypeChangeEvent,,false,false
+EngagementChannelTypeFeed,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν遞ｮ蛻･繝輔ぅ繝ｼ繝・0D5,EngagementChannelTypeFeed,,false,false
+EngagementChannelTypeHistory,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν遞ｮ蛻･縺ｮ螻･豁ｴ,017,EngagementChannelTypeHistory,,false,false
+EngagementChannelTypeShare,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν遞ｮ蛻･ 蜈ｱ譛・02c,EngagementChannelTypeShare,,false,false
+EngagementChannelWorkType,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν菴懈･ｭ遞ｮ蛻･,0xz,EngagementChannelWorkType,,true,false
+EngagementChannelWorkTypeFeed,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν菴懈･ｭ遞ｮ蛻･繝輔ぅ繝ｼ繝・0D5,EngagementChannelWorkTypeFeed,,false,false
+EngagementChannelWorkTypeHistory,繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν菴懈･ｭ遞ｮ蛻･縺ｮ螻･豁ｴ,017,EngagementChannelWorkTypeHistory,,false,false
+EngmtChannelTypeSettings,Generic Email Setting Result,19I,EngmtChannelTypeSettings,,false,false
+EnhancedLetterhead,諡｡蠑ｵ繝ｬ繧ｿ繝ｼ繝倥ャ繝・0Rn,EnhancedLetterhead,,false,false
+EnhancedLetterheadFeed,諡｡蠑ｵ繝ｬ繧ｿ繝ｼ繝倥ャ繝峨ヵ繧｣繝ｼ繝・0D5,EnhancedLetterheadFeed,,false,false
+Entitlement,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝・550,Entitlement,,true,false
+EntitlementChangeEvent,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝・螟画峩繧､繝吶Φ繝・1CE,EntitlementChangeEvent,,false,false
+EntitlementContact,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝亥叙蠑募・雋ｬ莉ｻ閠・0E7,EntitlementContact,,false,false
+EntitlementFeed,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝医ヵ繧｣繝ｼ繝・0D5,EntitlementFeed,,false,false
+EntitlementHistory,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝亥ｱ･豁ｴ,017,EntitlementHistory,,false,false
+EntitlementTemplate,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝医ユ繝ｳ繝励Ξ繝ｼ繝・551,EntitlementTemplate,,false,false
+EntityDefinition,繧ｨ繝ｳ繝・ぅ繝・ぅ螳夂ｾｩ,4ie,EntityDefinition,,false,false
+EntityMilestone,繧ｪ繝悶ず繧ｧ繧ｯ繝医・繧､繝ｫ繧ｹ繝医・繝ｳ,1EM,EntityMilestone,,true,false
+EntityMilestoneFeed,繧ｪ繝悶ず繧ｧ繧ｯ繝医・繧､繝ｫ繧ｹ繝医・繝ｳ繝輔ぅ繝ｼ繝・0D5,EntityMilestoneFeed,,false,false
+EntityMilestoneHistory,繧ｪ繝悶ず繧ｧ繧ｯ繝医・繧､繝ｫ繧ｹ繝医・繝ｳ螻･豁ｴ,017,EntityMilestoneHistory,,false,false
+EntityParticle,繧ｨ繝ｳ繝・ぅ繝・ぅ繝代・繝・ぅ繧ｯ繝ｫ,0Nv,EntityParticle,,false,false
+EntitySubscription,繧ｨ繝ｳ繝・ぅ繝・ぅ逋ｻ骭ｲ,0E8,EntitySubscription,,false,false
+Event,陦悟虚,00U,Event,,true,false
+EventBusSubscriber,繝励Λ繝・ヨ繝輔か繝ｼ繝繧､繝吶Φ繝育匳骭ｲ,0Cd,EventBusSubscriber,,false,false
+EventChangeEvent,陦悟虚 螟画峩繧､繝吶Φ繝・1CE,EventChangeEvent,,false,false
+EventFeed,陦悟虚繝輔ぅ繝ｼ繝・0D5,EventFeed,,false,false
+EventLogFile,繧､繝吶Φ繝医Ο繧ｰ繝輔ぃ繧､繝ｫ,0AT,EventLogFile,,false,false
+EventRelation,陦悟虚繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,0RE,EventRelation,,false,false
+EventRelationChangeEvent,陦悟虚繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,EventRelationChangeEvent,,false,false
+EventRelayConfig,繧､繝吶Φ繝医Μ繝ｬ繝ｼ險ｭ螳・7k2,EventRelayConfig,,false,false
+EventRelayConfigChangeEvent,繧､繝吶Φ繝医Μ繝ｬ繝ｼ險ｭ螳・螟画峩繧､繝吶Φ繝・1CE,EventRelayConfigChangeEvent,,false,false
+EventRelayFeedback,繧､繝吶Φ繝医Μ繝ｬ繝ｼ繝輔ぅ繝ｼ繝峨ヰ繝・け,7k4,EventRelayFeedback,,false,false
+EventRequirements__c,繧､繝吶Φ繝亥ｮ夂ｾｩ,a0F,01IdL00000BMCnN,,true,false
+EventRequirements__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧､繝吶Φ繝亥ｮ夂ｾｩ,1CE,01IdL00000BMCnN.ChangeEvent,,false,false
+EventRequirements__Feed,繝輔ぅ繝ｼ繝・ 繧､繝吶Φ繝亥ｮ夂ｾｩ,0D5,01IdL00000BMCnN.Feed,,false,false
+EventRequirements__History,螻･豁ｴ: 繧､繝吶Φ繝亥ｮ夂ｾｩ,017,01IdL00000BMCnN.History,,false,false
+EventRequirements__Share,蜈ｱ譛・ 繧､繝吶Φ繝亥ｮ夂ｾｩ,02c,01IdL00000BMCnN.Share,,false,false
+EventStagedInviteeEmail,陦悟虚繧ｹ繝・・繧ｸ繝ｳ繧ｰ貂医∩陲ｫ諡幃寔閠・Γ繝ｼ繝ｫ,5EI,EventStagedInviteeEmail,,false,false
+EvfPipelineSubTaskDetails,Evf Pipeline Sub Tasks Details,99v,EvfPipelineSubTaskDetails,,false,false
+ExpressionFilter,蠑乗､懃ｴ｢譚｡莉ｶ,1GS,ExpressionFilter,,false,false
+ExpressionFilterCriteria,蠑乗､懃ｴ｢譚｡莉ｶ蝓ｺ貅・8BM,ExpressionFilterCriteria,,false,false
+ExpressionSetView,蠑上そ繝・ヨ繝・Φ繝励Ξ繝ｼ繝・0pz,ExpressionSetView,,false,false
+ExtDataShare,繝・・繧ｿ蜈ｱ譛・1ed,ExtDataShare,,false,false
+ExtDataShareFeed,繝・・繧ｿ蜈ｱ譛峨ヵ繧｣繝ｼ繝・0D5,ExtDataShareFeed,,false,false
+ExtDataShareHistory,繝・・繧ｿ蜈ｱ譛牙ｱ･豁ｴ,017,ExtDataShareHistory,,false,false
+ExtDataShareTarget,繝・・繧ｿ蜈ｱ譛牙ｯｾ雎｡,1et,ExtDataShareTarget,,false,false
+ExtDataShareTargetFeed,繝・・繧ｿ蜈ｱ譛牙ｯｾ雎｡繝輔ぅ繝ｼ繝・0D5,ExtDataShareTargetFeed,,false,false
+ExtDataShareTargetHistory,繝・・繧ｿ蜈ｱ譛牙ｯｾ雎｡螻･豁ｴ,017,ExtDataShareTargetHistory,,false,false
+ExtDataShareTargetShare,繝・・繧ｿ蜈ｱ譛牙ｯｾ雎｡ 蜈ｱ譛・02c,ExtDataShareTargetShare,,false,false
+ExternalAIModel,螟夜Κ AI 繝｢繝・Ν,0b4,ExternalAIModel,,false,false
+ExternalClientApplication,External Client Applications,0xI,ExternalClientApplication,,false,false
+ExternalDataSource,螟夜Κ繝・・繧ｿ繧ｽ繝ｼ繧ｹ,0XC,ExternalDataSource,,false,false
+ExternalDataSrcDescriptor,螟夜Κ繝・・繧ｿ繧ｽ繝ｼ繧ｹ險倩ｿｰ蟄・6Ay,ExternalDataSrcDescriptor,,false,false
+ExternalDataUserAuth,螟夜Κ繝・・繧ｿ繝ｦ繝ｼ繧ｶ繝ｼ隱崎ｨｼ,0XU,ExternalDataUserAuth,,false,false
+ExternalEncryptionRootKey,External Encryption Root Key,48q,ExternalEncryptionRootKey,,false,false
+ExternalEvent,螟夜Κ繧､繝吶Φ繝・0AY,ExternalEvent,,false,false
+ExternalEventChangeEvent,螟夜Κ繧､繝吶Φ繝・螟画峩繧､繝吶Φ繝・1CE,ExternalEventChangeEvent,,false,false
+ExternalEventMapping,External Event Mappings,08N,ExternalEventMapping,,false,false
+ExternalEventMappingShare,External Event Mappings 蜈ｱ譛・02c,ExternalEventMappingShare,,false,false
+ExternalSourceStatusEvent,螟夜Κ蜿門ｾ怜・迥ｶ豕√う繝吶Φ繝・2e1,ExternalSourceStatusEvent,,false,false
+ExtlClntAppAndroidPushConfig,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ Android 霆｢騾∬ｨｭ螳・1Dh,ExtlClntAppAndroidPushConfig,,false,false
+ExtlClntAppApplePushConfig,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ Apple 霆｢騾∬ｨｭ螳・1DJ,ExtlClntAppApplePushConfig,,false,false
+ExtlClntAppMobileSettings,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝｢繝舌う繝ｫ險ｭ螳・38z,ExtlClntAppMobileSettings,,false,false
+ExtlClntAppMobPlcyConfig,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝｢繝舌う繝ｫ繝昴Μ繧ｷ繝ｼ險ｭ螳・8AQ,ExtlClntAppMobPlcyConfig,,false,false
+ExtlClntAppNotifSettings,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ騾夂衍險ｭ螳・15x,ExtlClntAppNotifSettings,,false,false
+ExtlClntAppNotifType,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ騾夂衍遞ｮ蛻･,18N,ExtlClntAppNotifType,,false,false
+ExtlClntAppOauthConsumer,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｭ繝ｼ繝舌Ν OAuth 繧ｳ繝ｳ繧ｷ繝･繝ｼ繝槭・,13P,ExtlClntAppOauthConsumer,,false,false
+ExtlClntAppOauthIpRange,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth IP 遽・峇,6Wj,ExtlClntAppOauthIpRange,,false,false
+ExtlClntAppOauthPlcyAttr,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth 繝昴Μ繧ｷ繝ｼ繧ｫ繧ｹ繧ｿ繝螻樊ｧ,15g,ExtlClntAppOauthPlcyAttr,,false,false
+ExtlClntAppOauthPlcyCnfg,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth 繝昴Μ繧ｷ繝ｼ險ｭ螳・0yO,ExtlClntAppOauthPlcyCnfg,,false,false
+ExtlClntAppOauthPlcyCustmScp,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth 繝昴Μ繧ｷ繝ｼ繧ｫ繧ｹ繧ｿ繝遽・峇,1Cb,ExtlClntAppOauthPlcyCustmScp,,false,false
+ExtlClntAppOauthSetAttr,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth 險ｭ螳壹き繧ｹ繧ｿ繝螻樊ｧ,15h,ExtlClntAppOauthSetAttr,,false,false
+ExtlClntAppOauthSetCustmScp,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ Oauth 險ｭ螳壹き繧ｹ繧ｿ繝遽・峇,1Cf,ExtlClntAppOauthSetCustmScp,,false,false
+ExtlClntAppOauthSettings,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ OAuth 險ｭ螳・3SN,ExtlClntAppOauthSettings,,false,false
+ExtlClntAppPlcyCnfg,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝昴Μ繧ｷ繝ｼ險ｭ螳・196,ExtlClntAppPlcyCnfg,,false,false
+ExtlClntAppPushPolicyConfig,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ霆｢騾√・繝ｪ繧ｷ繝ｼ險ｭ螳・1HP,ExtlClntAppPushPolicyConfig,,false,false
+ExtlClntAppPushSettings,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ霆｢騾∬ｨｭ螳・1Cg,ExtlClntAppPushSettings,,false,false
+ExtlClntAppSamplePlcyCnfg,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｵ繝ｳ繝励Ν繝昴Μ繧ｷ繝ｼ險ｭ螳・4B5,ExtlClntAppSamplePlcyCnfg,,false,false
+ExtlClntAppSampleSettings,螟夜Κ繧ｯ繝ｩ繧､繧｢繝ｳ繝医い繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｵ繝ｳ繝励Ν險ｭ螳・3AG,ExtlClntAppSampleSettings,,false,false
+FeatureUsageEvent,讖溯・蛻ｩ逕ｨ迥ｶ豕√う繝吶Φ繝・1di,FeatureUsageEvent,,false,false
+FeedAttachment,繝輔ぅ繝ｼ繝画ｷｻ莉・08M,FeedAttachment,,false,false
+FeedComment,繝輔ぅ繝ｼ繝峨さ繝｡繝ｳ繝・0D7,FeedComment,,false,false
+FeedItem,繝輔ぅ繝ｼ繝蛾・岼,0D5,FeedItem,,false,false
+FeedLike,繝輔ぅ繝ｼ繝峨後＞縺・・!縲・0I0,FeedLike,,false,false
+FeedPollChoice,Feed Poll Choice,09A,FeedPollChoice,,false,false
+FeedPollVote,Feed Poll Vote,09B,FeedPollVote,,false,false
+FeedRevision,繝輔ぅ繝ｼ繝峨Μ繝薙ず繝ｧ繝ｳ,08U,FeedRevision,,false,false
+FeedSignal,繝輔ぅ繝ｼ繝我ｿ｡蜿ｷ,0QJ,FeedSignal,,false,false
+FeedTrackedChange,螟画峩霑ｽ霍｡繝輔ぅ繝ｼ繝・0D6,FeedTrackedChange,,false,false
+FieldDefinition,鬆・岼螳夂ｾｩ,4fe,FieldDefinition,,false,false
+FieldPermissions,鬆・岼讓ｩ髯・01k,FieldPermissions,,false,false
+FieldSecurityClassification,鬆・岼繧ｻ繧ｭ繝･繝ｪ繝・ぅ蛻・｡・,FieldSecurityClassification,,false,false
+FileEvent,繝輔ぃ繧､繝ｫ繧､繝吶Φ繝・0vI,FileEvent,,false,false
+FileEventStore,繝輔ぃ繧､繝ｫ繧､繝吶Φ繝医せ繝医い,0wg,FileEventStore,,false,false
+FileSearchActivity,FileSearchActivity,06h,FileSearchActivity,,false,false
+FinanceBalanceSnapshot,驥題檮谿矩ｫ倥せ繝翫ャ繝励す繝ｧ繝・ヨ,2kA,FinanceBalanceSnapshot,,true,false
+FinanceBalanceSnapshotChangeEvent,驥題檮谿矩ｫ倥せ繝翫ャ繝励す繝ｧ繝・ヨ 螟画峩繧､繝吶Φ繝・1CE,FinanceBalanceSnapshotChangeEvent,,false,false
+FinanceBalanceSnapshotShare,驥題檮谿矩ｫ倥せ繝翫ャ繝励す繝ｧ繝・ヨ 蜈ｱ譛・02c,FinanceBalanceSnapshotShare,,false,false
+FinanceTransaction,驥題檮蜿門ｼ・0n3,FinanceTransaction,,true,false
+FinanceTransactionChangeEvent,驥題檮蜿門ｼ・螟画峩繧､繝吶Φ繝・1CE,FinanceTransactionChangeEvent,,false,false
+FinanceTransactionShare,驥題檮蜿門ｼ・蜈ｱ譛・02c,FinanceTransactionShare,,false,false
+FiscalYearSettings,莨夊ｨ亥ｹｴ蠎ｦ險ｭ螳・022,FiscalYearSettings,,false,false
+FlexQueueItem,Flex 繧ｭ繝･繝ｼ鬆・岼,06i,FlexQueueItem,,false,false
+FlowDebugRefreshEvent,繝輔Ο繝ｼ縺ｮ繝・ヰ繝・げ譖ｴ譁ｰ繧､繝吶Φ繝・8ko,FlowDebugRefreshEvent,,false,false
+FlowDefinitionView,繝輔Ο繝ｼ螳夂ｾｩ,3dd,FlowDefinitionView,,false,false
+FlowExecutionErrorEvent,繝輔Ο繝ｼ螳溯｡後お繝ｩ繝ｼ繧､繝吶Φ繝・0eC,FlowExecutionErrorEvent,,false,false
+FlowInterview,Flow Interview,0Fo,FlowInterview,,false,false
+FlowInterviewLog,繝輔Ο繝ｼ繧､繝ｳ繧ｿ繝薙Η繝ｼ繝ｭ繧ｰ,8gZ,FlowInterviewLog,,false,false
+FlowInterviewLogEntry,繝輔Ο繝ｼ繧､繝ｳ繧ｿ繝薙Η繝ｼ繝ｭ繧ｰ繧ｨ繝ｳ繝医Μ,0f6,FlowInterviewLogEntry,,false,false
+FlowInterviewLogShare,繝輔Ο繝ｼ繧､繝ｳ繧ｿ繝薙Η繝ｼ繝ｭ繧ｰ 蜈ｱ譛・02c,FlowInterviewLogShare,,false,false
+FlowInterviewShare,Flow Interview 蜈ｱ譛・02c,FlowInterviewShare,,false,false
+FlowOrchestration,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ,1Fe,FlowOrchestration,,false,false
+FlowOrchestrationChangeEvent,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,FlowOrchestrationChangeEvent,,false,false
+FlowOrchestrationEvent,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繧､繝吶Φ繝・0jo,FlowOrchestrationEvent,,false,false
+FlowOrchestrationInstance,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ螳溯｡・0jE,FlowOrchestrationInstance,,true,false
+FlowOrchestrationInstanceShare,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ螳溯｡・蜈ｱ譛・02c,FlowOrchestrationInstanceShare,,false,false
+FlowOrchestrationLog,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ螳溯｡後Ο繧ｰ,0mZ,FlowOrchestrationLog,,true,false
+FlowOrchestrationStageInstance,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぉ繝ｼ繧ｺ螳溯｡・0jF,FlowOrchestrationStageInstance,,true,false
+FlowOrchestrationStageInstanceShare,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぉ繝ｼ繧ｺ螳溯｡・蜈ｱ譛・02c,FlowOrchestrationStageInstanceShare,,false,false
+FlowOrchestrationStepInstance,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繧ｹ繝・ャ繝怜ｮ溯｡・0jL,FlowOrchestrationStepInstance,,true,false
+FlowOrchestrationStepInstanceShare,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繧ｹ繝・ャ繝怜ｮ溯｡・蜈ｱ譛・02c,FlowOrchestrationStepInstanceShare,,false,false
+FlowOrchestrationVersion,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繝舌・繧ｸ繝ｧ繝ｳ,1Ff,FlowOrchestrationVersion,,false,false
+FlowOrchestrationVersionChangeEvent,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ繝舌・繧ｸ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,FlowOrchestrationVersionChangeEvent,,false,false
+FlowOrchestrationWorkItem,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ菴懈･ｭ鬆・岼,0jf,FlowOrchestrationWorkItem,,true,false
+FlowOrchestrationWorkItemShare,繧ｪ繝ｼ繧ｱ繧ｹ繝医Ξ繝ｼ繧ｷ繝ｧ繝ｳ菴懈･ｭ鬆・岼 蜈ｱ譛・02c,FlowOrchestrationWorkItemShare,,false,false
+FlowRecord,繝輔Ο繝ｼ,2aF,FlowRecord,,false,false
+FlowRecordChangeEvent,繝輔Ο繝ｼ 螟画峩繧､繝吶Φ繝・1CE,FlowRecordChangeEvent,,false,false
+FlowRecordElement,繝輔Ο繝ｼ隕∫ｴ,11M,FlowRecordElement,,false,false
+FlowRecordElementChangeEvent,繝輔Ο繝ｼ隕∫ｴ 螟画峩繧､繝吶Φ繝・1CE,FlowRecordElementChangeEvent,,false,false
+FlowRecordElementOccurrence,繝輔Ο繝ｼ繝ｬ繧ｳ繝ｼ繝芽ｦ∫ｴ逋ｺ逕・2XP,FlowRecordElementOccurrence,,false,false
+FlowRecordHistory,繝輔Ο繝ｼ繝ｬ繧ｳ繝ｼ繝牙ｱ･豁ｴ,017,FlowRecordHistory,,false,false
+FlowRecordRelation,繝輔Ο繝ｼ繝ｬ繧ｳ繝ｼ繝峨Μ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,31z,FlowRecordRelation,,false,false
+FlowRecordShare,繝輔Ο繝ｼ 蜈ｱ譛・02c,FlowRecordShare,,false,false
+FlowRecordVersion,繝輔Ο繝ｼ繝舌・繧ｸ繝ｧ繝ｳ,10v,FlowRecordVersion,,false,false
+FlowRecordVersionChangeEvent,繝輔Ο繝ｼ繝舌・繧ｸ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,FlowRecordVersionChangeEvent,,false,false
+FlowRecordVersionOccurrence,繝輔Ο繝ｼ繝舌・繧ｸ繝ｧ繝ｳ逋ｺ逕・10p,FlowRecordVersionOccurrence,,false,false
+FlowStageRelation,繝輔Ο繝ｼ繧､繝ｳ繧ｿ繝薙Η繝ｼ繝輔ぉ繝ｼ繧ｺ繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,31y,FlowStageRelation,,false,false
+FlowTestResult,繝輔Ο繝ｼ繝・せ繝育ｵ先棡,2hU,FlowTestResult,,false,false
+FlowTestResultShare,繝輔Ο繝ｼ繝・せ繝育ｵ先棡 蜈ｱ譛・02c,FlowTestResultShare,,false,false
+FlowTestView,繝輔Ο繝ｼ繝・せ繝医ン繝･繝ｼ,4YB,FlowTestView,,false,false
+FlowVariableView,繝輔Ο繝ｼ縺ｮ螟画焚,3ad,FlowVariableView,,false,false
+FlowVersionView,繝輔Ο繝ｼ縺ｮ繝舌・繧ｸ繝ｧ繝ｳ,3vd,FlowVersionView,,false,false
+Folder,繝輔か繝ｫ繝繝ｼ,00l,Folder,,false,false
+FolderedContentDocument,繝輔か繝ｫ繝繝ｼ蜀・・繧ｳ繝ｳ繝・Φ繝・ラ繧ｭ繝･繝｡繝ｳ繝・,FolderedContentDocument,,false,false
+FormulaFunction,謨ｰ蠑城未謨ｰ,0Kn,FormulaFunction,,false,false
+FormulaFunctionAllowedType,謨ｰ蠑上さ繝ｳ繝・く繧ｹ繝磯未謨ｰ,0fE,FormulaFunctionAllowedType,,false,false
+FormulaFunctionCategory,謨ｰ蠑城未謨ｰ繧ｫ繝・ざ繝ｪ,0Kh,FormulaFunctionCategory,,false,false
+FOStatusChangedEvent,螻･陦梧ｳｨ譁・憾豕∝､画峩繧､繝吶Φ繝・0d1,FOStatusChangedEvent,,false,false
+FulfillmentOrder,螻･陦梧ｳｨ譁・0a3,FulfillmentOrder,,true,false
+FulfillmentOrderChangeEvent,螻･陦梧ｳｨ譁・螟画峩繧､繝吶Φ繝・1CE,FulfillmentOrderChangeEvent,,false,false
+FulfillmentOrderFeed,螻･陦梧ｳｨ譁・ヵ繧｣繝ｼ繝・0D5,FulfillmentOrderFeed,,false,false
+FulfillmentOrderItemAdjustment,螻･陦梧ｳｨ譁・刀逶ｮ隱ｿ謨ｴ,0c4,FulfillmentOrderItemAdjustment,,true,false
+FulfillmentOrderItemAdjustmentFeed,螻･陦梧ｳｨ譁・刀逶ｮ隱ｿ謨ｴ繝輔ぅ繝ｼ繝・0D5,FulfillmentOrderItemAdjustmentFeed,,false,false
+FulfillmentOrderItemTax,螻･陦梧ｳｨ譁・刀逶ｮ遞・0co,FulfillmentOrderItemTax,,true,false
+FulfillmentOrderItemTaxChangeEvent,螻･陦梧ｳｨ譁・刀逶ｮ遞・螟画峩繧､繝吶Φ繝・1CE,FulfillmentOrderItemTaxChangeEvent,,false,false
+FulfillmentOrderItemTaxFeed,螻･陦梧ｳｨ譁・刀逶ｮ遞弱ヵ繧｣繝ｼ繝・0D5,FulfillmentOrderItemTaxFeed,,false,false
+FulfillmentOrderLineItem,螻･陦梧ｳｨ譁・膚蜩・0a4,FulfillmentOrderLineItem,,true,false
+FulfillmentOrderLineItemChangeEvent,螻･陦梧ｳｨ譁・膚蜩・螟画峩繧､繝吶Φ繝・1CE,FulfillmentOrderLineItemChangeEvent,,false,false
+FulfillmentOrderLineItemFeed,螻･陦梧ｳｨ譁・膚蜩√ヵ繧｣繝ｼ繝・0D5,FulfillmentOrderLineItemFeed,,false,false
+FulfillmentOrderShare,螻･陦梧ｳｨ譁・蜈ｱ譛・02c,FulfillmentOrderShare,,false,false
+FulfillOrdItemQtyChgEvent,螻･陦梧ｳｨ譁・刀逶ｮ謨ｰ驥丞､画峩繧､繝吶Φ繝・1Fq,FulfillOrdItemQtyChgEvent,,false,false
+FunctionRequirements__c,讖溯・隕∽ｻｶ,a07,01IdL00000BL3EH,,true,false
+FunctionRequirements__ChangeEvent,螟画峩繧､繝吶Φ繝・ 讖溯・隕∽ｻｶ,1CE,01IdL00000BL3EH.ChangeEvent,,false,false
+FunctionRequirements__Feed,繝輔ぅ繝ｼ繝・ 讖溯・隕∽ｻｶ,0D5,01IdL00000BL3EH.Feed,,false,false
+FunctionRequirements__History,螻･豁ｴ: 讖溯・隕∽ｻｶ,017,01IdL00000BL3EH.History,,false,false
+FunctionRequirements__Share,蜈ｱ譛・ 讖溯・隕∽ｻｶ,02c,01IdL00000BL3EH.Share,,false,false
+GenAiFunctionDefinition,逕滓・ AI 髢｢謨ｰ螳夂ｾｩ,172,GenAiFunctionDefinition,,false,false
+GenAiPlannerAttrDefinition,逕滓・ AI 繝励Λ繝ｳ繝翫・螻樊ｧ螳夂ｾｩ,17F,GenAiPlannerAttrDefinition,,false,false
+GenAiPlannerDefinition,逕滓・ AI 繝励Λ繝ｳ繝翫・螳夂ｾｩ,16j,GenAiPlannerDefinition,,false,false
+GenAiPlannerFunctionDef,逕滓・ AI 繝励Λ繝ｳ繝翫・髢｢謨ｰ螳夂ｾｩ,17D,GenAiPlannerFunctionDef,,false,false
+GenAiPluginDefinition,逕滓・ AI 繝励Λ繧ｰ繧､繝ｳ螳夂ｾｩ,179,GenAiPluginDefinition,,false,false
+GenAiPluginFunctionDef,逕滓・ AI 繝励Λ繧ｰ繧､繝ｳ髢｢謨ｰ螳夂ｾｩ,17E,GenAiPluginFunctionDef,,false,false
+GenAiPluginInstructionDef,逕滓・ AI 繝励Λ繧ｰ繧､繝ｳ謇矩・ｮ夂ｾｩ,1C7,GenAiPluginInstructionDef,,false,false
+GisPrvdCnctrJobObjRun,GIS 繝励Ο繝舌う繝繝ｼ繧ｳ繝阪け繧ｿ繧ｪ繝悶ず繧ｧ繧ｯ繝医ず繝ｧ繝門ｮ溯｡・1fT,GisPrvdCnctrJobObjRun,,false,false
+GrantedByLicense,Setting Granted By License,06d,GrantedByLicense,,false,false
+Group,繧ｰ繝ｫ繝ｼ繝・00G,Group,,false,false
+GroupMember,繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・,011,GroupMember,,false,false
+GtwyProvPaymentMethodType,繧ｲ繝ｼ繝医え繧ｧ繧､繝励Ο繝舌う繝繝ｼ謾ｯ謇墓婿豕慕ｨｮ蛻･,1gp,GtwyProvPaymentMethodType,,false,false
+GuestUserAnomalyEvent,繧ｲ繧ｹ繝医Θ繝ｼ繧ｶ繝ｼ逡ｰ蟶ｸ繧､繝吶Φ繝・18y,GuestUserAnomalyEvent,,false,false
+GuestUserAnomalyEventStore,繧ｲ繧ｹ繝医Θ繝ｼ繧ｶ繝ｼ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い,18z,GuestUserAnomalyEventStore,,false,false
+GuestUserAnomalyEventStoreFeed,繧ｲ繧ｹ繝医Θ繝ｼ繧ｶ繝ｼ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,GuestUserAnomalyEventStoreFeed,,false,false
+Holiday,莨第律,0C0,Holiday,,false,false
+IconDefinition,繧｢繧､繧ｳ繝ｳ螳夂ｾｩ,09k,IconDefinition,,false,false
+Idea,繧｢繧､繝・い,087,Idea,,true,false
+IdeaComment,繧｢繧､繝・い縺ｮ繧ｳ繝｡繝ｳ繝・00a,IdeaComment,,false,false
+IdentityProviderEventStore,ID 繝励Ο繝舌う繝繝ｼ繧､繝吶Φ繝医せ繝医い,0k8,IdentityProviderEventStore,,false,false
+IdentityResolution,ID 隗｣豎ｺ,1ir,IdentityResolution,,false,false
+IdentityResolutionFeed,ID 隗｣豎ｺ繝輔ぅ繝ｼ繝・0D5,IdentityResolutionFeed,,false,false
+IdentityResolutionHistory,ID 隗｣豎ｺ縺ｮ螻･豁ｴ,017,IdentityResolutionHistory,,false,false
+IdentityVerificationEvent,ID 讀懆ｨｼ繧､繝吶Φ繝・0Jx,IdentityVerificationEvent,,false,false
+IdpEventLog,ID 繝励Ο繝舌う繝繝ｼ繧､繝吶Φ繝医Ο繧ｰ,0Yu,IdpEventLog,,false,false
+IdRsolStatusEvent,ID 隗｣豎ｺ迥ｶ豕√う繝吶Φ繝・1e6,IdRsolStatusEvent,,false,false
+IframeWhiteListUrl,Trusted Domains for Inline Frames,6TS,IframeWhiteListUrl,,false,false
+Image,逕ｻ蜒・4YL,Image,,true,false
+ImageFeed,逕ｻ蜒上ヵ繧｣繝ｼ繝・0D5,ImageFeed,,false,false
+ImageHistory,逕ｻ蜒丞ｱ･豁ｴ,017,ImageHistory,,false,false
+ImageShare,逕ｻ蜒・蜈ｱ譛・02c,ImageShare,,false,false
+Incident,髫懷ｮｳ,0ny,Incident,,true,false
+IncidentChangeEvent,髫懷ｮｳ 螟画峩繧､繝吶Φ繝・1CE,IncidentChangeEvent,,false,false
+IncidentFeed,髫懷ｮｳ繝輔ぅ繝ｼ繝・0D5,IncidentFeed,,false,false
+IncidentHistory,髫懷ｮｳ螻･豁ｴ,017,IncidentHistory,,false,false
+IncidentRelatedItem,髫懷ｮｳ髢｢騾｣鬆・岼,0tA,IncidentRelatedItem,,true,false
+IncidentRelatedItemChangeEvent,髫懷ｮｳ髢｢騾｣鬆・岼 螟画峩繧､繝吶Φ繝・1CE,IncidentRelatedItemChangeEvent,,false,false
+IncidentRelatedItemFeed,髫懷ｮｳ髢｢騾｣鬆・岼繝輔ぅ繝ｼ繝・0D5,IncidentRelatedItemFeed,,false,false
+IncidentRelatedItemHistory,髫懷ｮｳ髢｢騾｣鬆・岼螻･豁ｴ,017,IncidentRelatedItemHistory,,false,false
+IncidentShare,髫懷ｮｳ 蜈ｱ譛・02c,IncidentShare,,false,false
+Individual,蛟倶ｺｺ,0PK,Individual,,true,false
+IndividualChangeEvent,蛟倶ｺｺ 螟画峩繧､繝吶Φ繝・1CE,IndividualChangeEvent,,false,false
+IndividualHistory,蛟倶ｺｺ螻･豁ｴ,017,IndividualHistory,,false,false
+IndividualShare,蛟倶ｺｺ蜈ｱ譛・0T5,IndividualShare,,false,false
+InstalledMobileApp,繧､繝ｳ繧ｹ繝医・繝ｫ貂医∩繝｢繝舌う繝ｫ繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,0El,InstalledMobileApp,,false,false
+InventoryItemReservation,蝨ｨ蠎ｫ蜩∫岼莠育ｴ・10s,InventoryItemReservation,,true,false
+InventoryReservation,蝨ｨ蠎ｫ莠育ｴ・10r,InventoryReservation,,true,false
+InventoryReservationShare,蝨ｨ蠎ｫ莠育ｴ・蜈ｱ譛・02c,InventoryReservationShare,,false,false
+Invoice,隲区ｱよ嶌,3tt,Invoice,,true,false
+InvoiceFeed,隲区ｱよ嶌繝輔ぅ繝ｼ繝・0D5,InvoiceFeed,,false,false
+InvoiceHistory,隲区ｱよ嶌螻･豁ｴ,017,InvoiceHistory,,false,false
+InvoiceLine,隲区ｱよ嶌蜩∫岼,5TV,InvoiceLine,,true,false
+InvoiceLineFeed,隲区ｱよ嶌蜩∫岼繝輔ぅ繝ｼ繝・0D5,InvoiceLineFeed,,false,false
+InvoiceLineHistory,隲区ｱよ嶌蜩∫岼螻･豁ｴ,017,InvoiceLineHistory,,false,false
+InvoiceShare,隲区ｱよ嶌 蜈ｱ譛・02c,InvoiceShare,,false,false
+IPAddressRange,IP 繧｢繝峨Ξ繧ｹ遽・峇,9s4,IPAddressRange,,false,false
+Issue__c,隱ｲ鬘後・隕∵悍,a06,01IdL00000BL36D,,true,false
+Issue__ChangeEvent,螟画峩繧､繝吶Φ繝・ 隱ｲ鬘後・隕∵悍,1CE,01IdL00000BL36D.ChangeEvent,,false,false
+Issue__Feed,繝輔ぅ繝ｼ繝・ 隱ｲ鬘後・隕∵悍,0D5,01IdL00000BL36D.Feed,,false,false
+Issue__History,螻･豁ｴ: 隱ｲ鬘後・隕∵悍,017,01IdL00000BL36D.History,,false,false
+Issue__Share,蜈ｱ譛・ 隱ｲ鬘後・隕∵悍,02c,01IdL00000BL36D.Share,,false,false
+KnowledgeableUser,遏･隴倥・縺ゅｋ繝ｦ繝ｼ繧ｶ繝ｼ,0in,KnowledgeableUser,,false,false
+Lead,繝ｪ繝ｼ繝・00Q,Lead,,true,false
+LeadChangeEvent,繝ｪ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,LeadChangeEvent,,false,false
+LeadCleanInfo,繝ｪ繝ｼ繝峨け繝ｪ繝ｼ繝ｳ繧｢繝・・諠・ｱ,1CL,LeadCleanInfo,,true,false
+LeadFeed,繝ｪ繝ｼ繝峨ヵ繧｣繝ｼ繝・0D5,LeadFeed,,false,false
+LeadHistory,繝ｪ繝ｼ繝牙ｱ･豁ｴ,017,LeadHistory,,false,false
+LeadShare,繝ｪ繝ｼ繝峨・蜈ｱ譛・01o,LeadShare,,false,false
+LeadStatus,繝ｪ繝ｼ繝峨・迥ｶ豕∝､,01J,LeadStatus,,false,false
+LegalEntity,豕穂ｺｺ,0fw,LegalEntity,,true,false
+LegalEntityFeed,__MISSING LABEL__ PropertyFile - val LegalEntity not found in section StandardFeedLabel,0D5,LegalEntityFeed,,false,false
+LegalEntityHistory,豕穂ｺｺ螻･豁ｴ,017,LegalEntityHistory,,false,false
+LegalEntityShare,豕穂ｺｺ 蜈ｱ譛・02c,LegalEntityShare,,false,false
+LightningExitByPageMetrics,Lightning 繝壹・繧ｸ蛻･邨ゆｺ・Γ繝医Μ繧ｯ繧ｹ,0V9,LightningExitByPageMetrics,,false,false
+LightningExperienceTheme,Lightning Experience 縺ｮ繝・・繝・0S1,LightningExperienceTheme,,false,false
+LightningOnboardingConfig,Lightning 繧ｪ繝ｳ繝懊・繝・ぅ繝ｳ繧ｰ險ｭ螳・7MM,LightningOnboardingConfig,,false,false
+LightningToggleMetrics,Lightning 蛻・ｊ譖ｿ縺医Γ繝医Μ繧ｯ繧ｹ,1o1,LightningToggleMetrics,,false,false
+LightningUriEvent,Lightning URI 繧､繝吶Φ繝・0bh,LightningUriEvent,,false,false
+LightningUriEventStream,Lightning URI 繧､繝吶Φ繝医せ繝医Μ繝ｼ繝,0bi,LightningUriEventStream,,false,false
+LightningUsageByAppTypeMetrics,Lightning 繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ遞ｮ蛻･蛻･菴ｿ逕ｨ迥ｶ豕√Γ繝医Μ繧ｯ繧ｹ,62C,LightningUsageByAppTypeMetrics,,false,false
+LightningUsageByBrowserMetrics,Lightning 繝悶Λ繧ｦ繧ｶ繝ｼ蛻･菴ｿ逕ｨ迥ｶ豕√Γ繝医Μ繧ｯ繧ｹ,3mK,LightningUsageByBrowserMetrics,,false,false
+LightningUsageByFlexiPageMetrics,FlexPage 蛻･ Lightning 菴ｿ逕ｨ迥ｶ豕√Γ繝医Μ繧ｯ繧ｹ,7pV,LightningUsageByFlexiPageMetrics,,false,false
+LightningUsageByPageMetrics,Lightning 繝壹・繧ｸ蛻･菴ｿ逕ｨ迥ｶ豕√Γ繝医Μ繧ｯ繧ｹ,0U5,LightningUsageByPageMetrics,,false,false
+ListEmail,繝ｪ繧ｹ繝医Γ繝ｼ繝ｫ,0XB,ListEmail,,false,false
+ListEmailChangeEvent,繝ｪ繧ｹ繝医Γ繝ｼ繝ｫ 螟画峩繧､繝吶Φ繝・1CE,ListEmailChangeEvent,,false,false
+ListEmailIndividualRecipient,List Email Individual Recipients,0XF,ListEmailIndividualRecipient,,false,false
+ListEmailRecipientSource,List Email Recipient Sources,0XD,ListEmailRecipientSource,,false,false
+ListEmailSentResult,List Email Sent Results,0XE,ListEmailSentResult,,false,false
+ListEmailSentResultChangeEvent,List Email Sent Results 螟画峩繧､繝吶Φ繝・1CE,ListEmailSentResultChangeEvent,,false,false
+ListEmailShare,繝ｪ繧ｹ繝医Γ繝ｼ繝ｫ 蜈ｱ譛・02c,ListEmailShare,,false,false
+ListView,繝ｪ繧ｹ繝医ン繝･繝ｼ,00B,ListView,,false,false
+ListViewChart,繝ｪ繧ｹ繝医ン繝･繝ｼ繧ｰ繝ｩ繝・0Dd,ListViewChart,,false,false
+ListViewChartInstance,繝ｪ繧ｹ繝医ン繝･繝ｼ繧ｰ繝ｩ繝輔う繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ,0De,ListViewChartInstance,,false,false
+ListViewEvent,繝ｪ繧ｹ繝医ン繝･繝ｼ繧､繝吶Φ繝・0X8,ListViewEvent,,false,false
+ListViewEventStream,繝ｪ繧ｹ繝医ン繝･繝ｼ繧､繝吶Φ繝医せ繝医Μ繝ｼ繝,0XG,ListViewEventStream,,false,false
+LiveChatSensitiveDataRule,讖溷ｯ・ョ繝ｼ繧ｿ繝ｫ繝ｼ繝ｫ,0GO,LiveChatSensitiveDataRule,,false,false
+Location,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,131,Location,,true,false
+LocationChangeEvent,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,LocationChangeEvent,,false,false
+LocationFeed,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,LocationFeed,,false,false
+LocationGroup,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝・0gh,LocationGroup,,true,false
+LocationGroupAssignment,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝怜牡繧雁ｽ薙※,0gx,LocationGroupAssignment,,true,false
+LocationGroupAssignmentChangeEvent,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝怜牡繧雁ｽ薙※ 螟画峩繧､繝吶Φ繝・1CE,LocationGroupAssignmentChangeEvent,,false,false
+LocationGroupChangeEvent,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,LocationGroupChangeEvent,,false,false
+LocationGroupFeed,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝励ヵ繧｣繝ｼ繝・0D5,LocationGroupFeed,,false,false
+LocationGroupHistory,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝怜ｱ･豁ｴ,017,LocationGroupHistory,,false,false
+LocationGroupShare,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ繧ｰ繝ｫ繝ｼ繝・蜈ｱ譛・02c,LocationGroupShare,,false,false
+LocationHistory,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,LocationHistory,,false,false
+LocationShare,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ 蜈ｱ譛・02c,LocationShare,,false,false
+LocationShippingCarrierMethod,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ驟埼∵･ｭ閠・婿豕・2A3,LocationShippingCarrierMethod,,true,false
+LocationShippingCarrierMethodFeed,__MISSING LABEL__ PropertyFile - val LocationShippingCarrierMethod not found in section StandardFeedLabel,0D5,LocationShippingCarrierMethodFeed,,false,false
+LocationShippingCarrierMethodHistory,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ驟埼∵･ｭ閠・婿豕募ｱ･豁ｴ,017,LocationShippingCarrierMethodHistory,,false,false
+LocationShippingCarrierMethodShare,繝ｭ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ驟埼∵･ｭ閠・婿豕・蜈ｱ譛・02c,LocationShippingCarrierMethodShare,,false,false
+LoginAnomalyEvent,繝ｭ繧ｰ繧､繝ｳ逡ｰ蟶ｸ繧､繝吶Φ繝・1Rt,LoginAnomalyEvent,,false,false
+LoginAnomalyEventStore,繝ｭ繧ｰ繧､繝ｳ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い,1S0,LoginAnomalyEventStore,,false,false
+LoginAnomalyEventStoreFeed,繝ｭ繧ｰ繧､繝ｳ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,LoginAnomalyEventStoreFeed,,false,false
+LoginAsEvent,LoginAs 繧､繝吶Φ繝・0VX,LoginAsEvent,,false,false
+LoginAsEventStream,LoginAs 繧､繝吶Φ繝医せ繝医Μ繝ｼ繝,0VY,LoginAsEventStream,,false,false
+LoginEvent,繝ｭ繧ｰ繧､繝ｳ繧､繝吶Φ繝・1HB,LoginEvent,,false,false
+LoginEventStream,繝ｭ繧ｰ繧､繝ｳ繧､繝吶Φ繝医せ繝医Μ繝ｼ繝,0Ll,LoginEventStream,,false,false
+LoginGeo,繝ｭ繧ｰ繧､繝ｳ蝨ｰ逅・ュ蝣ｱ繝・・繧ｿ,04F,LoginGeo,,false,false
+LoginHistory,繝ｭ繧ｰ繧､繝ｳ螻･豁ｴ,0Ya,LoginHistory,,false,false
+LoginIp,繝ｭ繧ｰ繧､繝ｳ IP,710,LoginIp,,false,false
+LogoutEvent,繝ｭ繧ｰ繧｢繧ｦ繝医う繝吶Φ繝・06M,LogoutEvent,,false,false
+LogoutEventStream,Logout Event Streams,0PH,LogoutEventStream,,false,false
+LookedUpFromActivity,豢ｻ蜍輔°繧画､懃ｴ｢,,LookedUpFromActivity,,false,false
+Macro,繝槭け繝ｭ,0JZ,Macro,,true,false
+MacroChangeEvent,繝槭け繝ｭ 螟画峩繧､繝吶Φ繝・1CE,MacroChangeEvent,,false,false
+MacroHistory,繝槭け繝ｭ螻･豁ｴ,017,MacroHistory,,false,false
+MacroInstruction,繝槭け繝ｭ縺ｮ隱ｬ譏・0Ji,MacroInstruction,,false,false
+MacroInstructionChangeEvent,繝槭け繝ｭ縺ｮ隱ｬ譏・螟画峩繧､繝吶Φ繝・1CE,MacroInstructionChangeEvent,,false,false
+MacroShare,繝槭け繝ｭ 蜈ｱ譛・02c,MacroShare,,false,false
+MacroUsage,繝槭け繝ｭ蛻ｩ逕ｨ迥ｶ豕・5ML,MacroUsage,,false,false
+MacroUsageShare,繝槭け繝ｭ蛻ｩ逕ｨ迥ｶ豕・蜈ｱ譛・02c,MacroUsageShare,,false,false
+MailmergeTemplate,蟾ｮ縺苓ｾｼ縺ｿ蜊ｰ蛻ｷ繝・Φ繝励Ξ繝ｼ繝・01H,MailmergeTemplate,,false,false
+ManagedContent,邂｡逅・さ繝ｳ繝・Φ繝・20Y,ManagedContent,,false,false
+ManagedContentChangeEvent,邂｡逅・さ繝ｳ繝・Φ繝・螟画峩繧､繝吶Φ繝・1CE,ManagedContentChangeEvent,,false,false
+ManagedContentChannel,邂｡逅・さ繝ｳ繝・Φ繝・メ繝｣繝阪Ν,0ap,ManagedContentChannel,,false,false
+ManagedContentSpace,邂｡逅・さ繝ｳ繝・Φ繝・ｩｺ髢・0Zu,ManagedContentSpace,,false,false
+ManagedContentVariant,邂｡逅・さ繝ｳ繝・Φ繝・ヰ繝ｪ繧ｨ繝ｼ繧ｷ繝ｧ繝ｳ,9Ps,ManagedContentVariant,,false,false
+ManagedContentVariantChangeEvent,邂｡逅・さ繝ｳ繝・Φ繝・ヰ繝ｪ繧ｨ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,ManagedContentVariantChangeEvent,,false,false
+MarketSegment,繧ｻ繧ｰ繝｡繝ｳ繝・1sg,MarketSegment,,false,false
+MarketSegmentActivation,譛牙柑蛹・85R,MarketSegmentActivation,,false,false
+MarketSegmentActivationChangeEvent,譛牙柑蛹・螟画峩繧､繝吶Φ繝・1CE,MarketSegmentActivationChangeEvent,,false,false
+MarketSegmentActivationFeed,譛牙柑蛹・繝輔ぅ繝ｼ繝・0D5,MarketSegmentActivationFeed,,false,false
+MarketSegmentActivationHistory,譛牙柑蛹門ｱ･豁ｴ,017,MarketSegmentActivationHistory,,false,false
+MarketSegmentChangeEvent,繧ｻ繧ｰ繝｡繝ｳ繝・螟画峩繧､繝吶Φ繝・1CE,MarketSegmentChangeEvent,,false,false
+MarketSegmentDefMapping,繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝亥ｮ夂ｾｩ繝槭ャ繝斐Φ繧ｰ,5I4,MarketSegmentDefMapping,,false,false
+MarketSegmentFeed,繧ｻ繧ｰ繝｡繝ｳ繝・繝輔ぅ繝ｼ繝・0D5,MarketSegmentFeed,,false,false
+MarketSegmentHistory,繧ｻ繧ｰ繝｡繝ｳ繝亥ｱ･豁ｴ,017,MarketSegmentHistory,,false,false
+MarketSegmentStatusEvent,繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝育憾豕√う繝吶Φ繝・1e1,MarketSegmentStatusEvent,,false,false
+MarketSgmtActvStatusEvent,繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝域怏蜉ｹ蛹也憾豕√う繝吶Φ繝・1e2,MarketSgmtActvStatusEvent,,false,false
+MatchingInformation,Matching Information,0Ib,MatchingInformation,,false,false
+MatchingRule,荳閾ｴ繝ｫ繝ｼ繝ｫ,0JD,MatchingRule,,false,false
+MatchingRuleItem,荳閾ｴ繝ｫ繝ｼ繝ｫ鬆・岼,0JE,MatchingRuleItem,,false,false
+MessagingChannel,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν,0Mj,MessagingChannel,,false,false
+MessagingChannelSkill,Messaging Channel Skills,1cN,MessagingChannelSkill,,false,false
+MessagingChannelUsage,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν蛻ｩ逕ｨ迥ｶ豕・0gL,MessagingChannelUsage,,false,false
+MessagingConfiguration,Messaging Configurations,0Uh,MessagingConfiguration,,false,false
+MessagingDeliveryError,繝｡繝・そ繝ｼ繧ｸ驟堺ｿ｡繧ｨ繝ｩ繝ｼ,0Ut,MessagingDeliveryError,,false,false
+MessagingEndUser,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝ｦ繝ｼ繧ｶ繝ｼ,0PA,MessagingEndUser,,true,false
+MessagingEndUserChangeEvent,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝ｦ繝ｼ繧ｶ繝ｼ 螟画峩繧､繝吶Φ繝・1CE,MessagingEndUserChangeEvent,,false,false
+MessagingEndUserHistory,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝ｦ繝ｼ繧ｶ繝ｼ螻･豁ｴ,017,MessagingEndUserHistory,,false,false
+MessagingEndUserShare,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝ｦ繝ｼ繧ｶ繝ｼ 蜈ｱ譛・02c,MessagingEndUserShare,,false,false
+MessagingLink,Messaging Links,0Mm,MessagingLink,,false,false
+MessagingSession,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ,0Mw,MessagingSession,,true,false
+MessagingSessionChangeEvent,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,MessagingSessionChangeEvent,,false,false
+MessagingSessionFeed,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,MessagingSessionFeed,,false,false
+MessagingSessionHistory,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ螻･豁ｴ,017,MessagingSessionHistory,,false,false
+MessagingSessionMetrics,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ繝｡繝医Μ繧ｯ繧ｹ,5Mw,MessagingSessionMetrics,,false,false
+MessagingSessionShare,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ 蜈ｱ譛・02c,MessagingSessionShare,,false,false
+MessagingTemplate,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝・Φ繝励Ξ繝ｼ繝・0TD,MessagingTemplate,,false,false
+MilestoneType,繝槭う繝ｫ繧ｹ繝医・繝ｳ,557,MilestoneType,,false,false
+MktCalculatedInsight,險育ｮ玲ｸ医∩繧､繝ｳ繧ｵ繧､繝・0kX,MktCalculatedInsight,,false,false
+MktCalculatedInsightFeed,險育ｮ玲ｸ医∩繧､繝ｳ繧ｵ繧､繝医ヵ繧｣繝ｼ繝・0D5,MktCalculatedInsightFeed,,false,false
+MktCalculatedInsightHistory,險育ｮ玲ｸ医∩繧､繝ｳ繧ｵ繧､繝亥ｱ･豁ｴ,017,MktCalculatedInsightHistory,,false,false
+MktDataTransform,繝・・繧ｿ螟画鋤,1dt,MktDataTransform,,false,false
+MktDataTransformEvent,繝・・繧ｿ螟画鋤繧､繝吶Φ繝・1e7,MktDataTransformEvent,,false,false
+MktDataTransformFeed,繝・・繧ｿ螟画鋤繝輔ぅ繝ｼ繝・0D5,MktDataTransformFeed,,false,false
+MktDataTransformHistory,繝・・繧ｿ螟画鋤縺ｮ螻･豁ｴ,017,MktDataTransformHistory,,false,false
+MktDataTransformShare,繝・・繧ｿ螟画鋤 蜈ｱ譛・02c,MktDataTransformShare,,false,false
+MktMLModel,繝｢繝・Ν,0wn,MktMLModel,,false,false
+MktMLModelFeed,__MISSING LABEL__ PropertyFile - val MktMLModel not found in section StandardFeedLabel,0D5,MktMLModelFeed,,false,false
+MktMLModelHistory,繝｢繝・Ν螻･豁ｴ,017,MktMLModelHistory,,false,false
+MktMLModelShare,繝｢繝・Ν 蜈ｱ譛・02c,MktMLModelShare,,false,false
+MktMLPredictionJob,繝｢繝・Ν縺ｮ莠域ｸｬ繧ｸ繝ｧ繝・0yq,MktMLPredictionJob,,false,false
+MktMLPredictionJobFeed,__MISSING LABEL__ PropertyFile - val MktMLPredictionJob not found in section StandardFeedLabel,0D5,MktMLPredictionJobFeed,,false,false
+MktMLPredictionJobHistory,繝｢繝・Ν縺ｮ莠域ｸｬ繧ｸ繝ｧ繝門ｱ･豁ｴ,017,MktMLPredictionJobHistory,,false,false
+MktMLSetupRunChgEvent,ML 險ｭ螳壼ｮ溯｡悟､画峩繧､繝吶Φ繝・1e9,MktMLSetupRunChgEvent,,false,false
+MktSgmntActvtnAudAttribute,譛牙柑蛹門ｱ樊ｧ,85S,MktSgmntActvtnAudAttribute,,false,false
+MktSgmntActvtnContactPoint,譛牙柑蛹夜｣邨｡蜈・85T,MktSgmntActvtnContactPoint,,false,false
+MktSgmtActvContactPtField,譛牙柑蛹夜｣邨｡蜈磯・岼,0nX,MktSgmtActvContactPtField,,false,false
+MktSgmtActvContactPtSrc,譛牙柑蛹夜｣邨｡蜈医た繝ｼ繧ｹ,0nW,MktSgmtActvContactPtSrc,,false,false
+MktSgmtActvDataModelFld,譛牙柑蛹悶ョ繝ｼ繧ｿ繝｢繝・Ν鬆・岼,98X,MktSgmtActvDataModelFld,,false,false
+MktSgmtActvDataSource,譛牙柑蛹悶ョ繝ｼ繧ｿ繧ｽ繝ｼ繧ｹ,0i4,MktSgmtActvDataSource,,false,false
+MktSgmtDefCalcInsightFld,繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝郁ｨ育ｮ玲ｸ医∩繧､繝ｳ繧ｵ繧､繝磯・岼,2rt,MktSgmtDefCalcInsightFld,,false,false
+MktSgmtDefDataMdlObjFld,繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝亥ｮ夂ｾｩ繝・・繧ｿ繝｢繝・Ν繧ｪ繝悶ず繧ｧ繧ｯ繝磯・岼,9WA,MktSgmtDefDataMdlObjFld,,false,false
+MLEngagementEvent,ML Engagement Events,9Qb,MLEngagementEvent,,false,false
+MlFeatureValueMetric,ML Feature Value Metrics,48i,MlFeatureValueMetric,,false,false
+MlIntentUtterance,繧､繝ｳ繝・Φ繝育匱險,1M4,MlIntentUtterance,,false,false
+MlIntentUtteranceSuggestion,繧､繝ｳ繝・Φ繝育匱險縺ｮ謠先｡・1M9,MlIntentUtteranceSuggestion,,false,false
+MLModel,ML 繝｢繝・Ν,873,MLModel,,false,false
+MLModelFactor,ML 繝｢繝・Ν隕∫ｴ,876,MLModelFactor,,false,false
+MLModelFactorComponent,ML 繝｢繝・Ν隕∫ｴ繧ｳ繝ｳ繝昴・繝阪Φ繝・877,MLModelFactorComponent,,false,false
+MLModelMetric,ML 繝｢繝・Ν繝｡繝医Μ繧ｯ繧ｹ,874,MLModelMetric,,false,false
+MLPredictionDefinition,ML 莠域ｸｬ螳夂ｾｩ,6gt,MLPredictionDefinition,,false,false
+MLRecommendationDefinition,ML 縺翫☆縺吶ａ螳夂ｾｩ,7gh,MLRecommendationDefinition,,false,false
+MobileApplicationDetail,繝｢繝舌う繝ｫ繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縺ｮ隧ｳ邏ｰ,0IW,MobileApplicationDetail,,false,false
+MsgChannelAvailability,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν蟇ｾ蠢懷庄閭ｽ迥ｶ豕・1Lp,MsgChannelAvailability,,false,false
+MsgChannelLanguageKeyword,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν險隱槭く繝ｼ繝ｯ繝ｼ繝・3Or,MsgChannelLanguageKeyword,,false,false
+MsgChannelUsageExternalOrg,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繝√Ε繝阪Ν蛻ｩ逕ｨ迥ｶ豕∝､夜Κ邨・ｹ・0od,MsgChannelUsageExternalOrg,,false,false
+MsgSessStatusChangedEvent,繝｡繝・そ繝ｼ繧ｸ繝ｳ繧ｰ繧ｻ繝・す繝ｧ繝ｳ迥ｶ豕∝､画峩繧､繝吶Φ繝・1JJ,MsgSessStatusChangedEvent,,false,false
+MutingPermissionSet,讓ｩ髯舌そ繝・ヨ縺ｮ繝溘Η繝ｼ繝・0QM,MutingPermissionSet,,false,false
+MyDomainDiscoverableLogin,[遘√・繝峨Γ繧､繝ｳ] 讀懷・蜿ｯ閭ｽ繝ｭ繧ｰ繧､繝ｳ,4hy,MyDomainDiscoverableLogin,,false,false
+Name,蜷榊燕,,Name,,false,false
+NamedCredential,謖・ｮ壹Ο繧ｰ繧､繝ｳ諠・ｱ,0XA,NamedCredential,,false,false
+NamespaceRegistry,Namespace Registries,1NR,NamespaceRegistry,,true,false
+NamespaceRegistryFeed,Namespace Registries繝輔ぅ繝ｼ繝・0D5,NamespaceRegistryFeed,,false,false
+NamespaceRegistryHistory,Namespace Registry History,017,NamespaceRegistryHistory,,false,false
+Note,繝｡繝｢,002,Note,,false,false
+NoteAndAttachment,繝｡繝｢縺ｨ豺ｻ莉倥ヵ繧｡繧､繝ｫ,,NoteAndAttachment,,false,false
+OauthCustomScope,Oauth 繧ｫ繧ｹ繧ｿ繝繧ｹ繧ｳ繝ｼ繝・7ud,OauthCustomScope,,false,false
+OauthCustomScopeApp,Oauth 繧ｫ繧ｹ繧ｿ繝遽・峇繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,7ue,OauthCustomScopeApp,,false,false
+OauthToken,Oauth 繝医・繧ｯ繝ｳ,0CQ,OauthToken,,false,false
+OauthTokenExchangeHandler,OAuth 繝医・繧ｯ繝ｳ Exchange 繝上Φ繝峨Λ繝ｼ,17Z,OauthTokenExchangeHandler,,false,false
+OauthTokenExchHandlerApp,Oauth 繝医・繧ｯ繝ｳ Exchange 繝上Φ繝峨Λ繝ｼ繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,17z,OauthTokenExchHandlerApp,,false,false
+ObjectMilestonePauseTime,繝槭う繝ｫ繧ｹ繝医・繝ｳ荳譎ょ●豁｢譎る俣鬆・岼,1YR,ObjectMilestonePauseTime,,false,false
+ObjectPermissions,繧ｪ繝悶ず繧ｧ繧ｯ繝域ｨｩ髯・110,ObjectPermissions,,false,false
+ObjectRequirement__c,繧ｪ繝悶ず繧ｧ繧ｯ繝亥ｮ夂ｾｩ,a0C,01IdL00000BLX97,,true,false
+ObjectRequirement__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧ｪ繝悶ず繧ｧ繧ｯ繝亥ｮ夂ｾｩ,1CE,01IdL00000BLX97.ChangeEvent,,false,false
+ObjectRequirement__Feed,繝輔ぅ繝ｼ繝・ 繧ｪ繝悶ず繧ｧ繧ｯ繝亥ｮ夂ｾｩ,0D5,01IdL00000BLX97.Feed,,false,false
+ObjectRequirement__History,螻･豁ｴ: 繧ｪ繝悶ず繧ｧ繧ｯ繝亥ｮ夂ｾｩ,017,01IdL00000BLX97.History,,false,false
+ObjectRequirement__Share,蜈ｱ譛・ 繧ｪ繝悶ず繧ｧ繧ｯ繝亥ｮ夂ｾｩ,02c,01IdL00000BLX97.Share,,false,false
+OmniRoutingEventStore,Omni 繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ繧､繝吶Φ繝医せ繝医い,0is,OmniRoutingEventStore,,false,false
+OmniSpvsrConfigAIAgent,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳・AI 繧ｨ繝ｼ繧ｸ繧ｧ繝ｳ繝・1Tw,OmniSpvsrConfigAIAgent,,false,false
+OmniSupervisorConfig,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳・0Q2,OmniSupervisorConfig,,false,false
+OmniSupervisorConfigAction,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳壹い繧ｯ繧ｷ繝ｧ繝ｳ,3UC,OmniSupervisorConfigAction,,false,false
+OmniSupervisorConfigGroup,蜈ｬ髢九げ繝ｫ繝ｼ繝励・繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳・0QE,OmniSupervisorConfigGroup,,false,false
+OmniSupervisorConfigProfile,繝励Ο繝輔ぃ繧､繝ｫ縺ｮ繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳・0QC,OmniSupervisorConfigProfile,,false,false
+OmniSupervisorConfigQueue,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳壹く繝･繝ｼ,0sf,OmniSupervisorConfigQueue,,false,false
+OmniSupervisorConfigSkill,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳壹せ繧ｭ繝ｫ,0qg,OmniSupervisorConfigSkill,,false,false
+OmniSupervisorConfigTab,繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳壹ち繝・18L,OmniSupervisorConfigTab,,false,false
+OmniSupervisorConfigUser,繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ繧ｪ繝繝九せ繝ｼ繝代・繝舌う繧ｶ繝ｼ險ｭ螳・0Q4,OmniSupervisorConfigUser,,false,false
+OnboardingMetrics,繧ｪ繝ｳ繝懊・繝・ぅ繝ｳ繧ｰ繝｡繝医Μ繧ｯ繧ｹ,0UG,OnboardingMetrics,,false,false
+OpenActivity,豢ｻ蜍穂ｺ亥ｮ・,OpenActivity,,false,false
+OperatingHours,蝟ｶ讌ｭ譎る俣,0OH,OperatingHours,,true,false
+OperatingHoursChangeEvent,蝟ｶ讌ｭ譎る俣 螟画峩繧､繝吶Φ繝・1CE,OperatingHoursChangeEvent,,false,false
+OperatingHoursFeed,蝟ｶ讌ｭ譎る俣繝輔ぅ繝ｼ繝・0D5,OperatingHoursFeed,,false,false
+OperatingHoursHistory,讌ｭ蜍呎凾髢灘ｱ･豁ｴ,017,OperatingHoursHistory,,false,false
+OperatingHoursHoliday,讌ｭ蜍呎凾髢謎ｼ第律,0jG,OperatingHoursHoliday,,true,false
+OperatingHoursHolidayChangeEvent,讌ｭ蜍呎凾髢謎ｼ第律 螟画峩繧､繝吶Φ繝・1CE,OperatingHoursHolidayChangeEvent,,false,false
+OperatingHoursHolidayFeed,讌ｭ蜍呎凾髢謎ｼ第律繝輔ぅ繝ｼ繝・0D5,OperatingHoursHolidayFeed,,false,false
+OperatingHoursHolidayHistory,讌ｭ蜍呎凾髢謎ｼ第律螻･豁ｴ,017,OperatingHoursHolidayHistory,,false,false
+OperatingHoursShare,蝟ｶ讌ｭ譎る俣 蜈ｱ譛・02c,OperatingHoursShare,,false,false
+OperationFlow__c,驕狗畑繝輔Ο繝ｼ,a0G,01IdL00000BMMwP,,true,false
+OperationFlow__ChangeEvent,螟画峩繧､繝吶Φ繝・ 驕狗畑繝輔Ο繝ｼ,1CE,01IdL00000BMMwP.ChangeEvent,,false,false
+OperationFlow__Feed,繝輔ぅ繝ｼ繝・ 驕狗畑繝輔Ο繝ｼ,0D5,01IdL00000BMMwP.Feed,,false,false
+OperationFlow__History,螻･豁ｴ: 驕狗畑繝輔Ο繝ｼ,017,01IdL00000BMMwP.History,,false,false
+OperationFlow__Share,蜈ｱ譛・ 驕狗畑繝輔Ο繝ｼ,02c,01IdL00000BMMwP.Share,,false,false
+Opportunity,蝠・ｫ・006,Opportunity,,true,false
+OpportunityChangeEvent,蝠・ｫ・螟画峩繧､繝吶Φ繝・1CE,OpportunityChangeEvent,,false,false
+OpportunityCompetitor,蝠・ｫ・ 遶ｶ蜷・00J,OpportunityCompetitor,,false,false
+OpportunityContactRole,蝠・ｫ・蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ,00K,OpportunityContactRole,,true,false
+OpportunityContactRoleChangeEvent,蝠・ｫ・蜿門ｼ募・雋ｬ莉ｻ閠・・蠖ｹ蜑ｲ 螟画峩繧､繝吶Φ繝・1CE,OpportunityContactRoleChangeEvent,,false,false
+OpportunityFeed,蝠・ｫ・ヵ繧｣繝ｼ繝・0D5,OpportunityFeed,,false,false
+OpportunityFieldHistory,蝠・ｫ・・岼螻･豁ｴ,017,OpportunityFieldHistory,,false,false
+OpportunityHistory,蝠・ｫ・ｱ･豁ｴ,008,OpportunityHistory,,false,false
+OpportunityLineItem,蝠・ｫ・膚蜩・00k,OpportunityLineItem,,true,false
+OpportunityLineItemChangeEvent,蝠・ｫ・膚蜩・螟画峩繧､繝吶Φ繝・1CE,OpportunityLineItemChangeEvent,,false,false
+OpportunityPartner,蝠・ｫ・ヱ繝ｼ繝医リ繝ｼ,00I,OpportunityPartner,,false,false
+OpportunityRelatedDeleteLog,蝠・ｫ・未騾｣蜑企勁繝ｭ繧ｰ,0oe,OpportunityRelatedDeleteLog,,false,false
+OpportunityShare,蝠・ｫ・・蜈ｱ譛・00t,OpportunityShare,,false,false
+OpportunityStage,蝠・ｫ・ヵ繧ｧ繝ｼ繧ｺ,01J,OpportunityStage,,false,false
+Order,豕ｨ譁・801,Order,,true,false
+OrderChangeEvent,豕ｨ譁・螟画峩繧､繝吶Φ繝・1CE,OrderChangeEvent,,false,false
+OrderFeed,豕ｨ譁・ヵ繧｣繝ｼ繝・0D5,OrderFeed,,false,false
+OrderHistory,豕ｨ譁・ｱ･豁ｴ,017,OrderHistory,,false,false
+OrderItem,豕ｨ譁・膚蜩・802,OrderItem,,true,false
+OrderItemChangeEvent,豕ｨ譁・膚蜩・螟画峩繧､繝吶Φ繝・1CE,OrderItemChangeEvent,,false,false
+OrderItemFeed,豕ｨ譁・膚蜩√ヵ繧｣繝ｼ繝・0D5,OrderItemFeed,,false,false
+OrderItemHistory,豕ｨ譁・膚蜩∝ｱ･豁ｴ,017,OrderItemHistory,,false,false
+OrderShare,豕ｨ譁・・譛・0Fy,OrderShare,,false,false
+OrderStatus,豕ｨ譁・憾豕∝､,,OrderStatus,,false,false
+Organization,邨・ｹ・00D,Organization,,false,false
+OrgEmailAddressSecurity,邨・ｹ斐・繝｡繝ｼ繝ｫ繧｢繝峨Ξ繧ｹ繧ｻ繧ｭ繝･繝ｪ繝・ぅ,0D3,OrgEmailAddressSecurity,,false,false
+OrgLifecycleNotification,Org Lifecycle Notification,0OL,OrgLifecycleNotification,,false,false
+OrgMetric,邨・ｹ斐Γ繝医Μ繧ｯ繧ｹ,3v1,OrgMetric,,false,false
+OrgMetricScanSummary,邨・ｹ斐Γ繝医Μ繧ｯ繧ｹ縺ｮ繧ｹ繧ｭ繝｣繝ｳ讎りｦ・6mX,OrgMetricScanSummary,,false,false
+OrgWideEmailAddress,邨・ｹ斐・騾∽ｿ｡蜈・Γ繝ｼ繝ｫ繧｢繝峨Ξ繧ｹ,0D2,OrgWideEmailAddress,,false,false
+OutgoingEmail,騾∽ｿ｡繝｡繝ｼ繝ｫ,0Q1,OutgoingEmail,,false,false
+OutgoingEmailRelation,騾∽ｿ｡繝｡繝ｼ繝ｫ繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,0Q3,OutgoingEmailRelation,,false,false
+OwnedContentDocument,繝ｦ繝ｼ繧ｶ繝ｼ謇譛峨・繝輔ぃ繧､繝ｫ,,OwnedContentDocument,,false,false
+OwnerChangeOptionInfo,謇譛芽・が繝励す繝ｧ繝ｳ諠・ｱ繧貞､画峩,0Cy,OwnerChangeOptionInfo,,false,false
+PackageLicense,繝代ャ繧ｱ繝ｼ繧ｸ繝ｩ繧､繧ｻ繝ｳ繧ｹ,050,PackageLicense,,false,false
+Participant,髢｢菫り・0lH,Participant,,false,false
+Partner,繝代・繝医リ繝ｼ,00I,Partner,,false,false
+PartnerRole,繝代・繝医リ繝ｼ蠖ｹ蜑ｲ蛟､,,PartnerRole,,false,false
+PartyConsent,髢｢菫り・・蜷梧э,0g8,PartyConsent,,true,false
+PartyConsentChangeEvent,髢｢菫り・・蜷梧э 螟画峩繧､繝吶Φ繝・1CE,PartyConsentChangeEvent,,false,false
+PartyConsentFeed,髢｢菫り・・蜷梧э繝輔ぅ繝ｼ繝・0D5,PartyConsentFeed,,false,false
+PartyConsentHistory,髢｢菫り・・蜷梧э縺ｮ螻･豁ｴ,017,PartyConsentHistory,,false,false
+PartyConsentShare,髢｢菫り・・蜷梧э 蜈ｱ譛・02c,PartyConsentShare,,false,false
+Payment,謾ｯ謇輔＞,0aQ,Payment,,true,false
+PaymentAuthAdjustment,謾ｯ謇墓価隱崎ｪｿ謨ｴ,9tv,PaymentAuthAdjustment,,true,false
+PaymentAuthorization,謾ｯ謇墓価隱・0Xc,PaymentAuthorization,,true,false
+PaymentCredit,謾ｯ謇輔け繝ｬ繧ｸ繝・ヨ,1pC,PaymentCredit,,true,false
+PaymentCreditLinePayment,謾ｯ謇輔け繝ｬ繧ｸ繝・ヨ蜩∫岼謾ｯ謇・1cP,PaymentCreditLinePayment,,true,false
+PaymentCreditTransaction,謾ｯ謇輔け繝ｬ繧ｸ繝・ヨ蜿門ｼ・1cT,PaymentCreditTransaction,,true,false
+PaymentFeed,__MISSING LABEL__ PropertyFile - val Payment not found in section StandardFeedLabel,0D5,PaymentFeed,,false,false
+PaymentGateway,謾ｯ謇輔＞繧ｲ繝ｼ繝医え繧ｧ繧､,0b0,PaymentGateway,,true,false
+PaymentGatewayLog,謾ｯ謇輔ご繝ｼ繝医え繧ｧ繧､繝ｭ繧ｰ,0Xt,PaymentGatewayLog,,false,false
+PaymentGatewayProvider,謾ｯ謇輔＞繧ｲ繝ｼ繝医え繧ｧ繧､繝励Ο繝舌う繝繝ｼ,0cJ,PaymentGatewayProvider,,false,false
+PaymentGroup,謾ｯ謇輔げ繝ｫ繝ｼ繝・9zx,PaymentGroup,,true,false
+PaymentLineInvoice,謾ｯ謇輔＞陦瑚ｫ区ｱよ嶌,1PL,PaymentLineInvoice,,true,false
+PaymentMethod,謾ｯ謇墓婿豕・0aa,PaymentMethod,,true,false
+PaymentPageChangeEvent,謾ｯ謇輔・繝ｼ繧ｸ螟画峩繧､繝吶Φ繝・0CI,PaymentPageChangeEvent,,false,false
+PendingOrderSummary,菫晉蕗荳ｭ縺ｮ豕ｨ譁・ｦりｦ・29s,PendingOrderSummary,,false,false
+PendingOrderSummaryChangeEvent,菫晉蕗荳ｭ縺ｮ豕ｨ譁・ｦりｦ・螟画峩繧､繝吶Φ繝・1CE,PendingOrderSummaryChangeEvent,,false,false
+PendingOrdSumProcEvent,菫晉蕗荳ｭ縺ｮ豕ｨ譁・ｦりｦ∝・逅・う繝吶Φ繝・0rL,PendingOrdSumProcEvent,,false,false
+PendingServiceRouting,蠕・ｩ滉ｸｭ縺ｮ繧ｵ繝ｼ繝薙せ繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ,0JR,PendingServiceRouting,,false,false
+PendingServiceRoutingChangeEvent,蠕・ｩ滉ｸｭ縺ｮ繧ｵ繝ｼ繝薙せ繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ 螟画峩繧､繝吶Φ繝・1CE,PendingServiceRoutingChangeEvent,,false,false
+PendingServiceRoutingInteractionInfo,蠕・ｩ滉ｸｭ縺ｮ繧ｵ繝ｼ繝薙せ繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ縺ｮ繧・ｊ縺ｨ繧頑ュ蝣ｱ,0oq,PendingServiceRoutingInteractionInfo,,false,false
+PendingServiceRoutingShare,蠕・ｩ滉ｸｭ縺ｮ繧ｵ繝ｼ繝薙せ繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ 蜈ｱ譛・02c,PendingServiceRoutingShare,,false,false
+Period,譛滄俣,026,Period,,false,false
+PermissionRequirement__c,讓ｩ髯仙ｮ夂ｾｩ,a0E,01IdL00000BMCiX,,true,false
+PermissionRequirement__ChangeEvent,螟画峩繧､繝吶Φ繝・ 讓ｩ髯仙ｮ夂ｾｩ,1CE,01IdL00000BMCiX.ChangeEvent,,false,false
+PermissionRequirement__Feed,繝輔ぅ繝ｼ繝・ 讓ｩ髯仙ｮ夂ｾｩ,0D5,01IdL00000BMCiX.Feed,,false,false
+PermissionRequirement__History,螻･豁ｴ: 讓ｩ髯仙ｮ夂ｾｩ,017,01IdL00000BMCiX.History,,false,false
+PermissionRequirement__Share,蜈ｱ譛・ 讓ｩ髯仙ｮ夂ｾｩ,02c,01IdL00000BMCiX.Share,,false,false
+PermissionSet,讓ｩ髯舌そ繝・ヨ,0PS,PermissionSet,,false,false
+PermissionSetAssignment,讓ｩ髯舌そ繝・ヨ縺ｮ蜑ｲ繧雁ｽ薙※,0Pa,PermissionSetAssignment,,false,false
+PermissionSetEvent,讓ｩ髯舌そ繝・ヨ繧､繝吶Φ繝・0f3,PermissionSetEvent,,false,false
+PermissionSetEventStore,讓ｩ髯舌そ繝・ヨ繧､繝吶Φ繝医せ繝医い,0f9,PermissionSetEventStore,,false,false
+PermissionSetGroup,讓ｩ髯舌そ繝・ヨ繧ｰ繝ｫ繝ｼ繝・0PG,PermissionSetGroup,,false,false
+PermissionSetGroupComponent,讓ｩ髯舌そ繝・ヨ繧ｰ繝ｫ繝ｼ繝励さ繝ｳ繝昴・繝阪Φ繝・0PM,PermissionSetGroupComponent,,false,false
+PermissionSetLicense,Permission Set License,0PL,PermissionSetLicense,,false,false
+PermissionSetLicenseAssign,讓ｩ髯舌そ繝・ヨ繝ｩ繧､繧ｻ繝ｳ繧ｹ縺ｮ蜑ｲ繧雁ｽ薙※,2LA,PermissionSetLicenseAssign,,false,false
+PermissionSetTabSetting,讓ｩ髯舌そ繝・ヨ縺ｮ繧ｿ繝冶ｨｭ螳・01P,PermissionSetTabSetting,,false,false
+PicklistValueInfo,驕ｸ謚槭Μ繧ｹ繝亥､諠・ｱ,4pv,PicklistValueInfo,,false,false
+PipelineInspectionListView,繝代う繝励Λ繧､繝ｳ繧､繝ｳ繧ｹ繝壹け繧ｷ繝ｧ繝ｳ繝ｪ繧ｹ繝医ン繝･繝ｼ,4c2,PipelineInspectionListView,,false,false
+PlatformAction,繝励Λ繝・ヨ繝輔か繝ｼ繝繧｢繧ｯ繧ｷ繝ｧ繝ｳ,0JV,PlatformAction,,false,false
+PlatformCachePartition,繝励Λ繝・ヨ繝輔か繝ｼ繝繧ｭ繝｣繝・す繝･蛹ｺ蛻・0Er,PlatformCachePartition,,false,false
+PlatformCachePartitionType,繝励Λ繝・ヨ繝輔か繝ｼ繝繧ｭ繝｣繝・す繝･蛹ｺ蛻・ｨｮ蛻･,0Ev,PlatformCachePartitionType,,false,false
+PlatformEventUsageMetric,Platform Event Usage Metric,8Kk,PlatformEventUsageMetric,,false,false
+PlatformStatusAlertEvent,繝励Λ繝・ヨ繝輔か繝ｼ繝迥ｶ豕√い繝ｩ繝ｼ繝医う繝吶Φ繝・0V2,PlatformStatusAlertEvent,,false,false
+PracticeTest__c,PracticeTest,a16,01IdL00000CeU3h,,true,false
+PracticeTest__ChangeEvent,螟画峩繧､繝吶Φ繝・ PracticeTest,1CE,01IdL00000CeU3h.ChangeEvent,,false,false
+PracticeTest__Share,蜈ｱ譛・ PracticeTest,02c,01IdL00000CeU3h.Share,,false,false
+PresenceConfigDeclineReason,繝励Ξ繧ｼ繝ｳ繧ｹ險ｭ螳壽拠蜷ｦ逅・罰,0KP,PresenceConfigDeclineReason,,false,false
+PresenceDeclineReason,繝励Ξ繧ｼ繝ｳ繧ｹ諡貞凄逅・罰,0KR,PresenceDeclineReason,,false,false
+PresenceUserConfig,繝励Ξ繧ｼ繝ｳ繧ｹ險ｭ螳・0Nd,PresenceUserConfig,,false,false
+PresenceUserConfigProfile,繝励Ο繝輔ぃ繧､繝ｫ縺ｮ繝励Ξ繧ｼ繝ｳ繧ｹ險ｭ螳・0Nf,PresenceUserConfigProfile,,false,false
+PresenceUserConfigUser,繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ繝励Ξ繧ｼ繝ｳ繧ｹ險ｭ螳・0Ne,PresenceUserConfigUser,,false,false
+Pricebook2,萓｡譬ｼ陦ｨ,01s,Pricebook2,,true,false
+Pricebook2ChangeEvent,萓｡譬ｼ陦ｨ 螟画峩繧､繝吶Φ繝・1CE,Pricebook2ChangeEvent,,false,false
+Pricebook2History,萓｡譬ｼ陦ｨ螻･豁ｴ,017,Pricebook2History,,false,false
+PricebookEntry,萓｡譬ｼ陦ｨ繧ｨ繝ｳ繝医Μ,01u,PricebookEntry,,true,false
+PricebookEntryChangeEvent,萓｡譬ｼ陦ｨ繧ｨ繝ｳ繝医Μ 螟画峩繧､繝吶Φ繝・1CE,PricebookEntryChangeEvent,,false,false
+PricebookEntryHistory,萓｡譬ｼ陦ｨ繧ｨ繝ｳ繝医Μ螻･豁ｴ,017,PricebookEntryHistory,,false,false
+PrivacyJobSession,繝励Λ繧､繝舌す繝ｼ繧ｸ繝ｧ繝悶そ繝・す繝ｧ繝ｳ,8sp,PrivacyJobSession,,false,false
+PrivacyJobSessionShare,繝励Λ繧､繝舌す繝ｼ繧ｸ繝ｧ繝悶そ繝・す繝ｧ繝ｳ 蜈ｱ譛・02c,PrivacyJobSessionShare,,false,false
+PrivacyObjectSession,繝励Λ繧､繝舌す繝ｼ繧ｪ繝悶ず繧ｧ繧ｯ繝医そ繝・す繝ｧ繝ｳ,8sq,PrivacyObjectSession,,false,false
+PrivacyObjectSessionShare,繝励Λ繧､繝舌す繝ｼ繧ｪ繝悶ず繧ｧ繧ｯ繝医そ繝・す繝ｧ繝ｳ 蜈ｱ譛・02c,PrivacyObjectSessionShare,,false,false
+PrivacyPolicy,繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ繝昴Μ繧ｷ繝ｼ,8so,PrivacyPolicy,,false,false
+PrivacyPolicyDefinition,繝励Λ繧､繝舌す繝ｼ繝昴Μ繧ｷ繝ｼ螳夂ｾｩ,8sk,PrivacyPolicyDefinition,,false,false
+PrivacyRTBFRequest,繝励Λ繧､繝舌す繝ｼ縺ｫ髢｢縺吶ｋ RTBF 隕∵ｱ・13q,PrivacyRTBFRequest,,true,false
+PrivacyRTBFRequestFeed,繝励Λ繧､繝舌す繝ｼ RTBF 隕∵ｱ・0D5,PrivacyRTBFRequestFeed,,false,false
+PrivacyRTBFRequestHistory,繝励Λ繧､繝舌す繝ｼ縺ｫ髢｢縺吶ｋ RTBF 隕∵ｱょｱ･豁ｴ,017,PrivacyRTBFRequestHistory,,false,false
+PrivacyRTBFRequestShare,繝励Λ繧､繝舌す繝ｼ縺ｫ髢｢縺吶ｋ RTBF 隕∵ｱ・蜈ｱ譛・02c,PrivacyRTBFRequestShare,,false,false
+PrivacySessionRecordFailure,繝励Λ繧､繝舌す繝ｼ繧ｻ繝・す繝ｧ繝ｳ繝ｬ繧ｳ繝ｼ繝牙､ｱ謨・138,PrivacySessionRecordFailure,,false,false
+PrivacySessionRecordFailureShare,繝励Λ繧､繝舌す繝ｼ繧ｻ繝・す繝ｧ繝ｳ繝ｬ繧ｳ繝ｼ繝牙､ｱ謨・蜈ｱ譛・02c,PrivacySessionRecordFailureShare,,false,false
+Problem,蝠城｡・0o2,Problem,,true,false
+ProblemChangeEvent,蝠城｡・螟画峩繧､繝吶Φ繝・1CE,ProblemChangeEvent,,false,false
+ProblemFeed,蝠城｡後ヵ繧｣繝ｼ繝・0D5,ProblemFeed,,false,false
+ProblemHistory,蝠城｡悟ｱ･豁ｴ,017,ProblemHistory,,false,false
+ProblemIncident,髢｢騾｣縺吶ｋ蝠城｡後→髫懷ｮｳ,0oE,ProblemIncident,,true,false
+ProblemIncidentChangeEvent,髢｢騾｣縺吶ｋ蝠城｡後→髫懷ｮｳ 螟画峩繧､繝吶Φ繝・1CE,ProblemIncidentChangeEvent,,false,false
+ProblemIncidentFeed,髢｢騾｣縺吶ｋ蝠城｡後→髫懷ｮｳ繝輔ぅ繝ｼ繝・0D5,ProblemIncidentFeed,,false,false
+ProblemIncidentHistory,蝠城｡碁囿螳ｳ螻･豁ｴ,017,ProblemIncidentHistory,,false,false
+ProblemRelatedItem,蝠城｡碁未騾｣鬆・岼,0tB,ProblemRelatedItem,,true,false
+ProblemRelatedItemChangeEvent,蝠城｡碁未騾｣鬆・岼 螟画峩繧､繝吶Φ繝・1CE,ProblemRelatedItemChangeEvent,,false,false
+ProblemRelatedItemFeed,蝠城｡碁未騾｣鬆・岼繝輔ぅ繝ｼ繝・0D5,ProblemRelatedItemFeed,,false,false
+ProblemRelatedItemHistory,蝠城｡碁未騾｣鬆・岼螻･豁ｴ,017,ProblemRelatedItemHistory,,false,false
+ProblemShare,蝠城｡・蜈ｱ譛・02c,ProblemShare,,false,false
+ProcessDefinition,繝励Ο繧ｻ繧ｹ縺ｮ螳夂ｾｩ,04a,ProcessDefinition,,false,false
+ProcessException,繝励Ο繧ｻ繧ｹ萓句､・2Pe,ProcessException,,true,false
+ProcessExceptionChangeEvent,繝励Ο繧ｻ繧ｹ萓句､・螟画峩繧､繝吶Φ繝・1CE,ProcessExceptionChangeEvent,,false,false
+ProcessExceptionEvent,繝励Ο繧ｻ繧ｹ萓句､悶う繝吶Φ繝・4v2,ProcessExceptionEvent,,false,false
+ProcessExceptionShare,繝励Ο繧ｻ繧ｹ萓句､・蜈ｱ譛・02c,ProcessExceptionShare,,false,false
+ProcessFlowMigration,繝励Ο繧ｻ繧ｹ繝輔Ο繝ｼ縺ｮ遘ｻ陦・11Q,ProcessFlowMigration,,false,false
+ProcessInstance,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ,04g,ProcessInstance,,false,false
+ProcessInstanceChangeEvent,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ 螟画峩繧､繝吶Φ繝・1CE,ProcessInstanceChangeEvent,,false,false
+ProcessInstanceHistory,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ螻･豁ｴ,,ProcessInstanceHistory,,false,false
+ProcessInstanceNode,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ繝弱・繝・0OO,ProcessInstanceNode,,false,false
+ProcessInstanceStep,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ繧ｹ繝・ャ繝・04h,ProcessInstanceStep,,false,false
+ProcessInstanceStepChangeEvent,繝励Ο繧ｻ繧ｹ繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ繧ｹ繝・ャ繝・螟画峩繧､繝吶Φ繝・1CE,ProcessInstanceStepChangeEvent,,false,false
+ProcessInstanceWorkitem,謇ｿ隱咲筏隲・04i,ProcessInstanceWorkitem,,false,false
+ProcessNode,繝励Ο繧ｻ繧ｹ繝弱・繝・04b,ProcessNode,,false,false
+Product2,蝠・刀,01t,Product2,,true,false
+Product2ChangeEvent,蝠・刀 螟画峩繧､繝吶Φ繝・1CE,Product2ChangeEvent,,false,false
+Product2Feed,蝠・刀繝輔ぅ繝ｼ繝・0D5,Product2Feed,,false,false
+Product2History,蝠・刀螻･豁ｴ,017,Product2History,,false,false
+ProductAttribute,蝠・刀螻樊ｧ,0iU,ProductAttribute,,true,false
+ProductAttributeChangeEvent,蝠・刀螻樊ｧ 螟画峩繧､繝吶Φ繝・1CE,ProductAttributeChangeEvent,,false,false
+ProductAttributeSet,蝠・刀螻樊ｧ繧ｻ繝・ヨ,0iY,ProductAttributeSet,,false,false
+ProductAttributeSetItem,蝠・刀螻樊ｧ繧ｻ繝・ヨ繧｢繧､繝・Β,0iX,ProductAttributeSetItem,,false,false
+ProductAttributeSetProduct,蝠・刀螻樊ｧ險ｭ螳壼膚蜩・0iZ,ProductAttributeSetProduct,,true,false
+ProductCatalog,繧ｫ繧ｿ繝ｭ繧ｰ,0ZS,ProductCatalog,,true,false
+ProductCatalogChangeEvent,繧ｫ繧ｿ繝ｭ繧ｰ 螟画峩繧､繝吶Φ繝・1CE,ProductCatalogChangeEvent,,false,false
+ProductCatalogFeed,繧ｫ繧ｿ繝ｭ繧ｰ繝輔ぅ繝ｼ繝・0D5,ProductCatalogFeed,,false,false
+ProductCatalogHistory,蝠・刀繧ｫ繧ｿ繝ｭ繧ｰ螻･豁ｴ,017,ProductCatalogHistory,,false,false
+ProductCatalogShare,繧ｫ繧ｿ繝ｭ繧ｰ 蜈ｱ譛・02c,ProductCatalogShare,,false,false
+ProductCategory,繧ｫ繝・ざ繝ｪ,0ZG,ProductCategory,,true,false
+ProductCategoryChangeEvent,繧ｫ繝・ざ繝ｪ 螟画峩繧､繝吶Φ繝・1CE,ProductCategoryChangeEvent,,false,false
+ProductCategoryFeed,繧ｫ繝・ざ繝ｪ繝輔ぅ繝ｼ繝・0D5,ProductCategoryFeed,,false,false
+ProductCategoryHistory,蝠・刀繧ｫ繝・ざ繝ｪ螻･豁ｴ,017,ProductCategoryHistory,,false,false
+ProductCategoryProduct,蝠・刀繧ｫ繝・ざ繝ｪ蝠・刀,0ZR,ProductCategoryProduct,,true,false
+ProductCategoryProductChangeEvent,蝠・刀繧ｫ繝・ざ繝ｪ蝠・刀 螟画峩繧､繝吶Φ繝・1CE,ProductCategoryProductChangeEvent,,false,false
+ProductCategoryProductHistory,蝠・刀繧ｫ繝・ざ繝ｪ蝠・刀螻･豁ｴ,017,ProductCategoryProductHistory,,false,false
+ProductConsumptionSchedule,蝠・刀豸郁ｲｻ繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ,0Mq,ProductConsumptionSchedule,,true,false
+ProductEntitlementTemplate,蝠・刀繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝医ユ繝ｳ繝励Ξ繝ｼ繝・0E9,ProductEntitlementTemplate,,false,false
+Profile,繝励Ο繝輔ぃ繧､繝ｫ,00e,Profile,,false,false
+Promotion,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ,0c8,Promotion,,true,false
+PromotionChangeEvent,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,PromotionChangeEvent,,false,false
+PromotionFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,PromotionFeed,,false,false
+PromotionHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,PromotionHistory,,false,false
+PromotionLineItemRule,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ蜩∫岼繝ｫ繝ｼ繝ｫ,13F,PromotionLineItemRule,,true,false
+PromotionLineItemRuleShare,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ蜩∫岼繝ｫ繝ｼ繝ｫ 蜈ｱ譛・02c,PromotionLineItemRuleShare,,false,false
+PromotionMarketSegment,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝・5CF,PromotionMarketSegment,,true,false
+PromotionMarketSegmentChangeEvent,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝・螟画峩繧､繝吶Φ繝・1CE,PromotionMarketSegmentChangeEvent,,false,false
+PromotionMarketSegmentFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝医ヵ繧｣繝ｼ繝・0D5,PromotionMarketSegmentFeed,,false,false
+PromotionMarketSegmentHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝槭・繧ｱ繝・ヨ繧ｻ繧ｰ繝｡繝ｳ繝亥ｱ･豁ｴ,017,PromotionMarketSegmentHistory,,false,false
+PromotionQualifier,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ菫ｮ鬟ｾ蟄・0kU,PromotionQualifier,,true,false
+PromotionQualifierFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ菫ｮ鬟ｾ蟄舌ヵ繧｣繝ｼ繝・0D5,PromotionQualifierFeed,,false,false
+PromotionQualifierHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ菫ｮ鬟ｾ蟄仙ｱ･豁ｴ,017,PromotionQualifierHistory,,false,false
+PromotionSegment,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝・0kw,PromotionSegment,,true,false
+PromotionSegmentBuyerGroup,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝医ヰ繧､繝､繝ｼ繧ｰ繝ｫ繝ｼ繝・0kq,PromotionSegmentBuyerGroup,,true,false
+PromotionSegmentBuyerGroupFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝医ヰ繧､繝､繝ｼ繧ｰ繝ｫ繝ｼ繝励ヵ繧｣繝ｼ繝・0D5,PromotionSegmentBuyerGroupFeed,,false,false
+PromotionSegmentBuyerGroupHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝医ヰ繧､繝､繝ｼ繧ｰ繝ｫ繝ｼ繝怜ｱ･豁ｴ,017,PromotionSegmentBuyerGroupHistory,,false,false
+PromotionSegmentFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝医ヵ繧｣繝ｼ繝・0D5,PromotionSegmentFeed,,false,false
+PromotionSegmentHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝亥ｱ･豁ｴ,017,PromotionSegmentHistory,,false,false
+PromotionSegmentSalesStore,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝郁ｲｩ螢ｲ蠎・0kp,PromotionSegmentSalesStore,,true,false
+PromotionSegmentSalesStoreFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝郁ｲｩ螢ｲ蠎励ヵ繧｣繝ｼ繝・0D5,PromotionSegmentSalesStoreFeed,,false,false
+PromotionSegmentSalesStoreHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝郁ｲｩ螢ｲ蠎怜ｱ･豁ｴ,017,PromotionSegmentSalesStoreHistory,,false,false
+PromotionSegmentShare,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繧ｻ繧ｰ繝｡繝ｳ繝・蜈ｱ譛・02c,PromotionSegmentShare,,false,false
+PromotionShare,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ 蜈ｱ譛・02c,PromotionShare,,false,false
+PromotionTarget,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡,2Pt,PromotionTarget,,true,false
+PromotionTargetFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡繝輔ぅ繝ｼ繝・0D5,PromotionTargetFeed,,false,false
+PromotionTargetHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ蟇ｾ雎｡螻･豁ｴ,017,PromotionTargetHistory,,false,false
+PromotionTier,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝ｩ繝ｳ繧ｯ,0zG,PromotionTier,,true,false
+PromotionTierFeed,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝ｩ繝ｳ繧ｯ繝輔ぅ繝ｼ繝・0D5,PromotionTierFeed,,false,false
+PromotionTierHistory,繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝ｩ繝ｳ繧ｯ螻･豁ｴ,017,PromotionTierHistory,,false,false
+Prompt,繝励Ο繝ｳ繝励ヨ,0bs,Prompt,,false,false
+PromptAction,繝励Ο繝ｳ繝励ヨ繧｢繧ｯ繧ｷ繝ｧ繝ｳ,0bu,PromptAction,,false,false
+PromptActionShare,繝励Ο繝ｳ繝励ヨ繧｢繧ｯ繧ｷ繝ｧ繝ｳ 蜈ｱ譛・02c,PromptActionShare,,false,false
+PromptError,繝励Ο繝ｳ繝励ヨ繧ｨ繝ｩ繝ｼ,4Dr,PromptError,,false,false
+PromptErrorShare,繝励Ο繝ｳ繝励ヨ繧ｨ繝ｩ繝ｼ 蜈ｱ譛・02c,PromptErrorShare,,false,false
+PromptLocalization,鄙ｻ險ｳ,01j,PromptLocalization,,false,false
+PromptVersion,繝励Ο繝ｳ繝励ヨ繝舌・繧ｸ繝ｧ繝ｳ,0bt,PromptVersion,,false,false
+PromptVersionLocalization,鄙ｻ險ｳ,01j,PromptVersionLocalization,,false,false
+Publisher,繝代ヶ繝ｪ繝・す繝｣繝ｼ,4pb,Publisher,,false,false
+PushTopic,霆｢騾√ヨ繝斐ャ繧ｯ,0IF,PushTopic,,false,false
+QueueRoutingConfig,繝ｫ繝ｼ繝・ぅ繝ｳ繧ｰ險ｭ螳・0K9,QueueRoutingConfig,,false,false
+QueueSobject,繧ｭ繝･繝ｼ縺ｮ sObject,03g,QueueSobject,,false,false
+QuickText,繧ｯ繧､繝・け繝・く繧ｹ繝・574,QuickText,,true,false
+QuickTextChangeEvent,繧ｯ繧､繝・け繝・く繧ｹ繝・螟画峩繧､繝吶Φ繝・1CE,QuickTextChangeEvent,,false,false
+QuickTextHistory,繧ｯ繧､繝・け繝・く繧ｹ繝亥ｱ･豁ｴ,017,QuickTextHistory,,false,false
+QuickTextShare,繧ｯ繧､繝・け繝・く繧ｹ繝・蜈ｱ譛・02c,QuickTextShare,,false,false
+QuickTextUsage,繧ｯ繧､繝・け繝・く繧ｹ繝医・蛻ｩ逕ｨ迥ｶ豕・5QL,QuickTextUsage,,false,false
+QuickTextUsageChangeEvent,繧ｯ繧､繝・け繝・く繧ｹ繝医・蛻ｩ逕ｨ迥ｶ豕・螟画峩繧､繝吶Φ繝・1CE,QuickTextUsageChangeEvent,,false,false
+QuickTextUsageShare,繧ｯ繧､繝・け繝・く繧ｹ繝医・蛻ｩ逕ｨ迥ｶ豕・蜈ｱ譛・02c,QuickTextUsageShare,,false,false
+QuoteTemplateRichTextData,Quote Template Rich Text Data,0QR,QuoteTemplateRichTextData,,false,false
+RecentlyViewed,譛霑大盾辣ｧ縺励◆繝・・繧ｿ,,RecentlyViewed,,false,false
+Recommendation,縺翫☆縺吶ａ,0pr,Recommendation,,true,false
+RecommendationChangeEvent,縺翫☆縺吶ａ 螟画峩繧､繝吶Φ繝・1CE,RecommendationChangeEvent,,false,false
+RecommendationResponse,縺翫☆縺吶ａ縺ｮ蠢懃ｭ・0rr,RecommendationResponse,,false,false
+RecordAction,RecordAction,0Rw,RecordAction,,true,false
+RecordActionHistory,繝ｬ繧ｳ繝ｼ繝峨い繧ｯ繧ｷ繝ｧ繝ｳ螻･豁ｴ,0Ub,RecordActionHistory,,false,false
+RecordType,繝ｬ繧ｳ繝ｼ繝峨ち繧､繝・012,RecordType,,false,false
+RecordTypeLocalization,鄙ｻ險ｳ,01j,RecordTypeLocalization,,false,false
+RedirectWhitelistUrl,繝ｪ繝繧､繝ｬ繧ｯ繝育畑 URL 繧定ｨｱ蜿ｯ,9V6,RedirectWhitelistUrl,,false,false
+Refund,霑秘≡,0cb,Refund,,true,false
+RefundLinePayment,蜩∫岼謾ｯ謇輔・霑秘≡,0dR,RefundLinePayment,,true,false
+RelatedListColumnDefinition,髢｢騾｣繝ｪ繧ｹ繝亥・螳夂ｾｩ,0rc,RelatedListColumnDefinition,,false,false
+RelatedListDefinition,髢｢騾｣繝ｪ繧ｹ繝亥ｮ夂ｾｩ,0rl,RelatedListDefinition,,false,false
+Relation_DesignDiagram2Event__c,Relation_DesignDiagram2Event,a0P,01IdL00000BMQbp,,true,false
+Relation_DesignDiagram2Event__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_DesignDiagram2Event,1CE,01IdL00000BMQbp.ChangeEvent,,false,false
+Relation_Dev2DesignDiagram__c,Relation_Dev2DesignDiagram,a0S,01IdL00000BMSFR,,true,false
+Relation_Dev2DesignDiagram__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2DesignDiagram,1CE,01IdL00000BMSFR.ChangeEvent,,false,false
+Relation_Dev2ObjectReq__c,Relation_Dev2ObjectReq,a0T,01IdL00000BMSH3,,true,false
+Relation_Dev2ObjectReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2ObjectReq,1CE,01IdL00000BMSH3.ChangeEvent,,false,false
+Relation_Dev2PermissionReq__c,Relation_Dev2PermissionReq,a0V,01IdL00000BMSLt,,true,false
+Relation_Dev2PermissionReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2PermissionReq,1CE,01IdL00000BMSLt.ChangeEvent,,false,false
+Relation_Dev2ReportReq__c,Relation_Dev2ReportReq,a0U,01IdL00000BMSIf,,true,false
+Relation_Dev2ReportReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2ReportReq,1CE,01IdL00000BMSIf.ChangeEvent,,false,false
+Relation_Dev2suite__c,Relation_Dev2suite,a0Z,01IdL00000BO0lJ,,true,false
+Relation_Dev2suite__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2suite,1CE,01IdL00000BO0lJ.ChangeEvent,,false,false
+Relation_Dev2Tag__c,Relation_Dev2Tag,a04,01IdL00000BApob,,true,false
+Relation_Dev2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2Tag,1CE,01IdL00000BApob.ChangeEvent,,false,false
+Relation_Dev2Tag__Feed,繝輔ぅ繝ｼ繝・ Relation_Dev2Tag,0D5,01IdL00000BApob.Feed,,false,false
+Relation_Dev2Testcase__c,Relation_Dev2Testcase,a0R,01IdL00000BMSDp,,true,false
+Relation_Dev2Testcase__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Dev2Testcase,1CE,01IdL00000BMSDp.ChangeEvent,,false,false
+Relation_Issue2Plan__c,Relation_Issue2Plan,a09,01IdL00000BL91x,,true,false
+Relation_Issue2Tag__c,Relation_Issue2Tag,a15,01IdL00000By0mn,,true,false
+Relation_Issue2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Issue2Tag,1CE,01IdL00000By0mn.ChangeEvent,,false,false
+Relation_ObjectReq2Event__c,Relation_ObjectReq2Event,a0Q,01IdL00000BMQdR,,true,false
+Relation_ObjectReq2Event__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_ObjectReq2Event,1CE,01IdL00000BMQdR.ChangeEvent,,false,false
+Relation_OperationFlow2Tag__c,Relation_OperationFlow2Tag,a0H,01IdL00000BMN4T,,true,false
+Relation_OperationFlow2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_OperationFlow2Tag,1CE,01IdL00000BMN4T.ChangeEvent,,false,false
+Relation_OptFlow2Dev__c,Relation_OptFlow2Dev,a0b,01IdL00000Bc28v,,true,false
+Relation_OptFlow2Dev__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_OptFlow2Dev,1CE,01IdL00000Bc28v.ChangeEvent,,false,false
+Relation_OptFlow2Req__c,Relation_OptFlow2Req,a0W,01IdL00000BNuj7,,true,false
+Relation_OptFlow2Req__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_OptFlow2Req,1CE,01IdL00000BNuj7.ChangeEvent,,false,false
+Relation_Plan2Requirements__c,Relation_Plan2Requirements,a0J,01IdL00000BMPmD,,true,false
+Relation_Plan2Requirements__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Plan2Requirements,1CE,01IdL00000BMPmD.ChangeEvent,,false,false
+Relation_Plan2Tag__c,Relation_Plan2Tag,a14,01IdL00000By0lB,,true,false
+Relation_Plan2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Plan2Tag,1CE,01IdL00000By0lB.ChangeEvent,,false,false
+Relation_Requirements2DesignDiagram__c,Relation_Requirements2DesignDiagram,a0L,01IdL00000BMPlV,,true,false
+Relation_Requirements2DesignDiagram__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2DesignDiagram,1CE,01IdL00000BMPlV.ChangeEvent,,false,false
+Relation_Requirements2Dev__c,Relation_Requirements2Dev,a0a,01IdL00000BbTzB,,true,false
+Relation_Requirements2Dev__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2Dev,1CE,01IdL00000BbTzB.ChangeEvent,,false,false
+Relation_Requirements2ObjectReq__c,Relation_Requirements2ObjectReq,a0M,01IdL00000BMQQX,,true,false
+Relation_Requirements2ObjectReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2ObjectReq,1CE,01IdL00000BMQQX.ChangeEvent,,false,false
+Relation_Requirements2PermissionReq__c,Relation_Requirements2PermissionReq,a0O,01IdL00000BMQTl,,true,false
+Relation_Requirements2PermissionReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2PermissionReq,1CE,01IdL00000BMQTl.ChangeEvent,,false,false
+Relation_Requirements2ReportReq__c,Relation_Requirements2ReportReq,a0N,01IdL00000BMQS9,,true,false
+Relation_Requirements2ReportReq__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2ReportReq,1CE,01IdL00000BMQS9.ChangeEvent,,false,false
+Relation_Requirements2Tag__c,Relation_Requirements2Tag,a13,01IdL00000By0jZ,,true,false
+Relation_Requirements2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2Tag,1CE,01IdL00000By0jZ.ChangeEvent,,false,false
+Relation_Requirements2Testcase__c,Relation_Requirements2Testcase,a0K,01IdL00000BMQ7B,,true,false
+Relation_Requirements2Testcase__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Requirements2Testcase,1CE,01IdL00000BMQ7B.ChangeEvent,,false,false
+Relation_Service2Tag__c,Relation_Service2Tag,a05,01IdL00000BAzjp,,true,false
+Relation_Service2Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Service2Tag,1CE,01IdL00000BAzjp.ChangeEvent,,false,false
+Relation_Service2Tag__Feed,繝輔ぅ繝ｼ繝・ Relation_Service2Tag,0D5,01IdL00000BAzjp.Feed,,false,false
+Relation_Support2Issue__c,Relation_Support2Issue,a0I,01IdL00000BMNCX,,true,false
+Relation_Support2Issue__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_Support2Issue,1CE,01IdL00000BMNCX.ChangeEvent,,false,false
+Relation_testCase2suite__c,Relation_testCase2suite,a0Y,01IdL00000BNwHt,,true,false
+Relation_testCase2suite__ChangeEvent,螟画峩繧､繝吶Φ繝・ Relation_testCase2suite,1CE,01IdL00000BNwHt.ChangeEvent,,false,false
+RelationshipDomain,繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ繝峨Γ繧､繝ｳ,0Jv,RelationshipDomain,,false,false
+RelationshipInfo,繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,0Ju,RelationshipInfo,,false,false
+RemoteKeyCalloutEvent,Remote Key Callout Event,0VA,RemoteKeyCalloutEvent,,false,false
+ReplyEmailSettings,Generic Reply Email Setting Result,20l,ReplyEmailSettings,,false,false
+Report,繝ｬ繝昴・繝・00O,Report,,false,false
+ReportAnomalyEvent,繝ｬ繝昴・繝育焚蟶ｸ繧､繝吶Φ繝・0Yv,ReportAnomalyEvent,,false,false
+ReportAnomalyEventStore,繝ｬ繝昴・繝育焚蟶ｸ繧､繝吶Φ繝医せ繝医い,0Z7,ReportAnomalyEventStore,,false,false
+ReportAnomalyEventStoreFeed,繝ｬ繝昴・繝育焚蟶ｸ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,ReportAnomalyEventStoreFeed,,false,false
+ReportEvent,繝ｬ繝昴・繝医う繝吶Φ繝・0Qu,ReportEvent,,false,false
+ReportEventStream,繝ｬ繝昴・繝医う繝吶Φ繝医せ繝医Μ繝ｼ繝,0Ol,ReportEventStream,,false,false
+ReportFeed,繝ｬ繝昴・繝医ヵ繧｣繝ｼ繝・0D5,ReportFeed,,false,false
+ReportLocalization,鄙ｻ險ｳ,01j,ReportLocalization,,false,false
+ReportRequirement__c,繝ｬ繝昴・繝亥ｮ夂ｾｩ,a0D,01IdL00000BLXVh,,true,false
+ReportRequirement__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｬ繝昴・繝亥ｮ夂ｾｩ,1CE,01IdL00000BLXVh.ChangeEvent,,false,false
+ReportRequirement__Feed,繝輔ぅ繝ｼ繝・ 繝ｬ繝昴・繝亥ｮ夂ｾｩ,0D5,01IdL00000BLXVh.Feed,,false,false
+ReportRequirement__History,螻･豁ｴ: 繝ｬ繝昴・繝亥ｮ夂ｾｩ,017,01IdL00000BLXVh.History,,false,false
+ReportRequirement__Share,蜈ｱ譛・ 繝ｬ繝昴・繝亥ｮ夂ｾｩ,02c,01IdL00000BLXVh.Share,,false,false
+ResourceAbsence,繝ｪ繧ｽ繝ｼ繧ｹ縺ｮ荳榊惠,0Hw,ResourceAbsence,,true,false
+ResourceAbsenceChangeEvent,繝ｪ繧ｽ繝ｼ繧ｹ縺ｮ荳榊惠 螟画峩繧､繝吶Φ繝・1CE,ResourceAbsenceChangeEvent,,false,false
+ResourceAbsenceFeed,繝ｪ繧ｽ繝ｼ繧ｹ縺ｮ荳榊惠繝輔ぅ繝ｼ繝・0D5,ResourceAbsenceFeed,,false,false
+ResourceAbsenceHistory,繝ｪ繧ｽ繝ｼ繧ｹ縺ｮ荳榊惠螻･豁ｴ,017,ResourceAbsenceHistory,,false,false
+ResourcePreference,繝ｪ繧ｽ繝ｼ繧ｹ險ｭ螳・0Kz,ResourcePreference,,true,false
+ResourcePreferenceChangeEvent,繝ｪ繧ｽ繝ｼ繧ｹ險ｭ螳・螟画峩繧､繝吶Φ繝・1CE,ResourcePreferenceChangeEvent,,false,false
+ResourcePreferenceFeed,繝ｪ繧ｽ繝ｼ繧ｹ險ｭ螳壹ヵ繧｣繝ｼ繝・0D5,ResourcePreferenceFeed,,false,false
+ResourcePreferenceHistory,繝ｪ繧ｽ繝ｼ繧ｹ險ｭ螳壼ｱ･豁ｴ,017,ResourcePreferenceHistory,,false,false
+RetentionStoreUsage,Retention Store Usages,1FD,RetentionStoreUsage,,false,false
+RetentionStoreUsageShare,Retention Store Usages 蜈ｱ譛・02c,RetentionStoreUsageShare,,false,false
+ReturnOrder,霑泌刀豕ｨ譁・2oN,ReturnOrder,,true,false
+ReturnOrderChangeEvent,霑泌刀豕ｨ譁・螟画峩繧､繝吶Φ繝・1CE,ReturnOrderChangeEvent,,false,false
+ReturnOrderFeed,霑泌刀豕ｨ譁・ヵ繧｣繝ｼ繝・0D5,ReturnOrderFeed,,false,false
+ReturnOrderHistory,霑泌刀豕ｨ譁・ｱ･豁ｴ,017,ReturnOrderHistory,,false,false
+ReturnOrderItemAdjustment,霑泌刀豕ｨ譁・刀逶ｮ隱ｿ謨ｴ,7FH,ReturnOrderItemAdjustment,,true,false
+ReturnOrderItemAdjustmentChangeEvent,霑泌刀豕ｨ譁・刀逶ｮ隱ｿ謨ｴ 螟画峩繧､繝吶Φ繝・1CE,ReturnOrderItemAdjustmentChangeEvent,,false,false
+ReturnOrderItemTax,霑泌刀豕ｨ譁・刀逶ｮ遞・9Jj,ReturnOrderItemTax,,true,false
+ReturnOrderItemTaxChangeEvent,霑泌刀豕ｨ譁・刀逶ｮ遞・螟画峩繧､繝吶Φ繝・1CE,ReturnOrderItemTaxChangeEvent,,false,false
+ReturnOrderLineItem,霑泌刀豕ｨ譁・刀逶ｮ,0Sn,ReturnOrderLineItem,,true,false
+ReturnOrderLineItemChangeEvent,霑泌刀豕ｨ譁・刀逶ｮ 螟画峩繧､繝吶Φ繝・1CE,ReturnOrderLineItemChangeEvent,,false,false
+ReturnOrderLineItemFeed,霑泌刀豕ｨ譁・刀逶ｮ繝輔ぅ繝ｼ繝・0D5,ReturnOrderLineItemFeed,,false,false
+ReturnOrderLineItemHistory,霑泌刀豕ｨ譁・刀逶ｮ螻･豁ｴ,017,ReturnOrderLineItemHistory,,false,false
+ReturnOrderShare,霑泌刀豕ｨ譁・蜈ｱ譛・02c,ReturnOrderShare,,false,false
+SalesStore,雋ｩ螢ｲ蠎・0aH,SalesStore,,true,false
+SamlSsoConfig,SAML SSO 險ｭ螳・0LE,SamlSsoConfig,,false,false
+Scontrol,繧ｫ繧ｹ繧ｿ繝S繧ｳ繝ｳ繝医Ο繝ｼ繝ｫ,01N,Scontrol,,false,false
+ScontrolLocalization,S繧ｳ繝ｳ繝医Ο繝ｼ繝ｫ縺ｮ繝ｭ繝ｼ繧ｫ繝ｩ繧､繧ｺ,01j,ScontrolLocalization,,false,false
+Scorecard,繧ｹ繧ｳ繧｢繧ｫ繝ｼ繝・01f,Scorecard,,true,false
+ScorecardAssociation,繧ｹ繧ｳ繧｢繧ｫ繝ｼ繝牙牡繧雁ｽ薙※,0Qn,ScorecardAssociation,,true,false
+ScorecardMetric,繧ｹ繧ｳ繧｢繧ｫ繝ｼ繝峨Γ繝医Μ繧ｯ繧ｹ,0Om,ScorecardMetric,,true,false
+ScorecardShare,繧ｹ繧ｳ繧｢繧ｫ繝ｼ繝・蜈ｱ譛・02c,ScorecardShare,,false,false
+ScratchOrgInfo,繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ疲ュ蝣ｱ,2SR,ScratchOrgInfo,,true,false
+ScratchOrgInfoFeed,繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ疲ュ蝣ｱ繝輔ぅ繝ｼ繝・0D5,ScratchOrgInfoFeed,,false,false
+ScratchOrgInfoHistory,繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ疲ュ蝣ｱ縺ｮ螻･豁ｴ,017,ScratchOrgInfoHistory,,false,false
+ScratchOrgInfoShare,繧ｹ繧ｯ繝ｩ繝・メ邨・ｹ疲ュ蝣ｱ 蜈ｱ譛・02c,ScratchOrgInfoShare,,false,false
+SearchIndexJobStatusEvent,讀懃ｴ｢繧､繝ｳ繝・ャ繧ｯ繧ｹ繧ｸ繝ｧ繝門､画峩繧､繝吶Φ繝・1BG,SearchIndexJobStatusEvent,,false,false
+SearchLayout,讀懃ｴ｢繝ｬ繧､繧｢繧ｦ繝・4co,SearchLayout,,false,false
+SearchPromotionRule,讀懃ｴ｢繝励Ο繝｢繝ｼ繧ｷ繝ｧ繝ｳ繝ｫ繝ｼ繝ｫ,0MD,SearchPromotionRule,,false,false
+SecurityCustomBaseline,Security Custom Baselines,09v,SecurityCustomBaseline,,false,false
+SecurityHealthCheckAlertRecipient,Security Health Check Alert Recipient,1d2,SecurityHealthCheckAlertRecipient,,false,false
+SecurityHealthCheckResult,Security Health Check Result,2XZ,SecurityHealthCheckResult,,false,false
+Seller,雋ｩ螢ｲ讌ｭ閠・0q6,Seller,,true,false
+SellerHistory,雋ｩ螢ｲ讌ｭ閠・ｱ･豁ｴ,017,SellerHistory,,false,false
+SellerShare,雋ｩ螢ｲ讌ｭ閠・蜈ｱ譛・02c,SellerShare,,false,false
+SemanticModelChangeEvent,Semantic Model Change Event,1iJ,SemanticModelChangeEvent,,false,false
+ServiceAppointment,繧ｵ繝ｼ繝薙せ莠亥ｮ・08p,ServiceAppointment,,true,false
+ServiceAppointmentAttendee,繧ｵ繝ｼ繝薙せ莠亥ｮ壼・蟶ｭ閠・17y,ServiceAppointmentAttendee,,true,false
+ServiceAppointmentAttendeeFeed,__MISSING LABEL__ PropertyFile - val ServiceAppointmentAttendee not found in section StandardFeedLabel,0D5,ServiceAppointmentAttendeeFeed,,false,false
+ServiceAppointmentAttendeeHistory,繧ｵ繝ｼ繝薙せ莠亥ｮ壼・蟶ｭ閠・ｱ･豁ｴ,017,ServiceAppointmentAttendeeHistory,,false,false
+ServiceAppointmentAttendeeShare,繧ｵ繝ｼ繝薙せ莠亥ｮ壼・蟶ｭ閠・蜈ｱ譛・02c,ServiceAppointmentAttendeeShare,,false,false
+ServiceAppointmentChangeEvent,繧ｵ繝ｼ繝薙せ莠亥ｮ・螟画峩繧､繝吶Φ繝・1CE,ServiceAppointmentChangeEvent,,false,false
+ServiceAppointmentEvent,繧ｵ繝ｼ繝薙せ莠亥ｮ壹う繝吶Φ繝・155,ServiceAppointmentEvent,,false,false
+ServiceAppointmentFeed,繧ｵ繝ｼ繝薙せ莠亥ｮ壹ヵ繧｣繝ｼ繝・0D5,ServiceAppointmentFeed,,false,false
+ServiceAppointmentHistory,繧ｵ繝ｼ繝薙せ莠亥ｮ壼ｱ･豁ｴ,017,ServiceAppointmentHistory,,false,false
+ServiceAppointmentShare,繧ｵ繝ｼ繝薙せ莠亥ｮ・蜈ｱ譛・02c,ServiceAppointmentShare,,false,false
+ServiceAppointmentStatus,繧ｵ繝ｼ繝薙せ莠亥ｮ夂憾豕∝､,,ServiceAppointmentStatus,,false,false
+ServiceChannel,繧ｵ繝ｼ繝薙せ繝√Ε繝阪Ν,0N9,ServiceChannel,,false,false
+ServiceChannelStatus,繧ｵ繝ｼ繝薙せ繝√Ε繝阪Ν迥ｶ豕・0NC,ServiceChannelStatus,,false,false
+ServiceContract,繧ｵ繝ｼ繝薙せ螂醍ｴ・810,ServiceContract,,true,false
+ServiceContractChangeEvent,繧ｵ繝ｼ繝薙せ螂醍ｴ・螟画峩繧､繝吶Φ繝・1CE,ServiceContractChangeEvent,,false,false
+ServiceContractFeed,繧ｵ繝ｼ繝薙せ螂醍ｴ・ヵ繧｣繝ｼ繝・0D5,ServiceContractFeed,,false,false
+ServiceContractHistory,繧ｵ繝ｼ繝薙せ螂醍ｴ・ｱ･豁ｴ,017,ServiceContractHistory,,false,false
+ServiceContractShare,繧ｵ繝ｼ繝薙せ螂醍ｴ・蜈ｱ譛・02c,ServiceContractShare,,false,false
+ServicePresenceStatus,繧ｵ繝ｼ繝薙せ繝励Ξ繧ｼ繝ｳ繧ｹ迥ｶ豕・0N5,ServicePresenceStatus,,false,false
+ServiceResource,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ,0Hn,ServiceResource,,true,false
+ServiceResourceChangeEvent,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ 螟画峩繧､繝吶Φ繝・1CE,ServiceResourceChangeEvent,,false,false
+ServiceResourceFeed,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ繝輔ぅ繝ｼ繝・0D5,ServiceResourceFeed,,false,false
+ServiceResourceHistory,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ螻･豁ｴ,017,ServiceResourceHistory,,false,false
+ServiceResourceShare,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ 蜈ｱ譛・02c,ServiceResourceShare,,false,false
+ServiceResourceSkill,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ繧ｹ繧ｭ繝ｫ,0Hv,ServiceResourceSkill,,true,false
+ServiceResourceSkillChangeEvent,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ繧ｹ繧ｭ繝ｫ 螟画峩繧､繝吶Φ繝・1CE,ServiceResourceSkillChangeEvent,,false,false
+ServiceResourceSkillFeed,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ繧ｹ繧ｭ繝ｫ繝輔ぅ繝ｼ繝・0D5,ServiceResourceSkillFeed,,false,false
+ServiceResourceSkillHistory,繧ｵ繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ繧ｹ繧ｭ繝ｫ螻･豁ｴ,017,ServiceResourceSkillHistory,,false,false
+ServiceSetupProvisioning,Service Setup Provisioning,9gd,ServiceSetupProvisioning,,false,false
+ServiceTerritory,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ,0Hh,ServiceTerritory,,true,false
+ServiceTerritoryChangeEvent,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ 螟画峩繧､繝吶Φ繝・1CE,ServiceTerritoryChangeEvent,,false,false
+ServiceTerritoryFeed,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ繝輔ぅ繝ｼ繝・0D5,ServiceTerritoryFeed,,false,false
+ServiceTerritoryHistory,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ螻･豁ｴ,017,ServiceTerritoryHistory,,false,false
+ServiceTerritoryMember,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ繝｡繝ｳ繝舌・,0Hu,ServiceTerritoryMember,,true,false
+ServiceTerritoryMemberChangeEvent,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ繝｡繝ｳ繝舌・ 螟画峩繧､繝吶Φ繝・1CE,ServiceTerritoryMemberChangeEvent,,false,false
+ServiceTerritoryMemberFeed,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ繝｡繝ｳ繝舌・繝輔ぅ繝ｼ繝・0D5,ServiceTerritoryMemberFeed,,false,false
+ServiceTerritoryMemberHistory,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ繝｡繝ｳ繝舌・螻･豁ｴ,017,ServiceTerritoryMemberHistory,,false,false
+ServiceTerritoryShare,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ 蜈ｱ譛・02c,ServiceTerritoryShare,,false,false
+ServiceTerritoryWorkType,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ菴懈･ｭ遞ｮ蛻･,0VE,ServiceTerritoryWorkType,,true,false
+ServiceTerritoryWorkTypeFeed,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ菴懈･ｭ遞ｮ蛻･繝輔ぅ繝ｼ繝・0D5,ServiceTerritoryWorkTypeFeed,,false,false
+ServiceTerritoryWorkTypeHistory,繧ｵ繝ｼ繝薙せ繝・Μ繝医Μ繝ｼ菴懈･ｭ遞ｮ蛻･螻･豁ｴ,017,ServiceTerritoryWorkTypeHistory,,false,false
+SessionHijackingEvent,繧ｻ繝・す繝ｧ繝ｳ繝上う繧ｸ繝｣繝・け繧､繝吶Φ繝・0Zh,SessionHijackingEvent,,false,false
+SessionHijackingEventStore,繧ｻ繝・す繝ｧ繝ｳ繝上う繧ｸ繝｣繝・け繧､繝吶Φ繝医せ繝医い,0Zj,SessionHijackingEventStore,,false,false
+SessionHijackingEventStoreFeed,繧ｻ繝・す繝ｧ繝ｳ繝上う繧ｸ繝｣繝・け繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,SessionHijackingEventStoreFeed,,false,false
+SessionPermSetActivation,繧ｻ繝・す繝ｧ繝ｳ讓ｩ髯舌そ繝・ヨ縺ｮ譛牙柑蛹・5Pa,SessionPermSetActivation,,false,false
+SetupAssistantStep,Setup Assistant Step,3Ys,SetupAssistantStep,,false,false
+SetupAuditTrail,險ｭ螳壼､画峩螻･豁ｴ繧ｨ繝ｳ繝医Μ,0Ym,SetupAuditTrail,,false,false
+SetupEntityAccess,險ｭ螳壹お繝ｳ繝・ぅ繝・ぅ繧｢繧ｯ繧ｻ繧ｹ讓ｩ,0J0,SetupEntityAccess,,false,false
+sf_devops__Async_Operation_Result__c,髱槫酔譛滓桃菴懊・邨先棡,a0c,01IdL00000Bc3mY,sf_devops,true,false
+sf_devops__Async_Operation_Result__ChangeEvent,螟画峩繧､繝吶Φ繝・ 髱槫酔譛滓桃菴懊・邨先棡,1CE,01IdL00000Bc3mY.ChangeEvent,sf_devops,false,false
+sf_devops__Async_Operation_Result__Share,蜈ｱ譛・ 髱槫酔譛滓桃菴懊・邨先棡,02c,01IdL00000Bc3mY.Share,sf_devops,false,false
+sf_devops__Back_Sync__c,蠕梧婿蜷梧悄,a0d,01IdL00000Bc3mZ,sf_devops,true,false
+sf_devops__Back_Sync__ChangeEvent,螟画峩繧､繝吶Φ繝・ 蠕梧婿蜷梧悄,1CE,01IdL00000Bc3mZ.ChangeEvent,sf_devops,false,false
+sf_devops__Back_Sync__Share,蜈ｱ譛・ 蠕梧婿蜷梧悄,02c,01IdL00000Bc3mZ.Share,sf_devops,false,false
+sf_devops__Branch__c,繝悶Λ繝ｳ繝・a0e,01IdL00000Bc3ma,sf_devops,true,false
+sf_devops__Branch__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝悶Λ繝ｳ繝・1CE,01IdL00000Bc3ma.ChangeEvent,sf_devops,false,false
+sf_devops__Branch__Share,蜈ｱ譛・ 繝悶Λ繝ｳ繝・02c,01IdL00000Bc3ma.Share,sf_devops,false,false
+sf_devops__Change_Bundle__c,螟画峩繝舌Φ繝峨Ν,a0g,01IdL00000Bc3mc,sf_devops,true,false
+sf_devops__Change_Bundle__ChangeEvent,螟画峩繧､繝吶Φ繝・ 螟画峩繝舌Φ繝峨Ν,1CE,01IdL00000Bc3mc.ChangeEvent,sf_devops,false,false
+sf_devops__Change_Bundle_Install__c,螟画峩繝舌Φ繝峨Ν繧､繝ｳ繧ｹ繝医・繝ｫ,a0f,01IdL00000Bc3mb,sf_devops,true,false
+sf_devops__Change_Bundle_Install__ChangeEvent,螟画峩繧､繝吶Φ繝・ 螟画峩繝舌Φ繝峨Ν繧､繝ｳ繧ｹ繝医・繝ｫ,1CE,01IdL00000Bc3mb.ChangeEvent,sf_devops,false,false
+sf_devops__Change_Submission__c,螟画峩逕ｳ隲・a0h,01IdL00000Bc3md,sf_devops,true,false
+sf_devops__Change_Submission__ChangeEvent,螟画峩繧､繝吶Φ繝・ 螟画峩逕ｳ隲・1CE,01IdL00000Bc3md.ChangeEvent,sf_devops,false,false
+sf_devops__Deploy_Component__c,繝ｪ繝ｪ繝ｼ繧ｹ繧ｳ繝ｳ繝昴・繝阪Φ繝・a0i,01IdL00000Bc3me,sf_devops,true,false
+sf_devops__Deploy_Component__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｪ繝ｪ繝ｼ繧ｹ繧ｳ繝ｳ繝昴・繝阪Φ繝・1CE,01IdL00000Bc3me.ChangeEvent,sf_devops,false,false
+sf_devops__Deployment__e,Deployment,e00,01IdL00000Bc3mg,sf_devops,true,false
+sf_devops__Deployment_Result__c,繝ｪ繝ｪ繝ｼ繧ｹ邨先棡,a0j,01IdL00000Bc3mf,sf_devops,true,false
+sf_devops__Deployment_Result__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｪ繝ｪ繝ｼ繧ｹ邨先棡,1CE,01IdL00000Bc3mf.ChangeEvent,sf_devops,false,false
+sf_devops__Deployment_Result__Share,蜈ｱ譛・ 繝ｪ繝ｪ繝ｼ繧ｹ邨先棡,02c,01IdL00000Bc3mf.Share,sf_devops,false,false
+sf_devops__Environment__c,迺ｰ蠅・a0k,01IdL00000Bc3mh,sf_devops,true,false
+sf_devops__Environment__ChangeEvent,螟画峩繧､繝吶Φ繝・ 迺ｰ蠅・1CE,01IdL00000Bc3mh.ChangeEvent,sf_devops,false,false
+sf_devops__Hidden_Remote_Change__c,髱櫁｡ｨ遉ｺ縺ｮ繝ｪ繝｢繝ｼ繝亥､画峩,a0l,01IdL00000Bc3mi,sf_devops,true,false
+sf_devops__Hidden_Remote_Change__ChangeEvent,螟画峩繧､繝吶Φ繝・ 髱櫁｡ｨ遉ｺ縺ｮ繝ｪ繝｢繝ｼ繝亥､画峩,1CE,01IdL00000Bc3mi.ChangeEvent,sf_devops,false,false
+sf_devops__Merge_Result__c,繝槭・繧ｸ邨先棡,a0m,01IdL00000Bc3mj,sf_devops,true,false
+sf_devops__Merge_Result__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝槭・繧ｸ邨先棡,1CE,01IdL00000Bc3mj.ChangeEvent,sf_devops,false,false
+sf_devops__Merge_Result__Share,蜈ｱ譛・ 繝槭・繧ｸ邨先棡,02c,01IdL00000Bc3mj.Share,sf_devops,false,false
+sf_devops__Object_Activity__c,繧ｪ繝悶ず繧ｧ繧ｯ繝域ｴｻ蜍・a0n,01IdL00000Bc3mk,sf_devops,true,false
+sf_devops__Object_Activity__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧ｪ繝悶ず繧ｧ繧ｯ繝域ｴｻ蜍・1CE,01IdL00000Bc3mk.ChangeEvent,sf_devops,false,false
+sf_devops__Pipeline__c,繝代う繝励Λ繧､繝ｳ,a0p,01IdL00000Bc3mm,sf_devops,true,false
+sf_devops__Pipeline__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝代う繝励Λ繧､繝ｳ,1CE,01IdL00000Bc3mm.ChangeEvent,sf_devops,false,false
+sf_devops__Pipeline_Stage__c,繝代う繝励Λ繧､繝ｳ繝輔ぉ繝ｼ繧ｺ,a0o,01IdL00000Bc3ml,sf_devops,true,false
+sf_devops__Pipeline_Stage__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝代う繝励Λ繧､繝ｳ繝輔ぉ繝ｼ繧ｺ,1CE,01IdL00000Bc3ml.ChangeEvent,sf_devops,false,false
+sf_devops__Project__c,繝励Ο繧ｸ繧ｧ繧ｯ繝・a0q,01IdL00000Bc3mn,sf_devops,true,false
+sf_devops__Project__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝励Ο繧ｸ繧ｧ繧ｯ繝・1CE,01IdL00000Bc3mn.ChangeEvent,sf_devops,false,false
+sf_devops__Project__Share,蜈ｱ譛・ 繝励Ο繧ｸ繧ｧ繧ｯ繝・02c,01IdL00000Bc3mn.Share,sf_devops,false,false
+sf_devops__Remote_Change__c,繝ｪ繝｢繝ｼ繝亥､画峩,a0r,01IdL00000Bc3mo,sf_devops,true,false
+sf_devops__Remote_Change__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｪ繝｢繝ｼ繝亥､画峩,1CE,01IdL00000Bc3mo.ChangeEvent,sf_devops,false,false
+sf_devops__Repository__c,繝ｪ繝昴ず繝医Μ,a0s,01IdL00000Bc3mp,sf_devops,true,false
+sf_devops__Repository__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝ｪ繝昴ず繝医Μ,1CE,01IdL00000Bc3mp.ChangeEvent,sf_devops,false,false
+sf_devops__Repository__Share,蜈ｱ譛・ 繝ｪ繝昴ず繝医Μ,02c,01IdL00000Bc3mp.Share,sf_devops,false,false
+sf_devops__Service_Provider__mdt,繧ｵ繝ｼ繝薙せ繝励Ο繝舌う繝繝ｼ,m01,01IdL00000Bc3mq,sf_devops,true,false
+sf_devops__Source_Member_Reference__c,繧ｽ繝ｼ繧ｹ繝｡繝ｳ繝舌・蜿ら・,a0t,01IdL00000Bc3ms,sf_devops,true,false
+sf_devops__Source_Member_Reference__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧ｽ繝ｼ繧ｹ繝｡繝ｳ繝舌・蜿ら・,1CE,01IdL00000Bc3ms.ChangeEvent,sf_devops,false,false
+sf_devops__Submit_Component__c,逕ｳ隲九さ繝ｳ繝昴・繝阪Φ繝・a0u,01IdL00000Bc3mt,sf_devops,true,false
+sf_devops__Submit_Component__ChangeEvent,螟画峩繧､繝吶Φ繝・ 逕ｳ隲九さ繝ｳ繝昴・繝阪Φ繝・1CE,01IdL00000Bc3mt.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs__c,繧ｷ繧ｹ繝・Β,a0w,01IdL00000Bc3mv,sf_devops,true,false
+sf_devops__Vcs__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧ｷ繧ｹ繝・Β,1CE,01IdL00000Bc3mv.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs__Share,蜈ｱ譛・ 繧ｷ繧ｹ繝・Β,02c,01IdL00000Bc3mv.Share,sf_devops,false,false
+sf_devops__Vcs_Synch_State__c,VCS 蜷梧悄迥ｶ諷・a0v,01IdL00000Bc3mu,sf_devops,true,false
+sf_devops__Vcs_Synch_State__ChangeEvent,螟画峩繧､繝吶Φ繝・ VCS 蜷梧悄迥ｶ諷・1CE,01IdL00000Bc3mu.ChangeEvent,sf_devops,false,false
+sf_devops__Vcs_Synch_State__Share,蜈ｱ譛・ VCS 蜷梧悄迥ｶ諷・02c,01IdL00000Bc3mu.Share,sf_devops,false,false
+sf_devops__Work_Item__c,菴懈･ｭ鬆・岼,a0y,01IdL00000Bc3n2,sf_devops,true,false
+sf_devops__Work_Item__ChangeEvent,螟画峩繧､繝吶Φ繝・ 菴懈･ｭ鬆・岼,1CE,01IdL00000Bc3n2.ChangeEvent,sf_devops,false,false
+sf_devops__Work_Item_Commit__e,Work Item Commit,e01,01IdL00000Bc3mx,sf_devops,true,false
+sf_devops__Work_Item_Merged_Change_Request__e,Work Item Merged Change Request,e02,01IdL00000Bc3my,sf_devops,true,false
+sf_devops__Work_Item_Open_Change_Request__e,Work Item Open Change Request,e03,01IdL00000Bc3mz,sf_devops,true,false
+sf_devops__Work_Item_Promote__c,菴懈･ｭ鬆・岼譏・ｼ,a0x,01IdL00000Bc3n0,sf_devops,true,false
+sf_devops__Work_Item_Promote__ChangeEvent,螟画峩繧､繝吶Φ繝・ 菴懈･ｭ鬆・岼譏・ｼ,1CE,01IdL00000Bc3n0.ChangeEvent,sf_devops,false,false
+sf_devops__Work_Item_State_Change__e,Work Item State Change,e04,01IdL00000Bc3n1,sf_devops,true,false
+ShapeRepresentation,蝗ｳ蠖｢陦ｨ迴ｾ,3SR,ShapeRepresentation,,false,false
+Shift,繧ｷ繝輔ヨ,0a0,Shift,,true,false
+ShiftChangeEvent,繧ｷ繝輔ヨ 螟画峩繧､繝吶Φ繝・1CE,ShiftChangeEvent,,false,false
+ShiftEngagementChannel,繧ｷ繝輔ヨ繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν,0xK,ShiftEngagementChannel,,true,false
+ShiftEngagementChannelFeed,繧ｷ繝輔ヨ繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν繝輔ぅ繝ｼ繝・0D5,ShiftEngagementChannelFeed,,false,false
+ShiftEngagementChannelHistory,繧ｷ繝輔ヨ繧ｨ繝ｳ繧ｲ繝ｼ繧ｸ繝｡繝ｳ繝医メ繝｣繝阪Ν縺ｮ螻･豁ｴ,017,ShiftEngagementChannelHistory,,false,false
+ShiftFeed,繧ｷ繝輔ヨ繝輔ぅ繝ｼ繝・0D5,ShiftFeed,,false,false
+ShiftHistory,繧ｷ繝輔ヨ螻･豁ｴ,017,ShiftHistory,,false,false
+ShiftShare,繧ｷ繝輔ヨ 蜈ｱ譛・02c,ShiftShare,,false,false
+ShiftStatus,繧ｷ繝輔ヨ迥ｶ豕∝､,,ShiftStatus,,false,false
+ShiftWorkTopic,繧ｷ繝輔ヨ菴懈･ｭ繝医ヴ繝・け,0xH,ShiftWorkTopic,,true,false
+ShiftWorkTopicFeed,繧ｷ繝輔ヨ菴懈･ｭ繝医ヴ繝・け繝輔ぅ繝ｼ繝・0D5,ShiftWorkTopicFeed,,false,false
+ShiftWorkTopicHistory,繧ｷ繝輔ヨ菴懈･ｭ繝医ヴ繝・け縺ｮ螻･豁ｴ,017,ShiftWorkTopicHistory,,false,false
+Shipment,蜃ｺ闕ｷ,0OB,Shipment,,true,false
+ShipmentChangeEvent,蜃ｺ闕ｷ 螟画峩繧､繝吶Φ繝・1CE,ShipmentChangeEvent,,false,false
+ShipmentFeed,蜃ｺ闕ｷ繝輔ぅ繝ｼ繝・0D5,ShipmentFeed,,false,false
+ShipmentHistory,蜃ｺ闕ｷ螻･豁ｴ,017,ShipmentHistory,,false,false
+ShipmentItem,蜃ｺ闕ｷ鬆・岼,0ob,ShipmentItem,,true,false
+ShipmentItemFeed,__MISSING LABEL__ PropertyFile - val ShipmentItem not found in section StandardFeedLabel,0D5,ShipmentItemFeed,,false,false
+ShipmentItemHistory,__MISSING LABEL__ PropertyFile - val ShipmentItem not found in section StandardHistoryLabel,017,ShipmentItemHistory,,false,false
+ShipmentShare,蜃ｺ闕ｷ 蜈ｱ譛・02c,ShipmentShare,,false,false
+ShippingCarrier,驟埼∵･ｭ閠・2A2,ShippingCarrier,,true,false
+ShippingCarrierFeed,__MISSING LABEL__ PropertyFile - val ShippingCarrier not found in section StandardFeedLabel,0D5,ShippingCarrierFeed,,false,false
+ShippingCarrierHistory,驟埼∵･ｭ閠・ｱ･豁ｴ,017,ShippingCarrierHistory,,false,false
+ShippingCarrierMethod,驟埼∵･ｭ閠・婿豕・2A1,ShippingCarrierMethod,,true,false
+ShippingCarrierMethodFeed,__MISSING LABEL__ PropertyFile - val ShippingCarrierMethod not found in section StandardFeedLabel,0D5,ShippingCarrierMethodFeed,,false,false
+ShippingCarrierMethodHistory,驟埼∵･ｭ閠・婿豕募ｱ･豁ｴ,017,ShippingCarrierMethodHistory,,false,false
+ShippingCarrierMethodShare,驟埼∵･ｭ閠・婿豕・蜈ｱ譛・02c,ShippingCarrierMethodShare,,false,false
+ShippingCarrierShare,驟埼∵･ｭ閠・蜈ｱ譛・02c,ShippingCarrierShare,,false,false
+ShippingConfigurationSet,驟埼∬ｨｭ螳壹そ繝・ヨ,7LA,ShippingConfigurationSet,,false,false
+ShippingConfigurationSetShare,驟埼∬ｨｭ螳壹そ繝・ヨ 蜈ｱ譛・02c,ShippingConfigurationSetShare,,false,false
+ShippingRateArea,驟埼√Ξ繝ｼ繝磯伜沺,12h,ShippingRateArea,,false,false
+ShippingRateGroup,驟埼√Ξ繝ｼ繝医げ繝ｫ繝ｼ繝・8Ni,ShippingRateGroup,,false,false
+Site,繧ｵ繧､繝・0DM,Site,,false,false
+SiteDetail,繧ｵ繧､繝医・隧ｳ邏ｰ,0GV,SiteDetail,,false,false
+SiteFeed,繧ｵ繧､繝・0D5,SiteFeed,,false,false
+SiteHistory,繧ｵ繧､繝亥ｱ･豁ｴ,017,SiteHistory,,false,false
+SiteIframeWhiteListUrl,Trusted Domains for Inline Frames,0Xs,SiteIframeWhiteListUrl,,false,false
+SiteRedirectMapping,繧ｵ繧､繝医Μ繝繧､繝ｬ繧ｯ繝医・繝・ヴ繝ｳ繧ｰ,0H0,SiteRedirectMapping,,false,false
+Skill,繧ｹ繧ｭ繝ｫ,0C5,Skill,,false,false
+SkillChangeEvent,繧ｹ繧ｭ繝ｫ 螟画峩繧､繝吶Φ繝・1CE,SkillChangeEvent,,false,false
+SkillRequirement,繧ｹ繧ｭ繝ｫ隕∽ｻｶ,0Hx,SkillRequirement,,true,false
+SkillRequirementChangeEvent,繧ｹ繧ｭ繝ｫ隕∽ｻｶ 螟画峩繧､繝吶Φ繝・1CE,SkillRequirementChangeEvent,,false,false
+SkillRequirementFeed,繧ｹ繧ｭ繝ｫ隕∽ｻｶ繝輔ぅ繝ｼ繝・0D5,SkillRequirementFeed,,false,false
+SkillRequirementHistory,繧ｹ繧ｭ繝ｫ隕∽ｻｶ螻･豁ｴ,017,SkillRequirementHistory,,false,false
+SkillType,繧ｹ繧ｭ繝ｫ遞ｮ蛻･,13B,SkillType,,false,false
+SlackChannelRelatedRecord,Slack Channel Related Record,1NM,SlackChannelRelatedRecord,,false,false
+SlaProcess,繧ｨ繝ｳ繧ｿ繧､繝医Ν繝｡繝ｳ繝医・繝ｭ繧ｻ繧ｹ,552,SlaProcess,,false,false
+Solution,繧ｽ繝ｪ繝･繝ｼ繧ｷ繝ｧ繝ｳ,501,Solution,,true,false
+SolutionFeed,繧ｽ繝ｪ繝･繝ｼ繧ｷ繝ｧ繝ｳ繝輔ぅ繝ｼ繝・0D5,SolutionFeed,,false,false
+SolutionHistory,繧ｽ繝ｪ繝･繝ｼ繧ｷ繝ｧ繝ｳ螻･豁ｴ,017,SolutionHistory,,false,false
+SolutionStatus,繧ｽ繝ｪ繝･繝ｼ繧ｷ繝ｧ繝ｳ縺ｮ迥ｶ豕∝､,,SolutionStatus,,false,false
+SPSamlAttributes,繧ｵ繝ｼ繝薙せ繝励Ο繝舌う繝繝ｼ SAML 螻樊ｧ,0J4,SPSamlAttributes,,false,false
+SrcPredJobStatusChgEvent,繧ｽ繝ｼ繧ｹ莠域ｸｬ繧ｸ繝ｧ繝也憾豕∝､画峩繧､繝吶Φ繝・0xp,SrcPredJobStatusChgEvent,,false,false
+StagedInviteeEmail,繧ｹ繝・・繧ｸ繝ｳ繧ｰ貂医∩陲ｫ諡幃寔閠・Γ繝ｼ繝ｫ,5IE,StagedInviteeEmail,,false,false
+StagedInviteeEmailShare,繧ｹ繝・・繧ｸ繝ｳ繧ｰ貂医∩陲ｫ諡幃寔閠・Γ繝ｼ繝ｫ 蜈ｱ譛・02c,StagedInviteeEmailShare,,false,false
+Stamp,繧ｹ繧ｿ繝ｳ繝・1ST,Stamp,,false,false
+StampAssignment,繧ｹ繧ｿ繝ｳ繝励・蜑ｲ繧雁ｽ薙※,1SA,StampAssignment,,false,false
+StampLocalization,鄙ｻ險ｳ,01j,StampLocalization,,false,false
+StandardInvocableActionType,讓呎ｺ門他縺ｳ蜃ｺ縺怜庄閭ｽ繧｢繧ｯ繧ｷ繝ｧ繝ｳ遞ｮ蛻･,0QO,StandardInvocableActionType,,false,false
+StandardShippingRate,讓呎ｺ夜・騾√Ξ繝ｼ繝・5fy,StandardShippingRate,,false,false
+StaticResource,髱咏噪繝ｪ繧ｽ繝ｼ繧ｹ,081,StaticResource,,false,false
+StreamingChannel,繧ｹ繝医Μ繝ｼ繝溘Φ繧ｰ繝√Ε繝阪Ν,0M6,StreamingChannel,,false,false
+StreamingChannelShare,繧ｹ繝医Μ繝ｼ繝溘Φ繧ｰ繝√Ε繝阪Ν 蜈ｱ譛・02c,StreamingChannelShare,,false,false
+SvcApptSchdEvent,繧ｵ繝ｼ繝薙せ莠亥ｮ壹・繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ繧､繝吶Φ繝・1eq,SvcApptSchdEvent,,false,false
+TabDefinition,繧ｿ繝門ｮ夂ｾｩ,0KD,TabDefinition,,false,false
+TableauHostMapping,Tableau 繝帙せ繝亥ｯｾ蠢應ｻ倥￠,0ZP,TableauHostMapping,,false,false
+TableauHostMappingShare,Tableau 繝帙せ繝亥ｯｾ蠢應ｻ倥￠ 蜈ｱ譛・02c,TableauHostMappingShare,,false,false
+Tag__c,繧ｿ繧ｰ,a03,01IdL00000BAzdN,,true,false
+Tag__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繧ｿ繧ｰ,1CE,01IdL00000BAzdN.ChangeEvent,,false,false
+Tag__Feed,繝輔ぅ繝ｼ繝・ 繧ｿ繧ｰ,0D5,01IdL00000BAzdN.Feed,,false,false
+Tag__History,螻･豁ｴ: 繧ｿ繧ｰ,017,01IdL00000BAzdN.History,,false,false
+Tag__Share,蜈ｱ譛・ 繧ｿ繧ｰ,02c,01IdL00000BAzdN.Share,,false,false
+Task,ToDo,00T,Task,,true,false
+TaskChangeEvent,ToDo 螟画峩繧､繝吶Φ繝・1CE,TaskChangeEvent,,false,false
+TaskFeed,ToDo繝輔ぅ繝ｼ繝・0D5,TaskFeed,,false,false
+TaskPriority,ToDo 縺ｮ蜆ｪ蜈亥ｺｦ蛟､,,TaskPriority,,false,false
+TaskStatus,ToDo 縺ｮ迥ｶ豕∝､,,TaskStatus,,false,false
+TechActionPlan__c,蟇ｾ蠢懈命遲・a08,01IdL00000BL5sn,,true,false
+TechActionPlan__Share,蜈ｱ譛・ 蟇ｾ蠢懈命遲・02c,01IdL00000BL5sn.Share,,false,false
+TenantUsageEntitlement,Tenant Usage Entitlements,0UT,TenantUsageEntitlement,,false,false
+Testcase__c,繝・せ繝医こ繝ｼ繧ｹ,a0A,01IdL00000BLRjd,,true,false
+Testcase__Share,蜈ｱ譛・ 繝・せ繝医こ繝ｼ繧ｹ,02c,01IdL00000BLRjd.Share,,false,false
+TestSuite__c,繝・せ繝医せ繧､繝ｼ繝・a0X,01IdL00000BNw9p,,true,false
+TestSuite__ChangeEvent,螟画峩繧､繝吶Φ繝・ 繝・せ繝医せ繧､繝ｼ繝・1CE,01IdL00000BNw9p.ChangeEvent,,false,false
+TestSuite__Feed,繝輔ぅ繝ｼ繝・ 繝・せ繝医せ繧､繝ｼ繝・0D5,01IdL00000BNw9p.Feed,,false,false
+TestSuite__History,螻･豁ｴ: 繝・せ繝医せ繧､繝ｼ繝・017,01IdL00000BNw9p.History,,false,false
+TestSuite__Share,蜈ｱ譛・ 繝・せ繝医せ繧､繝ｼ繝・02c,01IdL00000BNw9p.Share,,false,false
+TestSuiteMembership,繝・せ繝医せ繧､繝ｼ繝医Γ繝ｳ繝舌・繧ｷ繝・・,0Hd,TestSuiteMembership,,false,false
+ThirdPartyAccountLink,繧ｵ繝ｼ繝峨ヱ繝ｼ繝・ぅ繧｢繧ｫ繧ｦ繝ｳ繝医・繝ｪ繝ｳ繧ｯ,0Jr,ThirdPartyAccountLink,,false,false
+ThreatDetectionFeedback,閼・ｨ∵､懷・繝輔ぅ繝ｼ繝峨ヰ繝・け,0hY,ThreatDetectionFeedback,,false,false
+ThreatDetectionFeedbackFeed,閼・ｨ∵､懷・繝輔ぅ繝ｼ繝峨ヰ繝・け繝輔ぅ繝ｼ繝・0D5,ThreatDetectionFeedbackFeed,,false,false
+TimeSlot,譎る俣譫,0Gj,TimeSlot,,true,false
+TimeSlotChangeEvent,譎る俣譫 螟画峩繧､繝吶Φ繝・1CE,TimeSlotChangeEvent,,false,false
+TimeSlotHistory,譎る俣譫螻･豁ｴ,017,TimeSlotHistory,,false,false
+TodayGoal,Goals,0Jz,TodayGoal,,false,false
+TodayGoalChangeEvent,Goals 螟画峩繧､繝吶Φ繝・1CE,TodayGoalChangeEvent,,false,false
+TodayGoalShare,Goals 蜈ｱ譛・02c,TodayGoalShare,,false,false
+Topic,繝医ヴ繝・け,0TO,Topic,,false,false
+TopicAssignment,繝医ヴ繝・け縺ｮ蜑ｲ繧雁ｽ薙※,0FT,TopicAssignment,,false,false
+TopicFeed,繝医ヴ繝・け繝輔ぅ繝ｼ繝・0D5,TopicFeed,,false,false
+TopicLocalization,鄙ｻ險ｳ,01j,TopicLocalization,,false,false
+TopicUserEvent,繝医ヴ繝・け繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ陦悟虚,0te,TopicUserEvent,,false,false
+TransactionSecurityPolicy,Transaction Security Policy,0NI,TransactionSecurityPolicy,,false,false
+Translation,險隱樒ｿｻ險ｳ,01h,Translation,,false,false
+UiFormulaCriterion,UI 謨ｰ蠑乗擅莉ｶ,0Gp,UiFormulaCriterion,,false,false
+UiFormulaRule,UI 謨ｰ蠑上Ν繝ｼ繝ｫ,09t,UiFormulaRule,,false,false
+UndecidedEventRelation,譛ｪ豎ｺ螳夊｡悟虚繝ｪ繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ,,UndecidedEventRelation,,false,false
+UniversalAnomalyEvent,繝ｦ繝九ヰ繝ｼ繧ｵ繝ｫ逡ｰ蟶ｸ繧､繝吶Φ繝・1f1,UniversalAnomalyEvent,,false,false
+UniversalAnomalyEventStore,繝ｦ繝九ヰ繝ｼ繧ｵ繝ｫ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い,1f2,UniversalAnomalyEventStore,,false,false
+UniversalAnomalyEventStoreFeed,繝ｦ繝九ヰ繝ｼ繧ｵ繝ｫ逡ｰ蟶ｸ繧､繝吶Φ繝医せ繝医い繝輔ぅ繝ｼ繝・0D5,UniversalAnomalyEventStoreFeed,,false,false
+UnstructuredStorageSpace,UnstructuredStorageSpace,1GU,UnstructuredStorageSpace,,true,false
+UnstructuredStorageSpaceShare,UnstructuredStorageSpace 蜈ｱ譛・02c,UnstructuredStorageSpaceShare,,false,false
+UriEvent,URI 繧､繝吶Φ繝・0Uw,UriEvent,,false,false
+UriEventStream,URI Event Stream,0Ux,UriEventStream,,false,false
+User,繝ｦ繝ｼ繧ｶ繝ｼ,005,User,,true,false
+UserAppInfo,譛蠕後↓菴ｿ逕ｨ縺励◆繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,0Ds,UserAppInfo,,false,false
+UserAppInfoChangeEvent,譛蠕後↓菴ｿ逕ｨ縺励◆繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,UserAppInfoChangeEvent,,false,false
+UserAppMenuCustomization,UserAppMenuCustomization,0Nw,UserAppMenuCustomization,,false,false
+UserAppMenuCustomizationShare,UserAppMenuCustomization 蜈ｱ譛・02c,UserAppMenuCustomizationShare,,false,false
+UserAppMenuItem,繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ,07p,UserAppMenuItem,,false,false
+UserChangeEvent,繝ｦ繝ｼ繧ｶ繝ｼ 螟画峩繧､繝吶Φ繝・1CE,UserChangeEvent,,false,false
+UserDefinedLabel,陦ｨ遉ｺ繝ｩ繝吶Ν,0vm,UserDefinedLabel,,false,false
+UserDefinedLabelAssignment,陦ｨ遉ｺ繝ｩ繝吶Ν縺ｮ蜑ｲ繧雁ｽ薙※,0vn,UserDefinedLabelAssignment,,false,false
+UserDefinedLabelAssignmentShare,陦ｨ遉ｺ繝ｩ繝吶Ν縺ｮ蜑ｲ繧雁ｽ薙※ 蜈ｱ譛・02c,UserDefinedLabelAssignmentShare,,false,false
+UserDefinedLabelShare,陦ｨ遉ｺ繝ｩ繝吶Ν 蜈ｱ譛・02c,UserDefinedLabelShare,,false,false
+UserEmailPreferredPerson,繝ｦ繝ｼ繧ｶ繝ｼ繝｡繝ｼ繝ｫ繧｢繝峨Ξ繧ｹ蜆ｪ蜈医Θ繝ｼ繧ｶ繝ｼ,0UV,UserEmailPreferredPerson,,false,false
+UserEmailPreferredPersonChangeEvent,繝ｦ繝ｼ繧ｶ繝ｼ繝｡繝ｼ繝ｫ繧｢繝峨Ξ繧ｹ蜆ｪ蜈医Θ繝ｼ繧ｶ繝ｼ 螟画峩繧､繝吶Φ繝・1CE,UserEmailPreferredPersonChangeEvent,,false,false
+UserEmailPreferredPersonShare,繝ｦ繝ｼ繧ｶ繝ｼ繝｡繝ｼ繝ｫ繧｢繝峨Ξ繧ｹ蜆ｪ蜈医Θ繝ｼ繧ｶ繝ｼ 蜈ｱ譛・02c,UserEmailPreferredPersonShare,,false,false
+UserEntityAccess,繝ｦ繝ｼ繧ｶ繝ｼ繧ｨ繝ｳ繝・ぅ繝・ぅ繧｢繧ｯ繧ｻ繧ｹ讓ｩ,07u,UserEntityAccess,,false,false
+UserFeed,繝ｦ繝ｼ繧ｶ繝ｼ繝輔ぅ繝ｼ繝・0D5,UserFeed,,false,false
+UserFieldAccess,繝ｦ繝ｼ繧ｶ繝ｼ鬆・岼繧｢繧ｯ繧ｻ繧ｹ讓ｩ,4fp,UserFieldAccess,,false,false
+UserHistory,繝ｦ繝ｼ繧ｶ繝ｼ螻･豁ｴ,017,UserHistory,,false,false
+UserLicense,繝ｦ繝ｼ繧ｶ繝ｼ繝ｩ繧､繧ｻ繝ｳ繧ｹ,100,UserLicense,,false,false
+UserListView,繝ｦ繝ｼ繧ｶ繝ｼ繝ｪ繧ｹ繝医ン繝･繝ｼ,0Na,UserListView,,false,false
+UserListViewCriterion,繝ｦ繝ｼ繧ｶ繝ｼ繝ｪ繧ｹ繝医ン繝･繝ｼ譚｡莉ｶ,0JU,UserListViewCriterion,,false,false
+UserLocalWebServerIdentity,繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ繝ｭ繝ｼ繧ｫ繝ｫ Web 繧ｵ繝ｼ繝舌・ ID,1I9,UserLocalWebServerIdentity,,false,false
+UserLocalWebServerIdentityShare,繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ繝ｭ繝ｼ繧ｫ繝ｫ Web 繧ｵ繝ｼ繝舌・ ID 蜈ｱ譛・02c,UserLocalWebServerIdentityShare,,false,false
+UserLogin,繝ｦ繝ｼ繧ｶ繝ｼ繝ｭ繧ｰ繧､繝ｳ,0Yw,UserLogin,,false,false
+UserPackageLicense,繝ｦ繝ｼ繧ｶ繝ｼ繝代ャ繧ｱ繝ｼ繧ｸ繝ｩ繧､繧ｻ繝ｳ繧ｹ,051,UserPackageLicense,,false,false
+UserPermissionAccess,繝ｦ繝ｼ繧ｶ繝ｼ讓ｩ髯舌い繧ｯ繧ｻ繧ｹ,0up,UserPermissionAccess,,false,false
+UserPreference,User Preference,03u,UserPreference,,false,false
+UserPrioritizedRecord,繝ｦ繝ｼ繧ｶ繝ｼ蜆ｪ蜈医Ξ繧ｳ繝ｼ繝・2g0,UserPrioritizedRecord,,false,false
+UserPrioritizedRecordShare,繝ｦ繝ｼ繧ｶ繝ｼ蜆ｪ蜈医Ξ繧ｳ繝ｼ繝・蜈ｱ譛・02c,UserPrioritizedRecordShare,,false,false
+UserProvAccount,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ繧｢繧ｫ繧ｦ繝ｳ繝・0Ni,UserProvAccount,,false,false
+UserProvAccountStaging,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ繧｢繧ｫ繧ｦ繝ｳ繝医・繧ｹ繝・・繧ｸ繝ｳ繧ｰ,0HY,UserProvAccountStaging,,false,false
+UserProvisioningConfig,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ險ｭ螳・0Je,UserProvisioningConfig,,false,false
+UserProvisioningLog,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ縺ｮ繝ｭ繧ｰ,0Hs,UserProvisioningLog,,false,false
+UserProvisioningRequest,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ隕∵ｱ・0HP,UserProvisioningRequest,,true,false
+UserProvisioningRequestShare,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ隕∵ｱ・蜈ｱ譛・02c,UserProvisioningRequestShare,,false,false
+UserProvMockTarget,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ο繝薙ず繝ｧ繝九Φ繧ｰ縺ｮ逍台ｼｼ繧ｿ繝ｼ繧ｲ繝・ヨ,0HX,UserProvMockTarget,,false,false
+UserRecordAccess,繝ｦ繝ｼ繧ｶ繝ｼ繝ｬ繧ｳ繝ｼ繝峨い繧ｯ繧ｻ繧ｹ,,UserRecordAccess,,false,false
+UserRole,繝ｭ繝ｼ繝ｫ,00E,UserRole,,false,false
+UserServicePresence,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ξ繧ｼ繝ｳ繧ｹ,0R1,UserServicePresence,,true,false
+UserServicePresenceChangeEvent,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ξ繧ｼ繝ｳ繧ｹ 螟画峩繧､繝吶Φ繝・1CE,UserServicePresenceChangeEvent,,false,false
+UserServicePresenceShare,繝ｦ繝ｼ繧ｶ繝ｼ繝励Ξ繧ｼ繝ｳ繧ｹ 蜈ｱ譛・02c,UserServicePresenceShare,,false,false
+UserSetupEntityAccess,繝ｦ繝ｼ繧ｶ繝ｼ險ｭ螳壹お繝ｳ繝・ぅ繝・ぅ繧｢繧ｯ繧ｻ繧ｹ,0g2,UserSetupEntityAccess,,false,false
+UserShare,繝ｦ繝ｼ繧ｶ繝ｼ蜈ｱ譛・0N2,UserShare,,false,false
+UserSharedFeature,繝ｦ繝ｼ繧ｶ繝ｼ蜈ｱ譛画ｩ溯・,2US,UserSharedFeature,,false,false
+VendorCallCenterStatusMap,繝吶Φ繝繝ｼ繧ｳ繝ｼ繝ｫ繧ｻ繝ｳ繧ｿ繝ｼ迥ｶ豕√・蟇ｾ蠢應ｻ倥￠,6oM,VendorCallCenterStatusMap,,false,false
+VerificationHistory,ID 讀懆ｨｼ螻･豁ｴ,0Qt,VerificationHistory,,false,false
+VisualforceAccessMetrics,Visualforce Access Metrics,0OP,VisualforceAccessMetrics,,false,false
+VoiceCall,髻ｳ螢ｰ騾夊ｩｱ,0LQ,VoiceCall,,true,false
+VoiceCallChangeEvent,髻ｳ螢ｰ騾夊ｩｱ 螟画峩繧､繝吶Φ繝・1CE,VoiceCallChangeEvent,,false,false
+VoiceCallFeed,髻ｳ螢ｰ騾夊ｩｱ繝輔ぅ繝ｼ繝・0D5,VoiceCallFeed,,false,false
+VoiceCallMetrics,髻ｳ螢ｰ騾夊ｩｱ繝｡繝医Μ繧ｯ繧ｹ,0il,VoiceCallMetrics,,false,false
+VoiceCallRecording,Voice Call Recording,0Ox,VoiceCallRecording,,false,false
+VoiceCallRecordingChangeEvent,Voice Call Recording 螟画峩繧､繝吶Φ繝・1CE,VoiceCallRecordingChangeEvent,,false,false
+VoiceCallShare,髻ｳ螢ｰ騾夊ｩｱ蜈ｱ譛・02c,VoiceCallShare,,false,false
+VoiceChnlInteractionEvent,髻ｳ螢ｰ繝√Ε繝阪Ν繧､繝ｳ繧ｿ繝ｩ繧ｯ繧ｷ繝ｧ繝ｳ繧､繝吶Φ繝・0gD,VoiceChnlInteractionEvent,,false,false
+VoiceChnlInteractionEventShare,髻ｳ螢ｰ繝√Ε繝阪Ν繧､繝ｳ繧ｿ繝ｩ繧ｯ繧ｷ繝ｧ繝ｳ繧､繝吶Φ繝・蜈ｱ譛・02c,VoiceChnlInteractionEventShare,,false,false
+VoiceChnlIntrctnDtlEvent,髻ｳ螢ｰ繝√Ε繝阪Ν繧､繝ｳ繧ｿ繝ｩ繧ｯ繧ｷ繝ｧ繝ｳ縺ｮ隧ｳ邏ｰ繧､繝吶Φ繝・0gK,VoiceChnlIntrctnDtlEvent,,false,false
+VoiceMailGreeting2,髻ｳ螢ｰ繝｡繝ｼ繝ｫ謖ｨ諡ｶ,1by,VoiceMailGreeting2,,false,false
+VoiceMailGreeting2Rep,髻ｳ螢ｰ繝｡繝ｼ繝ｫ謖ｨ諡ｶ諡・ｽ楢・1eN,VoiceMailGreeting2Rep,,false,false
+VoiceMailGreeting2RepShare,髻ｳ螢ｰ繝｡繝ｼ繝ｫ謖ｨ諡ｶ諡・ｽ楢・蜈ｱ譛・02c,VoiceMailGreeting2RepShare,,false,false
+VoiceMailGreeting2Share,髻ｳ螢ｰ繝｡繝ｼ繝ｫ謖ｨ諡ｶ 蜈ｱ譛・02c,VoiceMailGreeting2Share,,false,false
+VoiceVendorInfo,Voice Vendor Infos,0L1,VoiceVendorInfo,,false,false
+Vote,謚慕･ｨ,083,Vote,,false,false
+Waitlist,蠕・ｩ溘Μ繧ｹ繝・11w,Waitlist,,true,false
+WaitlistFeed,__MISSING LABEL__ PropertyFile - val Waitlist not found in section StandardFeedLabel,0D5,WaitlistFeed,,false,false
+WaitlistHistory,蠕・ｩ溘Μ繧ｹ繝亥ｱ･豁ｴ,017,WaitlistHistory,,false,false
+WaitlistParticipant,蠕・ｩ溘Μ繧ｹ繝亥盾蜉閠・12o,WaitlistParticipant,,true,false
+WaitlistParticipantFeed,__MISSING LABEL__ PropertyFile - val WaitlistParticipant not found in section StandardFeedLabel,0D5,WaitlistParticipantFeed,,false,false
+WaitlistParticipantHistory,蠕・ｩ溘Μ繧ｹ繝亥盾蜉閠・ｱ･豁ｴ,017,WaitlistParticipantHistory,,false,false
+WaitlistServiceResource,蠕・ｩ溘Μ繧ｹ繝医し繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ,11y,WaitlistServiceResource,,true,false
+WaitlistServiceResourceFeed,__MISSING LABEL__ PropertyFile - val WaitlistServiceResource not found in section StandardFeedLabel,0D5,WaitlistServiceResourceFeed,,false,false
+WaitlistServiceResourceHistory,蠕・ｩ溘Μ繧ｹ繝医し繝ｼ繝薙せ繝ｪ繧ｽ繝ｼ繧ｹ螻･豁ｴ,017,WaitlistServiceResourceHistory,,false,false
+WaitlistShare,蠕・ｩ溘Μ繧ｹ繝・蜈ｱ譛・02c,WaitlistShare,,false,false
+WaitlistWorkType,蠕・ｩ溘Μ繧ｹ繝井ｽ懈･ｭ遞ｮ蛻･,12e,WaitlistWorkType,,true,false
+WaitlistWorkTypeFeed,__MISSING LABEL__ PropertyFile - val WaitlistWorkType not found in section StandardFeedLabel,0D5,WaitlistWorkTypeFeed,,false,false
+WaitlistWorkTypeHistory,蠕・ｩ溘Μ繧ｹ繝井ｽ懈･ｭ遞ｮ蛻･螻･豁ｴ,017,WaitlistWorkTypeHistory,,false,false
+WaveAutoInstallRequest,Wave 閾ｪ蜍輔う繝ｳ繧ｹ繝医・繝ｫ隕∵ｱ・0UZ,WaveAutoInstallRequest,,false,false
+WaveAutoInstallRequestChangeEvent,Wave 閾ｪ蜍輔う繝ｳ繧ｹ繝医・繝ｫ隕∵ｱ・螟画峩繧､繝吶Φ繝・1CE,WaveAutoInstallRequestChangeEvent,,false,false
+WaveCompatibilityCheckItem,Wave 莠呈鋤繝√ぉ繝・け鬆・岼,0OZ,WaveCompatibilityCheckItem,,false,false
+WebCart,繧ｫ繝ｼ繝・0a6,WebCart,,true,false
+WebCartAdjustmentBasis,Cart Adjustment Basis,4rO,WebCartAdjustmentBasis,,true,false
+WebCartAdjustmentBasisChangeEvent,Cart Adjustment Basis 螟画峩繧､繝吶Φ繝・1CE,WebCartAdjustmentBasisChangeEvent,,false,false
+WebCartAdjustmentGroup,繧ｫ繝ｼ繝郁ｪｿ謨ｴ繧ｰ繝ｫ繝ｼ繝・0m9,WebCartAdjustmentGroup,,true,false
+WebCartAdjustmentGroupChangeEvent,繧ｫ繝ｼ繝郁ｪｿ謨ｴ繧ｰ繝ｫ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,WebCartAdjustmentGroupChangeEvent,,false,false
+WebCartChangeEvent,繧ｫ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,WebCartChangeEvent,,false,false
+WebCartCredit,Web 繧ｫ繝ｼ繝医け繝ｬ繧ｸ繝・ヨ,1Rq,WebCartCredit,,true,false
+WebCartHistory,繧ｫ繝ｼ繝亥ｱ･豁ｴ,017,WebCartHistory,,false,false
+WebCartShare,繧ｫ繝ｼ繝・蜈ｱ譛・02c,WebCartShare,,false,false
+WebLink,繧ｫ繧ｹ繧ｿ繝繝懊ち繝ｳ縺ｾ縺溘・繧ｫ繧ｹ繧ｿ繝繝ｪ繝ｳ繧ｯ,00b,WebLink,,false,false
+WebLinkLocalization,繧ｫ繧ｹ繧ｿ繝繝ｪ繝ｳ繧ｯ縺ｮ繝ｭ繝ｼ繧ｫ繝ｩ繧､繧ｺ,01j,WebLinkLocalization,,false,false
+WebStore,繧ｹ繝医い,0ZE,WebStore,,true,false
+WebStoreBuyerGroup,繧ｹ繝医い繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝・0cD,WebStoreBuyerGroup,,true,false
+WebStoreBuyerGroupChangeEvent,繧ｹ繝医い繝舌う繝､繝ｼ繧ｰ繝ｫ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,WebStoreBuyerGroupChangeEvent,,false,false
+WebStoreCatalog,繧ｹ繝医い繧ｫ繧ｿ繝ｭ繧ｰ,0Zp,WebStoreCatalog,,true,false
+WebStoreCatalogChangeEvent,繧ｹ繝医い繧ｫ繧ｿ繝ｭ繧ｰ 螟画峩繧､繝吶Φ繝・1CE,WebStoreCatalogChangeEvent,,false,false
+WebStoreCatalogHistory,蠎苓・繧ｫ繧ｿ繝ｭ繧ｰ螻･豁ｴ,017,WebStoreCatalogHistory,,false,false
+WebStoreChangeEvent,繧ｹ繝医い 螟画峩繧､繝吶Φ繝・1CE,WebStoreChangeEvent,,false,false
+WebStoreInventorySource,Web 繧ｹ繝医い蝨ｨ蠎ｫ繧ｽ繝ｼ繧ｹ,10t,WebStoreInventorySource,,true,false
+WebStoreShare,繧ｹ繝医い 蜈ｱ譛・02c,WebStoreShare,,false,false
+WorkOrder,菴懈･ｭ謖・､ｺ,0WO,WorkOrder,,true,false
+WorkOrderChangeEvent,菴懈･ｭ謖・､ｺ 螟画峩繧､繝吶Φ繝・1CE,WorkOrderChangeEvent,,false,false
+WorkOrderFeed,菴懈･ｭ謖・､ｺ繝輔ぅ繝ｼ繝・0D5,WorkOrderFeed,,false,false
+WorkOrderHistory,菴懈･ｭ謖・､ｺ螻･豁ｴ,017,WorkOrderHistory,,false,false
+WorkOrderLineItem,菴懈･ｭ謖・､ｺ蜩∫岼,1WL,WorkOrderLineItem,,true,false
+WorkOrderLineItemChangeEvent,菴懈･ｭ謖・､ｺ蜩∫岼 螟画峩繧､繝吶Φ繝・1CE,WorkOrderLineItemChangeEvent,,false,false
+WorkOrderLineItemFeed,菴懈･ｭ謖・､ｺ蜩∫岼蜷阪ヵ繧｣繝ｼ繝・0D5,WorkOrderLineItemFeed,,false,false
+WorkOrderLineItemHistory,菴懈･ｭ謖・､ｺ蜩∫岼螻･豁ｴ,017,WorkOrderLineItemHistory,,false,false
+WorkOrderLineItemStatus,菴懈･ｭ謖・､ｺ蜩∫岼縺ｮ迥ｶ豕∝､,,WorkOrderLineItemStatus,,false,false
+WorkOrderShare,菴懈･ｭ謖・､ｺ 蜈ｱ譛・02c,WorkOrderShare,,false,false
+WorkOrderStatus,菴懈･ｭ謖・､ｺ縺ｮ迥ｶ豕∝､,,WorkOrderStatus,,false,false
+WorkPlan,菴懈･ｭ繝励Λ繝ｳ,0gq,WorkPlan,,true,false
+WorkPlanChangeEvent,菴懈･ｭ繝励Λ繝ｳ 螟画峩繧､繝吶Φ繝・1CE,WorkPlanChangeEvent,,false,false
+WorkPlanFeed,菴懈･ｭ繝励Λ繝ｳ繝輔ぅ繝ｼ繝・0D5,WorkPlanFeed,,false,false
+WorkPlanHistory,菴懈･ｭ繝励Λ繝ｳ螻･豁ｴ,017,WorkPlanHistory,,false,false
+WorkPlanShare,菴懈･ｭ繝励Λ繝ｳ 蜈ｱ譛・02c,WorkPlanShare,,false,false
+WorkPlanTemplate,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝・7Iy,WorkPlanTemplate,,true,false
+WorkPlanTemplateChangeEvent,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,WorkPlanTemplateChangeEvent,,false,false
+WorkPlanTemplateEntry,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝医お繝ｳ繝医Μ,8xu,WorkPlanTemplateEntry,,true,false
+WorkPlanTemplateEntryChangeEvent,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝医お繝ｳ繝医Μ 螟画峩繧､繝吶Φ繝・1CE,WorkPlanTemplateEntryChangeEvent,,false,false
+WorkPlanTemplateEntryFeed,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝医お繝ｳ繝医Μ繝輔ぅ繝ｼ繝・0D5,WorkPlanTemplateEntryFeed,,false,false
+WorkPlanTemplateEntryHistory,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝医お繝ｳ繝医Μ螻･豁ｴ,017,WorkPlanTemplateEntryHistory,,false,false
+WorkPlanTemplateFeed,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝医ヵ繧｣繝ｼ繝・0D5,WorkPlanTemplateFeed,,false,false
+WorkPlanTemplateHistory,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝亥ｱ･豁ｴ,017,WorkPlanTemplateHistory,,false,false
+WorkPlanTemplateShare,菴懈･ｭ繝励Λ繝ｳ繝・Φ繝励Ξ繝ｼ繝・蜈ｱ譛・02c,WorkPlanTemplateShare,,false,false
+WorkStep,菴懈･ｭ繧ｹ繝・ャ繝・0hF,WorkStep,,true,false
+WorkStepChangeEvent,菴懈･ｭ繧ｹ繝・ャ繝・螟画峩繧､繝吶Φ繝・1CE,WorkStepChangeEvent,,false,false
+WorkStepFeed,菴懈･ｭ繧ｹ繝・ャ繝励ヵ繧｣繝ｼ繝・0D5,WorkStepFeed,,false,false
+WorkStepHistory,菴懈･ｭ謇矩・ｱ･豁ｴ,017,WorkStepHistory,,false,false
+WorkStepStatus,菴懈･ｭ繧ｹ繝・ャ繝礼憾豕∝､,,WorkStepStatus,,false,false
+WorkStepTemplate,菴懈･ｭ繧ｹ繝・ャ繝励ユ繝ｳ繝励Ξ繝ｼ繝・4L0,WorkStepTemplate,,true,false
+WorkStepTemplateChangeEvent,菴懈･ｭ繧ｹ繝・ャ繝励ユ繝ｳ繝励Ξ繝ｼ繝・螟画峩繧､繝吶Φ繝・1CE,WorkStepTemplateChangeEvent,,false,false
+WorkStepTemplateFeed,菴懈･ｭ繧ｹ繝・ャ繝励ユ繝ｳ繝励Ξ繝ｼ繝医ヵ繧｣繝ｼ繝・0D5,WorkStepTemplateFeed,,false,false
+WorkStepTemplateHistory,菴懈･ｭ繧ｹ繝・ャ繝励ユ繝ｳ繝励Ξ繝ｼ繝亥ｱ･豁ｴ,017,WorkStepTemplateHistory,,false,false
+WorkStepTemplateShare,菴懈･ｭ繧ｹ繝・ャ繝励ユ繝ｳ繝励Ξ繝ｼ繝・蜈ｱ譛・02c,WorkStepTemplateShare,,false,false
+WorkType,菴懈･ｭ遞ｮ蛻･,08q,WorkType,,true,false
+WorkTypeChangeEvent,菴懈･ｭ遞ｮ蛻･ 螟画峩繧､繝吶Φ繝・1CE,WorkTypeChangeEvent,,false,false
+WorkTypeFeed,菴懈･ｭ遞ｮ蛻･繝輔ぅ繝ｼ繝・0D5,WorkTypeFeed,,false,false
+WorkTypeGroup,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝・0VS,WorkTypeGroup,,true,false
+WorkTypeGroupFeed,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝励ヵ繧｣繝ｼ繝・0D5,WorkTypeGroupFeed,,false,false
+WorkTypeGroupHistory,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝怜ｱ･豁ｴ,017,WorkTypeGroupHistory,,false,false
+WorkTypeGroupMember,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・,0Wz,WorkTypeGroupMember,,true,false
+WorkTypeGroupMemberFeed,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・繝輔ぅ繝ｼ繝・0D5,WorkTypeGroupMemberFeed,,false,false
+WorkTypeGroupMemberHistory,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝励Γ繝ｳ繝舌・螻･豁ｴ,017,WorkTypeGroupMemberHistory,,false,false
+WorkTypeGroupShare,菴懈･ｭ遞ｮ蛻･繧ｰ繝ｫ繝ｼ繝・蜈ｱ譛・02c,WorkTypeGroupShare,,false,false
+WorkTypeHistory,菴懈･ｭ遞ｮ蛻･螻･豁ｴ,017,WorkTypeHistory,,false,false
+WorkTypeShare,菴懈･ｭ遞ｮ蛻･ 蜈ｱ譛・02c,WorkTypeShare,,false,false

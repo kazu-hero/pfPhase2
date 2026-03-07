@@ -1,0 +1,203 @@
+.graph-toolbar {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    z-index: 30;
+    display: flex;
+    gap: 8px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    padding: 4px 8px;
+    align-items: center;
+}
+/* グラフ描画部分だけ下に50px伸ばす */
+/* グラフ描画部分だけ下に40px伸ばす（10px縮める） */
+/* グラフ描画部分だけ下に35px伸ばす（さらに5px縮める） */
+/* グラフ描画部分だけ下に10px伸ばす（+10pxまで縮める） */
+/* グラフ描画部分の自動伸長を防止 */
+/* グラフ描画部分の自動伸長を防止しつつ、flex: 1 1 auto; height: 100% でバランス調整 */
+/* グラフ描画部分だけ下に30px伸ばす */
+/* グラフ描画部分の高さを100%・min-height:440pxで安定化 */
+/* グラフ描画部分の高さを80vhに合わせる */
+/* グラフ描画部分の高さを85vhに統一 */
+/* グラフ描画部分の高さを83vhに統一 */
+.graph-container {
+    flex: 1 1 auto;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+    min-width: 400px;
+    min-height: 440px;
+    width: 100%;
+    height: 83vh;
+    overflow: hidden;
+    position: relative;
+}
+.floating-legend-inside {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 20;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+    border-radius: 0 0 8px 8px;
+    padding: 10px 18px 8px 18px;
+}
+
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.legend-section {
+    min-width: 180px;
+    margin-bottom: 0;
+}
+
+.legend-section h4 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.legend-item {
+    margin-bottom: 2px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+.legend-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+/* 凡例アイコン共通: 白塗り・黒枠・20x20px */
+.legend-icon {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #222;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+/* ユーザサービス:三角形 */
+.legend-icon.triangle {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+/* 外側：黒枠三角形 */
+.legend-icon.triangle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid #222;
+    z-index: 0;
+}
+/* 内側：白塗り三角形（少し小さく） */
+.legend-icon.triangle::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 14px solid #fff;
+    z-index: 1;
+}
+/* 課題・要望:四角形 */
+.legend-icon.rectangle {
+    border-radius: 3px;
+}
+/* 対応施策:ひし形 */
+.legend-icon.diamond {
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    transform: rotate(45deg);
+    border-radius: 0;
+}
+/* 機能要件:六角形 */
+.legend-icon.hexagon {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.legend-icon.hexagon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: 0;
+}
+.legend-icon.hexagon::after {
+    content: '';
+    position: absolute;
+    left: 2.5px;
+    top: 2.5px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: 1;
+}
+/* 開発チケット:丸 */
+.legend-icon.ellipse {
+    border-radius: 50%;
+}
+
+.status-badge {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.status-badge.todo {
+    background-color: #616161;
+}
+.status-badge.wip {
+    background-color: #FFB300;
+}
+.status-badge.done {
+    background-color: #388E3C;
+}
+.status-badge.open {
+    background-color: #D84315;
+}
+.status-badge.close {
+    background-color: #1976D2;
+}

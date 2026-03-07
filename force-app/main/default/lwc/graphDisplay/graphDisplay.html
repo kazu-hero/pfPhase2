@@ -1,0 +1,51 @@
+<template>
+    <div class="graph-toolbar">
+        <lightning-button-icon
+            icon-name="utility:zoomin"
+            alternative-text="ズームイン"
+            onclick={handleZoomIn}>
+        </lightning-button-icon>
+        <lightning-button-icon
+            icon-name="utility:zoomout"
+            alternative-text="ズームアウト"
+            onclick={handleZoomOut}>
+        </lightning-button-icon>
+        <lightning-button-icon
+            icon-name="utility:expand_alt"
+            alternative-text="フィット"
+            onclick={handleFit}>
+        </lightning-button-icon>
+        <lightning-button-icon
+            icon-name="utility:refresh"
+            alternative-text="リセット"
+            onclick={handleReset}>
+        </lightning-button-icon>
+    </div>
+    <div class="graph-container" lwc:dom="manual"></div>
+    <!-- グラフ下部にabsoluteで凡例を重ねる -->
+    <div class="floating-legend-inside">
+        <div class="legend">
+            <div class="legend-section">
+                <h4 class="slds-text-heading_small">オブジェクトタイプ</h4>
+                <div class="legend-item"><span class="legend-icon triangle"></span> ユーザサービス</div>
+                <div class="legend-item"><span class="legend-icon rectangle"></span> 課題・要望</div>
+                <div class="legend-item"><span class="legend-icon diamond"></span> 対応施策</div>
+                <div class="legend-item"><span class="legend-icon hexagon"></span> 機能要件</div>
+                <div class="legend-item"><span class="legend-icon ellipse"></span> 開発チケット</div>
+            </div>
+            <div class="legend-section">
+                <h4 class="slds-text-heading_small">ステータス（問い合わせ系）</h4>
+                <div class="legend-item"><span class="status-badge open"></span> 対応中 (OPEN)</div>
+                <div class="legend-item"><span class="status-badge close"></span> クローズ (CLOSE)</div>
+            </div>
+            <div class="legend-section">
+                <h4 class="slds-text-heading_small">ステータス（開発チケット系）</h4>
+                <div class="legend-item"><span class="status-badge todo" style="background:#FFF;border:1px solid #CCC;"></span> 未着手 (TODO)</div>
+                <div class="legend-item"><span class="status-badge wip"></span> 作業中 (WIP)</div>
+                <div class="legend-item"><span class="status-badge pending" style="background:#B3E5FC;border:1px solid #90CAF9;"></span> 保留 (PENDING)</div>
+                <div class="legend-item"><span class="status-badge done"></span> 完了 (DONE)</div>
+                <div class="legend-item"><span class="status-badge drop" style="background:#BDBDBD;border:1px solid #757575;"></span> 中止 (DROP)</div>
+            </div>
+        </div>
+    </div>
+</template>

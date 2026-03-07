@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTiered</fullName>
+    <inlineHelpText>この設定は永続的であり、プロモーションを保存した後は変更できません。代わりに新しいプロモーションを作成してください。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

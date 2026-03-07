@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DROP</fullName>
+        <default>false</default>
+        <label>DROP</label>
+    </customValue>
+    <customValue>
+        <fullName>PENDING</fullName>
+        <default>false</default>
+        <label>PENDING</label>
+    </customValue>
+    <customValue>
+        <fullName>TODO</fullName>
+        <default>true</default>
+        <label>TODO</label>
+    </customValue>
+    <customValue>
+        <fullName>WIP</fullName>
+        <default>false</default>
+        <label>WIP</label>
+    </customValue>
+    <customValue>
+        <fullName>DONE</fullName>
+        <default>false</default>
+        <label>DONE</label>
+    </customValue>
+    <masterLabel>チケットステータス</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

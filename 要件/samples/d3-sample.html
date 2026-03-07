@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js サンプル - タスク依存関係グラフ</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        #graph {
+            width: 100%;
+            height: 600px;
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .info-panel {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+        
+        /* D3.js用のSVG要素スタイル */
+        .node circle {
+            stroke: #333;
+            stroke-width: 3px;
+            cursor: pointer;
+        }
+        
+        .node rect {
+            stroke: #333;
+            stroke-width: 3px;
+            cursor: pointer;
+        }
+        
+        .node:hover circle,
+        .node:hover rect {
+            stroke: #e74c3c;
+            stroke-width: 5px;
+        }
+        
+        .node text {
+            font-size: 12px;
+            font-weight: bold;
+            text-anchor: middle;
+            pointer-events: none;
+        }
+        
+        .link {
+            stroke: #999;
+            stroke-width: 3px;
+            fill: none;
+            marker-end: url(#arrow);
+        }
+        
+        .link:hover {
+            stroke: #e74c3c;
+            stroke-width: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>D3.js - タスク依存関係グラフのサンプル</h1>
+    <div class="description">
+        <p><strong>D3.js</strong>は、データ駆動型のドキュメント操作ライブラリで、カスタマイズ性が非常に高いです。</p>
+        <p>📌 ノードをドラッグして移動できます / クリックするとノード情報が表示されます</p>
+    </div>
+    
+    <svg id="graph"></svg>
+    
+    <div class="info-panel">
+        <h3>凡例（ステータス）</h3>
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #bbb;"></div>
+                <span>Todo（未着手）</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #f9ca24;"></div>
+                <span>WIP（進行中）</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #6ab04c;"></div>
+                <span>Done（完了）</span>
+            </div>
+        </div>
+        
+        <div id="node-info" style="margin-top: 15px; color: #666;">
+            ノードをクリックすると詳細が表示されます
+        </div>
+    </div>
+
+    <script>
+        // グラフデータの定義
+        const data = {
+            nodes: [
+                // 課題タスク
+                { 
+                    id: 'task1', 
+                    label: '課題A\nログイン速度改善', 
+                    type: '課題タスク',
+                    status: 'wip',
+                    assignee: '田中太郎',
+                    dueDate: '2025-12-01',
+                    shape: 'rect'
+                },
+                { 
+                    id: 'task2', 
+                    label: '課題B\nエラー率削減', 
+                    type: '課題タスク',
+                    status: 'done',
+                    assignee: '佐藤花子',
+                    dueDate: '2025-11-30',
+                    shape: 'rect'
+                },
+                
+                // 施策タスク
+                { 
+                    id: 'solution1', 
+                    label: '施策1\nキャッシュ最適化', 
+                    type: '施策タスク',
+                    status: 'wip',
+                    assignee: '鈴木一郎',
+                    dueDate: '2025-11-28',
+                    shape: 'circle'
+                },
+                { 
+                    id: 'solution2', 
+                    label: '施策2\nDB接続プール改善', 
+                    type: '施策タスク',
+                    status: 'todo',
+                    assignee: '未割当',
+                    dueDate: '2025-12-05',
+                    shape: 'circle'
+                },
+                { 
+                    id: 'solution3', 
+                    label: '施策3\n例外処理追加', 
+                    type: '施策タスク',
+                    status: 'done',
+                    assignee: '佐藤花子',
+                    dueDate: '2025-11-25',
+                    shape: 'circle'
+                },
+                { 
+                    id: 'solution4', 
+                    label: '施策4\nログ改善', 
+                    type: '施策タスク',
+                    status: 'done',
+                    assignee: '山田次郎',
+                    dueDate: '2025-11-26',
+                    shape: 'circle'
+                }
+            ],
+            links: [
+                { source: 'task1', target: 'solution1' },
+                { source: 'task1', target: 'solution2' },
+                { source: 'task2', target: 'solution3' },
+                { source: 'task2', target: 'solution4' }
+            ]
+        };
+        
+        // ステータスごとの色
+        const statusColors = {
+            'todo': '#bbb',
+            'wip': '#f9ca24',
+            'done': '#6ab04c'
+        };
+        
+        // SVG設定
+        const width = document.getElementById('graph').clientWidth;
+        const height = 600;
+        
+        const svg = d3.select('#graph')
+            .attr('width', width)
+            .attr('height', height);
+        
+        // 矢印マーカーの定義
+        svg.append('defs').append('marker')
+            .attr('id', 'arrow')
+            .attr('viewBox', '0 -5 10 10')
+            .attr('refX', 25)
+            .attr('refY', 0)
+            .attr('markerWidth', 8)
+            .attr('markerHeight', 8)
+            .attr('orient', 'auto')
+            .append('path')
+            .attr('d', 'M0,-5L10,0L0,5')
+            .attr('fill', '#999');
+        
+        // 力学シミュレーション
+        const simulation = d3.forceSimulation(data.nodes)
+            .force('link', d3.forceLink(data.links).id(d => d.id).distance(150))
+            .force('charge', d3.forceManyBody().strength(-500))
+            .force('center', d3.forceCenter(width / 2, height / 2))
+            .force('collision', d3.forceCollide().radius(60));
+        
+        // リンク（エッジ）の描画
+        const link = svg.append('g')
+            .selectAll('path')
+            .data(data.links)
+            .enter().append('path')
+            .attr('class', 'link')
+            .on('click', function(event, d) {
+                const sourceNode = data.nodes.find(n => n.id === d.source.id);
+                const targetNode = data.nodes.find(n => n.id === d.target.id);
+                
+                const info = `
+                    <strong>🔗 タスク依存関係</strong><br>
+                    ${sourceNode.label.replace('\n', ' ')} 
+                    → 
+                    ${targetNode.label.replace('\n', ' ')}
+                `;
+                
+                document.getElementById('node-info').innerHTML = info;
+            });
+        
+        // ノードグループの作成
+        const node = svg.append('g')
+            .selectAll('g')
+            .data(data.nodes)
+            .enter().append('g')
+            .attr('class', 'node')
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended))
+            .on('click', function(event, d) {
+                const statusText = {
+                    'todo': '未着手',
+                    'wip': '進行中',
+                    'done': '完了'
+                }[d.status];
+                
+                const info = `
+                    <strong>📋 ${d.type}</strong><br>
+                    タスク名: ${d.label.replace('\n', ' ')}<br>
+                    ステータス: ${statusText}<br>
+                    担当者: ${d.assignee}<br>
+                    期限: ${d.dueDate}
+                `;
+                
+                document.getElementById('node-info').innerHTML = info;
+            });
+        
+        // ノードの形状を追加
+        node.each(function(d) {
+            const g = d3.select(this);
+            
+            if (d.shape === 'circle') {
+                g.append('circle')
+                    .attr('r', 50)
+                    .attr('fill', statusColors[d.status]);
+            } else {
+                g.append('rect')
+                    .attr('width', 100)
+                    .attr('height', 80)
+                    .attr('x', -50)
+                    .attr('y', -40)
+                    .attr('rx', 10)
+                    .attr('fill', statusColors[d.status]);
+            }
+        });
+        
+        // ラベルを追加（複数行対応）
+        node.each(function(d) {
+            const g = d3.select(this);
+            const lines = d.label.split('\n');
+            
+            lines.forEach((line, i) => {
+                g.append('text')
+                    .attr('dy', (i - (lines.length - 1) / 2) * 15)
+                    .text(line);
+            });
+        });
+        
+        // シミュレーションの更新
+        simulation.on('tick', () => {
+            link.attr('d', d => {
+                const dx = d.target.x - d.source.x;
+                const dy = d.target.y - d.source.y;
+                const dr = Math.sqrt(dx * dx + dy * dy);
+                return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`;
+            });
+            
+            node.attr('transform', d => `translate(${d.x},${d.y})`);
+        });
+        
+        // ドラッグ関数
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+        
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+        
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+</body>
+</html>

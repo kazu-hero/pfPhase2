@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="開発プロセス可視化">
+        <div class="horizontal-panels">
+            <!-- 左: フィルターパネル（タイトル付き） -->
+            <div class="side-panel filter-panel">
+                <div class="side-title">開発プロセス可視化</div>
+                <c-filter-panel 
+                    onfilterchange={handleFilterChange}>
+                </c-filter-panel>
+            </div>
+            <!-- 中央: グラフ表示 -->
+            <div class="graph-panel-fixed">
+                <c-graph-display 
+                    filter-conditions={filterConditions}
+                    onnodeselect={handleNodeSelect}>
+                </c-graph-display>
+            </div>
+            <!-- 右: 詳細パネル -->
+            <div class="side-panel detail-panel">
+                <c-detail-panel 
+                    selected-node={selectedNode}
+                    filter-conditions={filterConditions}>
+                </c-detail-panel>
+            </div>
+        </div>
+    </lightning-card>
+</template>

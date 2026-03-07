@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtotal</fullName>
+    <inlineHelpText>請求金額と調整の合計。税額は含まれていません。</inlineHelpText>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>functionRequirement</fullName>
+    <fields>Name</fields>
+    <fields>cntOperationFlow__c</fields>
+    <fields>cntPlan__c</fields>
+    <fields>cntDesignDiagram__c</fields>
+    <fields>cntTestCase__c</fields>
+    <fields>cntObjectReq__c</fields>
+    <fields>cntPermission__c</fields>
+    <fields>cntReport__c</fields>
+    <fields>cntDevTicket__c</fields>
+    <label>機能要件</label>
+</CompactLayout>

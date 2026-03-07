@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EffectiveDate</fullName>
+    <inlineHelpText>金融取引が有効になる日付</inlineHelpText>
+</CustomField>

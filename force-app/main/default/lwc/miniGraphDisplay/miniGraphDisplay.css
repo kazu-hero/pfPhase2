@@ -1,0 +1,8 @@
+/* Cytoscapeグラフ用の固定サイズ */
+.mini-graph-container {
+    width: 100%;
+    aspect-ratio: 5 / 4; /* 幅に対して高さ80% */
+    border: 1px solid #ccc;
+    background: #fff;
+    box-sizing: border-box;
+}

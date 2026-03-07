@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivationRefreshType</fullName>
+    <inlineHelpText>データを更新する頻度を選択します。増分更新では前回の公開以降の新規データまたは変更済みデータが更新されます。フル更新ではすべてのデータが更新され、24 時間ごとに 1 回フル更新を選択できます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

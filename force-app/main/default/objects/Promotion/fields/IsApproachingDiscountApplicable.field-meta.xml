@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsApproachingDiscountApplicable</fullName>
+    <inlineHelpText>顧客のカート合計が割引に近づいてきたら、顧客に通知します。間もなく割引のアラートを追加するには、プロモーション修飾子にしきい値を設定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

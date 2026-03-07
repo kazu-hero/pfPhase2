@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaximumUsageCount</fullName>
+    <inlineHelpText>このプロモーションをカートに適用できる最大回数を入力します。デフォルト値は 1 です。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

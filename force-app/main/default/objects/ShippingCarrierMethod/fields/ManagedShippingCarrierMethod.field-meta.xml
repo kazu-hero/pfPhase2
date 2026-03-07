@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManagedShippingCarrierMethod</fullName>
+    <inlineHelpText>輸送時間の見積を提供する Salesforce 管理配送業者方法情報。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

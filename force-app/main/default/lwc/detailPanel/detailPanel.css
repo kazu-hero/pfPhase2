@@ -1,0 +1,15 @@
+.filtered-out {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.record-item {
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.bullet-list {
+    list-style-type: disc;
+    padding-left: 1.2em;
+    margin: 0 0 0 0.5em;
+}

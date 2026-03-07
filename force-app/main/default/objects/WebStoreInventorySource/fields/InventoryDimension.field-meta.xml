@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InventoryDimension</fullName>
+    <inlineHelpText>商品在庫を判断するために使用される在庫のストックレベル。新しいストアのデフォルトは [注文可能] です。</inlineHelpText>
+</CustomField>

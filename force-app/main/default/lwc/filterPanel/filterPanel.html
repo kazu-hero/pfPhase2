@@ -1,0 +1,83 @@
+<template>
+    <lightning-card title="フィルター">
+        <div class="filter-panel-scroll">
+        <!-- ステータスフィルター -->
+        <div class="slds-p-around_small">
+            <h3 class="slds-text-heading_small slds-m-bottom_x-small">ステータス</h3>
+            <lightning-checkbox-group
+                name="statusFilter"
+                options={statusOptions}
+                value={selectedStatuses}
+                onchange={handleStatusChange}>
+            </lightning-checkbox-group>
+        </div>
+        
+        <!-- オブジェクトタイプフィルター -->
+        <div class="slds-p-around_small">
+            <h3 class="slds-text-heading_small slds-m-bottom_x-small">オブジェクトタイプ</h3>
+            <lightning-checkbox-group
+                name="objectTypeFilter"
+                options={objectTypeOptions}
+                value={selectedObjectTypes}
+                onchange={handleObjectTypeChange}>
+            </lightning-checkbox-group>
+        </div>
+        
+        <!-- 起点レコードフィルター -->
+        <div class="slds-p-around_small">
+            <h3 class="slds-text-heading_small slds-m-bottom_x-small">起点レコード</h3>
+            <lightning-radio-group
+                name="originObjectType"
+                options={originObjectOptions}
+                value={originObjectType}
+                onchange={handleOriginObjectChange}>
+            </lightning-radio-group>
+            
+            <template if:true={originObjectType}>
+                <lightning-input
+                    type="text"
+                    label="レコード検索"
+                    placeholder="レコード名で検索..."
+                    value={searchTerm}
+                    onchange={handleSearchChange}>
+                </lightning-input>
+                <template if:true={originRecordOptions.length}>
+                    <lightning-combobox
+                        name="originRecord"
+                        label="候補から選択"
+                        options={originRecordOptions}
+                        value={selectedOriginRecordId}
+                        onchange={handleOriginRecordSelect}>
+                    </lightning-combobox>
+                </template>
+            </template>
+        </div>
+        
+        <!-- ボタン -->
+        <div class="slds-p-around_small slds-text-align_center">
+            <lightning-button
+                label="適用"
+                variant="brand"
+                onclick={handleApply}
+                class="slds-m-right_x-small">
+            </lightning-button>
+            <lightning-button
+                label="クリア"
+                variant="neutral"
+                onclick={handleClear}>
+            </lightning-button>
+        </div>
+        <!-- スクロール余白用の空白行（ボタンの直後） -->
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        <div style="height: 20px;"></div>
+        </div>
+    </lightning-card>
+</template>

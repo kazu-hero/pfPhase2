@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prospect__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>見込み顧客として商談を開始するためのbool値</description>
+    <label>見込み顧客</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

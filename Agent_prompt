@@ -1,0 +1,3 @@
+# スキーマ取得俯瞰指示
+
+- pfPhase2 の作業環境を確認し、npm run schema:export を実行して latest と history の更新を確認してください。完了後に更新されたファイル一覧を報告してください。

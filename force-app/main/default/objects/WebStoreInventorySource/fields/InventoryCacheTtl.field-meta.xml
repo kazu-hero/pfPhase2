@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InventoryCacheTtl</fullName>
+    <inlineHelpText>在庫キャッシュの有効期間は 300 ～ 14,400 にする必要があります。新しいストアのデフォルトは 1,440 です。</inlineHelpText>
+</CustomField>

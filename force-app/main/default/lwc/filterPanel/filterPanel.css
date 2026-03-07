@@ -1,0 +1,7 @@
+/* スクロールラッパーの高さをパネル本体と揃える */
+.filter-panel-scroll {
+    height: 83vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}

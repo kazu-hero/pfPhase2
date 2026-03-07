@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OperationFlow__c</fullName>
+    <label>運用フロー</label>
+    <referenceTo>OperationFlow__c</referenceTo>
+    <relationshipLabel>Relation_OptFlow2Dev</relationshipLabel>
+    <relationshipName>Relation_OptFlow2Dev</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

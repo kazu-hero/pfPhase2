@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fastTicket__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>検討や定義が必要なく、設定するだけのような課題の場合に使用</inlineHelpText>
+    <label>単発の開発・設定</label>
+    <referenceTo>Dev_Ticket__c</referenceTo>
+    <relationshipLabel>課題・要望</relationshipLabel>
+    <relationshipName>issue</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

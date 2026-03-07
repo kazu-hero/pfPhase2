@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeZone</fullName>
+    <inlineHelpText>予定が予約または最終変更されたときに記録されるタイムゾーンが指定されます (通常、これは患者のタイムゾーンです)。これは、ログイン済みのユーザーのタイムゾーンを反映したサービス予定のスケジュール済みの開始時間および終了時間に使用されるタイムゾーンとは異なる場合があります。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

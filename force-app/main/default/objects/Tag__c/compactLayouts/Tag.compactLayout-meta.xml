@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tag</fullName>
+    <fields>Name</fields>
+    <fields>DevService__c</fields>
+    <fields>Issue__c</fields>
+    <fields>TechPlan__c</fields>
+    <fields>OperationFlow__c</fields>
+    <fields>FunctionRequirement__c</fields>
+    <fields>DevTicket__c</fields>
+    <label>タグ</label>
+</CompactLayout>

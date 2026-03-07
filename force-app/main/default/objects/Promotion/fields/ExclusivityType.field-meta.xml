@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExclusivityType</fullName>
+    <inlineHelpText>プロモーションを他のプロモーションと組み合わせる、[なし] を選択します。プロモーションを同じクラスのプロモーションと組み合わせないようにするには、[クラス] を選択します。注文全体で使用される唯一のプロモーションにするには、[グローバル] を選択します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

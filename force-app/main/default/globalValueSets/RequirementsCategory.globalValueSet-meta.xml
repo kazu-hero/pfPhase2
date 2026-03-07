@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>顧客管理</fullName>
+        <default>false</default>
+        <label>顧客管理</label>
+    </customValue>
+    <customValue>
+        <fullName>案件管理</fullName>
+        <default>false</default>
+        <label>案件管理</label>
+    </customValue>
+    <customValue>
+        <fullName>運用管理</fullName>
+        <default>false</default>
+        <label>運用管理</label>
+    </customValue>
+    <customValue>
+        <fullName>組織管理</fullName>
+        <default>false</default>
+        <label>組織管理</label>
+    </customValue>
+    <customValue>
+        <fullName>経営管理</fullName>
+        <default>false</default>
+        <label>経営管理</label>
+    </customValue>
+    <customValue>
+        <fullName>UIUX管理</fullName>
+        <default>false</default>
+        <label>UIUX管理</label>
+    </customValue>
+    <masterLabel>要件カテゴリ</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

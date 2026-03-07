@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DataShareConsentFormStatus</fullName>
+    <inlineHelpText>Salesforce Data Cloud 以外の受信組織のシステム管理者と特権ユーザーは、データ共有内のデータモデルオブジェクト (DMO) にマッピングされたデータレイクオブジェクト (DLO) のすべてのレコードを表示および照会できます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

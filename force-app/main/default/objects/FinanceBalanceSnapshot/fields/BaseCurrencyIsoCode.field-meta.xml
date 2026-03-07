@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseCurrencyIsoCode</fullName>
+    <inlineHelpText>この取引先に定義された国の通貨。この値を定義して、後で通貨換算を計算するときに使用します。</inlineHelpText>
+</CustomField>

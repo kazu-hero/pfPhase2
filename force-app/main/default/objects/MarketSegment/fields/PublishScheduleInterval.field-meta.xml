@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PublishScheduleInterval</fullName>
+    <inlineHelpText>有効化対象にセグメントを公開するタイミングと頻度を決定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

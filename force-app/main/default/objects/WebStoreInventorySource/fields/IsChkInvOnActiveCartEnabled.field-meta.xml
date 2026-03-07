@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsChkInvOnActiveCartEnabled</fullName>
+    <inlineHelpText>有効なカート内で品目が追加または変更されるたびに在庫が確認されます。</inlineHelpText>
+</CustomField>

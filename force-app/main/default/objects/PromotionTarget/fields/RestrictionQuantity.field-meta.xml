@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictionQuantity</fullName>
+    <inlineHelpText>[調整種別] が [合計固定価格] の場合、この項目は必須です。[調整種別] が [ボーナス商品] の場合、この項目は 1 に制限されます。その他の調整種別の場合、この割引を受けることができる商品の数を入力するか、数量を無制限にする場合は空白のままにします。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

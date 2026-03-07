@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseCurrencyAmount</fullName>
+    <inlineHelpText>税込みの合計金額に必要な通貨換算に基づいて、この値を定義します。</inlineHelpText>
+</CustomField>

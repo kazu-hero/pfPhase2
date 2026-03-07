@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReservationDurationInSeconds</fullName>
+    <inlineHelpText>予約時間制限は 300 ～ 14,400 にする必要があります。新しいストアのデフォルトは 900 です。</inlineHelpText>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxValuesPerFacet</fullName>
+    <inlineHelpText>検索条件ごとに表示する値の最大数を設定します。1 ～ 100 の値を入力してください。</inlineHelpText>
+</CustomField>
