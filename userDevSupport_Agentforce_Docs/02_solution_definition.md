@@ -124,14 +124,20 @@
 
 ## 未確定事項（漏れ管理）
 
+### 確定済み項目（フェーズ1完了）
+- [x] 対象環境: Developer Edition
+- [x] 対話チャネル: Agentforce標準チャット
+- [x] CRUD対象範囲: 主要5オブジェクト（Dev_Service__c, Issue__c, TechActionPlan__c, FunctionRequirements__c, Dev_Ticket__c）+ 4リレーション
+- [x] 標準オブジェクト参照: Account, Contact, Opportunity, Lead（参照のみ）
+- [x] 削除承認方式: 毎回手動承認
+- [x] 操作ログ保存先: Salesforce内カスタムオブジェクト
+- [x] 優先ユースケース: 3件確定（Dev_Service__c → Issue__c → FunctionRequirements__c → Dev_Ticket__c の一連フロー）
+
 ### 確認待ち項目
 - [ ] 実環境のオブジェクト一覧と項目定義の取得（`04_existing_data_model.md`への反映）
-- [ ] Agentforce環境のセットアップ状況確認
-- [ ] レコードCRUD権限の実際の範囲確認
-- [ ] 標準オブジェクトへの読み取り権限の範囲確認
-- [ ] ユーザーとのインタラクション形式の詳細（チャット、UI等）
-- [ ] エラーハンドリングとログ出力の方針詳細化
-- [ ] テスト環境と本番環境の運用フロー確認
+- [ ] Agentforce環境の実際のセットアップ状況とアクセス権限確認
+- [ ] レコードCRUD権限の実際の範囲確認（実環境での動作テスト）
+- [ ] エラーハンドリングとログ出力の詳細方針（リトライ回数、ログレベル等）
 
 ### 今後の検討事項
 - [ ] Agent応答パターンの標準化
