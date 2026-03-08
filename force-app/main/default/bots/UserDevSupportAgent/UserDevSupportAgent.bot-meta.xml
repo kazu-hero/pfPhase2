@@ -174,7 +174,7 @@
         <dataType>Text</dataType>
         <description>This variable may also be referred to as MessagingSession EndUserLanguage</description>
         <developerName>EndUserLanguage</developerName>
-        <includeInPrompt>false</includeInPrompt>
+        <includeInPrompt>true</includeInPrompt>
         <label>エンドユーザー言語</label>
     </contextVariables>
     <contextVariables>

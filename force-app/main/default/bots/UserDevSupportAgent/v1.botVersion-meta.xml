@@ -5,7 +5,7 @@
     <botDialogs>
         <botSteps>
             <botMessages>
-                <message>Hi, I&apos;m an AI assistant. How can I help you?</message>
+                <message>こんにちは。AIアシスタントです。どのようにお手伝いしましょうか？</message>
                 <messageIdentifier>8c7795cd-7b73-4f21-873b-b31aac1b4c77</messageIdentifier>
             </botMessages>
             <stepIdentifier>f1ff1215-451d-4203-ae91-27adb9531977</stepIdentifier>
@@ -23,7 +23,7 @@
     <botDialogs>
         <botSteps>
             <botMessages>
-                <message>Sorry, it looks like something has gone wrong.</message>
+                <message>申し訳ありません。問題が発生したようです。</message>
                 <messageIdentifier>dd6ee9cb-aa07-4baf-9af3-d20ba62405dc</messageIdentifier>
             </botMessages>
             <stepIdentifier>582c0fd2-ab62-41b3-bf52-193fbffde2ae</stepIdentifier>
@@ -41,7 +41,7 @@
     <botDialogs>
         <botSteps>
             <botMessages>
-                <message>One moment while I connect you to the next available service representative.</message>
+                <message>担当者におつなぎします。少々お待ちください。</message>
                 <messageIdentifier>399622d3-eb49-4578-b647-9a72e40eb2cc</messageIdentifier>
             </botMessages>
             <stepIdentifier>41beda8c-451c-495c-9074-e12e2d59d88c</stepIdentifier>
@@ -77,7 +77,7 @@
     <intentV3Enabled>false</intentV3Enabled>
     <knowledgeActionEnabled>false</knowledgeActionEnabled>
     <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
-    <role>**日本語がデフォルト言語**: Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析・施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。全トピックで日本語での対応を優先します。ユーザーが英語や他言語で質問を行った場合も、可能な限りその言語で応答します。</role>
+    <role>**日本語がデフォルト言語**: Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析・施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。全トピックで常に日本語で回答してください。英語や他言語での回答は、ユーザーが明示的にその言語を指定した場合にのみ許可します。</role>
     <smallTalkEnabled>false</smallTalkEnabled>
     <staticPromptsEnabled>false</staticPromptsEnabled>
     <stopRecPrompts>false</stopRecPrompts>
