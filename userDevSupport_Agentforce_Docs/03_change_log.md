@@ -1201,3 +1201,21 @@
 **Commit**: （本コミットで記録）
 
 **状態**: ✅ 反映完了（整合性チェック後にコミット）
+
+**確認した一次情報**:
+- 開始宣言ルール: `userDevSupport_Agentforce_Docs/agentAI_pronpts/15_start_declaration.md`
+- 実装時ルール: `userDevSupport_Agentforce_Docs/agentAI_pronpts/07_default_work_prompt.md`
+- 設計の参照順: `userDevSupport_Agentforce_Docs/design/00_design_index.md`
+- 全体設計（5 Topics方針）: `userDevSupport_Agentforce_Docs/design/01_overall_architecture.md`
+- CRUD実装方針（標準Action中心 + Apex補完）: `userDevSupport_Agentforce_Docs/design/03_crud_operations.md`
+- エラー停止/再試行方針: `userDevSupport_Agentforce_Docs/design/04_error_handling.md`
+- ガイド実装優先度（28件中、Phase3優先10件）: `userDevSupport_Agentforce_Docs/design/08_guide_structure.md`
+- Phase2.5引き継ぎ（Phase3.1でやること）: `userDevSupport_Agentforce_Docs/PHASE2_5_COMPLETION_REPORT.md`
+
+**どこから始めるか（推奨順）**:
+1. `force-app/main/default/` の既存Agent metadataを基準化
+2. Knowledge Base連携の実装方針を確定（ガイド10件から先行登録）
+3. カスタムActionが本当に必要な箇所だけ切り出し（Apex Invocable）
+4. Topic/Action/Knowledge の結合テスト計画を作成
+
+**Commit**: `b3879e7`（feat(agent): Phase3.1でTopicメタデータを正本化）
