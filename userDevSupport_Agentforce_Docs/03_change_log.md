@@ -1266,3 +1266,41 @@
 **Commit**: （後続コミットで記録）
 
 **状態**: ✅ タスク定義・計画作成完了 / 🔄 差分適用前の承認待ち
+
+---
+
+### 2026-03-08 Phase 3.1-2 Knowledge連携設定の実装完了
+
+**対象**: Phase 3.1-2 メタデータ変更実装
+
+**実施内容**:
+- BotVersionでKnowledge機能を有効化（`knowledgeActionEnabled: true`, `knowledgeFallbackEnabled: true`）
+- Topic 3（Non Code Development Guidance）に`knowledge_priority`インストラクション追加（G-301, G-302, G-501参照指示）
+- Topic 4（Custom Object Setup）に`knowledge_priority`インストラクション追加（G-101, G-201, G-202, G-203, G-401, G-402参照指示）
+- Topic 5（Validation Rule Assistance）に`knowledge_priority`インストラクション追加（G-601参照指示）
+
+**変更ファイル**:
+- `force-app/main/default/bots/UserDevSupportAgent/v1.botVersion-meta.xml`
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_Non_Code_Development_Guidance.genAiPlugin-meta.xml`
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_Custom_Object_Setup.genAiPlugin-meta.xml`
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_Validation_Rule_Assistance.genAiPlugin-meta.xml`
+
+**ユーザー指示**: 計画書作成→差分提示→承認取得→実装の段階的フローで実施
+
+**理由**:
+- Knowledge Baseを活用した回答品質向上
+- プロジェクト固有の手順書に基づく一貫性のあるガイダンス提供
+- Fallback有効化により、Knowledge未整備時も安全動作を担保
+
+**影響範囲**:
+- Bot全体のKnowledge連携機能が有効化
+- Topic 3,4,5でKnowledge優先参照が有効化
+- 今後のKnowledge Base整備でガイド品質が段階的向上
+
+**デプロイ結果**: ✅ ローカル実装完了（コミット・プッシュ待ち）
+
+**Branch**: main
+**PR**: -
+**Commit**: （次のコミットで記録予定）
+
+**状態**: ✅ メタデータ実装完了 / 🔄 コミット準備中

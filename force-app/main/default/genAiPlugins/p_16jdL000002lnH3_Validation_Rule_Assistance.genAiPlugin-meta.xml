@@ -27,6 +27,13 @@
         <masterLabel>language_support</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>For validation rule guidance, prioritize approved knowledge guide (G-601) before generating free-form guidance.</description>
+        <developerName>knowledge_priority</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>knowledge_priority</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
     <language>ja_JP</language>
     <localDeveloperName>p_16jdL000002lnH3_Validation_Rule_Assistance</localDeveloperName>
     <masterLabel>Validation Rule Assistance</masterLabel>

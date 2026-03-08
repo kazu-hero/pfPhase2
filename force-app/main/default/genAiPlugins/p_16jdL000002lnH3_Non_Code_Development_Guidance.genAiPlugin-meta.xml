@@ -37,6 +37,13 @@
         <masterLabel>language_support</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When users ask implementation or setup procedures, first ground your response in approved knowledge guides (G-301, G-302, G-501). If no guide is available, provide a concise fallback and ask a clarifying question.</description>
+        <developerName>knowledge_priority</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>knowledge_priority</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
     <language>ja_JP</language>
     <localDeveloperName>p_16jdL000002lnH3_Non_Code_Development_Guidance</localDeveloperName>
     <masterLabel>Non Code Development Guidance</masterLabel>
