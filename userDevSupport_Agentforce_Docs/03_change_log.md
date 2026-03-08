@@ -1317,3 +1317,38 @@
 **状態**: ✅ Phase 3.1-2 完了（Knowledge連携設定有効化済み）
 
 **次のフェーズ**: Phase 3.1-3 Knowledge Baseコンテンツ作成（10優先ガイド実装）
+
+---
+
+### 2026-03-08 Phase 3.1-3a Knowledge Baseサンプルガイド作成（スモールスタート）
+
+**対象**: Phase 3.1-3a コンテンツ作成（サンプル2ガイド）
+
+**実施内容**:
+- `guides/` ディレクトリを新設し、Knowledgeコンテンツのソース管理を開始
+- G-101（カスタムオブジェクトの新規作成）ガイドをMarkdownで作成
+- G-201（カスタム項目の追加（基本））ガイドをMarkdownで作成
+- `guides/README.md` にガイド一覧とTopicマッピングを定義
+
+**変更ファイル**:
+- `userDevSupport_Agentforce_Docs/guides/README.md`
+- `userDevSupport_Agentforce_Docs/guides/ObjectDesign/G-101_CreateCustomObject.md`
+- `userDevSupport_Agentforce_Docs/guides/FieldDesign/G-201_CreateCustomField.md`
+
+**ユーザー指示**: 提案B（段階的実装）でスモールスタートを選択
+
+**理由**:
+- 10ガイド一括作成の前にフォーマットと運用性を小さく検証するため
+- Topic 4の優先参照ガイド（G-101, G-201）から着手して検証効率を上げるため
+
+**影響範囲**:
+- Knowledge Base用コンテンツの初期資産が追加
+- Phase 3.1-3b（残り8ガイド展開）のベーステンプレートを確立
+
+**デプロイ結果**: ✅ ローカル反映完了（コミット・プッシュ待ち）
+
+**Branch**: main
+**PR**: -
+**Commit**: （次のコミットで記録予定）
+
+**状態**: ✅ Phase 3.1-3a 完了（サンプル2ガイド作成済み） / 🔄 Phase 3.1-3b準備中
