@@ -198,6 +198,10 @@ pfPhase2/
 - `guides/ObjectDesign/G-101_CreateCustomObject.md` を追加
 - `guides/FieldDesign/G-201_CreateCustomField.md` を追加
 
+### 今回追加（Phase 3.1-3a 自動テスト）
+- `specs/UserDevSupportAgent-smoke-testSpec.yaml` を追加（4ケースのスモークテスト）
+- `force-app/main/default/aiEvaluationDefinitions/UserDevSupportAgent_SmokeTest.aiEvaluationDefinition-meta.xml` を追加
+
 ### 是正結果
 - 本ファイルを最新実在構成へ更新済み（2026-03-08）
 - 段階別・ブロック別の整合性判定を追加済み（Phase 2.5対応）
@@ -214,6 +218,7 @@ pfPhase2/
 ## 変更履歴
 | 日付 | 変更者 | 変更内容 |
 |---|---|---|
+| 2026-03-08 | AgentAI | Phase 3.1-3a自動テストに伴い spec と aiEvaluationDefinitions を追加記録 |
 | 2026-03-08 | AgentAI | Phase 3.1-3aに伴い guides/ 配下（README, G-101, G-201）を追加記録 |
 | 2026-03-08 | AgentAI | 段階別・ブロック別整合性チェック結果を追加し、最新構成へ更新 |
 | 2026-03-08 | AgentAI | Phase 2.5完了に伴い、PHASE2_5_COMPLETION_REPORT.md、specs/、force-app Agent metadata をブロックE・G に追加 |

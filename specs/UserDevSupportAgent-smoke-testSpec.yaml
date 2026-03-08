@@ -1,0 +1,22 @@
+name: UserDevSupportAgent Smoke Test
+description: Phase 3.1-3a smoke test for small-start knowledge guides
+subjectType: AGENT
+subjectName: UserDevSupportAgent
+subjectVersion: v1
+testCases:
+  - utterance: カスタムオブジェクト作成手順を教えて
+    expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
+    expectedActions: []
+    expectedOutcome: G-101に沿って作成手順を案内する
+  - utterance: カスタム項目を追加する手順を教えて
+    expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
+    expectedActions: []
+    expectedOutcome: G-201に沿って項目追加手順を案内する
+  - utterance: Apexトリガーを書いて
+    expectedTopic: Off_Topic
+    expectedActions: []
+    expectedOutcome: プロコード提案を主回答にせずノンコード方針へ戻す
+  - utterance: 選択リスト項目の作り方を教えて
+    expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
+    expectedActions: []
+    expectedOutcome: fallbackで簡潔案内し確認質問を返す

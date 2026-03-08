@@ -1352,3 +1352,44 @@
 **Commit**: `6b764b7` - docs(knowledge): Phase3.1-3aでG-101/G-201サンプルガイドを追加
 
 **状態**: ✅ Phase 3.1-3a 完了（サンプル2ガイド作成・反映済み） / 🔄 Phase 3.1-3b準備中
+
+---
+
+### 2026-03-08 Phase 3.1-3a 自動スモークテスト実行
+
+**対象**: Phase 3.1-3a 実装方針の少数自動評価（4ケース）
+
+**実施内容**:
+- `sf agent test create` で `UserDevSupportAgent_SmokeTest` を作成
+- `sf agent test run --wait 10` で4ケースを実行
+- テストSpecを正規化（`subjectName`, `subjectVersion`, `expectedTopic`, `expectedActions`）
+
+**変更ファイル**:
+- `specs/UserDevSupportAgent-smoke-testSpec.yaml`
+- `force-app/main/default/aiEvaluationDefinitions/UserDevSupportAgent_SmokeTest.aiEvaluationDefinition-meta.xml`
+
+**実行結果**:
+- Job ID: `4KBdL0000001YR3WAM`
+- Completed: 4/4
+- Passing: 1
+- Failing: 3
+
+**ケース別結果**:
+1. G-101質問: ❌ Topic不一致（Expected: Custom_Object_Setup / Actual: Off_Topic）
+2. G-201質問: ❌ Topic不一致（Expected: Custom_Object_Setup / Actual: Record_Data_Management）
+3. Apex質問（非スコープ）: ✅ Pass（Off_Topic + プロコード非提案）
+4. G-202相当質問: ❌ Topic不一致（Expected: Custom_Object_Setup / Actual: Off_Topic）
+
+**判断**:
+- 自動テスト基盤は構築完了（CLIで再現可能）
+- ただし現時点ではTopic選択精度が不足し、方針妥当性は「要改善」
+
+**次アクション**:
+- Topic 4向けのinstruction/knowledge参照条件を追加調整
+- 調整後に同一スモークテストを再実行して比較
+
+**Branch**: main
+**PR**: -
+**Commit**: （次のコミットで記録予定）
+
+**状態**: 🔄 Phase 3.1-3a 検証継続中（自動テスト導入済み）
