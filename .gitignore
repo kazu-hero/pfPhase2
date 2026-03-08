@@ -50,3 +50,7 @@ $RECYCLE.BIN/
 # Salesforce Schema Snapshots (keep README, ignore snapshot data)
 AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/*/
 !AI_temp_DevTask_prompt/Salesforce_DevDocs/org-schema/README.md
+
+# Temporary verification directories
+temp/
+temp_verify/
