@@ -577,6 +577,74 @@
 
 ---
 
+### 2026-03-08 Phase 2.5 Agentforce CLI調査完了
+
+**対象**:
+- `specs/userDevSupportAgent.yaml`（新規）
+- `force-app/main/default/bots/UserDevSupportAgent/`（新規・8ファイル）
+- `userDevSupport_Agentforce_Docs/PHASE2_5_COMPLETION_REPORT.md`（新規）
+
+**変更内容**:
+1. **sf agent コマンドの体系調査**
+   - `sf agent create`, `sf agent preview`, `sf agent generate` 系コマンドの確認
+   - `sf agent test` 系コマンド（create/run/list/results/resume）の確認
+   - コマンドフロー: Spec生成 → Agent作成 → Test作成 → Test実行
+
+2. **Agent Spec生成テスト（AI生成）**
+   - `sf agent generate agent-spec` でPhase 2設計要件から自動生成
+   - AIが5つのTopic生成（Requirement Analysis, Record Data Management, Non Code Development Guidance, Custom Object Setup, Validation Rule Assistance）
+   - Phase 2設計（UC-1/UC-2/UC-3）との整合性を確認（高い一致度）
+
+3. **Agent作成テスト（Orgへのデプロイ）**
+   - `sf agent create` で "User Dev Support Agent" を pfPhase2Org に作成（実行時間: 16.69秒）
+   - 8つのMetadataファイルを自動生成:
+     - Bot metadata（UserDevSupportAgent.bot-meta.xml, v1.botVersion-meta.xml）
+     - GenAiPlannerBundle（UserDevSupportAgent.genAiPlannerBundle）
+     - GenAiPlugins（5つのTopic定義）
+
+4. **Metadata構造の分析**
+   - **Bot → BotVersion → GenAiPlannerBundle → GenAiPlugins** の階層構造を確認
+   - **Planner Type**: `AiCopilot__ReAct`（Reasoning + Action パターン）
+   - **標準Actions**: `EmployeeCopilot__AnswerQuestionsWithKnowledge`, `UpdateRecordFields`, `GetRecordDetails`, `QueryRecords`
+   - **Topic設計**: pluginType=Topic, scope/instructions によるAgent行動の制約定義
+
+5. **Phase 2設計との対応確認**
+   - ✅ UC-1（要望分析・施策提案）→ Topic 1 + 4
+   - ✅ UC-2（レコードCRUD操作）→ Topic 2
+   - ✅ UC-3（ノンコード開発ガイド）→ Topic 3 + 5
+   - ✅ 標準Actionsで `design/03_crud_operations.md` の C-001/R-001/R-002/U-001/D-001 をカバー可能
+   - 🔄 Knowledge Sourceは未設定（Phase 3でガイド28件をKnowledge Baseに登録予定）
+
+**理由**:
+- Phase 3実装前にSalesforce AgentforceのCLI機能と生成されるMetadata構造を理解する必要
+- CLI自動生成がPhase 2設計とどの程度整合するかを検証
+- 標準Actionsの機能範囲を把握し、カスタムAction実装の要否を判断
+- Phase 3実装方針（CLI生成ベース vs. 手動実装）の決定材料収集
+
+**影響範囲**:
+- Phase 3実装方針が明確化（CLI生成を基盤とし、不足部分をカスタマイズ）
+- 標準Actions活用によりApex実装工数を削減可能
+- Knowledge Base整備がPhase 3の重点作業項目（ガイド28件登録）
+- Custom Actionは複雑なビジネスロジック実装時のみ必要
+
+**成果物**:
+- `specs/userDevSupportAgent.yaml`: Agent仕様ファイル（AIによる5 Topics生成）
+- `force-app/main/default/` 配下: Bot, GenAiPlannerBundle, GenAiPlugin 計8ファイル
+- `PHASE2_5_COMPLETION_REPORT.md`: CLI調査完了報告（コマンド詳細、Metadata分析、Phase 3への示唆）
+
+**Org デプロイ状況**:
+- Target Org: pfPhase2Org (ama.be.atoz@agentforce.practice)
+- Agent Name: "User Dev Support Agent" (API: UserDevSupportAgent)
+- Status: Successfully created and retrieved metadata
+
+**Branch**: main
+**PR**: -
+**Commit**: （未実施、本報告と共にコミット予定）
+
+**承認**: ユーザー要望（Phase 2.5実施）に基づき完了
+
+---
+
 ### 次回変更時の記録フォーマット
 
 ```markdown

@@ -20,6 +20,7 @@ pj dir/
 ├── 05_requirement_definition.md
 ├── FILE_STRUCTURE_ANALYSIS.md
 ├── PHASE2_COMPLETION_REPORT.md
+├── PHASE2_5_COMPLETION_REPORT.md
 ├── github_config/
 │   ├── branch_rules.md
 │   ├── ci_status.md
@@ -62,6 +63,31 @@ pj dir/
 └── Salesforce_DevDocs/
 ```
 
+### プロジェクトルート配下
+```
+pfPhase2/
+├── specs/
+│   └── userDevSupportAgent.yaml
+├── force-app/
+│   └── main/
+│       └── default/
+│           ├── bots/
+│           │   └── UserDevSupportAgent/
+│           │       ├── UserDevSupportAgent.bot-meta.xml
+│           │       └── v1.botVersion-meta.xml
+│           ├── genAiPlannerBundles/
+│           │   └── UserDevSupportAgent/
+│           │       └── UserDevSupportAgent.genAiPlannerBundle
+│           └── genAiPlugins/
+│               ├── p_16jdL000002lnFR_Custom_Object_Setup.genAiPlugin-meta.xml
+│               ├── p_16jdL000002lnFR_Non_Code_Development_Guidance.genAiPlugin-meta.xml
+│               ├── p_16jdL000002lnFR_Record_Data_Management.genAiPlugin-meta.xml
+│               ├── p_16jdL000002lnFR_Requirement_Analysis_Support.genAiPlugin-meta.xml
+│               └── p_16jdL000002lnFR_Validation_Rule_Assistance.genAiPlugin-meta.xml
+└── userDevSupport_Agentforce_Docs/
+    （上記ツリー参照）
+```
+
 ---
 
 ## タスク
@@ -93,6 +119,16 @@ pj dir/
 | フェーズ2完了報告 | `PHASE2_COMPLETION_REPORT.md` 存在 | OK |
 | 変更ログ連携 | `03_change_log.md` にフェーズ2完了エントリあり（2026-03-08） | OK |
 
+### Phase 2.5（CLI調査）
+| チェック項目 | 根拠 | 判定 |
+|---|---|---|
+| CLI調査完了報告 | `PHASE2_5_COMPLETION_REPORT.md` 存在 | OK |
+| Agent Spec生成 | `specs/userDevSupportAgent.yaml` 存在 | OK |
+| Agent Metadata生成 | `force-app/main/default/bots/UserDevSupportAgent/` 存在（2ファイル） | OK |
+| Planner Bundle生成 | `force-app/main/default/genAiPlannerBundles/UserDevSupportAgent/` 存在 | OK |
+| Plugins生成 | `force-app/main/default/genAiPlugins/` 5ファイル存在 | OK |
+| 変更ログ連携 | `03_change_log.md` にPhase 2.5完了エントリあり（2026-03-08） | OK |
+
 ---
 
 ## ブロック別整合性チェック
@@ -115,25 +151,40 @@ pj dir/
 - 判定: OK（存在・配置一致）
 
 ### ブロックE: 履歴・報告
-- 対象: `03_change_log.md`, `PHASE2_COMPLETION_REPORT.md`
+- 対象: `03_change_log.md`, `PHASE2_COMPLETION_REPORT.md`, `PHASE2_5_COMPLETION_REPORT.md`
 - 判定: OK（存在・配置一致）
+- 備考: PHASE2_5_COMPLETION_REPORT.md追加（2026-03-08）
 
 ### ブロックF: 補助
 - 対象: `github_config/`, `Salesforce_DevDocs/`
 - 判定: OK（存在・配置一致）
 
+### ブロックG: Phase 2.5 Agent Metadata（Salesforce成果物）
+- 対象: `../../specs/`, `../../force-app/main/default/bots/`, `../../force-app/main/default/genAiPlannerBundles/`, `../../force-app/main/default/genAiPlugins/`
+- 判定: OK（存在・配置一致）
+- 備考: sf agent CLI で生成したAgent metadata（specs 1件、Bot 2件、PlannerBundle 1件、Plugins 5件）
+- 備考: プロジェクトルート（pfPhase2/）配下に配置（userDevSupport_Agentforce_Docs/ の外）
+
 ---
 
 ## 差分と是正結果
 
-### 旧版との差分（今回是正）
-- `design/` 配下の存在が未記載だった
-- `PHASE2_COMPLETION_REPORT.md` が未記載だった
-- `Salesforce_DevDocs/` が未記載だった
+### 旧版との差分（過去是正）
+- `design/` 配下の存在が未記載だった → 是正済み
+- `PHASE2_COMPLETION_REPORT.md` が未記載だった → 是正済み
+- `Salesforce_DevDocs/` が未記載だった → 是正済み
+
+### 今回追加（Phase 2.5）
+- `PHASE2_5_COMPLETION_REPORT.md` を履歴・報告（ブロックE）に追加
+- `specs/userDevSupportAgent.yaml` をプロジェクトルート配下に追加
+- `force-app/main/default/bots/UserDevSupportAgent/` を追加（2ファイル）
+- `force-app/main/default/genAiPlannerBundles/UserDevSupportAgent/` を追加（1ファイル）
+- `force-app/main/default/genAiPlugins/` を追加（5ファイル）
+- Agent Metadata構造をブロックGとして定義
 
 ### 是正結果
-- 本ファイルを最新実在構成へ更新済み
-- 段階別・ブロック別の整合性判定を追加済み
+- 本ファイルを最新実在構成へ更新済み（2026-03-08）
+- 段階別・ブロック別の整合性判定を追加済み（Phase 2.5対応）
 
 ---
 
@@ -148,3 +199,4 @@ pj dir/
 | 日付 | 変更者 | 変更内容 |
 |---|---|---|
 | 2026-03-08 | AgentAI | 段階別・ブロック別整合性チェック結果を追加し、最新構成へ更新 |
+| 2026-03-08 | AgentAI | Phase 2.5完了に伴い、PHASE2_5_COMPLETION_REPORT.md、specs/、force-app Agent metadata をブロックE・G に追加 |
