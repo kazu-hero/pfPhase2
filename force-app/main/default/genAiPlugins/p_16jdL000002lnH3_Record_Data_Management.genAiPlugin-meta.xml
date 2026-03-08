@@ -12,9 +12,6 @@
     <genAiFunctions>
         <functionName>EmployeeCopilot__UpdateRecordFields</functionName>
     </genAiFunctions>
-    <genAiFunctions>
-        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
-    </genAiFunctions>
     <genAiPluginInstructions>
         <description>If the query involves creating, updating, or retrieving records, use EmployeeCopilot__QueryRecords.</description>
         <developerName>instruction_0</developerName>

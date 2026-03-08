@@ -6,9 +6,6 @@
     <genAiFunctions>
         <functionName>AdminCopilot__AnswerQuestionsWithSalesforceDocumentation</functionName>
     </genAiFunctions>
-    <genAiFunctions>
-        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
-    </genAiFunctions>
     <genAiPluginInstructions>
         <description>If the query involves defining validation rules, clarify the user&apos;s requirements and provide appropriate guidance.</description>
         <developerName>instruction_0</developerName>

@@ -9,9 +9,6 @@
     <genAiFunctions>
         <functionName>FlowAgentforce__GenerateFlowMetadata</functionName>
     </genAiFunctions>
-    <genAiFunctions>
-        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
-    </genAiFunctions>
     <genAiPluginInstructions>
         <description>If the query involves guidance on implementing non-code solutions, use FlowAgentforce__RefineFlowPluginRequirements to generate detailed requirements.</description>
         <developerName>instruction_0</developerName>

@@ -9,9 +9,6 @@
     <genAiFunctions>
         <functionName>schema_ai__IdentifyFieldByName</functionName>
     </genAiFunctions>
-    <genAiFunctions>
-        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
-    </genAiFunctions>
     <genAiPluginInstructions>
         <description>If the query involves identifying object names, use schema_ai__IdentifyObjectByName.</description>
         <developerName>instruction_0</developerName>
