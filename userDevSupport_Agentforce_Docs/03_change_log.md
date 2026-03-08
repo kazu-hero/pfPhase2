@@ -1263,9 +1263,9 @@
 
 **Branch**: main
 **PR**: -
-**Commit**: （後続コミットで記録）
+**Commit**: `8def263` - docs: Phase3.1-2 Knowledge連携計画書と差分提案を追加
 
-**状態**: ✅ タスク定義・計画作成完了 / 🔄 差分適用前の承認待ち
+**状態**: ✅ タスク定義・計画作成完了 → メタデータ実装に進行
 
 ---
 
@@ -1297,10 +1297,23 @@
 - Topic 3,4,5でKnowledge優先参照が有効化
 - 今後のKnowledge Base整備でガイド品質が段階的向上
 
-**デプロイ結果**: ✅ ローカル実装完了（コミット・プッシュ待ち）
+**デプロイ結果**: ✅ 実装完了・プッシュ済み
 
 **Branch**: main
 **PR**: -
-**Commit**: （次のコミットで記録予定）
+**Commit**: `1b2ff67` - feat(agent): Phase3.1-2 Knowledge連携設定を有効化
 
-**状態**: ✅ メタデータ実装完了 / 🔄 コミット準備中
+**実装フロー実績**:
+1. ✅ 計画書作成（commit `8def263`）
+   - `design/10_knowledge_integration_plan.md`（10優先ガイド定義）
+   - `design/11_knowledge_metadata_diff_proposal.md`（差分提案）
+2. ✅ 開発フロー再確認（00_master_prompt.md、17_approval_before_deploy.md）
+3. ✅ 差分提示（4ファイル、修正前後の全コード明示）
+4. ✅ ユーザー承認取得
+5. ✅ メタデータ反映（4ファイル一括修正）
+6. ✅ 変更ログ記録
+7. ✅ コミット・プッシュ（commit `1b2ff67`）
+
+**状態**: ✅ Phase 3.1-2 完了（Knowledge連携設定有効化済み）
+
+**次のフェーズ**: Phase 3.1-3 Knowledge Baseコンテンツ作成（10優先ガイド実装）
