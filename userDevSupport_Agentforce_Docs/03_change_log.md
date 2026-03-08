@@ -1175,3 +1175,29 @@
 **Commit**: （本コミットで記録）
 
 **状態**: ✅ Phase 3開始記録完了
+
+---
+
+### 2026-03-08 Phase 3.1 実装方針反映（Topicメタデータ正本化）
+
+**対象**:
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_*.genAiPlugin-meta.xml`（5ファイル）
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnFR_*.genAiPlugin-meta.xml`（5ファイル）
+
+**変更内容**:
+1. `lnH3` 系Topic 5件の `<language>` を `en_US` から `ja_JP` に統一
+2. Planner未参照の `lnFR` 系Topic 5件を削除
+
+**理由**:
+- 実運用のPlannerが参照しているのは `lnH3` 系のみであり、`lnFR` 系は未参照の重複資産だったため
+- Bot role / Topic instructions の「日本語デフォルト」方針と、Topicの言語設定を一致させるため
+
+**影響範囲**:
+- 実運用Topicの言語設定が統一され、日本語優先動作の一貫性が向上
+- 重複メタデータ削除により、保守対象と誤参照リスクを削減
+
+**Branch**: main
+**PR**: -
+**Commit**: （本コミットで記録）
+
+**状態**: ✅ 反映完了（整合性チェック後にコミット）
