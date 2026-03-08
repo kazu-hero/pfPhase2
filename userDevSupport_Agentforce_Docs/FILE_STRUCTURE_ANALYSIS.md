@@ -21,6 +21,7 @@ pj dir/
 ├── FILE_STRUCTURE_ANALYSIS.md
 ├── PHASE2_COMPLETION_REPORT.md
 ├── PHASE2_5_COMPLETION_REPORT.md
+├── PHASE2_5_LANGUAGE_ADJUSTMENT.md
 ├── github_config/
 │   ├── branch_rules.md
 │   ├── ci_status.md
@@ -129,6 +130,15 @@ pfPhase2/
 | Plugins生成 | `force-app/main/default/genAiPlugins/` 5ファイル存在 | OK |
 | 変更ログ連携 | `03_change_log.md` にPhase 2.5完了エントリあり（2026-03-08） | OK |
 
+### Phase 2.5 拡張1（言語対応調整）
+| チェック項目 | 根拠 | 判定 |
+|---|---|---|
+| 言語対応テスト文書 | `PHASE2_5_LANGUAGE_ADJUSTMENT.md` 存在 | OK |
+| GenAiPlugins更新 | 5トピック全てに language_support 指示追加 | OK |
+| Bot Version更新 | v1.botVersion-meta.xmlのroleに多言語対応記載 | OK |
+| Agent Spec更新 | specs/userDevSupportAgent.yamlのrole/topic描写に日本語対応記載 | OK |
+| 変更ログ連携 | `03_change_log.md` に言語対応調整エントリあり（2026-03-08） | OK |
+
 ---
 
 ## ブロック別整合性チェック
@@ -151,9 +161,9 @@ pfPhase2/
 - 判定: OK（存在・配置一致）
 
 ### ブロックE: 履歴・報告
-- 対象: `03_change_log.md`, `PHASE2_COMPLETION_REPORT.md`, `PHASE2_5_COMPLETION_REPORT.md`
+- 対象: `03_change_log.md`, `PHASE2_COMPLETION_REPORT.md`, `PHASE2_5_COMPLETION_REPORT.md`, `PHASE2_5_LANGUAGE_ADJUSTMENT.md`
 - 判定: OK（存在・配置一致）
-- 備考: PHASE2_5_COMPLETION_REPORT.md追加（2026-03-08）
+- 備考: PHASE2_5_LANGUAGE_ADJUSTMENT.md追加（2026-03-08、言語対応テスト）
 
 ### ブロックF: 補助
 - 対象: `github_config/`, `Salesforce_DevDocs/`
@@ -200,3 +210,4 @@ pfPhase2/
 |---|---|---|
 | 2026-03-08 | AgentAI | 段階別・ブロック別整合性チェック結果を追加し、最新構成へ更新 |
 | 2026-03-08 | AgentAI | Phase 2.5完了に伴い、PHASE2_5_COMPLETION_REPORT.md、specs/、force-app Agent metadata をブロックE・G に追加 |
+| 2026-03-08 | AgentAI | Phase 2.5言語対応調整に伴い、PHASE2_5_LANGUAGE_ADJUSTMENT.md を新規追加、GenAiPlugins更新を記録 |

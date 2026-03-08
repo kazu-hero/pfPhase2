@@ -6,13 +6,13 @@
         <botSteps>
             <botMessages>
                 <message>Hi, I&apos;m an AI assistant. How can I help you?</message>
-                <messageIdentifier>4b01357d-4f63-4dce-9cda-1f9ad6cb347d</messageIdentifier>
+                <messageIdentifier>8c7795cd-7b73-4f21-873b-b31aac1b4c77</messageIdentifier>
             </botMessages>
-            <stepIdentifier>af829a4a-846e-4a2e-a445-faf06321e51c</stepIdentifier>
+            <stepIdentifier>f1ff1215-451d-4203-ae91-27adb9531977</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>f36990b8-b86f-49b4-b16b-325f4b2c5e8d</stepIdentifier>
+            <stepIdentifier>6454b3e6-da01-45f8-b393-62d8d3f7c516</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Welcome</developerName>
@@ -24,13 +24,13 @@
         <botSteps>
             <botMessages>
                 <message>Sorry, it looks like something has gone wrong.</message>
-                <messageIdentifier>b016ffb5-16f6-4fbf-a67e-27b95b9377b6</messageIdentifier>
+                <messageIdentifier>dd6ee9cb-aa07-4baf-9af3-d20ba62405dc</messageIdentifier>
             </botMessages>
-            <stepIdentifier>c62e2a0d-0c42-4eca-aa6f-5ae8a8ee243f</stepIdentifier>
+            <stepIdentifier>582c0fd2-ab62-41b3-bf52-193fbffde2ae</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>0cbc98c4-2ada-4118-8933-160bcc335ec6</stepIdentifier>
+            <stepIdentifier>2a47408e-8d6b-4acf-aef3-f34d5c3c274e</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Error_Handling</developerName>
@@ -42,16 +42,16 @@
         <botSteps>
             <botMessages>
                 <message>One moment while I connect you to the next available service representative.</message>
-                <messageIdentifier>c79ae019-81fd-4806-b488-9aefe633b76f</messageIdentifier>
+                <messageIdentifier>399622d3-eb49-4578-b647-9a72e40eb2cc</messageIdentifier>
             </botMessages>
-            <stepIdentifier>d06a2a97-59e6-4fbd-ac90-fb875b6075bc</stepIdentifier>
+            <stepIdentifier>41beda8c-451c-495c-9074-e12e2d59d88c</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
-            <stepIdentifier>7c8fdbdb-5267-4241-a791-68fc3510b849</stepIdentifier>
+            <stepIdentifier>eb46588b-293e-45ab-9992-da63c8b4e10b</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Transfer_To_Agent</developerName>
@@ -77,7 +77,7 @@
     <intentV3Enabled>false</intentV3Enabled>
     <knowledgeActionEnabled>false</knowledgeActionEnabled>
     <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
-    <role>Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。</role>
+    <role>**日本語がデフォルト言語**: Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析・施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。全トピックで日本語での対応を優先します。ユーザーが英語や他言語で質問を行った場合も、可能な限りその言語で応答します。</role>
     <smallTalkEnabled>false</smallTalkEnabled>
     <staticPromptsEnabled>false</staticPromptsEnabled>
     <stopRecPrompts>false</stopRecPrompts>

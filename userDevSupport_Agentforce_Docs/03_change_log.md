@@ -645,6 +645,138 @@
 
 ---
 
+### 2026-03-08 Agent マルチランゲージ対応調整（言語対応テスト）
+
+**対象**:
+- `force-app/main/default/genAiPlugins/` × 5ファイル（全Topic）
+- `force-app/main/default/bots/UserDevSupportAgent/v1.botVersion-meta.xml`
+- `specs/userDevSupportAgent.yaml`
+- `userDevSupport_Agentforce_Docs/PHASE2_5_LANGUAGE_ADJUSTMENT.md`（新規）
+
+**変更内容**:
+1. **GenAiPlugins（全5トピック）に language_support 指示を追加**
+   - 各トピックに新規 genAiPluginInstructions を追加
+   - 指示: 「ユーザーが英語以外（特に日本語）で通信した場合、その言語で応答」
+   - 各トピックの scope を多言語対応を明記する形に拡張
+   - 対象トピック:
+     - Requirement Analysis Support
+     - Record Data Management
+     - Non Code Development Guidance
+     - Custom Object Setup
+     - Validation Rule Assistance
+
+2. **Bot Version Metadata の多言語対応化**
+   - v1.botVersion-meta.xml の role に多言語対応宣言を追加
+   - 内容: 「マルチランゲージ対応: ユーザーが日本語や英語以外の言語で質問を行った場合、可能な限りその言語で応答します」
+
+3. **Agent Spec YAML の多言語対応化**
+   - role フィールドに多言語対応能力を明記
+   - 各 topic の description に言語対応を明示
+   - 例: 「Respond in the user's preferred language, including Japanese if requested.」
+
+4. **テストドキュメント作成**
+   - PHASE2_5_LANGUAGE_ADJUSTMENT.md を作成
+   - 5つのテストケース定義（要件分析、CRUD、ガイド、カスタムオブジェクト、バリデーション）
+   - 3層構造の多言語対応設計を説明
+
+**理由**:
+- CLI生成Agentの初期状態では、英語中心の設計
+- 日本語ユーザー対応を強化するため、全レイヤーで多言語対応指示を明示
+- 言語対応の重要性を確認するため、Phase 2.5段階でテスト
+- テスト結果を Phase 3実装に反映させるため
+
+**影響範囲**:
+- Agent応答言語の選択メカニズム（日本語対応強化）
+- ユーザー利便性向上（母国語での支援）
+- ドキュメント整備（テストケース明確化）
+- 次フェーズ実装指針（Knowledge Base多言語化）
+
+**多言語対応3層構造**:
+1. **Agent Level**: role フィールドで全体的な言語能力を宣言
+2. **Topic Level**: scope と description で業務内容を多言語で提供することを明記
+3. **Instruction Level**: genAiPluginInstructions で具体的な言語切り替え動作を指示
+
+**テスト手順（Phase 2.5）**:
+- [ ] テスト1: 日本語での要件分析支援
+- [ ] テスト2: 日本語でのレコードCRUD操作
+- [ ] テスト3: 日本語でのノンコード開発ガイド
+- [ ] テスト4: 日本語でのカスタムオブジェクト設定
+- [ ] テスト5: 日本語でのバリデーションルール設定
+
+**Org デプロイ状況**:
+- Status: 準備待機中（metadata deploy or 再作成検討）
+- 期待: 言語対応指示が LLM に認識され、日本語応答精度が向上
+
+**Phase 3への引き継ぎ**:
+- Knowledge Base の日本語化（28件のガイド）
+- エラーメッセージの多言語対応
+- テスト結果に基づく指示文の微調整
+
+**Branch**: main
+**PR**: -
+**Commit**: （本記録と共にコミット予定）
+
+**承認**: ユーザー要望（Phase 2.5言語対応調整）に基づき実施
+
+---
+
+### 2026-03-08 Agent デフォルト言語を日本語（ja_JP）に設定
+
+**対象**:
+- `force-app/main/default/bots/UserDevSupportAgent/v1.botVersion-meta.xml`
+- `force-app/main/default/genAiPlugins/` × 5ファイル（全Topic）
+- `specs/userDevSupportAgent.yaml`
+
+**変更内容**:
+1. **GenAiPluginsの言語を en_US から ja_JP に変更**
+   - p_16jdL000002lnFR_Requirement_Analysis_Support
+   - p_16jdL000002lnFR_Record_Data_Management
+   - p_16jdL000002lnFR_Non_Code_Development_Guidance
+   - p_16jdL000002lnFR_Custom_Object_Setup
+   - p_16jdL000002lnFR_Validation_Rule_Assistance
+
+2. **Bot Versionの role を日本語デフォルト言語を明確にする形に修正**
+   - 修正前: 「マルチランゲージ対応：ユーザーが日本語や英語以外の言語で...」
+   - 修正後: 「**日本語がデフォルト言語**: Salesforce開発支援Agent...全トピックで日本語での対応を優先します」
+
+3. **Agent Spec YAMLの role を日本語デフォルト言語に更新**
+   - role: 「日本語がデフォルト言語のSalesforce開発支援Agent...すべてのトピックで日本語対応を優先します」
+
+**理由**:
+- Agentのデフォルト使用言語が日本語であることを明確化
+- メタデータレベルでの言語設定を統一（locale: ja_JP）
+- 日本語ユーザーが母国語でスムーズに対話できるよう優先度設定
+- ユーザー要望に基づき、日本語対応を標準として扱う
+
+**影響範囲**:
+- Agent UI表示言語の初期設定が日本語に
+- 各Topicのメタデータが日本語ロケール固有の処理をサポート
+- LLM レスポンスの言語選択ロジックが日本語を優先
+- ユーザー体験の統一性向上（すべてのインタラクションが日本語対応）
+
+**デフォルト言語設定の3層構造**:
+1. **Metadata Level** (ja_JP): GenAiPlugin language フィールド
+2. **Agent Config Level**: Bot Version role で「日本語がデフォルト」と明記
+3. **Spec Level**: Agent Spec role で「日本語がデフォルト言語」と明確化
+
+**テスト実施**:
+- [ ] Agent Preview で日本語での対話確認
+- [ ] 各トピックでの日本語応答確認
+- [ ] 言語自動検出（日本語優先）の動作確認
+
+**Org でのテスト状況**:
+- UI削除後に新規Agent作成完了（17.93秒）
+- ローカル metadata に言語対応指示を再追加済み
+- 次: Org への最終デプロイ実施
+
+**Branch**: main
+**PR**: -
+**Commit**: （本記録と共にコミット予定）
+
+**承認**: ユーザー要望（日本語デフォルト言語設定）に基づき実施
+
+---
+
 ### 次回変更時の記録フォーマット
 
 ```markdown
