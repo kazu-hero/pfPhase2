@@ -14,6 +14,8 @@
 7. `07_usecase_uc3_detail.md`
 8. `08_guide_structure.md`
 9. `09_design_review.md`
+10. `10_knowledge_integration_plan.md`
+11. `11_knowledge_metadata_diff_proposal.md`
 
 ## ファイル一覧
 | No | ファイル | 用途 |
@@ -27,6 +29,8 @@
 | 07 | `07_usecase_uc3_detail.md` | UC-3詳細（ノンコード開発ガイド） |
 | 08 | `08_guide_structure.md` | ガイド体系（28ガイド） |
 | 09 | `09_design_review.md` | 要件カバレッジ・整合性レビュー |
+| 10 | `10_knowledge_integration_plan.md` | Phase 3.1-2 Knowledge連携の実装計画 |
+| 11 | `11_knowledge_metadata_diff_proposal.md` | Knowledge有効化のメタデータ差分案 |
 
 ## 関連ファイル
 - `../PHASE2_COMPLETION_REPORT.md`: Phase 2完了報告
@@ -41,3 +45,5 @@
 | 日付 | 更新者 | 内容 |
 |---|---|---|
 | 2026-03-08 | AgentAI | 初版作成 |
+| 2026-03-08 | AgentAI | 10_knowledge_integration_plan.md を追加 |
+| 2026-03-08 | AgentAI | 11_knowledge_metadata_diff_proposal.md を追加 |

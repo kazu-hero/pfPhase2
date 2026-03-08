@@ -1219,3 +1219,50 @@
 4. Topic/Action/Knowledge の結合テスト計画を作成
 
 **Commit**: `b3879e7`（feat(agent): Phase3.1でTopicメタデータを正本化）
+
+---
+
+### 2026-03-08 Phase 3.1-2 Knowledge連携タスク定義と着手
+
+**コンテキスト**:
+- Phase 3.1-1（Topicメタデータ正本化）は完了
+- 次の着手点として、Knowledge Base連携の設計・実装が必要
+
+**実施タスク（定義）**:
+1. Knowledge連携タスクを定義
+2. タスク内容を変更ログに記載
+3. Knowledge連携計画書を作成
+4. 設計索引（design/00_design_index.md）へ計画書を追加
+5. 次の実装タスクへ着手（Knowledge設定差分の作成）
+
+**タスク詳細（Phase 3.1-2）**:
+- T1: 先行10ガイド（G-101, G-201, G-202, G-203, G-301, G-302, G-401, G-402, G-501, G-601）をKnowledge登録対象として確定
+- T2: TopicごとのKnowledge参照方針を確定
+   - Topic 3: Non Code Development Guidance
+   - Topic 4: Custom Object Setup
+   - Topic 5: Validation Rule Assistance
+- T3: BotのKnowledge関連設定の差分案を作成
+   - knowledgeActionEnabled
+   - knowledgeFallbackEnabled
+- T4: Topic/Action/Knowledge の結合テスト観点を定義
+
+**理由**:
+- ガイド回答品質を安定化し、プロジェクト固有の手順で回答させるため
+- Phase 2.5時点の「Knowledge未設定」をPhase 3で解消するため
+
+**影響範囲**:
+- `force-app/main/default/bots/UserDevSupportAgent/v1.botVersion-meta.xml`
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_*.genAiPlugin-meta.xml`
+- `userDevSupport_Agentforce_Docs/design/*`（計画書・索引）
+
+**進捗（実施済み）**:
+- ✅ T1: 先行10ガイドの登録対象確定（`design/10_knowledge_integration_plan.md`）
+- ✅ T2: TopicごとのKnowledge参照方針を確定（Topic 3/4/5のマッピング定義）
+- ✅ T3: Bot/Topic向けのKnowledge設定差分案を作成（`design/11_knowledge_metadata_diff_proposal.md`）
+- 🔄 T4: 結合テスト観点の詳細化を継続中
+
+**Branch**: main
+**PR**: -
+**Commit**: （後続コミットで記録）
+
+**状態**: ✅ タスク定義・計画作成完了 / 🔄 差分適用前の承認待ち
