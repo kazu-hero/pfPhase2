@@ -149,7 +149,7 @@
 - [ ] レコードCRUD権限の実際の範囲確認（実装後の動作テスト時に実施）
 
 ### 確定済み項目（追加）
-- [x] 実環境スキーマ取得: 完了（`Salesforce_DevDocs/org-schema/pfPhase2Org/latest/`にエクスポート済み）
+- [x] 実環境スキーマ取得: 完了（`userDevSupport_Agentforce_Docs/Salesforce_DevDocs/org-schema/pfPhase2Org/latest/`にエクスポート済み）
 - [x] Agentforce環境: セットアップ済み、構成確認のみ
 - [x] エラーリトライ回数: 3回
 - [x] ログレベル: ERROR + WARNING + INFO（全操作記録）

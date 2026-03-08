@@ -777,6 +777,50 @@
 
 ---
 
+### 2026-03-08 Phase 2.5 完了（CLI開発テスト結果を本番運用形に収束）
+
+**対象**:
+- `force-app/main/default/bots/UserDevSupportAgent/UserDevSupportAgent.bot-meta.xml`
+- `force-app/main/default/bots/UserDevSupportAgent/v1.botVersion-meta.xml`
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnH3_*.genAiPlugin-meta.xml`（5ファイル）
+- `force-app/main/default/genAiPlugins/p_16jdL000002lnFR_*.genAiPlugin-meta.xml`（5ファイル）
+- `sfdx-project.json`
+- `.gitignore`
+
+**変更内容**:
+- APIバージョンを `64.0` から `66.0` に更新し、BotVersionメタデータのデプロイ不整合を解消
+- Active Topic（`lnH3`系）に日本語優先応答指示を追加・強化
+- `UserDevSupportAgent` の固定応答メッセージを日本語化
+- `EndUserLanguage` をプロンプトに含める設定へ変更（`includeInPrompt: true`）
+- データライブラリ未割当エラー対策として、Active Topic 5件から `EmployeeCopilot__AnswerQuestionsWithKnowledge` を削除
+- 検証用の旧スナップショット `temp/` を削除し、`.gitignore` に `temp/` と `temp_verify/` を追加
+
+**理由**:
+- Agent応答が英語寄りになる事象を解消し、日本語デフォルト応答を安定化するため
+- `REQUIRED_FIELD_MISSING`（データライブラリ未割当）を解消し、Knowledge未設定環境でも動作させるため
+- メタデータの正本を `force-app/main/default/` に統一し、運用時の混乱を防ぐため
+
+**影響範囲**:
+- Agentforceチャットのデフォルト応答言語が日本語で安定
+- Knowledgeデータライブラリ未設定でも主要トピックがエラーなく実行可能
+- リポジトリ運用面で不要ファイル混入リスクを低減
+
+**デプロイ実績**:
+- `0AfdL00000WztraSAB`（EndUserLanguage反映）
+- `0AfdL00000WzffpSAB`（言語指示強化反映）
+- `0AfdL00000X0VFJSA3`（Knowledgeアクション削除反映）
+
+**Branch**: main
+**PR**: -
+**Commit**:
+- `ea4a28d` fix: Agentの日本語優先応答設定を強化
+- `6226317` chore: 古い検証用スナップショット(temp/)を削除し.gitignoreを更新
+- `7d3108a` feat(agent): phase2.5完了 - データライブラリエラー解消
+
+**承認**: ユーザー確認・指示に基づき実施（mainへpush済み）
+
+---
+
 ### 次回変更時の記録フォーマット
 
 ```markdown

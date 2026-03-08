@@ -10,8 +10,8 @@
 # プロジェクトルートで実行
 npm run schema:export
 ```
-- 出力先: `docs/org-schema/pfPhase2Org/latest/`
-- 履歴: `docs/org-schema/pfPhase2Org/history/<yyyyMMdd-HHmmss>/`
+- 出力先: `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/org-schema/pfPhase2Org/latest/`
+- 履歴: `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/org-schema/pfPhase2Org/history/<yyyyMMdd-HHmmss>/`
 - 注意: EntityDefinition + `sf sobject describe` を使用
 
 ---
