@@ -389,11 +389,198 @@
 
 ---
 
+### 2026-03-08 設計資料の索引化と履歴台帳の追加
+
+**対象**:
+- `userDevSupport_Agentforce_Docs/design/00_design_index.md`（新規）
+- `userDevSupport_Agentforce_Docs/design/99_design_history_log.md`（新規）
+- `userDevSupport_Agentforce_Docs/03_change_log.md`（本追記）
+
+**変更内容**:
+- 設計資料の所在を固定するため、`design` 配下に索引ファイル `00_design_index.md` を作成
+   - 設計書01〜09の用途一覧、推奨参照順、関連ファイル導線を明記
+- 設計変更の時系列保管のため、`99_design_history_log.md` を作成
+   - Phase 2で作成した設計成果物（01〜09）を履歴として登録
+   - 今後の追記に使えるテンプレートを定義
+- 追加資料の見落とし防止と、変更トレーサビリティ向上の運用ルールを明文化
+
+**理由**:
+- 追加した資料を見失わないようにするため
+- 設計の履歴を継続的に格納できる構造を先に整備するため
+
+**影響範囲**:
+- `design` 配下の資料探索性が向上
+- フェーズ3以降で設計更新の追跡が容易化
+- 変更の監査性・再現性が向上
+
+**Branch**: main
+**PR**: -
+**Commit**: （未実施）
+
+**承認**: ユーザー依頼に基づき反映
+
+---
+
+## 【フェーズ2完了報告】2026-03-08
+
+### 完了フェーズ
+**フェーズ2: 設計（Design）**
+
+### 実施内容
+1. **設計成果物の作成（9ドキュメント、約4,400行）**
+   - `design/01_overall_architecture.md`: Agentforce全体設計（4 Topics、13 Actions、4 Knowledge Sources）
+   - `design/02_response_patterns.md`: Agent応答パターン標準化（8パターン: 確認、データ提示、エラー通知、ガイド、スコープ外、進捗、選択肢、補足）
+   - `design/03_crud_operations.md`: CRUD操作設計とSOQL最適化、Governor Limits対策
+   - `design/04_error_handling.md`: エラー分類（9タイプ）、リトライ戦略、Custom Exception階層、ログオブジェクト設計
+   - `design/05_usecase_uc1_detail.md`: UC-1詳細設計（要望分析→施策提案、7ステップフロー）
+   - `design/06_usecase_uc2_detail.md`: UC-2詳細設計（レコードCRUD、5サブユースケース）
+   - `design/07_usecase_uc3_detail.md`: UC-3詳細設計（ノンコード開発ガイド、4サブユースケース）
+   - `design/08_guide_structure.md`: ノンコード開発ガイド体系（28ガイド、7カテゴリ、Phase 3優先10ガイド）
+   - `design/09_design_review.md`: 設計レビューと整合性確認（要件カバレッジ100%、総合評価95-100%）
+
+2. **フェーズ1未確定事項の解消**
+   - Agent応答パターンの標準化: 完了（8パターン定義）
+   - レコード検索のパフォーマンス最適化: 完了（SOQL最適化戦略、Governor Limits対策）
+   - 大量レコード操作時の制御方法: 完了（バッチサイズ、ガバナ制限対策、リトライ戦略）
+
+3. **設計資料の管理体制整備**
+   - `design/00_design_index.md`: 設計資料の索引と参照順を明記
+   - `design/99_design_history_log.md`: 設計変更の時系列台帳を整備
+
+4. **設計品質確認**
+   - 要件カバレッジ: 100%（全FR/NFR要件を設計に反映）
+   - 整合性チェック: Topics/Actions/UC対応、応答パターン使用、エラータイプ使用、SOQL最適化、パフォーマンス目標
+   - スコープ遵守: 内部実装でのApex使用適切、ユーザー向け応答でApex/LWC提案禁止を遵守
+   - 完全性: 全ドキュメントに必須セクション完備、データモデル定義と実装設計が一致
+
+### 変更点
+**新規作成ファイル**:
+- `userDevSupport_Agentforce_Docs/design/00_design_index.md`
+- `userDevSupport_Agentforce_Docs/design/01_overall_architecture.md`
+- `userDevSupport_Agentforce_Docs/design/02_response_patterns.md`
+- `userDevSupport_Agentforce_Docs/design/03_crud_operations.md`
+- `userDevSupport_Agentforce_Docs/design/04_error_handling.md`
+- `userDevSupport_Agentforce_Docs/design/05_usecase_uc1_detail.md`
+- `userDevSupport_Agentforce_Docs/design/06_usecase_uc2_detail.md`
+- `userDevSupport_Agentforce_Docs/design/07_usecase_uc3_detail.md`
+- `userDevSupport_Agentforce_Docs/design/08_guide_structure.md`
+- `userDevSupport_Agentforce_Docs/design/09_design_review.md`
+- `userDevSupport_Agentforce_Docs/design/99_design_history_log.md`
+- `userDevSupport_Agentforce_Docs/PHASE2_COMPLETION_REPORT.md`
+
+**既存ファイルへの変更**:
+- なし（Phase 2は新規ドキュメント作成のみ）
+
+### 02_solution_definition.md 反映有無
+**完全反映**
+- フェーズ1未確定事項3件（応答パターン、検索最適化、大量レコード制御）を設計で解決
+- スコープ（要望分析・施策提案、レコードCRUD、ノンコード開発ガイド）を全設計に反映
+- ユーザー回答範囲制約（ノンコード開発手法のみ、Apex/LWC提案禁止）をP-005パターンとE-005エラータイプで制御
+- 内部実装方針（Apex/SOQL/DML使用）を01_overall_architecture、03_crud_operations、各UCで適用
+- 制約（Governor Limits、セキュリティ、エラーハンドリング）を全設計に織り込み
+
+### ブランチ名
+**main**（直接作業、Phase 2完了後にcommit予定）
+
+### PR番号/URL
+**該当なし**（ローカル開発のみ、GitHub運用はPhase完了後に本格化）
+
+### Commit SHA
+**未実施**（Phase 2完了後にcommit予定）
+
+### マージ結果
+**未実施**（main branch直接作業のため不要）
+
+### 未解決事項
+**Phase 3に持ち越し事項（軽微）**:
+1. ログオブジェクト詳細設計（Agent_Operation_Log__c、Agent_Error_Log__c のスキーマ詳細化）
+2. 複雑フローの境界明確化（基本的なフローと複雑なフローの具体的な境界定義）
+3. E-008/E-009のテストシナリオ追加（Governor Limits超過、外部連携エラーのUC別テスト）
+
+### 次フェーズへの引き継ぎ
+**Phase 3（実装）への引き継ぎ内容**:
+- 実装優先順位: Phase 3.1（基盤）、Phase 3.2（UC-1/UC-2）、Phase 3.3（UC-3、最優先10ガイド）
+- 最優先10ガイド: G-101（オブジェクト作成）、G-201（項目追加）、G-202（選択リスト）、G-203（数式項目）、G-301（レイアウト編集）、G-302（レコードタイプ）、G-401（ルックアップ）、G-402（主従関係）、G-501（画面フロー）、G-601（検証ルール）
+- 注意事項: Apex使用時はユーザー確認必須、Governor Limits対策必須、スコープ外検出時は即座停止
+
+**理由**:
+- `01_phase_definition.md` のフェーズ2定義完了条件（設計仕様書確定、ユーザー承認取得）を満たしたため
+- フェーズ1未確定事項3件を解決し、Phase 3実装の準備が整ったため
+
+**影響範囲**:
+- Phase 3実装時の設計根拠が明確化
+- 実装優先順位と引継ぎ事項が体系化
+- 設計レビュー評価95-100%により、Phase 3移行準備が完了
+
+**承認**: ユーザー確認済み（フェーズ2完了）
+
+---
+
+### 2026-03-08 整合性チェックプロセスの導入
+
+**対象**:
+- `userDevSupport_Agentforce_Docs/agentAI_pronpts/20_consistency_check_process.md`（新規）
+- `userDevSupport_Agentforce_Docs/agentAI_pronpts/19_vcs_and_github_workflow.md`（更新）
+- `userDevSupport_Agentforce_Docs/00_master_prompt.md`（更新）
+- `userDevSupport_Agentforce_Docs/FILE_STRUCTURE_ANALYSIS.md`（更新）
+
+**変更内容**:
+1. **整合性チェックプロセスの体系化**
+   - `20_consistency_check_process.md` を新規作成
+   - Git コミット前の必須チェック項目を定義（5カテゴリ: コア定義、フェーズ記録、設計成果物、ガバナンスルール、用語表記）
+   - `FILE_STRUCTURE_ANALYSIS.md` 更新手順を明文化
+   - チェック実施フローとコマンド例を提供
+   - 不整合発見時の重大度判定（HIGH/MEDIUM/LOW）と対応方針を定義
+
+2. **VCS ワークフローへの統合**
+   - `19_vcs_and_github_workflow.md` に「コミット前チェックリスト」セクションを追加
+   - コミット前チェック実施義務を明記（コア文書・設計文書・ガバナンスルール変更時）
+   - 簡易チェック（5分）と完全チェック（15-20分）の使い分けを定義
+   - `20_consistency_check_process.md` への参照リンク追加
+
+3. **マスタープロンプトへの反映**
+   - `00_master_prompt.md` のガバナンスルールに「ルール7: 整合性維持」を追加
+   - コミット前チェック必須、不整合発見時の対応優先度を明記
+   - `FILE_STRUCTURE_ANALYSIS.md` 更新義務を明文化
+
+4. **FILE_STRUCTURE_ANALYSIS.md の更新**
+   - `agentAI_pronpts/` 配下に `20_consistency_check_process.md` を追加
+   - ブロックBの範囲を「00-19」から「00-20」に更新
+   - 更新日（2026-03-08）を備考に記載
+
+**理由**:
+- 資料全体の整合性精査で複数の不整合を発見（Phase 2完了記録欠落、ファイル名表記ゆれ等）
+- 不整合を継続的に防止する仕組みが必要（事後修正ではなく事前防止）
+- Git コミット前のチェックポイント化により、不整合の混入リスクを低減
+- agentAI への明示的な指示により、整合性維持を自動化・習慣化
+
+**影響範囲**:
+- Git コミット時のワークフローに整合性チェックが追加（作業時間: 簡易5分/完全15-20分）
+- コア文書・設計文書・ガバナンスルール変更時にチェック必須
+- `FILE_STRUCTURE_ANALYSIS.md` の能動的更新により、構造変更の追跡性向上
+- 不整合の早期発見・修正により、ドキュメント品質が継続的に維持
+
+**チェック実施状況**:
+- コア定義文書群: OK（スコープ定義の一致確認済み）
+- フェーズ進行記録: OK（Phase 1/2完了記録を確認済み）
+- 設計成果物: OK（design/ 配下9ドキュメントと相互参照の一貫性確認済み）
+- ガバナンスルール: OK（02_solution_definition.md を単一情報源とするルール遵守確認済み）
+- 用語・表記: OK（03_change_log.md 表記統一、UC-1/2/3 表記一貫性確認済み）
+
+**FILE_STRUCTURE_ANALYSIS 更新**: 実施済み（20_consistency_check_process.md 追加、ブロックB範囲更新）
+
+**Branch**: main
+**PR**: -
+**Commit**: （未実施、次回まとめてコミット予定）
+
+**承認**: ユーザー要望に基づき反映
+
+---
+
 ### 次回変更時の記録フォーマット
 
 ```markdown
 ### YYYY-MM-DD [作業タイトル]
-
 **対象**: [変更したファイル・機能]
 
 **変更内容**:
