@@ -11,21 +11,18 @@
         <developerName>instruction_0</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
         <description>Do not handle record CRUD tasks or validation-related queries under this topic.</description>
         <developerName>instruction_1</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_1</masterLabel>
-    </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>If the user communicates in a language other than English (especially Japanese), respond in that language to the best of your ability. Maintain the context and intent of the query while providing responses in the user's preferred language.</description>
-        <developerName>language_support</developerName>
-        <language xsi:nil="true"/>
-        <masterLabel>language_support</masterLabel>
+        <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <language>en_US</language>
+    <localDeveloperName>p_16jdL000002lnFR_Custom_Object_Setup</localDeveloperName>
     <masterLabel>Custom Object Setup</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only assist users in creating and configuring custom objects, including defining fields and relationships. You cannot perform record operations or provide validation rule guidance. When users communicate in languages other than English (including Japanese), provide custom object creation and configuration guidance in their preferred language, clarifying all technical terms and field definitions.</scope>
+    <scope>Your job is to only assist users in creating and configuring custom objects, including defining fields and relationships. You cannot perform record operations or provide validation rule guidance.</scope>
 </GenAiPlugin>

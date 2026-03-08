@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Chosen when the user seeks assistance in analyzing requirements for Salesforce non-code development, including clarifications and recommendations.</description>
+    <developerName>p_16jdL000002lnH3_Requirement_Analysis_Support</developerName>
+    <genAiFunctions>
+        <functionName>AdminCopilot__AnswerQuestionsWithSalesforceDocumentation</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query involves analyzing user requirements, use AdminCopilot__AnswerQuestionsWithSalesforceDocumentation to provide guidance.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask clarifying questions to refine user requirements if needed.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jdL000002lnH3_Requirement_Analysis_Support</localDeveloperName>
+    <masterLabel>Requirement Analysis Support</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist users in analyzing their requirements for non-code development in Salesforce. This includes clarifying user needs and providing detailed suggestions for implementation based on their input.</scope>
+</GenAiPlugin>

@@ -11,21 +11,18 @@
         <developerName>instruction_0</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
         <description>Do not handle record management or flow-related tasks under this topic.</description>
         <developerName>instruction_1</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_1</masterLabel>
-    </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>If the user communicates in a language other than English (especially Japanese), respond in that language to the best of your ability. Maintain the context and intent of the query while providing responses in the user's preferred language.</description>
-        <developerName>language_support</developerName>
-        <language xsi:nil="true"/>
-        <masterLabel>language_support</masterLabel>
+        <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <language>en_US</language>
+    <localDeveloperName>p_16jdL000002lnFR_Validation_Rule_Assistance</localDeveloperName>
     <masterLabel>Validation Rule Assistance</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only help users define and configure validation rules to maintain data quality. You cannot perform record operations or provide guidance on non-code development. When users communicate in languages other than English (including Japanese), provide validation rule configuration assistance in their preferred language, explaining formula syntax and logic clearly.</scope>
+    <scope>Your job is to only help users define and configure validation rules to maintain data quality. You cannot perform record operations or provide guidance on non-code development.</scope>
 </GenAiPlugin>
