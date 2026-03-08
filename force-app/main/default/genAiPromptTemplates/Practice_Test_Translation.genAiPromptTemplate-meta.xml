@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>Au1+TJkQPRzt4WwBFxC4pbJ9LSYYGuf6u0SzLrrZlf8=_3</activeVersionIdentifier>
+    <developerName>Practice_Test_Translation</developerName>
+    <masterLabel>Practice Testの翻訳</masterLabel>
+    <relatedEntity>PracticeTest__c</relatedEntity>
+    <relatedField>PracticeTest__c.Question_J__c</relatedField>
+    <templateVersions>
+        <content>以下は、Salesforceのアドミニストレーター資格試験のサンプル問題です。
+日本語に翻訳してください。
+
+
+
+選択肢
+A. {!$Input:PracticeTest__c.Option_A__c}
+B. {!$Input:PracticeTest__c.Option_B__c}
+C. {!$Input:PracticeTest__c.Option_C__c}
+D. {!$Input:PracticeTest__c.Option_D__c}
+E. 
+解答
+{!$Input:PracticeTest__c.Correct_Options__c}
+
+解説
+A. {!$Input:PracticeTest__c.Option_A_Explanation__c}
+B. {!$Input:PracticeTest__c.Option_B_Explanation__c}
+C. {!$Input:PracticeTest__c.Option_C_Explanation__c}
+D. {!$Input:PracticeTest__c.Option_D_Explanation__c}
+E. {!$Input:PracticeTest__c.Option_E_Explanation__c}
+</content>
+        <inputs>
+            <apiName>RelatedEntity</apiName>
+            <definition>SOBJECT://PracticeTest__c</definition>
+            <referenceName>Input:PracticeTest__c</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>Au1+TJkQPRzt4WwBFxC4pbJ9LSYYGuf6u0SzLrrZlf8=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>以下は、Salesforceのアドミニストレーター資格試験のサンプル問題です。
+日本語に翻訳してください。
+
+問題
+{!$Input:PracticeTest__c.Question__c}
+
+選択肢
+A. {!$Input:PracticeTest__c.Option_A__c}
+B. {!$Input:PracticeTest__c.Option_B__c}
+C. {!$Input:PracticeTest__c.Option_C__c}
+D. {!$Input:PracticeTest__c.Option_D__c}
+E. 
+解答
+{!$Input:PracticeTest__c.Correct_Options__c}
+
+解説
+A. {!$Input:PracticeTest__c.Option_A_Explanation__c}
+B. {!$Input:PracticeTest__c.Option_B_Explanation__c}
+C. {!$Input:PracticeTest__c.Option_C_Explanation__c}
+D. {!$Input:PracticeTest__c.Option_D_Explanation__c}
+E. {!$Input:PracticeTest__c.Option_E_Explanation__c}
+</content>
+        <inputs>
+            <apiName>RelatedEntity</apiName>
+            <definition>SOBJECT://PracticeTest__c</definition>
+            <referenceName>Input:PracticeTest__c</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>Au1+TJkQPRzt4WwBFxC4pbJ9LSYYGuf6u0SzLrrZlf8=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>以下は、Salesforceのアドミニストレーター資格試験のサンプル問題です。
+日本語に翻訳してください。
+
+ただし、以下の行があった場合は無視して、翻訳しないでください。
+E. [Provide:{OPTION E}]
+E. [Provide:{OPTION E EXPLANATION}]
+
+問題
+{!$Input:PracticeTest__c.Question__c}
+
+選択肢
+A. {!$Input:PracticeTest__c.Option_A__c}
+B. {!$Input:PracticeTest__c.Option_B__c}
+C. {!$Input:PracticeTest__c.Option_C__c}
+D. {!$Input:PracticeTest__c.Option_D__c}
+E. {!$Input:PracticeTest__c.Option_E__c}
+
+解答
+{!$Input:PracticeTest__c.Correct_Options__c}
+
+解説
+A. {!$Input:PracticeTest__c.Option_A_Explanation__c}
+B. {!$Input:PracticeTest__c.Option_B_Explanation__c}
+C. {!$Input:PracticeTest__c.Option_C_Explanation__c}
+D. {!$Input:PracticeTest__c.Option_D_Explanation__c}
+E. {!$Input:PracticeTest__c.Option_E_Explanation__c}
+</content>
+        <inputs>
+            <apiName>RelatedEntity</apiName>
+            <definition>SOBJECT://PracticeTest__c</definition>
+            <referenceName>Input:PracticeTest__c</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>Au1+TJkQPRzt4WwBFxC4pbJ9LSYYGuf6u0SzLrrZlf8=_3</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__fieldCompletion</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
