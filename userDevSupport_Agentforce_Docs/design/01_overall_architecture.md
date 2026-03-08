@@ -128,7 +128,7 @@ Salesforceノンコード開発をサポートするAgentforceカスタムエー
 
 ### 4.2 Topics（トピック分類）
 
-#### Topic 1: 要望分析・施策提案
+#### Topic 1: 要望分析・施策提案 (Requirement Analysis Support)
 - **目的**: ユーザー要望を受付、分析、構造化し、施策案を提案
 - **対象オブジェクト**: Dev_Service__c、Issue__c、TechActionPlan__c
 - **主要Actions**:
@@ -137,32 +137,51 @@ Salesforceノンコード開発をサポートするAgentforceカスタムエー
   - Issue__c レコード作成とリレーション設定
   - 施策案の提案と FunctionRequirements__c 作成
 
-#### Topic 2: レコードCRUD操作
+#### Topic 2: レコードCRUD操作 (Record Data Management)
 - **目的**: レコードの検索、参照、作成、更新、削除
 - **対象オブジェクト**: 「開発App」カスタムオブジェクト全般
 - **主要Actions**:
-  - レコード検索（SOQL実行）
+  - レコード検索（SOQL実行） ← EmployeeCopilot__QueryRecords
   - レコード詳細表示
-  - レコード作成（必須項目確認）
-  - レコード更新（影響確認）
+  - レコード作成（必須項目確認） ← EmployeeCopilot__ExtractFieldsAndValuesFromUserInput, EmployeeCopilot__UpdateRecordFields
+  - レコード更新（影響確認） ← EmployeeCopilot__UpdateRecordFields
   - レコード削除（警告表示）
 
-#### Topic 3: ノンコード開発ガイド
-- **目的**: ノンコード開発の手順とベストプラクティスを提供
+#### Topic 3: ノンコード開発ガイダンス (Non Code Development Guidance)
+- **目的**: ノンコード開発の全般的な手順とベストプラクティスを提供
 - **対象**: オブジェクト、項目、レイアウト、レコードタイプ、簡易フロー
 - **主要Actions**:
+  - ノンコード開発ガイド全般提供
+  - 複数分野にわたるアドバイス提供
+  - 関連リソース（Knowledge）参照 ← AdminCopilot__AnswerQuestionsWithSalesforceDocumentation
+
+#### Topic 4: カスタムオブジェクト設定 (Custom Object Setup)
+- **目的**: カスタムオブジェクト・カスタム項目の設計・設定を専門にサポート
+- **対象**: 「開発App」オブジェクト群のオブジェクト・項目設計
+- **主要Actions**:
+  - オブジェクト名・APIネーム特定 ← schema_ai__IdentifyObjectByName
+  - フィールド名・型判定 ← schema_ai__IdentifyFieldByName
   - オブジェクト設計ガイド提供
   - 項目設定ガイド提供
-  - ページレイアウト設計ガイド提供
   - リレーションシップ設定ガイド提供
-  - 簡易フロー設計ガイド提供
 
-#### Topic 4: システム情報・ヘルプ
+#### Topic 5: 検証ルール支援 (Validation Rule Assistance)
+- **目的**: Salesforce検証ルール（Validation Rule）の設定をサポート
+- **対象**: 「開発App」オブジェクト群の検証ルール定義
+- **主要Actions**:
+  - 検証ルール設計ガイド提供
+  - ルール構文チェック支援
+  - エラーメッセージ設計ガイド提供
+  - リレーション検証のベストプラクティス提供
+
+#### Topic 4 (後続)</u: システム情報・ヘルプ (未実装)
 - **目的**: Agent機能の説明、スコープ確認、ヘルプ提供
+- **ステータス**: Phase 2.5テスト実装では未着手
 - **主要Actions**:
   - Agent機能の説明
   - スコープ内/外の判定と説明
   - 使い方ガイドの提供
+- **注記**: Phase 3以降での実装検討対象
 
 ### 4.3 Actions（実行可能操作）
 

@@ -67,16 +67,20 @@ grep -A 20 "未確定事項" userDevSupport_Agentforce_Docs/02_solution_definiti
 #### チェック内容
 - [ ] `03_change_log.md` に最新の変更が記録されているか
 - [ ] フェーズ完了報告が `03_change_log.md` に記載されているか
+- [ ] **重要な判断分岐の場合、ユーザーコミュニケーション履歴（提案・決定）が `03_change_log.md` に記載されているか**
 - [ ] `PHASE*_COMPLETION_REPORT.md` が存在し、内容が `03_change_log.md` と一致しているか
 - [ ] フェーズ完了時の「未解決事項」が次フェーズで引き継がれているか
 
 #### 確認コマンド例
 ```powershell
 # 最新のフェーズ記録確認
-grep -E "Phase [0-9]|フェーズ[0-9]|完了報告" userDevSupport_Agentforce_Docs/03_change_log.md | Select -Last 10
+grep -E "Phase [0-9]|フェーズ[0-9]|完了報告|ユーザー決定|提案" userDevSupport_Agentforce_Docs/03_change_log.md | Select -Last 15
 
 # 完了報告ファイルの存在確認
 Get-ChildItem userDevSupport_Agentforce_Docs/PHASE*_COMPLETION_REPORT.md
+
+# コミュニケーション履歴の確認（重要判断分岐時）
+grep -A 10 "ユーザー決定|提案" userDevSupport_Agentforce_Docs/03_change_log.md
 ```
 
 ---

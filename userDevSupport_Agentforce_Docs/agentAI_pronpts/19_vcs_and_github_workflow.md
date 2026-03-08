@@ -55,8 +55,13 @@
 - ユーザーの承認後に実行する。
 
 ## 記録ルール
-- `03_change_log.md` に Branch/PR/Commit の情報を残す（任意項目）。
-- `11_phase_completion_report.md` に Branch/PR/Commit/マージ結果を記録する。
+- `03_change_log.md` に変更内容を記録する（詳細は 03_change_log.md の方針参照）
+  - **一般的な変更**: Branch/PR/Commit の情報を残す
+  - **重要な判断分岐**: コンテキスト、ユーザーへの提案、ユーザー決定、実施内容を明記
+    - 目的: 再検討時に判断基準が明確になるよう
+    - 対象: フェーズ遷移、構成変更、設計決定等
+- `11_phase_completion_report.md` に Branch/PR/Commit/マージ結果を記録する
+- ユーザーコミュニケーション（提案から決定まで）を含む場合は、`03_change_log.md` にその全流れを記録する
 
 ## コミット前チェックリスト（必須）
 
