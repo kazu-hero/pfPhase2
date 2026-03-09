@@ -118,10 +118,23 @@ Confirmed by help-level inspection:
 6. Retrieve test results in machine-readable formats
 7. Generate package-oriented agent templates from metadata
 
+Confirmed by execution-level verification:
+8. Bulk-retrieve agent-related metadata via `Agent` metadata key
+   - Command example:
+     - `sf project retrieve start --metadata Agent:UserDevSupportAgent --target-org pfPhase2Org`
+   - Retrieved types in this project/org:
+     - `Bot`
+     - `BotVersion`
+     - `GenAiPlannerBundle`
+     - `GenAiPlugin` (topic plugin files)
+   - Practical use:
+     - Useful for syncing Agent Builder-side changes and plugin/planner bundle state in one command.
+
 ## 7. Known Constraints
 1. Several commands are marked `beta` or `preview`.
 2. `sf agent preview` requires additional Connected App/OAuth preparation.
 3. Full lifecycle is often hybrid in practice (CLI + Agent Builder UI), especially for deeper configuration and tuning.
+4. `GenAiPlanner` (singular type) may not be retrievable directly in current API/registry context; use `Agent:<Agent_API_Name>` retrieval to obtain `GenAiPlannerBundle` and related artifacts.
 
 ## 8. Suggested Minimal Workflow
 1. `sf agent generate agent-spec ...`
