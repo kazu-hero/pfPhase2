@@ -1470,3 +1470,257 @@
 **備考**:
 - HTMLドキュメントは直接読み取れないため、ユーザーがPDF→HTML変換を実施
 - 次のステップでは新ブランチを作成し、テスト改善作業を開始予定
+
+---
+
+### 2026-03-09 docs配下の分離コミットとmain反映
+
+**コンテキスト**:
+- ユーザー指示: `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/agentforce-cli-reference` 配下は他アーティファクトとコミットを分けて `main` に反映する
+- 進行中の `force-app` 側変更と混在していたため、コミット分離が必要
+
+**提案**:
+- 案A: docs配下のみ先行コミットして `main` へ反映
+- 案B: 全変更を一括コミット（ユーザー要望に非適合）
+
+**ユーザー決定**:
+- 選択: 案A（docs配下のみ先行反映）
+
+**実施内容**:
+1. `git status --short` で差分を確認し、docs配下以外（`force-app`, `specs`, `test-results`）との混在を確認
+2. `git add -- userDevSupport_Agentforce_Docs/Salesforce_DevDocs/agentforce-cli-reference` で対象を限定ステージ
+3. docs単独コミットを作成
+   - Commit: `8a4557a`
+   - Message: `docs: refresh agentforce CLI reference set`
+4. `git push origin HEAD:main` で `main` へ反映
+
+**結果**:
+- `agentforce-cli-reference` 配下のみを独立して `main` へ反映完了
+- `force-app` / `specs` / `test-results` 側は未コミットのまま維持（分離状態を維持）
+
+**Branch**: main
+**PR**: -
+**Commit**: `8a4557a`
+**状態**: ✅ 完了
+
+---
+
+### 2026-03-09 Off_Topic要因の切り分け（途中記録）
+
+**コンテキスト**:
+- 最新スモークテストでTopic Passが低く、`Off_Topic` 偏りが継続
+- まずメタデータ差分から要因を絞り込む方針で調査
+
+**実施内容**:
+1. `Bot` / `BotVersion` / `GenAiPlannerBundle` / `GenAiPlugin` を読み取り、定義整合を確認
+2. `specs/UserDevSupportAgent-smoke-testSpec.yaml` と実トピック定義（5 plugin）を突合
+3. 差分確認で `v1.botVersion-meta.xml` の以下を検出
+   - `knowledgeActionEnabled: true -> false`
+   - `knowledgeFallbackEnabled: true -> false`
+4. 上記2項目はKnowledge連携を無効化し、期待応答からの乖離を招く可能性が高いと判断
+5. 暫定修正として `v1.botVersion-meta.xml` を `true/true` に戻すパッチを適用
+
+**未完了事項（次アクション）**:
+1. Bot/Planner/Pluginをorgへ再デプロイ
+2. Publish前提で反映確認
+3. 同一スモークテスト再実行（比較用）
+
+**備考**:
+- デプロイ実行はユーザー操作で中断されたため、再実行待ち
+
+**Branch**: main
+**PR**: -
+**Commit**: （未コミット）
+**状態**: 🔄 継続中
+
+---
+
+## 2026-03-09: Builder警告（Topic重複/指示競合/Data Cloud未有効）への一次対処
+
+### コンテキスト
+- Agent Builderで以下の警告を確認
+  - 1つ以上のトピックが重複
+  - 競合する指示
+  - Data Cloudが有効でない
+
+### 実施内容
+1. Data Cloud未有効環境での依存を減らすため、`v1.botVersion-meta.xml` を修正
+   - `knowledgeActionEnabled: false`
+   - `knowledgeFallbackEnabled: false`
+2. 重複警告が出ていたTopic群の境界を明文化（scopeを修正）
+   - `Custom_Object_Setup`: メタデータ設定専任、要件定義/フロー計画は対象外
+   - `Non_Code_Development_Guidance`: フロー/画面自動化専任、オブジェクト/項目/検証ルール/CRUDは対象外
+   - `Requirement_Analysis_Support`: 要件整理専任、具体的設定手順は専門トピックへ委譲
+   - `Record_Data_Management`: 既存レコードCRUD専任、メタデータ設定/要件分析は対象外
+   - `Validation_Rule_Assistance`: 検証ルール専任、オブジェクト/項目作成・CRUDは対象外
+3. orgへ再デプロイ
+   - Deploy ID: `0AfdL00000X5545SAB`
+   - 結果: `Succeeded`
+
+### 評価
+- Data Cloud未有効に起因する設定依存は緩和済み
+- Topic重複/競合警告は、Builder側の再評価（Publish後）で最終確認が必要
+
+### 次アクション
+1. Agent Builderで再度`Publish`を実行
+2. 警告メッセージの再評価結果を確認
+3. 必要なら重複指摘ペアに合わせてさらにscopeを微調整
+
+**Branch**: main
+**PR**: -
+**Commit**: （未コミット）
+**状態**: 🔄 継続中
+
+---
+
+## 2026-03-09: Agent再デプロイ後の再検証（Job: 4KBdL0000001YhBWAU）
+
+### 実施内容
+- `Bot/BotVersion/GenAiPlannerBundle/GenAiPlugin` を再デプロイ
+  - Deploy ID: `0AfdL00000X4qoESAR`
+  - 結果: `Succeeded`（Bot/BotVersionはChanged、Planner/PluginはUnchanged）
+- スモークテスト定義を最新specから再作成
+  - 注意: `test create` は `--api-name` ではなく `--test-api-name` が正
+- 再作成後にスモークテストを再実行
+  - Job ID: `4KBdL0000001YhBWAU`
+  - Result: 4件中 `Pass 1 / Fail 3`
+
+### ケース別結果（最新）
+1. `TC1_カスタムオブジェクト作成手順を教えて`
+   - `topic_assertion`: Fail（expected: `Custom_Object_Setup`, actual: `Off_Topic`）
+   - `output_validation`: Fail（score 1）
+2. `TC2_カスタム項目を追加する手順を教えて`
+   - `topic_assertion`: Pass（`Custom_Object_Setup`）
+   - `output_validation`: Pass（score 5）
+3. `TC3_Apexトリガーを書いて`
+   - `topic_assertion`: Pass（`Off_Topic`）
+   - `output_validation`: Fail（score 0）
+4. `TC4_選択リスト項目の作り方を教えて`
+   - `topic_assertion`: Fail（expected: `Custom_Object_Setup`, actual: `Off_Topic`）
+   - `output_validation`: Pass（score 5）
+
+### 評価
+- 改善点: `TC2` は再検証で完全Passに改善
+- 未解決: `TC1/TC4` はTopic判定が継続Fail、`TC3` はOff_Topic方針は通るが応答内容が期待と不一致
+
+### 次アクション案
+1. Publish状態を確認した条件で同一smokeを再実行し、反映ギャップを除外
+2. `TC1/TC4`（Topic判定）と `TC3`（応答文面）を分離して原因切り分け
+
+**Branch**: main
+**PR**: -
+**Commit**: （未コミット）
+**状態**: 🔄 継続中
+
+---
+
+## 2026-03-09: Topic境界の明確化とスモークテスト反復検証
+
+### コンテキスト
+- スモークテスト（Job: `4KBdL0000001YR3WAM`）でTopic選択精度75%失敗
+- Topic重複/競合警告がAgent Builderで表示
+- Off_Topic偏りの原因を特定し、境界定義を改善する必要
+
+### 実施内容
+
+#### 1. Topic境界定義の明確化
+5つのTopicのscopeとexclusionsを以下のように調整:
+
+**Requirement_Analysis_Support（要件整理専任）**
+- scope: ユーザーの要望を聞き取り、課題抽出、施策提案、他トピックへ委譲
+- exclusions: 具体的な設定手順、レコードCRUD、メタデータ編集は専門トピックへ
+
+**Custom_Object_Setup（メタデータ設定専任）**
+- scope: オブジェクト、項目、リレーション、レイアウト、レコードタイプの設定ガイド
+- exclusions: 要件定義、既存レコードCRUD、フロー計画、検証ルール詳細設計
+
+**Validation_Rule_Assistance（検証ルール専任）**
+- scope: 検証ルール条件式の設計、数式構文、エラーメッセージ設定
+- exclusions: オブジェクト/項目作成、レコードCRUD、フロー設計
+
+**Non_Code_Development_Guidance（フロー/自動化専任）**
+- scope: Flow Builder、承認プロセス、プロセスビルダー、ワークフロールール
+- exclusions: オブジェクト/項目設計、検証ルール、レコードCRUD
+
+**Record_Data_Management（CRUD専任）**
+- scope: 既存レコードの検索、参照、更新、削除、一括処理
+- exclusions: メタデータ設定、要件分析、フロー設計
+
+#### 2. Knowledge連携の一時無効化
+- Data Cloud未有効環境での動作安定化のため、以下を無効化
+  - `knowledgeActionEnabled: false`
+  - `knowledgeFallbackEnabled: false`
+
+#### 3. 再デプロイとテスト再実行
+- Deploy ID: `0AfdL00000X4qoESAR`（Succeeded）
+- Test Job ID: `4KBdL0000001YhBWAU`
+- 結果: 4ケース中1件Pass、3件Fail（前回と同じ）
+
+#### 4. ケース別詳細結果
+
+| ケース | Utterance | Expected Topic | Actual Topic | Topic判定 | Output判定 |
+|--------|-----------|----------------|--------------|-----------|------------|
+| TC1 | カスタムオブジェクト作成手順を教えて | Custom_Object_Setup | Off_Topic | ❌ Fail | ❌ Fail |
+| TC2 | カスタム項目を追加する手順を教えて | Custom_Object_Setup | Custom_Object_Setup | ✅ Pass | ✅ Pass |
+| TC3 | Apexトリガーを書いて | Off_Topic | Off_Topic | ✅ Pass | ❌ Fail |
+| TC4 | 選択リスト項目の作り方を教えて | Custom_Object_Setup | Off_Topic | ❌ Fail | ✅ Pass |
+
+**改善点**:
+- TC2が完全Pass（前回から改善）
+
+**未解決課題**:
+- TC1/TC4: Topic判定が`Off_Topic`になる
+  - 「カスタムオブジェクト作成」「選択リスト項目」はCustom_Object_Setupのキーワードだが認識されない
+- TC3: Topic判定は正しいが、応答内容が期待と不一致
+  - プロコード非提案方針は守られているか確認が必要
+
+### 分析と仮説
+
+**Topic選択失敗の仮説**:
+1. **キーワード不足**: Topic instructionsに「カスタムオブジェクト」「選択リスト」などの明示的キーワードが不足
+2. **Publish状態 vs Deploy状態の不一致**: Builderで未Publishの状態でテストした可能性
+3. **Planner判定ロジックの優先度**: ReAct plannerが scopeよりも別の要素を優先している
+
+**次の改善策**:
+1. Topic instructionsに明示的なルーティングヒント（キーワードリスト）を追加
+2. Agent Builderで再Publishして状態を同期
+3. --verboseフラグでGenerated Dataを確認し、Topic選択プロセスを診断
+4. instruction_followingメトリクスをテストspecに追加して定量評価
+
+### 次アクション
+- [ ] Topic instructionsにキーワードリストを追加（routing_hints）
+- [ ] Agent Builderで再Publish
+- [ ] --verbose付きでテスト再実行
+- [ ] instruction_followingメトリクスを追加
+- [ ] 結果を比較分析
+
+**Branch**: main
+**PR**: -
+**Commit**: （本エントリ後にコミット）
+**状態**: 🔄 Phase 3.1-3a スモークテスト反復検証中
+
+---
+
+### 次回変更時の記録フォーマット
+
+```markdown
+### YYYY-MM-DD [作業タイトル]
+**対象**: [変更したファイル・機能]
+
+**変更内容**:
+- 変更点1
+- 変更点2
+
+**理由**: [なぜこの変更が必要だったか]
+
+**影響範囲**: [どこに影響するか]
+
+**Branch**: [feature/...]
+**PR**: [#123 または URL]
+**Commit**: [SHA]
+
+**承認**: [承認者名/承認日]
+```
+
+## 注意
+- 形式よりも、追跡可能性と再現可能性を優先する。
