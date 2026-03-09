@@ -202,8 +202,14 @@ pfPhase2/
 - `specs/UserDevSupportAgent-smoke-testSpec.yaml` を追加（4ケースのスモークテスト）
 - `force-app/main/default/aiEvaluationDefinitions/UserDevSupportAgent_SmokeTest.aiEvaluationDefinition-meta.xml` を追加
 
+### 今回追加（Phase 3.1-3a Agent Test公式ドキュメント統合）
+- `Salesforce_DevDocs/agentforce-cli-reference/agent-test-best-practices.md` を追加（780行、実践ガイド）
+  - 4つの公式ドキュメント（Generate/Customize/Create/Run Agent Tests）から抽出
+  - Metrics機能、--verboseフラグ、Custom Evaluations等の重要機能を網羅
+  - Topic選択精度改善のためのトラブルシューティング手順を含む
+
 ### 是正結果
-- 本ファイルを最新実在構成へ更新済み（2026-03-08）
+- 本ファイルを最新実在構成へ更新済み（2026-03-08 - 2026-03-09）
 - 段階別・ブロック別の整合性判定を追加済み（Phase 2.5対応）
 
 ---
@@ -218,6 +224,7 @@ pfPhase2/
 ## 変更履歴
 | 日付 | 変更者 | 変更内容 |
 |---|---|---|
+| 2026-03-09 | AgentAI | Phase 3.1-3a Agent Test公式ドキュメント統合に伴い agent-test-best-practices.md を追加記録 |
 | 2026-03-08 | AgentAI | Phase 3.1-3a自動テストに伴い spec と aiEvaluationDefinitions を追加記録 |
 | 2026-03-08 | AgentAI | Phase 3.1-3aに伴い guides/ 配下（README, G-101, G-201）を追加記録 |
 | 2026-03-08 | AgentAI | 段階別・ブロック別整合性チェック結果を追加し、最新構成へ更新 |

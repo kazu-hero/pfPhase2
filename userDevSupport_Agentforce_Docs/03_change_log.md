@@ -1390,6 +1390,83 @@
 
 **Branch**: main
 **PR**: -
-**Commit**: （次のコミットで記録予定）
+**Commit**: 187cc23
 
 **状態**: 🔄 Phase 3.1-3a 検証継続中（自動テスト導入済み）
+
+---
+
+### 2026-03-09 Phase 3.1-3a Agent Test公式ドキュメント統合とベストプラクティスガイド作成
+
+**対象**: Agentforce Testing機能の理解強化とトラブルシューティング基盤構築
+
+**コンテキスト**:
+- 前日のスモークテスト実行で75%失敗率（Topic選択精度の課題）
+- 改善方法を模索するため、Salesforce公式ドキュメント4点を詳細分析
+- 活用できていない重要機能（Metrics、--verbose、Custom Evaluations）を発見
+
+**分析対象ドキュメント**:
+1. Generate an Agent Test Spec（PDF → HTML変換）
+2. Customize the Agent Test Spec（PDF → HTML変換）
+3. Create an Agent Test from the Spec File（HTML）
+4. Run Agent Tests（HTML）
+
+**発見した重要機能**:
+1. **Metrics機能**
+   - `instruction_following`: Topic選択精度の定量評価に直接役立つ指標
+   - `coherence`, `completeness`, `conciseness`: 応答品質評価
+   - `output_latency_milliseconds`: パフォーマンス測定
+   - 各指標はスコア/閾値（0.6）で判定される
+
+2. **--verboseフラグ**
+   - Generated Data（アクション呼び出し詳細）の表示
+   - Topic選択プロセスの可視化
+   - なぜOff_Topicになったかの診断が可能
+
+3. **Custom Evaluations**
+   - JSONPath式でアクション出力を詳細検証
+   - Knowledge Base参照の確認が可能
+   - ガイド（G-101等）への言及検証
+
+4. **テスト作成ワークフロー**
+   - `--preview`フラグでデプロイ前にメタデータ確認
+   - スキーマエラーの事前検出
+
+**実施内容**:
+4つの公式ドキュメントから実践的な情報を抽出し、以下を含む統合ガイドを作成：
+- 基本構文とスキーマ（subjectName/subjectVersion等）
+- Metricsの各指標の解説と活用方法
+- Custom Evaluationsの構築手順（JSONPath式）
+- Topic選択精度改善のためのトラブルシューティング手順
+- 現在の実装への適用ロードマップ（Phase 1-4）
+- CI/CD統合のベストプラクティス
+- チェックリスト
+
+**作成ファイル**:
+- `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/agentforce-cli-reference/agent-test-best-practices.md`（新規作成、780行）
+
+**ガイドの構成**:
+1. テストスペック生成の基本
+2. カスタマイズオプション（Metrics/Custom Evaluations/Context Variables/Conversation History）
+3. テスト作成のワークフロー
+4. テスト実行のオプション
+5. 現在の実装への適用ロードマップ
+6. トラブルシューティングガイド
+7. CI/CD統合のベストプラクティス
+8. チェックリスト
+
+**次フェーズへの活用計画**:
+- Phase 1: テストスペックにMetrics追加（`instruction_following`中心）
+- Phase 2: --verboseフラグで失敗原因の詳細診断
+- Phase 3: Topic instruction改善（キーワード明示化）
+- Phase 4: Custom Evaluationsでガイド参照検証（オプション）
+
+**Branch**: main
+**PR**: -
+**Commit**: （このログ記録後にコミット予定）
+
+**状態**: ✅ 完了（改善のための知識基盤構築完了、次は実際の改善作業へ移行）
+
+**備考**:
+- HTMLドキュメントは直接読み取れないため、ユーザーがPDF→HTML変換を実施
+- 次のステップでは新ブランチを作成し、テスト改善作業を開始予定
