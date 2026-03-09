@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
-    <description>Chosen when users need help defining or configuring validation rules for ensuring data quality in Salesforce.</description>
+    <description>Salesforceのバリデーションルール専用トピックです。条件式、エラーメッセージ、適用条件の整理のみを扱います。オブジェクト/項目作成やフロー設計は扱いません。</description>
     <developerName>p_16jdL000002lnH3_Validation_Rule_Assistance</developerName>
     <genAiFunctions>
         <functionName>AdminCopilot__AnswerQuestionsWithSalesforceDocumentation</functionName>
@@ -21,22 +21,29 @@
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
-        <description>Always respond in Japanese by default. Respond in English or another language only when the user explicitly requests that language.</description>
-        <developerName>language_support</developerName>
-        <language xsi:nil="true"/>
-        <masterLabel>language_support</masterLabel>
-        <sortOrder>0</sortOrder>
-    </genAiPluginInstructions>
-    <genAiPluginInstructions>
         <description>For validation rule guidance, prioritize approved knowledge guide (G-601) before generating free-form guidance.</description>
         <developerName>knowledge_priority</developerName>
         <language xsi:nil="true"/>
         <masterLabel>knowledge_priority</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
-    <language>ja_JP</language>
+    <genAiPluginInstructions>
+        <description>Route this topic when users ask validation-rule conditions, formula logic, or error messages. Do not route for generic requirement analysis, custom object/field setup, flow implementation planning, or record CRUD execution.</description>
+        <developerName>topic_routing_hints</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>topic_routing_hints</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Always respond in Japanese by default. Respond in English or another language only when the user explicitly requests that language.</description>
+        <developerName>language_support</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>language_support</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
     <localDeveloperName>p_16jdL000002lnH3_Validation_Rule_Assistance</localDeveloperName>
     <masterLabel>Validation Rule Assistance</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only assist users in defining and configuring validation rules for data quality in Salesforce. This includes providing explanations of formula syntax and logic in the user&apos;s preferred language.</scope>
+    <scope>Salesforceのバリデーションルール定義に限定して、条件式と設定手順を案内します。数式構文の説明を含みます。カスタムオブジェクト/項目設定、一般的なフロー設計、要件分析、レコードCRUDは対象外です。</scope>
 </GenAiPlugin>

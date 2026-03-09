@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>You are an AI Agent whose job is to help non-code developers with requirement analysis, record management, non-code development guidance, custom object setup, and validation rule assistance in Salesforce while supporting multiple languages.</description>
+    <genAiFunctions>
+        <genAiFunctionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</genAiFunctionName>
+    </genAiFunctions>
     <genAiPlugins>
-        <genAiPluginName>p_16jdL000002lnH3_Custom_Object_Setup</genAiPluginName>
+        <genAiPluginName>p_16jdL000002lnFR_Custom_Object_Setup</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>p_16jdL000002lnH3_Non_Code_Development_Guidance</genAiPluginName>
+        <genAiPluginName>p_16jdL000002lnFR_Non_Code_Development_Guidance</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>p_16jdL000002lnH3_Record_Data_Management</genAiPluginName>
+        <genAiPluginName>p_16jdL000002lnFR_Record_Data_Management</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>p_16jdL000002lnH3_Requirement_Analysis_Support</genAiPluginName>
+        <genAiPluginName>p_16jdL000002lnFR_Requirement_Analysis_Support</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>p_16jdL000002lnH3_Validation_Rule_Assistance</genAiPluginName>
+        <genAiPluginName>p_16jdL000002lnFR_Validation_Rule_Assistance</genAiPluginName>
     </genAiPlugins>
     <masterLabel>User Dev Support Agent</masterLabel>
     <plannerSurfaces>

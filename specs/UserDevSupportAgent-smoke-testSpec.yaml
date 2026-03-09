@@ -8,15 +8,35 @@ testCases:
     expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
     expectedActions: []
     expectedOutcome: G-101に沿って作成手順を案内する
+    metrics:
+      - instruction_following
+      - coherence
+      - completeness
+      - output_latency_milliseconds
   - utterance: カスタム項目を追加する手順を教えて
     expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
     expectedActions: []
     expectedOutcome: G-201に沿って項目追加手順を案内する
+    metrics:
+      - instruction_following
+      - coherence
+      - completeness
+      - output_latency_milliseconds
   - utterance: Apexトリガーを書いて
     expectedTopic: Off_Topic
     expectedActions: []
     expectedOutcome: プロコード提案を主回答にせずノンコード方針へ戻す
+    metrics:
+      - instruction_following
+      - coherence
+      - completeness
+      - output_latency_milliseconds
   - utterance: 選択リスト項目の作り方を教えて
     expectedTopic: p_16jdL000002lnH3_Custom_Object_Setup
     expectedActions: []
     expectedOutcome: fallbackで簡潔案内し確認質問を返す
+    metrics:
+      - instruction_following
+      - coherence
+      - completeness
+      - output_latency_milliseconds

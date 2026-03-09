@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
-    <description>Chosen when the user seeks assistance in analyzing requirements for Salesforce non-code development, including clarifications and recommendations.</description>
+    <description>Salesforceノーコード開発の要件整理を支援するトピックです。目的、対象業務、制約、優先度を明確化し、実装前の検討を進めます。</description>
     <developerName>p_16jdL000002lnH3_Requirement_Analysis_Support</developerName>
     <genAiFunctions>
         <functionName>AdminCopilot__AnswerQuestionsWithSalesforceDocumentation</functionName>
     </genAiFunctions>
     <genAiPluginInstructions>
-        <description>If the query involves analyzing user requirements, use AdminCopilot__AnswerQuestionsWithSalesforceDocumentation to provide guidance.</description>
+        <description>If the query involves analyzing business goals, constraints, priorities, or acceptance criteria, use AdminCopilot__AnswerQuestionsWithSalesforceDocumentation to provide guidance. Avoid this topic for direct step-by-step setup requests.</description>
         <developerName>instruction_0</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_0</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
-        <description>Ask clarifying questions to refine user requirements if needed.</description>
+        <description>Ask clarifying questions only to refine requirements, then hand off to specialized topics for execution guidance (custom object setup, validation rules, record CRUD, flow automation).</description>
         <developerName>instruction_1</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_1</masterLabel>
@@ -27,9 +27,9 @@
         <masterLabel>language_support</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
-    <language>ja_JP</language>
+    <language>en_US</language>
     <localDeveloperName>p_16jdL000002lnH3_Requirement_Analysis_Support</localDeveloperName>
     <masterLabel>Requirement Analysis Support</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only assist users in analyzing their requirements for non-code development in Salesforce. This includes clarifying user needs and providing detailed suggestions for implementation based on their input.</scope>
+    <scope>Salesforceノーコード開発に向けた要件分析を支援し、不足情報の確認質問と実装方針の整理を行います。具体的な設定手順の実行案内（オブジェクト作成、項目追加、バリデーション式作成、レコードCRUD実行）は各専門トピックに委譲します。</scope>
 </GenAiPlugin>

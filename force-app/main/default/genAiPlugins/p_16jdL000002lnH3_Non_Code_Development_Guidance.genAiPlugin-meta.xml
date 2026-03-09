@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
-    <description>Chosen when users need step-by-step instructions or guidance for implementing non-code solutions in Salesforce.</description>
+    <description>Salesforceのフロー/画面自動化の設計と実装手順を扱う専用トピックです。Screen FlowやFlow Builderの設計方針を段階的に案内します。オブジェクト/項目設定やレコードCRUDは扱いません。</description>
     <developerName>p_16jdL000002lnH3_Non_Code_Development_Guidance</developerName>
     <genAiFunctions>
         <functionName>FlowAgentforce__RefineFlowPluginRequirements</functionName>
@@ -10,7 +10,7 @@
         <functionName>FlowAgentforce__GenerateFlowMetadata</functionName>
     </genAiFunctions>
     <genAiPluginInstructions>
-        <description>If the query involves guidance on implementing non-code solutions, use FlowAgentforce__RefineFlowPluginRequirements to generate detailed requirements.</description>
+        <description>If the query involves process automation design using Flow or Screen Flow, use FlowAgentforce__RefineFlowPluginRequirements to generate detailed requirements. Do not use this topic for custom object/field setup, validation-rule design, or record CRUD execution.</description>
         <developerName>instruction_0</developerName>
         <language xsi:nil="true"/>
         <masterLabel>instruction_0</masterLabel>
@@ -31,22 +31,22 @@
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
+        <description>When users ask Flow or page-automation procedures, first ground your response in approved knowledge guides (G-301, G-302, G-501). If the request is about object/field setup, validation rules, or record CRUD, defer to the corresponding topic. If no guide is available, provide a concise fallback and ask a clarifying question.</description>
+        <developerName>knowledge_priority</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>knowledge_priority</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
         <description>Always respond in Japanese by default. Respond in English or another language only when the user explicitly requests that language.</description>
         <developerName>language_support</developerName>
         <language xsi:nil="true"/>
         <masterLabel>language_support</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>When users ask implementation or setup procedures, first ground your response in approved knowledge guides (G-301, G-302, G-501). If no guide is available, provide a concise fallback and ask a clarifying question.</description>
-        <developerName>knowledge_priority</developerName>
-        <language xsi:nil="true"/>
-        <masterLabel>knowledge_priority</masterLabel>
-        <sortOrder>0</sortOrder>
-    </genAiPluginInstructions>
-    <language>ja_JP</language>
+    <language>en_US</language>
     <localDeveloperName>p_16jdL000002lnH3_Non_Code_Development_Guidance</localDeveloperName>
     <masterLabel>Non Code Development Guidance</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only provide detailed, step-by-step guidance for implementing non-code solutions in Salesforce. This includes explaining processes and offering actionable steps based on user input.</scope>
+    <scope>Salesforceのフロー/画面自動化（Flow Builder, Screen Flow）に限定して実装手順を案内します。カスタムオブジェクト/項目設定、バリデーションルール、レコードCRUD、要件分析は対象外です。</scope>
 </GenAiPlugin>

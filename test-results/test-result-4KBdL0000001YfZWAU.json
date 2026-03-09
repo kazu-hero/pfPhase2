@@ -1,0 +1,232 @@
+{
+  "endTime": "2026-03-09T13:51:24Z",
+  "startTime": "2026-03-09T13:50:49Z",
+  "status": "COMPLETED",
+  "subjectName": "UserDevSupportAgent_SmokeTest",
+  "testCases": [
+    {
+      "endTime": "2026-03-09T13:51:23Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "カスタムオブジェクトの作成についてお手伝いできます！具体的にどのような情報が必要ですか？例えば、作成手順の概要、設定項目の詳細、またはエラー解決についてなど、教えてください。",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、リクエストに対応する際に問題が発生しました。質問をもう少し具体的にしていただけますか？または、別の方法でお試しいただけると助かります！",
+        "sessionId": "019cd2dd-6d2c-79b0-b23d-23c432998732",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "カスタムオブジェクト作成手順を教えて"
+      },
+      "startTime": "2026-03-09T13:50:49Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T13:51:24Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T13:51:24Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストに対応する際に問題が発生しました。質問をもう少し具体的にしていただけますか？または、別の方法でお試しいただけると助かります！",
+          "endTime": "2026-03-09T13:51:24Z",
+          "errorCode": 0,
+          "expectedValue": "G-101に沿って作成手順を案内する",
+          "metricExplainability": "The bot&#39;s response does not provide the requested custom object creation steps or reference G-101, instead asking for more specifics. It fails to deliver the expected outcome or collect necessary information from the CRM.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T13:51:21Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "申し訳ありませんが、カスタム項目を追加する具体的な手順については、現在の情報ではお手伝いできません。何か他にサポートが必要なことがあれば教えてください！",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、カスタム項目を追加する具体的な手順については、現在の情報ではお手伝いできません。何か他にサポートが必要なことがあれば教えてください！",
+        "sessionId": "019cd2dd-6cf9-7261-a9c4-723489e9fd12",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "カスタム項目を追加する手順を教えて"
+      },
+      "startTime": "2026-03-09T13:50:49Z",
+      "status": "COMPLETED",
+      "testNumber": 2,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T13:51:23Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T13:51:23Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、カスタム項目を追加する具体的な手順については、現在の情報ではお手伝いできません。何か他にサポートが必要なことがあれば教えてください！",
+          "endTime": "2026-03-09T13:51:23Z",
+          "errorCode": 0,
+          "expectedValue": "G-201に沿って項目追加手順を案内する",
+          "metricExplainability": "The bot&#39;s response does not provide the requested steps for adding a custom field, nor does it attempt to retrieve this information from the CRM database. It offers a generic apology and asks if further assistance is needed, which does not align with the expected response to guide the user through the process.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T13:51:05Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "どういったサポートが必要か教えていただけますか？カスタマーサポートに関するご質問があればお手伝いします！",
+        "invokedActions": "[[]]",
+        "outcome": "どういったサポートが必要か教えていただけますか？カスタマーサポートに関するご質問があればお手伝いします！",
+        "sessionId": "019cd2dd-6d06-7710-9756-655ccae67bcc",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "Apexトリガーを書いて"
+      },
+      "startTime": "2026-03-09T13:50:49Z",
+      "status": "COMPLETED",
+      "testNumber": 3,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T13:51:07Z",
+          "errorCode": 0,
+          "expectedValue": "Off_Topic",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T13:51:07Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "どういったサポートが必要か教えていただけますか？カスタマーサポートに関するご質問があればお手伝いします！",
+          "endTime": "2026-03-09T13:51:07Z",
+          "errorCode": 0,
+          "expectedValue": "プロコード提案を主回答にせずノンコード方針へ戻す",
+          "metricExplainability": "The bot&#39;s response does not address the user&#39;s request to write an Apex trigger, nor does it align with the expected response of reverting to a no-code approach. The bot instead offers general customer support, which is unrelated to the user&#39;s query.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T13:51:10Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "どのような選択リスト項目を作成したいか、もう少し詳しく教えていただけますか？Salesforceの設定や具体的な要件についてお手伝いします！",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、リクエストに対応する際に問題が発生しました。質問をもう少し具体的にしていただけると助かります！どのような選択リスト項目を作成したいのか、もう少し詳しく教えていただけますか？",
+        "sessionId": "019cd2dd-6dac-7fd4-9b8b-507b6f47ee51",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "選択リスト項目の作り方を教えて"
+      },
+      "startTime": "2026-03-09T13:50:50Z",
+      "status": "COMPLETED",
+      "testNumber": 4,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T13:51:12Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T13:51:12Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストに対応する際に問題が発生しました。質問をもう少し具体的にしていただけると助かります！どのような選択リスト項目を作成したいのか、もう少し詳しく教えていただけますか？",
+          "endTime": "2026-03-09T13:51:12Z",
+          "errorCode": 0,
+          "expectedValue": "fallbackで簡潔案内し確認質問を返す",
+          "metricExplainability": "The bot&#39;s response appropriately asks for more specific information about the user&#39;s request to create a selection list item, which aligns with the expected response of providing a concise fallback and returning a confirmation question. The response is clear, relevant, and does not contain unnecessary information.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "PASS",
+          "score": 5,
+          "startTime": "2026-03-09T13:50:52Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}

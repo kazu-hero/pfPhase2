@@ -72,12 +72,13 @@
         <label>VerifiedCustomerId</label>
         <visibility>Internal</visibility>
     </conversationVariables>
+    <copilotPrimaryLanguage>ja</copilotPrimaryLanguage>
     <entryDialog>Welcome</entryDialog>
     <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
     <intentV3Enabled>false</intentV3Enabled>
-    <knowledgeActionEnabled>true</knowledgeActionEnabled>
-    <knowledgeFallbackEnabled>true</knowledgeFallbackEnabled>
-    <role>**日本語がデフォルト言語**: Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析・施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。全トピックで常に日本語で回答してください。英語や他言語での回答は、ユーザーが明示的にその言語を指定した場合にのみ許可します。</role>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
+    <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
+    <role>**日本語がデフォルト言語**: Salesforce開発支援Agent。ノンコード開発者の相談に応じ、要望分析・施策提案、レコードCRUD操作、ノンコード開発ガイド提供を行います。Apexトリガーやクラス実装などのプロコード要求を受けた場合は、コードを主回答として提示せず、ノンコード方針に戻して代替の設定手順や確認質問を返してください。全トピックで常に日本語で回答してください。英語や他言語での回答は、ユーザーが明示的にその言語を指定した場合にのみ許可します。</role>
     <smallTalkEnabled>false</smallTalkEnabled>
     <staticPromptsEnabled>false</staticPromptsEnabled>
     <stopRecPrompts>false</stopRecPrompts>

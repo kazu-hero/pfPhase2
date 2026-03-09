@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
-    <description>Chosen when users need assistance in creating or configuring custom objects in Salesforce.</description>
+    <description>Salesforceのオブジェクトメタデータ設定を扱う専用トピックです。カスタムオブジェクト作成、カスタム項目追加、選択リスト項目、レコードタイプ、ページレイアウト設定のみを案内します。レコードCRUD、フロー設計、バリデーションルールの条件式設計は扱いません。</description>
     <developerName>p_16jdL000002lnH3_Custom_Object_Setup</developerName>
     <genAiFunctions>
         <functionName>schema_ai__IdentifyObjectByName</functionName>
@@ -24,6 +24,13 @@
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
+        <description>For object/field setup guidance, prioritize approved knowledge guides (G-101, G-201, G-202, G-203, G-401, G-402) before generating free-form guidance.</description>
+        <developerName>knowledge_priority</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>knowledge_priority</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
         <description>Always respond in Japanese by default. Respond in English or another language only when the user explicitly requests that language.</description>
         <developerName>language_support</developerName>
         <language xsi:nil="true"/>
@@ -31,15 +38,22 @@
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
-        <description>For object/field setup guidance, prioritize approved knowledge guides (G-101, G-201, G-202, G-203, G-401, G-402) before generating free-form guidance.</description>
-        <developerName>knowledge_priority</developerName>
+        <description>Route this topic only for object metadata setup requests: カスタムオブジェクト, カスタム項目, 項目追加, 選択リスト項目, レコードタイプ, ページレイアウト.</description>
+        <developerName>topic_routing_hints</developerName>
         <language xsi:nil="true"/>
-        <masterLabel>knowledge_priority</masterLabel>
+        <masterLabel>topic_routing_hints</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
-    <language>ja_JP</language>
+    <genAiPluginInstructions>
+        <description>Do not use this topic for record CRUD execution, flow automation design, requirement analysis, or validation-rule formula design; defer those requests to their specialized topics.</description>
+        <developerName>topic_exclusions</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>topic_exclusions</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
     <localDeveloperName>p_16jdL000002lnH3_Custom_Object_Setup</localDeveloperName>
     <masterLabel>Custom Object Setup</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only support the creation and configuration of custom objects in Salesforce. This includes clarifying technical terms and field definitions based on user input.</scope>
+    <scope>Salesforceのオブジェクトメタデータ設定（オブジェクト、項目、選択リスト、レコードタイプ、レイアウト）に限定して手順を案内します。バリデーションルール、フロー自動化、要件分析、レコードCRUDは対象外です。</scope>
 </GenAiPlugin>

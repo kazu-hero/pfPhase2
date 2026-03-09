@@ -1,0 +1,232 @@
+{
+  "endTime": "2026-03-09T11:16:11Z",
+  "startTime": "2026-03-09T11:15:46Z",
+  "status": "COMPLETED",
+  "subjectName": "UserDevSupportAgent_SmokeTest",
+  "testCases": [
+    {
+      "endTime": "2026-03-09T11:16:09Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "Salesforceでカスタムオブジェクトを作成する手順は以下の通りです：\n\n1. **設定にアクセス**:\n   - Salesforceの右上にある「設定」アイコン（歯車マーク）をクリックし、「設定」を選択します。\n\n2. **オブジェクトマネージャーに移動**:\n   - 設定画面の上部にある「オブジェクトマネージャー」タブをクリックします。\n\n3. **新しいカスタムオブジェクトを作成**:\n   - 「オブジェクトマネージャー」画面の右上にある「作成」ボタンをクリックし、「カスタムオブジェクト」を選択します。\n\n4. **オブジェクトの詳細を入力**:\n   - 以下の情報を入力します：\n     - **ラベル**: オブジェクトの名前（例: 「プロジェクト」）。\n     - **オブジェクト名**: APIで使用される名前（例: 「Project」）。\n     - **説明**: オブジェクトの目的や内容を簡単に記載。\n     - **レコード名**: レコードを識別するためのフィールド名（例: 「プロジェクト名」）。\n     - **データ型**: テキストまたは自動採番を選択。\n\n5. **オプションを設定**:\n   - 必要に応じて以下のオプションを選択します：\n     - レポートやダッシュボードで使用可能にする。\n     - 活動を追跡可能にする。\n     - Chatterフィードを有効にする。\n\n6. **権限を設定**:\n   - プロファイルごとにオブジェクトのアクセス権限を設定します（例: 読み取り、作成、編集、削除）。\n\n7. **保存**:\n   - 入力内容を確認し、「保存」をクリックします。\n\n8. **カスタムフィールドの追加**:\n   - 必要に応じて、オブジェクトにカスタムフィールドを追加してデータを管理します。\n\nこれでカスタムオブジェクトが作成されます！",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、リクエストを処理する際に問題が発生しました。もう一度具体的な内容を教えていただけますか？または、どのような情報が必要か詳しく教えてください。",
+        "sessionId": "019cd24f-8b5a-7765-9cd8-1a1619055c5c",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "カスタムオブジェクト作成手順を教えて"
+      },
+      "startTime": "2026-03-09T11:15:46Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T11:16:10Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T11:16:10Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストを処理する際に問題が発生しました。もう一度具体的な内容を教えていただけますか？または、どのような情報が必要か詳しく教えてください。",
+          "endTime": "2026-03-09T11:16:10Z",
+          "errorCode": 0,
+          "expectedValue": "G-101に沿って作成手順を案内する",
+          "metricExplainability": "The bot&#39;s response is a generic error message asking for more details, which does not provide the specific guidance requested in the query. The expected response is to provide steps following G-101, but the bot does not do so. The bot also does not attempt to retrieve existing information from the CRM database, which is not applicable here. The response is ambiguous and lacks key elements, making it poorly aligned with the expected outcome.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 2,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T11:16:08Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "Salesforceでカスタム項目を追加する手順は以下の通りです：\n\n1. **オブジェクトマネージャーにアクセス**:\n   - Salesforceの設定画面に移動し、[オブジェクトマネージャー]をクリックします。\n\n2. **対象のオブジェクトを選択**:\n   - カスタム項目を追加したいオブジェクト（標準オブジェクトまたはカスタムオブジェクト）を検索して選択します。\n\n3. **項目とリレーションを選択**:\n   - 左側のメニューから[項目とリレーション]をクリックします。\n\n4. **新しい項目を作成**:\n   - [新規項目]ボタンをクリックします。\n\n5. **項目タイプを選択**:\n   - 作成したい項目のタイプ（例: テキスト、数値、選択リストなど）を選択し、[次へ]をクリックします。\n\n6. **項目の詳細を設定**:\n   - 項目ラベル、項目名、長さ、デフォルト値などの詳細を入力します。\n   - 必要に応じて、項目の必須設定や一意性の設定を行います。\n\n7. **アクセス権を設定**:\n   - 項目レベルセキュリティを設定し、どのプロファイルがこの項目を表示または編集できるかを指定します。\n\n8. **ページレイアウトに追加**:\n   - 項目をページレイアウトに追加するかどうかを選択します。\n\n9. **保存**:\n   - 設定が完了したら、[保存]をクリックしてカスタム項目を作成します。\n\nこれでカスタム項目が作成され、使用可能になります！",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、リクエストの処理中に問題が発生しました。もう一度具体的に教えていただけますか？どのようなカスタム項目を追加したいのか、またはどのシステムやツールを使用しているのか教えていただけると助かります！",
+        "sessionId": "019cd24f-8c8d-7d05-9cbb-5ab9b57e22fa",
+        "topic": "p_16jdL000002lnH3_Record_Data_Management"
+      },
+      "inputs": {
+        "utterance": "カスタム項目を追加する手順を教えて"
+      },
+      "startTime": "2026-03-09T11:15:46Z",
+      "status": "COMPLETED",
+      "testNumber": 2,
+      "testResults": [
+        {
+          "actualValue": "p_16jdL000002lnH3_Record_Data_Management",
+          "endTime": "2026-03-09T11:16:09Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T11:15:54Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T11:16:09Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T11:15:54Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストの処理中に問題が発生しました。もう一度具体的に教えていただけますか？どのようなカスタム項目を追加したいのか、またはどのシステムやツールを使用しているのか教えていただけると助かります！",
+          "endTime": "2026-03-09T11:16:09Z",
+          "errorCode": 0,
+          "expectedValue": "G-201に沿って項目追加手順を案内する",
+          "metricExplainability": "The bot&#39;s response asks for more details about the custom item and the system/tool being used, which aligns with the need to collect information not present in the CRM database to provide the correct procedure. The expected response references a specific procedure (G-201), implying that the bot should either retrieve this from the CRM or ask for clarification. The bot&#39;s request for clarification is appropriate here, as it cannot assume the user&#39;s context. The response is clear, precise, and relevant, with no unnecessary information.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "PASS",
+          "score": 5,
+          "startTime": "2026-03-09T11:15:54Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T11:16:02Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "どういったサポートが必要か教えていただけますか？カスタマーサポートや関連する質問についてお手伝いします！",
+        "invokedActions": "[[]]",
+        "outcome": "どういったサポートが必要か教えていただけますか？カスタマーサポートや関連する質問についてお手伝いします！",
+        "sessionId": "019cd24f-8a48-715f-a9fd-bb0938419440",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "Apexトリガーを書いて"
+      },
+      "startTime": "2026-03-09T11:15:46Z",
+      "status": "COMPLETED",
+      "testNumber": 3,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T11:16:04Z",
+          "errorCode": 0,
+          "expectedValue": "Off_Topic",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T11:16:04Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "どういったサポートが必要か教えていただけますか？カスタマーサポートや関連する質問についてお手伝いします！",
+          "endTime": "2026-03-09T11:16:04Z",
+          "errorCode": 0,
+          "expectedValue": "プロコード提案を主回答にせずノンコード方針へ戻す",
+          "metricExplainability": "The bot&#39;s response is a generic offer to assist with customer support, which does not address the user&#39;s request to write an Apex trigger or align with the expected response of reverting to a no-code approach. The bot fails to provide relevant information or collect necessary details, resulting in no alignment with the expected outcome.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    {
+      "endTime": "2026-03-09T11:16:10Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "generatedResponse": "Salesforceで選択リスト項目を作成する手順を以下に説明します。\n\n---\n\n### **選択リスト項目の作成手順**\n\n1. **オブジェクトマネージャーにアクセス**\n   - Salesforceにログインします。\n   - 右上の「設定（⚙️）」アイコンをクリックし、「設定」を選択します。\n   - 左側のメニューから「オブジェクトマネージャー」をクリックします。\n\n2. **対象オブジェクトを選択**\n   - 選択リスト項目を追加したいオブジェクト（例: Account, Contact, Custom Objectなど）を検索してクリックします。\n\n3. **項目とリレーションの設定**\n   - オブジェクトの詳細ページで「項目とリレーション」をクリックします。\n   - 右上の「新規カスタム項目」をクリックします。\n\n4. **選択リストを選択**\n   - 「データ型を選択」の画面で「選択リスト」を選択し、「次へ」をクリックします。\n\n5. **選択リストの設定**\n   - **選択リストの種類を選択**:\n     - **値を直接入力**: 手動で選択肢を入力します。\n     - **選択リスト値セットを使用**: 既存のグローバル値セットを使用します。\n   - **値を入力**:\n     - 「選択リスト値」フィールドに選択肢を1行ずつ入力します。\n     - 必要に応じて「デフォルト値」を設定します。\n\n6. **項目の詳細を設定**\n   - 項目のラベルやAPI名を入力します。\n   - 必要に応じて「説明」や「ヘルプテキスト」を追加します。\n\n7. **アクセス権限を設定**\n   - 項目レベルセキュリティ（Field Level Security）を設定します。\n   - この項目を表示または非表示にするプロファイルを選択します。\n\n8. **ページレイアウトに追加**\n   - 項目をどのページレイアウトに追加するかを選択します。\n\n9. **保存**\n   - 最後に「保存」をクリックして完了です。\n\n---\n\n### **補足**\n- **グローバル値セット**を使用すると、複数のオブジェクトで同じ選択リスト値を共有できます。\n- 選択リスト値を後から変更する場合は、オブジェクトマネージャーから該当項目を編集してください。\n\n何か他に質問があれば教えてください！ 😊",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、リクエストの処理中に問題が発生しました。もう一度具体的に質問内容を教えていただけますか？",
+        "sessionId": "019cd24f-8b82-78ed-9b8b-93604718d048",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "選択リスト項目の作り方を教えて"
+      },
+      "startTime": "2026-03-09T11:15:46Z",
+      "status": "COMPLETED",
+      "testNumber": 4,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-09T11:16:11Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002lnH3_Custom_Object_Setup",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-09T11:16:11Z",
+          "errorCode": 0,
+          "expectedValue": "[]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "PASS",
+          "score": 1,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストの処理中に問題が発生しました。もう一度具体的に質問内容を教えていただけますか？",
+          "endTime": "2026-03-09T11:16:11Z",
+          "errorCode": 0,
+          "expectedValue": "fallbackで簡潔案内し確認質問を返す",
+          "metricExplainability": "The bot&#39;s response is a generic error message asking for clarification, which aligns with the expected response of providing a fallback and asking a confirmation question. It does not provide any irrelevant information and is clear in its request for more details.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "PASS",
+          "score": 5,
+          "startTime": "2026-03-09T11:15:53Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}

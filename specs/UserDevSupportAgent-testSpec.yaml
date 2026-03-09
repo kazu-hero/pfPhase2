@@ -1,0 +1,67 @@
+name: UserDevSupportAgent Smoke Test
+description: Post-Boundary Refinement テスト（5トピック各1ケース）
+subjectType: AGENT
+subjectName: UserDevSupportAgent
+testCases:
+  - utterance: カスタムオブジェクト作成の要件分析をしたいです
+    expectedTopic: p_16jdL000002lnFR_Requirement_Analysis_Support_16jdL000002lnH3
+    expectedActions:
+      - AdminCopilot__AnswerQuestionsWithSalesforceDocumentation
+    expectedOutcome: ユーザーの要件を整理し、実装方針を明確化して各専門トピックへ委譲する
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - coherence
+      - completeness
+      - instruction_following
+
+  - utterance: カスタムオブジェクトと項目を作成したいです
+    expectedTopic: p_16jdL000002lnFR_Custom_Object_Setup_16jdL000002lnH3
+    expectedActions:
+      - schema_ai__IdentifyObjectByName
+      - schema_ai__IdentifyFieldByName
+    expectedOutcome: オブジェクト/項目作成の手順を案内する
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - coherence
+      - completeness
+      - instruction_following
+
+  - utterance: バリデーションルールの条件式を設計したいです
+    expectedTopic: p_16jdL000002lnFR_Validation_Rule_Assistance_16jdL000002lnH3
+    expectedActions:
+      - AdminCopilot__AnswerQuestionsWithSalesforceDocumentation
+    expectedOutcome: バリデーションルール条件式の設計方法を案内する
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - coherence
+      - completeness
+      - instruction_following
+
+  - utterance: Flow Builderで自動化プロセスを構築したいです
+    expectedTopic: p_16jdL000002lnFR_Non_Code_Development_Guidance_16jdL000002lnH3
+    expectedActions:
+      - FlowAgentforce__RefineFlowPluginRequirements
+      - FlowAgentforce__GenerateFlowMetadata
+    expectedOutcome: Flow/Screen自動化実装の手順を案内する
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - coherence
+      - completeness
+      - instruction_following
+
+  - utterance: 既存レコードの検索と更新をしたいです
+    expectedTopic: p_16jdL000002lnFR_Record_Data_Management_16jdL000002lnH3
+    expectedActions:
+      - EmployeeCopilot__QueryRecords
+      - EmployeeCopilot__UpdateRecordFields
+    expectedOutcome: レコード CRUD 操作の実行支援を提供する
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - coherence
+      - completeness
+      - instruction_following

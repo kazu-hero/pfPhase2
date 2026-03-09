@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
-    <description>Chosen when users request CRUD operations on Salesforce records or need confirmation of those actions.</description>
+    <description>Salesforceの既存オブジェクト上のレコードCRUD実行を扱う専用トピックです。検索・作成・更新・削除の実行支援のみを行い、メタデータ設定やフロー設計は扱いません。</description>
     <developerName>p_16jdL000002lnH3_Record_Data_Management</developerName>
     <genAiFunctions>
         <functionName>EmployeeCopilot__QueryRecords</functionName>
@@ -34,15 +34,22 @@
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
+        <description>Route this topic only when the user asks to search, create, update, or delete existing records. Do not route when the user asks metadata setup procedures such as custom object/field creation, validation rules, or flow design.</description>
+        <developerName>topic_routing_hints</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>topic_routing_hints</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
         <description>Always respond in Japanese by default. Respond in English or another language only when the user explicitly requests that language.</description>
         <developerName>language_support</developerName>
         <language xsi:nil="true"/>
         <masterLabel>language_support</masterLabel>
         <sortOrder>0</sortOrder>
     </genAiPluginInstructions>
-    <language>ja_JP</language>
+    <language>en_US</language>
     <localDeveloperName>p_16jdL000002lnH3_Record_Data_Management</localDeveloperName>
     <masterLabel>Record Data Management</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is to only perform CRUD operations on Salesforce records as requested by the user and provide confirmations in their preferred language. You cannot perform operations outside the scope of record data management.</scope>
+    <scope>Salesforceの既存オブジェクトに対するレコードCRUD（検索・作成・更新・削除）実行に限定して案内します。オブジェクト/項目設定、バリデーションルール、フロー自動化設計、要件分析は対象外です。</scope>
 </GenAiPlugin>
