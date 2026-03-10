@@ -10,10 +10,10 @@
 
 ## 出力構造
 
-各 Org エイリアスに対して、以下の構造でファイルが生成されます：
+各 Org エイリアスに対して、以下の構造でファイルが生成されます（前提：org-schema/を起点とした相対パス）:
 
-- `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/org-schema/<OrgAlias>/latest/`
-- `userDevSupport_Agentforce_Docs/Salesforce_DevDocs/org-schema/<OrgAlias>/history/<yyyyMMdd-HHmmss>/`
+- `<OrgAlias>/latest/`
+- `<OrgAlias>/history/<yyyyMMdd-HHmmss>/`
 
 生成されるファイル：
 
@@ -22,6 +22,8 @@
 - `custom-field-summary.csv`: `describe` から取得したカスタムオブジェクトの項目サマリー
 - `describes/custom/<ObjectApiName>.json`: 完全なオブジェクト describe ペイロード
 - `manifest.json`: 生成メタデータとファイルリスト
+
+## 実行方法
 
 ## 実行方法
 
