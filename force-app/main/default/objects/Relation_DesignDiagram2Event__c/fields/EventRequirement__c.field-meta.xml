@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>EventRequirement__c</fullName>
-    <externalId>false</externalId>
     <label>イベント定義</label>
     <referenceTo>EventRequirements__c</referenceTo>
     <relationshipLabel>Relation_DesignDiagram2Event</relationshipLabel>

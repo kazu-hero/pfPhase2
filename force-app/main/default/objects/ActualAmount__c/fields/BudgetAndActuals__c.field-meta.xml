@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>BudgetAndActuals__c</fullName>
-    <externalId>false</externalId>
     <label>予算と実績</label>
     <referenceTo>BudgetAndActuals__c</referenceTo>
     <relationshipLabel>実績</relationshipLabel>

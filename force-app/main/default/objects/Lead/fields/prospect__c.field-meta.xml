@@ -3,7 +3,6 @@
     <fullName>prospect__c</fullName>
     <defaultValue>false</defaultValue>
     <description>見込み顧客にとして商談を開始するbool値</description>
-    <externalId>false</externalId>
     <label>見込み顧客</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

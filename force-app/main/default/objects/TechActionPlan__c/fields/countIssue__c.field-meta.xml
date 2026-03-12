@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>countIssue__c</fullName>
     <description>関連する課題数を取ることで影響を数値化しています</description>
-    <externalId>false</externalId>
     <label>関連課題数</label>
     <summaryForeignKey>Relation_Issue2Plan__c.TechActionPlan__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

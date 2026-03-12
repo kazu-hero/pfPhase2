@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>externalID__c</fullName>
     <defaultValue>false</defaultValue>
-    <externalId>false</externalId>
     <label>外部IDとしての利用</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
