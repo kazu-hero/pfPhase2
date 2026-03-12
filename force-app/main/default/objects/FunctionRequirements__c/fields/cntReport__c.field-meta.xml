@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>cntReport__c</fullName>
+    <externalId>false</externalId>
     <label>レポート定義</label>
     <summaryForeignKey>Relation_Requirements2ReportReq__c.FunctionRequirement__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

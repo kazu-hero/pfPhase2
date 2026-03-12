@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>FunctionRequirements__c</fullName>
+    <externalId>false</externalId>
     <label>機能要件</label>
     <referenceTo>FunctionRequirements__c</referenceTo>
     <relationshipLabel>Relation_Plan2Requirements</relationshipLabel>

@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>countSupport__c</fullName>
     <description>ユーザサポートレコード数をカウントすることで、要望度を可視化しています</description>
+    <externalId>false</externalId>
     <label>サポート数</label>
     <summaryForeignKey>Relation_Support2Issue__c.Issue__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

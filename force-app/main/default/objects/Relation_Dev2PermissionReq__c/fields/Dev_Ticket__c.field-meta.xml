@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Dev_Ticket__c</fullName>
+    <externalId>false</externalId>
     <label>開発チケット</label>
     <referenceTo>Dev_Ticket__c</referenceTo>
     <relationshipLabel>Relation_Dev2PermissionReq</relationshipLabel>

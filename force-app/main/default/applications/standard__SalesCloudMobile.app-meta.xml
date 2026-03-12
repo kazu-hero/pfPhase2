@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Small</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Sales Cloud Mobile</label>
+    <navType>Standard</navType>
+    <tabs>standard-MobileHome</tabs>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
+    <tabs>Dev_Ticket__c</tabs>
+    <tabs>Dev_Service__c</tabs>
+    <tabs>Tag__c</tabs>
+    <tabs>Issue__c</tabs>
+    <tabs>FunctionRequirements__c</tabs>
+    <tabs>TechActionPlan__c</tabs>
+    <tabs>Testcase__c</tabs>
+    <tabs>DesignDiagram__c</tabs>
+    <tabs>ObjectRequirement__c</tabs>
+    <tabs>ReportRequirement__c</tabs>
+    <tabs>PermissionRequirement__c</tabs>
+    <tabs>EventRequirements__c</tabs>
+    <tabs>OperationFlow__c</tabs>
+    <tabs>TestSuite__c</tabs>
+    <tabs>ActualAmount__c</tabs>
+    <tabs>Budget__c</tabs>
+    <tabs>BudgetAndActuals__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

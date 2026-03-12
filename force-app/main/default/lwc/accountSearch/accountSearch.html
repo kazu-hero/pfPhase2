@@ -1,0 +1,80 @@
+<!--
+  @description 取引先検索コンポーネントのUI定義
+-->
+<template>
+    <!-- カードコンポーネントを使用し、タイトルとアイコンを設定する -->
+    <lightning-card title="取引先検索" icon-name="standard:account">
+        
+        <!-- コンテンツ周りにパディング（余白）を設ける -->
+        <div class="slds-p-around_medium">
+            
+            <!-- グリッドレイアウトを開始する -->
+            <div class="slds-grid slds-gutters slds-align-bottom">
+                
+                <!-- 名前入力欄のカラム (幅の半分を使用) -->
+                <div class="slds-col slds-size_5-of-12">
+                    <!-- テキスト入力コンポーネント -->
+                    <lightning-input
+                        type="text"
+                        label="取引先名"
+                        value={searchName}
+                        onchange={handleNameChange}
+                        placeholder="部分一致で検索...">
+                    </lightning-input>
+                </div>
+
+                <!-- 業種選択リストのカラム (幅の半分を使用) -->
+                <div class="slds-col slds-size_5-of-12">
+                    <!-- 選択リストコンポーネント -->
+                    <lightning-combobox
+                        label="業種"
+                        value={searchIndustry}
+                        options={industryOptions}
+                        onchange={handleIndustryChange}
+                        placeholder="業種を選択...">
+                    </lightning-combobox>
+                </div>
+
+                <!-- 検索ボタンのカラム -->
+                <div class="slds-col slds-size_2-of-12 slds-align-bottom">
+                    <!-- ボタンコンポーネント -->
+                    <lightning-button
+                        label="検索"
+                        variant="brand"
+                        onclick={handleSearch}>
+                    </lightning-button>
+                </div>
+            </div>
+
+            <!-- エラーが発生した場合にエラーパネルを表示する -->
+            <!-- if:true ではなく lwc:if を使用する -->
+            <template lwc:if={error}>
+                <div class="slds-text-color_error slds-m-top_medium">
+                    {error}
+                </div>
+            </template>
+
+            <!-- 検索結果が存在する場合にデータテーブルを表示する -->
+            <template lwc:if={accounts}>
+                <!-- 上部にマージンを追加する -->
+                <div class="slds-m-top_medium">
+                    <!-- データテーブルコンポーネント -->
+                    <lightning-datatable
+                        key-field="Id"
+                        data={accounts}
+                        columns={columns}
+                        hide-checkbox-column="true">
+                    </lightning-datatable>
+                </div>
+            </template>
+
+            <!-- 検索結果が0件の場合のメッセージ -->
+            <template lwc:if={isEmpty}>
+                 <div class="slds-m-top_medium slds-text-color_weak">
+                    該当する取引先は見つかりませんでした。
+                 </div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

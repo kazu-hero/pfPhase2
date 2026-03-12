@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>OperationFlow__c</fullName>
+    <externalId>false</externalId>
     <label>運用手順</label>
     <referenceTo>OperationFlow__c</referenceTo>
     <relationshipLabel>Relation_OperationFlow2Tag</relationshipLabel>

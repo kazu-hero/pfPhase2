@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>body__c</fullName>
+    <externalId>false</externalId>
     <inlineHelpText>リンク・画像の貼り付けも可能です</inlineHelpText>
     <label>ご要望・ご質問の内容</label>
     <length>32768</length>

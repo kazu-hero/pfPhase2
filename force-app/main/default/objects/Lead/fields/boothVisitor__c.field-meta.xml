@@ -3,6 +3,7 @@
     <fullName>boothVisitor__c</fullName>
     <defaultValue>false</defaultValue>
     <description>ブース来場の場合、webToLeadにこの値をtrueとするように仕込む</description>
+    <externalId>false</externalId>
     <label>ブース来場</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
