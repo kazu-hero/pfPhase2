@@ -1,0 +1,62 @@
+{
+  "endTime": "2026-03-14T11:41:10Z",
+  "startTime": "2026-03-14T11:40:54Z",
+  "status": "COMPLETED",
+  "subjectName": "Progress_Reporter_DevService_Test",
+  "testCases": [
+    {
+      "endTime": "2026-03-14T11:41:08Z",
+      "generatedData": {
+        "actionsSequence": "[&#39;QueryRecordsWithAggregate&#39;]",
+        "invokedActions": "[[{&quot;function&quot;:{&quot;name&quot;:&quot;QueryRecordsWithAggregate_179dL000003nhJp&quot;}}]]",
+        "outcome": "申し訳ありませんが、リクエストされたDevServiceレコードID「a01dL00001eDijdQAC」の進捗情報を取得する際に問題が発生しました。現在、必要なデータにアクセスする権限がないため、情報を提供することができません。この問題を解決するには、Salesforce管理者にお問い合わせいただき、適切なアクセス権限があるか確認してください。",
+        "topic": "p_Completion_Status_Tracking"
+      },
+      "inputs": {
+        "utterance": "DevServiceレコードID a01dL00001eDijdQAC の5層進捗を要約してください。"
+      },
+      "startTime": "2026-03-14T11:40:54Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "p_Completion_Status_Tracking",
+          "endTime": "2026-03-14T11:41:10Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002nKnd_Dev_Service_Layer_Summary",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:41:00Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "['QueryRecordsWithAggregate']",
+          "endTime": "2026-03-14T11:41:10Z",
+          "errorCode": 0,
+          "expectedValue": "[\"EmployeeCopilot__SummarizeRecord\"]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:41:00Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストされたDevServiceレコードID「a01dL00001eDijdQAC」の進捗情報を取得する際に問題が発生しました。現在、必要なデータにアクセスする権限がないため、情報を提供することができません。この問題を解決するには、Salesforce管理者にお問い合わせいただき、適切なアクセス権限があるか確認してください。",
+          "endTime": "2026-03-14T11:41:10Z",
+          "errorCode": 0,
+          "expectedValue": "指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する",
+          "metricExplainability": "The bot&#39;s response indicates a lack of access permissions to retrieve the requested data, which is a legitimate issue. However, the expected response is to collect and summarize the 5-layer progress for the specified DevService record ID. The bot should have attempted to retrieve the data from the CRM database or provided a summary if available. Instead, it only informs the user about the access issue without attempting to resolve or provide the requested information. This does not align with the expected outcome of summarizing the progress.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 2,
+          "startTime": "2026-03-14T11:41:00Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "endTime": "2026-03-14T11:37:03Z",
+  "startTime": "2026-03-14T11:36:49Z",
+  "status": "COMPLETED",
+  "subjectName": "Progress_Reporter_DevService_Test",
+  "testCases": [
+    {
+      "endTime": "2026-03-14T11:37:02Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "invokedActions": "[[]]",
+        "outcome": "申し訳ありませんが、進捗やステータスに関する情報はこのトピックでは提供できません。別の方法でサポートが必要な場合はお知らせください。",
+        "topic": "p_Next_Action"
+      },
+      "inputs": {
+        "utterance": "進捗を教えて。DevServiceレコードIDは a01dL00001eDijdQAC です。"
+      },
+      "startTime": "2026-03-14T11:36:49Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "p_Next_Action",
+          "endTime": "2026-03-14T11:37:03Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002nKnd_Dev_Service_Layer_Summary",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:36:50Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-14T11:37:03Z",
+          "errorCode": 0,
+          "expectedValue": "[\"EmployeeCopilot__SummarizeRecord\"]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:36:50Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、進捗やステータスに関する情報はこのトピックでは提供できません。別の方法でサポートが必要な場合はお知らせください。",
+          "endTime": "2026-03-14T11:37:03Z",
+          "errorCode": 0,
+          "expectedValue": "指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する",
+          "metricExplainability": "The bot&#39;s response refuses to provide progress information, which directly contradicts the expected response that requires collecting and summarizing the 5-layer progress for the specified DevService record ID. The bot neither attempts to retrieve the information from the CRM database nor prompts the user for additional details, resulting in a complete failure to address the user&#39;s request.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:36:50Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}

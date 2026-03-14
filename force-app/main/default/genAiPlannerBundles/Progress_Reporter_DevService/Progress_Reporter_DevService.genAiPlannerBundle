@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>You are an AI Agent whose job is to help summarize the progress of Dev Service records, track completion statuses, and recommend next actions within the pfPhase2 Salesforce development workspace.</description>
+    <localTopicLinks>
+        <genAiPluginName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</genAiPluginName>
+    </localTopicLinks>
+    <localTopics>
+        <fullName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Choose this topic when the user asks for progress (for example, &quot;進捗を教えて&quot;), status summary, or an overview of a Dev Service record.</description>
+        <developerName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</developerName>
+        <genAiPluginInstructions>
+            <description>For progress or summary requests, prioritize this topic and summarize the Dev Service record using the available record identifier in the user request.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Explain the five-layer structure, counts, and completion status clearly, and avoid redirecting to recommendation-only flows unless the user explicitly asks for next actions.</description>
+            <developerName>instruction_1</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_1</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>SummarizeRecord_179dL000003nhJq</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>SummarizeRecord_179dL000003nhJq</fullName>
+            <description>Summarizes a single Salesforce CRM record. You must call summarizeRecord only if the user explicitly asks for a summary (e.g: &apos;Summary&apos;, &apos;Recap&apos;, &apos;Highlights&apos;). This action should be called only when there isn&apos;t a more specific summarization action.</description>
+            <developerName>SummarizeRecord_179dL000003nhJq</developerName>
+            <invocationTarget>getRecordSummarizationPrompt</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>SummarizeRecord</localDeveloperName>
+            <masterLabel>Summarize Record</masterLabel>
+            <progressIndicatorMessage>Summarizing</progressIndicatorMessage>
+            <source>EmployeeCopilot__SummarizeRecord</source>
+        </localActions>
+        <localDeveloperName>p_16jdL000002nKnd_Dev_Service_Layer_Summary</localDeveloperName>
+        <masterLabel>Dev Service Layer Summary</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to provide a progress summary for a Dev Service record, including five-layer status and counts. This topic should be selected for generic progress inquiries before recommendation-focused topics.</scope>
+    </localTopics>
+    <masterLabel>Progress Reporter for Dev Service</masterLabel>
+    <plannerSurfaces>
+        <adaptiveResponseAllowed>true</adaptiveResponseAllowed>
+        <callRecordingAllowed>false</callRecordingAllowed>
+        <surface>SurfaceAction__Messaging</surface>
+        <surfaceType>Messaging</surfaceType>
+    </plannerSurfaces>
+    <plannerSurfaces>
+        <adaptiveResponseAllowed>true</adaptiveResponseAllowed>
+        <callRecordingAllowed>false</callRecordingAllowed>
+        <surface>SurfaceAction__CustomerWebClient</surface>
+        <surfaceType>CustomerWebClient</surfaceType>
+    </plannerSurfaces>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlannerBundle>

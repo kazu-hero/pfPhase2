@@ -1,0 +1,17 @@
+name: Progress Reporter DevService Tests
+description: Basic agent test for Progress_Reporter_DevService.
+subjectType: AGENT
+subjectName: Progress_Reporter_DevService
+testCases:
+  - utterance: "DevServiceレコードID a01dL00001eDijdQAC の5層進捗を要約してください。"
+    expectedTopic: p_16jdL000002nKnd_Dev_Service_Layer_Summary
+    expectedActions:
+      - EmployeeCopilot__SummarizeRecord
+    expectedOutcome: "指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する"
+    customEvaluations: []
+    conversationHistory: []
+    metrics:
+      - completeness
+      - coherence
+      - conciseness
+      - instruction_following

@@ -1,0 +1,62 @@
+{
+  "endTime": "2026-03-14T11:43:18Z",
+  "startTime": "2026-03-14T11:42:57Z",
+  "status": "COMPLETED",
+  "subjectName": "Progress_Reporter_DevService_Test",
+  "testCases": [
+    {
+      "endTime": "2026-03-14T11:43:16Z",
+      "generatedData": {
+        "actionsSequence": "[]",
+        "invokedActions": "[[]]",
+        "outcome": "I&#39;m sorry, but I cannot access or summarize specific DevService records or their progress. If you have any other questions or need assistance, feel free to ask!",
+        "topic": "Off_Topic"
+      },
+      "inputs": {
+        "utterance": "DevServiceレコードID a01dL00001eDijdQAC の5層進捗を要約してください。"
+      },
+      "startTime": "2026-03-14T11:42:57Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "Off_Topic",
+          "endTime": "2026-03-14T11:43:18Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002nKnd_Dev_Service_Layer_Summary",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:43:04Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "[]",
+          "endTime": "2026-03-14T11:43:18Z",
+          "errorCode": 0,
+          "expectedValue": "[\"EmployeeCopilot__SummarizeRecord\"]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:43:04Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "I'm sorry, but I cannot access or summarize specific DevService records or their progress. If you have any other questions or need assistance, feel free to ask!",
+          "endTime": "2026-03-14T11:43:18Z",
+          "errorCode": 0,
+          "expectedValue": "指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する",
+          "metricExplainability": "The bot&#39;s response refuses to access or summarize the DevService record, which directly contradicts the expected response that requires collecting and summarizing the 5-layer progress of the specified record. This is a clear failure to resolve the user&#39;s request.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:43:04Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}

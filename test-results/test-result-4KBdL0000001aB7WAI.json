@@ -1,0 +1,62 @@
+{
+  "endTime": "2026-03-14T11:39:42Z",
+  "startTime": "2026-03-14T11:39:29Z",
+  "status": "COMPLETED",
+  "subjectName": "Progress_Reporter_DevService_Test",
+  "testCases": [
+    {
+      "endTime": "2026-03-14T11:39:40Z",
+      "generatedData": {
+        "actionsSequence": "[&#39;QueryRecordsWithAggregate&#39;]",
+        "invokedActions": "[[{&quot;function&quot;:{&quot;name&quot;:&quot;QueryRecordsWithAggregate_179dL000003nhJp&quot;}}]]",
+        "outcome": "申し訳ありませんが、リクエストを処理する際に問題が発生しました。この情報にアクセスする権限が不足している可能性があります。Salesforce管理者にお問い合わせいただき、必要なアクセス権限を確認してください。",
+        "topic": "p_Completion_Status_Tracking"
+      },
+      "inputs": {
+        "utterance": "DevServiceレコードID a01dL00001eDijdQAC の5層進捗を要約してください。"
+      },
+      "startTime": "2026-03-14T11:39:29Z",
+      "status": "COMPLETED",
+      "testNumber": 1,
+      "testResults": [
+        {
+          "actualValue": "p_Completion_Status_Tracking",
+          "endTime": "2026-03-14T11:39:42Z",
+          "errorCode": 0,
+          "expectedValue": "p_16jdL000002nKnd_Dev_Service_Layer_Summary",
+          "metricLabel": "topic_assertion",
+          "name": "topic_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:39:30Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "['QueryRecordsWithAggregate']",
+          "endTime": "2026-03-14T11:39:42Z",
+          "errorCode": 0,
+          "expectedValue": "[\"EmployeeCopilot__SummarizeRecord\"]",
+          "metricLabel": "actions_assertion",
+          "name": "actions_assertion",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:39:30Z",
+          "status": "COMPLETED"
+        },
+        {
+          "actualValue": "申し訳ありませんが、リクエストを処理する際に問題が発生しました。この情報にアクセスする権限が不足している可能性があります。Salesforce管理者にお問い合わせいただき、必要なアクセス権限を確認してください。",
+          "endTime": "2026-03-14T11:39:42Z",
+          "errorCode": 0,
+          "expectedValue": "指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する",
+          "metricExplainability": "The bot&#39;s response indicates an error due to insufficient permissions, suggesting the user contact an administrator. However, the expected response is to retrieve and summarize the 5-layer progress for the specified DevService record ID. The bot did not attempt to retrieve the information or ask for additional details, nor did it provide the requested summary. This indicates a failure to align with the expected outcome.",
+          "metricLabel": "output_validation",
+          "name": "output_validation",
+          "result": "FAILURE",
+          "score": 0,
+          "startTime": "2026-03-14T11:39:30Z",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  ]
+}
