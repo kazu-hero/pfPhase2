@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <description>You are an AI Agent whose job is to help summarize the progress of Dev Service records, track completion statuses, and recommend next actions within the pfPhase2 Salesforce development workspace.</description>
+    <localActionLinks>
+        <genAiFunctionName>AnswerQuestionsWithKnowledge_16jdL000002nKnd</genAiFunctionName>
+    </localActionLinks>
     <localTopicLinks>
         <genAiPluginName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</genAiPluginName>
     </localTopicLinks>
     <localTopics>
         <fullName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</fullName>
         <canEscalate>false</canEscalate>
-        <description>Choose this topic when the user asks for progress (for example, &quot;進捗を教えて&quot;), status summary, or an overview of a Dev Service record.</description>
+        <description>Choose this topic when the user asks for progress (for example, &quot;進捗を教えて&quot;, &quot;5層進捗を要約してください&quot;, &quot;進捗状況を確認&quot;, &quot;DevServiceレコードの要約&quot;), status summary, or an overview of a Dev Service record. Also select this topic when the user provides a Dev Service record ID and requests a summary or status.</description>
         <developerName>p_16jdL000002nKnd_Dev_Service_Layer_Summary_16jdL000002nKnd</developerName>
         <genAiPluginInstructions>
             <description>For progress or summary requests, prioritize this topic and summarize the Dev Service record using the available record identifier in the user request.</description>
@@ -23,29 +26,49 @@
             <masterLabel>instruction_1</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When the user request contains Japanese keywords such as 進捗, 要約, 状況, 確認, or includes a Dev Service record ID (e.g. a01dL...) followed by a summary/progress request, always select this topic and call Get Dev Service Progress action with that record ID as devServiceId.</description>
+            <developerName>instruction_2</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_2</masterLabel>
+            <sortOrder>2</sortOrder>
+        </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
-            <functionName>GetDevServiceProgress_16jdL000002nKnd</functionName>
+            <functionName>Get_Dev_Service_Progress_179dL000003nhN3</functionName>
         </localActionLinks>
         <localActions>
-            <fullName>GetDevServiceProgress_16jdL000002nKnd</fullName>
-            <description>Collects five-layer progress of Dev_Service__c (Issue, Plan, Requirements, Ticket) and returns aggregated counts, summary, and next action recommendations.</description>
-            <developerName>GetDevServiceProgress_16jdL000002nKnd</developerName>
+            <fullName>Get_Dev_Service_Progress_179dL000003nhN3</fullName>
+            <description>Dev_Service__c を起点に5階層の進捗を集計して返す</description>
+            <developerName>Get_Dev_Service_Progress_179dL000003nhN3</developerName>
             <invocationTarget>DevServiceProgressAction</invocationTarget>
-            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <invocationTargetType>apex</invocationTargetType>
             <isConfirmationRequired>false</isConfirmationRequired>
             <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
-            <localDeveloperName>GetDevServiceProgress</localDeveloperName>
+            <localDeveloperName>Get_Dev_Service_Progress</localDeveloperName>
             <masterLabel>Get Dev Service Progress</masterLabel>
-            <progressIndicatorMessage>Collecting progress data</progressIndicatorMessage>
-            <source>DevServiceProgressAction</source>
+            <progressIndicatorMessage>進捗を確認中です</progressIndicatorMessage>
+            <source>Get_Dev_Service_Progress</source>
         </localActions>
         <localDeveloperName>p_16jdL000002nKnd_Dev_Service_Layer_Summary</localDeveloperName>
         <masterLabel>Dev Service Layer Summary</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Your job is to provide a progress summary for a Dev Service record, including five-layer status and counts. This topic should be selected for generic progress inquiries before recommendation-focused topics.</scope>
+        <scope>Your job is to provide a progress summary for a Dev Service record, including five-layer status and counts. This topic should be selected for generic progress inquiries before recommendation-focused topics. Examples of in-scope requests: 「進捗を教えて」「5層進捗を要約してください」「DevServiceレコードID ... の状況を確認」「進捗状況のサマリー」.</scope>
     </localTopics>
     <masterLabel>Progress Reporter for Dev Service</masterLabel>
+    <plannerActions>
+        <fullName>AnswerQuestionsWithKnowledge_16jdL000002nKnd</fullName>
+        <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+        <developerName>AnswerQuestionsWithKnowledge_16jdL000002nKnd</developerName>
+        <invocationTarget>streamKnowledgeSearch</invocationTarget>
+        <invocationTargetType>standardInvocableAction</invocationTargetType>
+        <isConfirmationRequired>false</isConfirmationRequired>
+        <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+        <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+        <masterLabel>Answer Questions with Knowledge</masterLabel>
+        <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+        <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+    </plannerActions>
     <plannerSurfaces>
         <adaptiveResponseAllowed>true</adaptiveResponseAllowed>
         <callRecordingAllowed>false</callRecordingAllowed>

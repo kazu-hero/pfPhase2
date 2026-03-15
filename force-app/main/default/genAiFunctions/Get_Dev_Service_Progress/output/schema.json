@@ -1,0 +1,50 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "counts" : {
+      "title" : "counts",
+      "description" : "5層進捗の件数情報です。Issue、Plan、Requirements、Ticket、および全体の notStarted、inProgress、done、blocked、total を含みます。Agent はこの値を使って階層別のステータス件数を日本語で要約してください。",
+      "lightning:type" : "@apexClassType/c__DevServiceProgressAction$Counts",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "nextActions" : {
+      "title" : "nextActions",
+      "description" : "次に優先して確認すべき対象の一覧です。レベル、対象レコード、理由、説明を含みます。Agent はこの値を使って次に確認すべき対象を日本語で案内してください。",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__DevServiceProgressAction$NextActionItem"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "notices" : {
+      "title" : "notices",
+      "description" : "補足的な注意事項の一覧です。データ不足や参照権限など、結果解釈に影響する注意を含みます。Agent は必要な場合のみこの値を補足説明として日本語で伝えてください。",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__DevServiceProgressAction$Notice"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "summary" : {
+      "title" : "summary",
+      "description" : "Dev Service 全体の概要です。サービス名、ステータス、進捗率、主要なハイライトを表します。Agent はこの値を使って冒頭の概要説明を日本語で作成してください。",
+      "lightning:type" : "@apexClassType/c__DevServiceProgressAction$Summary",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

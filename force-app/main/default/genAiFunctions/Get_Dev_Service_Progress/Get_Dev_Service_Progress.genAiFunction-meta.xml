@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Dev_Service__c を起点に5階層の進捗を集計して返す</description>
+    <developerName>Get_Dev_Service_Progress</developerName>
+    <invocationTarget>DevServiceProgressAction</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>Get_Dev_Service_Progress</localDeveloperName>
+    <masterLabel>Get Dev Service Progress</masterLabel>
+    <progressIndicatorMessage>進捗を確認中です</progressIndicatorMessage>
+</GenAiFunction>

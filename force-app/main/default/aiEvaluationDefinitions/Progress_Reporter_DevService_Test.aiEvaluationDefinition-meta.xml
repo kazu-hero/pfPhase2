@@ -6,11 +6,11 @@
     <subjectType>AGENT</subjectType>
     <testCase>
         <expectation>
-            <expectedValue>p_16jdL000002nKnd_Dev_Service_Layer_Summary</expectedValue>
+            <expectedValue>p_Dev_Service_Layer_Summary</expectedValue>
             <name>topic_sequence_match</name>
         </expectation>
         <expectation>
-            <expectedValue>[&quot;DevServiceProgressAction&quot;]</expectedValue>
+            <expectedValue>[&quot;Get_Dev_Service_Progress&quot;]</expectedValue>
             <name>action_sequence_match</name>
         </expectation>
         <expectation>
