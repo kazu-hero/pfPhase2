@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>outline__c</fullName>
-    <externalId>false</externalId>
     <inlineHelpText>No, 区分, 表示項目名, オブジェクト, 備考</inlineHelpText>
     <label>アウトライン</label>
     <length>32768</length>

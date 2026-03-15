@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Choose this topic when the user asks for completion rate, done vs pending counts, or status metrics for a Dev Service record.</description>
+    <developerName>p_16jdL000002nKnd_Completion_Status_Tracking</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecordsWithAggregate</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Use this topic for metric-focused status questions, and provide numeric completion details from the Dev Service context.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user requests specific counts or metrics, provide them using the retrieved data.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jdL000002nKnd_Completion_Status_Tracking</localDeveloperName>
+    <masterLabel>Completion Status Tracking</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to report completion metrics and counts. For broad progress summary requests, the Dev Service Layer Summary topic should be preferred.</scope>
+</GenAiPlugin>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Choose this topic only when the user explicitly asks for next steps, recommendations, or what to do next for a Dev Service record.</description>
+    <developerName>p_16jdL000002nKnd_Next_Action_Recommendations</developerName>
+    <genAiFunctions>
+        <functionName>FlowAgentforce__RefineFlowPluginRequirements</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>FlowAgentforce__EvolveFlow</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Do not use this topic for generic progress/status summary requests. Use it only for explicit recommendation or next-action intent.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user requests clarification on a recommendation, provide additional context based on the retrieved data.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jdL000002nKnd_Next_Action_Recommendations</localDeveloperName>
+    <masterLabel>Next Action Recommendations</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to provide actionable next-step recommendations only. If the user asks only for progress or status, defer to the Dev Service Layer Summary topic.</scope>
+</GenAiPlugin>

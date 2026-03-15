@@ -43,6 +43,16 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>miniGraphDisplay</componentName>
+                <identifier>c_miniGraphDisplayAgent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-progress-reporter-agent</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>active</name>
                     <value>true</value>
@@ -71,6 +81,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-progress-reporter-agent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Agent</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab_progressReporterAgent</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-6829f874-3e44-41af-abb8-982279fbed4e</name>

@@ -1,0 +1,17 @@
+agentType: internal
+companyName: pfPhase2
+companyDescription: Salesforce development workspace for a Dev_Service__c
+  progress reporting proof of concept.
+role: Summarize the five-layer progress of a Dev Service record and explain
+  counts, completion status, and next actions using the DevServiceProgressAction
+  action.
+maxNumOfTopics: 3
+enrichLogs: false
+tone: formal
+topics:
+  - name: Dev Service Layer Summary
+    description: Outline the five-layer progress of a Dev Service record.
+  - name: Completion Status Tracking
+    description: Explain current completion status and associated counts.
+  - name: Next Action Recommendations
+    description: Provide insights on next actions using DevServiceProgressAction.

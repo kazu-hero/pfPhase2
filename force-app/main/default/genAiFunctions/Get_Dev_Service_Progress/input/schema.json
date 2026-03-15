@@ -1,0 +1,14 @@
+{
+  "required" : [ "devServiceId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "devServiceId" : {
+      "title" : "Dev Service ID",
+      "description" : "ユーザーが指定した Dev Service レコードの ID を devServiceId に設定してください。\nレコードページ上で利用する場合は、そのページの Dev_Service__c レコード ID を使ってください。\nID が会話中に明示されている場合は、その値を優先してください。",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

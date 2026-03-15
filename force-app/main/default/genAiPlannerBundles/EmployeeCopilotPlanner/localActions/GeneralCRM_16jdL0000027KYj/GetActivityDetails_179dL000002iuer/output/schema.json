@@ -1,0 +1,16 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "activityDetails" : {
+      "title" : "活動の詳細",
+      "description" : "活動レコードのデータ (そのコンテンツやその他の関連詳細を含む)。",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The data for the activity record in Salesforce, including its content and other relevant details.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

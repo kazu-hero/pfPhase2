@@ -1,0 +1,16 @@
+{
+  "required" : [ "recordId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "recordId" : {
+      "title" : "レコード ID",
+      "description" : "概要を生成するために使用される Salesforce レコードの ID。",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "The single ID of a Salesforce CRM record to create the summary for. For example recordId, record_id, recordIds[0], accountId.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

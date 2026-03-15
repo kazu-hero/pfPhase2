@@ -1,0 +1,16 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "activitiesList" : {
+      "title" : "活動リスト",
+      "description" : "レコード ID に関連する活動のリスト (高レベルの詳細を含む)。",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "List of activities related to the record Id, with high level information.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}
