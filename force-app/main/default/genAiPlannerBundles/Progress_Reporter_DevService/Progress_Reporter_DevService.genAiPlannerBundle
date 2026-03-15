@@ -25,20 +25,20 @@
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
-            <functionName>SummarizeRecord_179dL000003nhJq</functionName>
+            <functionName>GetDevServiceProgress_16jdL000002nKnd</functionName>
         </localActionLinks>
         <localActions>
-            <fullName>SummarizeRecord_179dL000003nhJq</fullName>
-            <description>Summarizes a single Salesforce CRM record. You must call summarizeRecord only if the user explicitly asks for a summary (e.g: &apos;Summary&apos;, &apos;Recap&apos;, &apos;Highlights&apos;). This action should be called only when there isn&apos;t a more specific summarization action.</description>
-            <developerName>SummarizeRecord_179dL000003nhJq</developerName>
-            <invocationTarget>getRecordSummarizationPrompt</invocationTarget>
+            <fullName>GetDevServiceProgress_16jdL000002nKnd</fullName>
+            <description>Collects five-layer progress of Dev_Service__c (Issue, Plan, Requirements, Ticket) and returns aggregated counts, summary, and next action recommendations.</description>
+            <developerName>GetDevServiceProgress_16jdL000002nKnd</developerName>
+            <invocationTarget>DevServiceProgressAction</invocationTarget>
             <invocationTargetType>standardInvocableAction</invocationTargetType>
             <isConfirmationRequired>false</isConfirmationRequired>
             <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
-            <localDeveloperName>SummarizeRecord</localDeveloperName>
-            <masterLabel>Summarize Record</masterLabel>
-            <progressIndicatorMessage>Summarizing</progressIndicatorMessage>
-            <source>EmployeeCopilot__SummarizeRecord</source>
+            <localDeveloperName>GetDevServiceProgress</localDeveloperName>
+            <masterLabel>Get Dev Service Progress</masterLabel>
+            <progressIndicatorMessage>Collecting progress data</progressIndicatorMessage>
+            <source>DevServiceProgressAction</source>
         </localActions>
         <localDeveloperName>p_16jdL000002nKnd_Dev_Service_Layer_Summary</localDeveloperName>
         <masterLabel>Dev Service Layer Summary</masterLabel>

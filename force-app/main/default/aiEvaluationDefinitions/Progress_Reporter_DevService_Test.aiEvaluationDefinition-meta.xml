@@ -4,18 +4,17 @@
     <name>Progress Reporter DevService Tests</name>
     <subjectName>Progress_Reporter_DevService</subjectName>
     <subjectType>AGENT</subjectType>
-    <subjectVersion>v1</subjectVersion>
     <testCase>
         <expectation>
             <expectedValue>p_16jdL000002nKnd_Dev_Service_Layer_Summary</expectedValue>
             <name>topic_sequence_match</name>
         </expectation>
         <expectation>
-            <expectedValue>[&quot;EmployeeCopilot__SummarizeRecord&quot;]</expectedValue>
+            <expectedValue>[&quot;DevServiceProgressAction&quot;]</expectedValue>
             <name>action_sequence_match</name>
         </expectation>
         <expectation>
-            <expectedValue>指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗を収集し、要約して回答する</expectedValue>
+            <expectedValue>指定されたDevServiceレコードID(a01dL00001eDijdQAC)の5層進捗(Issue/Plan/Requirements/Ticketの件数・進捗率・次アクション含む)を収集し、要約して回答する</expectedValue>
             <name>bot_response_rating</name>
         </expectation>
         <inputs>
