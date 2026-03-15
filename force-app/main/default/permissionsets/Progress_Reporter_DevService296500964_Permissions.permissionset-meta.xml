@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Agentforce エージェントのカスタム権限を許可 : Progress_Reporter_DevService のエージェントユーザー : progress_reporter_devservice@00ddl00000ffd45925478275.ext。</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Progress_Reporter_DevService296500964権限</label>
+    <license>Einstein Agent</license>
+</PermissionSet>

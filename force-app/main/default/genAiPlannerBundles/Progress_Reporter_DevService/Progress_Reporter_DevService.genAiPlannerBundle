@@ -21,7 +21,7 @@
             <developerName>instruction_1</developerName>
             <language xsi:nil="true"/>
             <masterLabel>instruction_1</masterLabel>
-            <sortOrder>0</sortOrder>
+            <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>

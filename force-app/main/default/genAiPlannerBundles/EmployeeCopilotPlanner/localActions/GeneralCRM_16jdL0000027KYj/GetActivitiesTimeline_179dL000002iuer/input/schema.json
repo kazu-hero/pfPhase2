@@ -1,0 +1,43 @@
+{
+  "required" : [ "recordId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "recordId" : {
+      "title" : "レコード ID",
+      "description" : "活動が取得される Salesforce レコード ID。",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "The ID of the requested object for which activities are to be fetched.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "activityTypes" : {
+      "title" : "活動種別",
+      "description" : "タイムラインを取得するために使用される活動種別 (例: 通話、メール、ToDo、行動) のリスト。",
+      "items" : {
+        "lightning:type" : "lightning__textType"
+      },
+      "lightning:type" : "lightning__listType",
+      "einstein:description" : "A list of activity types used to retrieve the timeline. Type can be strictly either Call, Email, Task, Event.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "fromDateTime" : {
+      "title" : "開始日時",
+      "description" : "yyyy-MM-ddTHH:mm 形式の開始日時。タイムゾーン情報は含まれていません。",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The start date and time in the format yyyy-MM-ddTHH:mm. Strictly follow this format. Timezone information is not included.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "toDateTime" : {
+      "title" : "終了日時",
+      "description" : "yyyy-MM-ddTHH:mm 形式の終了日時。タイムゾーン情報は含まれていません。",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The end date and time in the format yyyy-MM-ddTHH:mm. Strictly follow this format. Timezone information is not included.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

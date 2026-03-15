@@ -4,6 +4,7 @@
     <name>Progress Reporter DevService Tests</name>
     <subjectName>Progress_Reporter_DevService</subjectName>
     <subjectType>AGENT</subjectType>
+    <subjectVersion>v1</subjectVersion>
     <testCase>
         <expectation>
             <expectedValue>p_16jdL000002nKnd_Dev_Service_Layer_Summary</expectedValue>

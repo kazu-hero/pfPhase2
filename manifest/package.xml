@@ -208,5 +208,17 @@
         <members>*</members>
         <name>Workflow</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>AiEvaluationDefinition</name>
+    </types>
+        <types>
+            <members>*</members>
+            <name>GenAiPlannerBundle</name>
+        </types>
+        <types>
+            <members>*</members>
+            <name>GenAiPlugin</name>
+        </types>
     <version>66.0</version>
 </Package>
