@@ -4,7 +4,7 @@
     <description>Choose this topic when the user asks for progress (for example, "進捗を教えて"), status summary, or an overview of a Dev Service record.</description>
     <developerName>p_16jdL000002nKnd_Dev_Service_Layer_Summary</developerName>
     <genAiFunctions>
-        <functionName>DevServiceProgressAction</functionName>
+        <functionName>Get_Dev_Service_Progress</functionName>
     </genAiFunctions>
     <genAiPluginInstructions>
         <description>For progress or summary requests, prioritize this topic and summarize the Dev Service record using the available record identifier in the user request.</description>
