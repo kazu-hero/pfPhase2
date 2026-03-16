@@ -1,0 +1,16 @@
+{
+  "required" : [ "devServiceId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "devServiceId" : {
+      "title" : "Dev Service ID",
+      "description" : "The Salesforce record ID of the Dev_Service__c record to summarize.",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "The Dev Service record ID to use for collecting five-layer progress data.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

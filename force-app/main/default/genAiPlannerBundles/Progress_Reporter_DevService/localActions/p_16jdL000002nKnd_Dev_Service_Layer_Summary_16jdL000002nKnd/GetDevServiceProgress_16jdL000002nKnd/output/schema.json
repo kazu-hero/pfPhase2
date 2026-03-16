@@ -1,0 +1,36 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "summary" : {
+      "title" : "Progress Summary",
+      "description" : "Summary details for the target Dev Service record.",
+      "lightning:type" : "lightning__objectType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "counts" : {
+      "title" : "Layer Counts",
+      "description" : "Aggregated counts by layer and status.",
+      "lightning:type" : "lightning__objectType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true
+    },
+    "nextActions" : {
+      "title" : "Recommended Next Actions",
+      "description" : "Actionable recommendations produced from progress analysis.",
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true
+    },
+    "notices" : {
+      "title" : "Notices",
+      "description" : "Warnings and data-quality notices detected during aggregation.",
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

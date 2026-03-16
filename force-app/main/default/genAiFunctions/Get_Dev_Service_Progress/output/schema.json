@@ -46,6 +46,5 @@
       "copilotAction:useHydratedPrompt" : false
     }
   },
-  "lightning:type" : "lightning__objectType",
-  "lightning:textIndexed" : true
+  "lightning:type" : "lightning__objectType"
 }
