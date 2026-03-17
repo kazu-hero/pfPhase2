@@ -1,0 +1,33 @@
+architecture-beta
+title DevApp Business Object Relationship
+
+group rel[RelationObjects]
+group core[CoreFlow]
+
+service dev_service(database)[Dev_Service__c] in core
+service issue(database)[Issue__c] in core
+service tech_plan(database)[TechActionPlan__c] in core
+service func_req(database)[FunctionRequirements__c] in core
+service dev_ticket(database)[Dev_Ticket__c] in core
+
+service rel_s2i(disk)[Support2Issue__c] in rel
+service rel_i2p(disk)[Issue2Plan__c] in rel
+service rel_p2r(disk)[Plan2Requirements__c] in rel
+service rel_r2d(disk)[Requirements2Dev__c] in rel
+    
+service tag(database)[Tag__c] in core
+service testcase(database)[Testcase__c] in core
+service testsuite(database)[TestSuite__c] in core
+
+dev_service:R -- L:issue
+issue:R -- L:tech_plan
+tech_plan:R -- L:func_req
+func_req:R -- L:dev_ticket
+rel_s2i:B -- T:dev_service
+rel_s2i:B -- T:issue
+rel_i2p:B -- T:issue
+rel_i2p:B -- T:tech_plan
+rel_p2r:B -- T:tech_plan
+rel_p2r:B -- T:func_req
+rel_r2d:B -- T:func_req
+rel_r2d:B -- T:dev_ticket

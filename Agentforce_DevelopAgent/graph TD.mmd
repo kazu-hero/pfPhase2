@@ -1,0 +1,43 @@
+graph TD
+    subgraph User["ユーザー"]
+        Q[/"Dev_Service__c の進捗を教えて"/]
+        A["📊 会話応答<br>概要 / ステータス件数 / 次のアクション"]
+    end
+
+    subgraph AgentLayer["Agentforce（デフォルト Agent）"]
+        COP["Einstein Copilot"]
+        TP["Topic<br>p_Dev_Service_Layer_Summary"]
+        FN["Function<br>Get_Dev_Service_Progress"]
+    end
+
+    subgraph ApexLayer["Apex Action"]
+        APX["DevServiceProgressAction<br>@InvocableMethod getProgress()"]
+    end
+
+    subgraph DataModel["データモデル（5階層）"]
+        direction TB
+        DS["Dev_Service__c"]
+        J1["Relation_Support2Issue__c<br>(Junction)"]
+        IS["Issue__c"]
+        J2["Relation_Issue2Plan__c<br>(Junction)"]
+        TAP["TechActionPlan__c"]
+        J3["Relation_Plan2Requirements__c<br>(Junction)"]
+        FR["FunctionRequirements__c"]
+        J4["Relation_Requirements2Dev__c<br>(Junction)"]
+        DT["Dev_Ticket__c"]
+
+        J1 --> J2 --> J3 --> J4
+        
+        J1 --> IS & DS
+        J2 --> TAP & IS
+        J3 --> FR & TAP
+        J4 --> DT & FR
+        
+    end
+
+    Q --> COP
+    COP --> TP --> FN
+    FN --> APX
+    APX -->|"SOQL 横断集計"| DataModel
+    APX -->|"summary / counts / nextActions / notices"| COP
+    COP --> A
