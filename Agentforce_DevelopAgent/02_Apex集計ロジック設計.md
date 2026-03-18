@@ -7,19 +7,19 @@
 
 ## 1. privateメソッド分割設計
 
-| メソッド | 可視性 | 役割 |
-|---------|--------|------|
-| `getProgress(List<Request>)` | `public static` | @InvocableMethod エントリ。requests をループして `processOne()` を呼ぶ |
-| `processOne(Id, List<Notice>)` | `private static` | 1レコード分の集計処理本体 |
-| `buildEmptyResult(Dev_Service__c, List<Notice>)` | `private static` | Issue未接続時のゼロ埋め結果を構築して早期返却 |
-| `normalize(String, List<Notice>)` | `private static` | ステータス正規化。未知値はNotStartedフォールバック + DataGap通知 |
-| `buildObjectCounts(Map<Id,String>)` | `private static` | 正規化済みstatusMapからObjectCountsを生成 |
-| `addCounts(ObjectCounts, ObjectCounts)` | `private static` | 2つのObjectCountsを加算してoverallを構築 |
-| `calcProgressRate(ObjectCounts)` | `private static` | progressRate算出（0割ガード、scale=1 HALF_UP） |
-| `buildNextActions(Map, Map, Decimal, String)` | `private static` | 3優先度ルールでNextActionItemリストを生成（最大3件） |
-| `buildHighlights(ObjectCounts, String)` | `private static` | highlightsリスト生成（最大3要素） |
-| `buildItem(String, String, Integer, Id, String, String)` | `private static` | NextActionItemファクトリ |
-| `buildNotice(String, String, String)` | `private static` | Noticeファクトリ |
+| メソッド                                                 | 可視性           | 役割                                                                   |
+| -------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------- |
+| `getProgress(List<Request>)`                             | `public static`  | @InvocableMethod エントリ。requests をループして `processOne()` を呼ぶ |
+| `processOne(Id, List<Notice>)`                           | `private static` | 1レコード分の集計処理本体                                              |
+| `buildEmptyResult(Dev_Service__c, List<Notice>)`         | `private static` | Issue未接続時のゼロ埋め結果を構築して早期返却                          |
+| `normalize(String, List<Notice>)`                        | `private static` | ステータス正規化。未知値はNotStartedフォールバック + DataGap通知       |
+| `buildObjectCounts(Map<Id,String>)`                      | `private static` | 正規化済みstatusMapからObjectCountsを生成                              |
+| `addCounts(ObjectCounts, ObjectCounts)`                  | `private static` | 2つのObjectCountsを加算してoverallを構築                               |
+| `calcProgressRate(ObjectCounts)`                         | `private static` | progressRate算出（0割ガード、scale=1 HALF_UP）                         |
+| `buildNextActions(Map, Map, Decimal, String)`            | `private static` | 3優先度ルールでNextActionItemリストを生成（最大3件）                   |
+| `buildHighlights(ObjectCounts, String)`                  | `private static` | highlightsリスト生成（最大3要素）                                      |
+| `buildItem(String, String, Integer, Id, String, String)` | `private static` | NextActionItemファクトリ                                               |
+| `buildNotice(String, String, String)`                    | `private static` | Noticeファクトリ                                                       |
 
 ---
 
@@ -27,12 +27,12 @@
 
 ```apex
 private class RecordRef {
-    Id recordId;
-    String recordName;
-    RecordRef(Id i, String n) {
-        this.recordId = i;
-        this.recordName = n;
-    }
+  Id recordId;
+  String recordName;
+  RecordRef(Id i, String n) {
+    this.recordId = i;
+    this.recordName = n;
+  }
 }
 ```
 
@@ -85,7 +85,7 @@ public static List<ProgressResult> getProgress(List<Request> requests) {
 
 ## 4. processOne() 集計処理本体
 
-### 4-1. SOQL 0: Dev_Service__c 取得
+### 4-1. SOQL 0: Dev_Service\_\_c 取得
 
 ```apex
 Dev_Service__c svc = [
@@ -477,16 +477,16 @@ private static Notice buildNotice(String type, String level, String description)
 
 ## 11. 欠損検知フロー完全定義
 
-| シチュエーション | 検知タイミング | 処理 | notices.type | notices.level |
-|----------------|-------------|------|-------------|--------------|
-| Dev_Service不存在 | SOQL 0 | QueryExceptionをそのままスロー（PoC範囲） | - | - |
-| Issue未接続 | SOQL 1後 | `buildEmptyResult()` で即返却 | DataGap | Issue |
-| Plan未接続 | SOQL 2後 | SOQL 3-4スキップ、0埋め | DataGap | Plan |
-| Requirements未接続 | SOQL 3後 | SOQL 4スキップ、0埋め | DataGap | Requirements |
-| Ticket未接続 | SOQL 4後 | ticketを0埋め | DataGap | Ticket |
-| Junction重複 | 各段ループ | `containsKey()` でdedup | - | - |
-| 未知ステータス | `normalize()` | NotStartedフォールバック + notice追記 | DataGap | All |
-| FLS不足 | 各SOQL | QueryExceptionをそのままスロー（PoC範囲） | - | - |
+| シチュエーション   | 検知タイミング | 処理                                      | notices.type | notices.level |
+| ------------------ | -------------- | ----------------------------------------- | ------------ | ------------- |
+| Dev_Service不存在  | SOQL 0         | QueryExceptionをそのままスロー（PoC範囲） | -            | -             |
+| Issue未接続        | SOQL 1後       | `buildEmptyResult()` で即返却             | DataGap      | Issue         |
+| Plan未接続         | SOQL 2後       | SOQL 3-4スキップ、0埋め                   | DataGap      | Plan          |
+| Requirements未接続 | SOQL 3後       | SOQL 4スキップ、0埋め                     | DataGap      | Requirements  |
+| Ticket未接続       | SOQL 4後       | ticketを0埋め                             | DataGap      | Ticket        |
+| Junction重複       | 各段ループ     | `containsKey()` でdedup                   | -            | -             |
+| 未知ステータス     | `normalize()`  | NotStartedフォールバック + notice追記     | DataGap      | All           |
+| FLS不足            | 各SOQL         | QueryExceptionをそのままスロー（PoC範囲） | -            | -             |
 
 ---
 

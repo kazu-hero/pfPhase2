@@ -5,16 +5,16 @@
 
 ## 1. インターフェースサマリ
 
-| 項目 | 内容 |
-|------|------|
-| クラス名 | `DevServiceProgressAction` |
-| メソッド名 | `getProgress` |
-| Agentforce呼び出し | `@InvocableMethod` |
-| 入力型 | `List<Request>` |
-| 出力型 | `List<ProgressResult>` |
-| 権限モード | `WITH SECURITY_ENFORCED` |
-| 副作用 | なし（読取専用） |
-| 配置先 | `force-app/main/default/classes/DevServiceProgressAction.cls` |
+| 項目               | 内容                                                          |
+| ------------------ | ------------------------------------------------------------- |
+| クラス名           | `DevServiceProgressAction`                                    |
+| メソッド名         | `getProgress`                                                 |
+| Agentforce呼び出し | `@InvocableMethod`                                            |
+| 入力型             | `List<Request>`                                               |
+| 出力型             | `List<ProgressResult>`                                        |
+| 権限モード         | `WITH SECURITY_ENFORCED`                                      |
+| 副作用             | なし（読取専用）                                              |
+| 配置先             | `force-app/main/default/classes/DevServiceProgressAction.cls` |
 
 ---
 
@@ -107,18 +107,19 @@ public class DevServiceProgressAction {
 
 ## 3. ステータス正規化仕様
 
-| 入力値（TicketStatus GVSet） | 正規化後 | 備考 |
-|------------------------------|---------|------|
-| `TODO` | `NotStarted` | GVSetデフォルト値 |
-| `PENDING` | `NotStarted` | 保留中は未着手扱い |
-| `WIP` | `InProgress` | |
-| `DONE` | `Done` | |
-| `DROP` | `Blocked` | 棄却・中断 |
-| 未知値（将来追加値等） | `NotStarted` | フォールバック + `notices.dataGaps` に1行記録 |
+| 入力値（TicketStatus GVSet） | 正規化後     | 備考                                          |
+| ---------------------------- | ------------ | --------------------------------------------- |
+| `TODO`                       | `NotStarted` | GVSetデフォルト値                             |
+| `PENDING`                    | `NotStarted` | 保留中は未着手扱い                            |
+| `WIP`                        | `InProgress` |                                               |
+| `DONE`                       | `Done`       |                                               |
+| `DROP`                       | `Blocked`    | 棄却・中断                                    |
+| 未知値（将来追加値等）       | `NotStarted` | フォールバック + `notices.dataGaps` に1行記録 |
 
 `Dev_Service__c.Status__c`（`OPEN/CLOSE`）は正規化対象外。`summary.devServiceStatus` にそのまま格納し、集計ロジックには影響させない。
 
 **`Dev_Service__c = CLOSE` 時の挙動**:
+
 - `progressRate` 算出は常に `ticket.done / ticket.total` で統一（CLOSE でも例外なし）
 - `nextActions` は `BlockedExists` に該当する場合のみ `Ticket` レベルで提示し、それ以外は空配列（`[]`）を返す
 - `summary.highlights` の先頭要素に `"このサービスはCLOSE状態です"` を含める
@@ -191,12 +192,12 @@ List<Relation_Requirements2Dev__c> rd = [
 
 優先順位ルール（上位から評価し、最大3件で打ち切り）:
 
-| 優先度 | 条件 | reason | detail例 |
-|--------|-----|--------|---------|
-| 1 | いずれかの階層で `blocked > 0` | `BlockedExists` | `「Plan」階層にBlocked状態が2件あります。優先確認してください。` |
-| 2 | `notStarted / total > 0.5` の階層が存在 | `HighNotStartedRatio` | `「Ticket」の50%以上が未着手です。進め方を確認してください。` |
-| 3 | `progressRate < 30` かつ `inProgress > 0` | `LowProgress` | `全体進捗が30%未満です。進行中Ticketのボトルネックを確認してください。` |
-| — | 上記に該当なし | 空配列（`[]`）を返す | — |
+| 優先度 | 条件                                      | reason                | detail例                                                                |
+| ------ | ----------------------------------------- | --------------------- | ----------------------------------------------------------------------- |
+| 1      | いずれかの階層で `blocked > 0`            | `BlockedExists`       | `「Plan」階層にBlocked状態が2件あります。優先確認してください。`        |
+| 2      | `notStarted / total > 0.5` の階層が存在   | `HighNotStartedRatio` | `「Ticket」の50%以上が未着手です。進め方を確認してください。`           |
+| 3      | `progressRate < 30` かつ `inProgress > 0` | `LowProgress`         | `全体進捗が30%未満です。進行中Ticketのボトルネックを確認してください。` |
+| —     | 上記に該当なし                            | 空配列（`[]`）を返す  | —                                                                      |
 
 - 同一優先度で複数階層が該当する場合は `Issue → Plan → Requirements → Ticket` の順に上位から選出
 - `recordId / recordName` は**最初の1件**のみセット。複数存在する場合は `detail` に件数を追記（例: `他2件`）
@@ -218,11 +219,41 @@ List<Relation_Requirements2Dev__c> rd = [
     "highlights": ["6件完了", "2件進行中", "Blocked 1件あり"]
   },
   "counts": {
-    "issue":        { "notStarted": 1, "inProgress": 2, "done": 3, "blocked": 0, "total": 6 },
-    "plan":         { "notStarted": 2, "inProgress": 3, "done": 4, "blocked": 1, "total": 10 },
-    "requirements": { "notStarted": 3, "inProgress": 2, "done": 8, "blocked": 0, "total": 13 },
-    "ticket":       { "notStarted": 1, "inProgress": 2, "done": 6, "blocked": 1, "total": 10 },
-    "overall":      { "notStarted": 7, "inProgress": 9, "done": 21, "blocked": 2, "total": 39 }
+    "issue": {
+      "notStarted": 1,
+      "inProgress": 2,
+      "done": 3,
+      "blocked": 0,
+      "total": 6
+    },
+    "plan": {
+      "notStarted": 2,
+      "inProgress": 3,
+      "done": 4,
+      "blocked": 1,
+      "total": 10
+    },
+    "requirements": {
+      "notStarted": 3,
+      "inProgress": 2,
+      "done": 8,
+      "blocked": 0,
+      "total": 13
+    },
+    "ticket": {
+      "notStarted": 1,
+      "inProgress": 2,
+      "done": 6,
+      "blocked": 1,
+      "total": 10
+    },
+    "overall": {
+      "notStarted": 7,
+      "inProgress": 9,
+      "done": 21,
+      "blocked": 2,
+      "total": 39
+    }
   },
   "nextActions": [
     {
@@ -250,11 +281,41 @@ List<Relation_Requirements2Dev__c> rd = [
     "highlights": ["このサービスはCLOSE状態です", "14件完了", "Blocked 1件残存"]
   },
   "counts": {
-    "issue":        { "notStarted": 0, "inProgress": 0, "done": 5, "blocked": 0, "total": 5 },
-    "plan":         { "notStarted": 0, "inProgress": 0, "done": 8, "blocked": 0, "total": 8 },
-    "requirements": { "notStarted": 0, "inProgress": 0, "done": 12, "blocked": 0, "total": 12 },
-    "ticket":       { "notStarted": 0, "inProgress": 0, "done": 14, "blocked": 1, "total": 15 },
-    "overall":      { "notStarted": 0, "inProgress": 0, "done": 39, "blocked": 1, "total": 40 }
+    "issue": {
+      "notStarted": 0,
+      "inProgress": 0,
+      "done": 5,
+      "blocked": 0,
+      "total": 5
+    },
+    "plan": {
+      "notStarted": 0,
+      "inProgress": 0,
+      "done": 8,
+      "blocked": 0,
+      "total": 8
+    },
+    "requirements": {
+      "notStarted": 0,
+      "inProgress": 0,
+      "done": 12,
+      "blocked": 0,
+      "total": 12
+    },
+    "ticket": {
+      "notStarted": 0,
+      "inProgress": 0,
+      "done": 14,
+      "blocked": 1,
+      "total": 15
+    },
+    "overall": {
+      "notStarted": 0,
+      "inProgress": 0,
+      "done": 39,
+      "blocked": 1,
+      "total": 40
+    }
   },
   "nextActions": [
     {
@@ -282,11 +343,41 @@ List<Relation_Requirements2Dev__c> rd = [
     "highlights": ["4件完了", "データ欠損あり（詳細はnoticesを確認）"]
   },
   "counts": {
-    "issue":        { "notStarted": 2, "inProgress": 1, "done": 2, "blocked": 0, "total": 5 },
-    "plan":         { "notStarted": 1, "inProgress": 1, "done": 2, "blocked": 0, "total": 4 },
-    "requirements": { "notStarted": 0, "inProgress": 2, "done": 4, "blocked": 0, "total": 6 },
-    "ticket":       { "notStarted": 2, "inProgress": 2, "done": 4, "blocked": 0, "total": 8 },
-    "overall":      { "notStarted": 5, "inProgress": 6, "done": 12, "blocked": 0, "total": 23 }
+    "issue": {
+      "notStarted": 2,
+      "inProgress": 1,
+      "done": 2,
+      "blocked": 0,
+      "total": 5
+    },
+    "plan": {
+      "notStarted": 1,
+      "inProgress": 1,
+      "done": 2,
+      "blocked": 0,
+      "total": 4
+    },
+    "requirements": {
+      "notStarted": 0,
+      "inProgress": 2,
+      "done": 4,
+      "blocked": 0,
+      "total": 6
+    },
+    "ticket": {
+      "notStarted": 2,
+      "inProgress": 2,
+      "done": 4,
+      "blocked": 0,
+      "total": 8
+    },
+    "overall": {
+      "notStarted": 5,
+      "inProgress": 6,
+      "done": 12,
+      "blocked": 0,
+      "total": 23
+    }
   },
   "nextActions": [
     {
@@ -312,15 +403,15 @@ List<Relation_Requirements2Dev__c> rd = [
 
 ## 7. 制約・前提
 
-| 項目 | 制約値 | 備考 |
-|------|--------|------|
-| nextActions 上限 | 最大3件 | 安定した会話応答のため |
-| SOQL発行数 | 5クエリ固定 | 0除算 → progressRate = 0 で返す |
-| ガバナ上限行数 | 各Junctionクエリで最大 50,000行 | PoCでは問題なし |
-| `WITH SECURITY_ENFORCED` | 全クエリに必須 | FLS不足は例外終了（PoC範囲）。graceful degrade は将来検討。PermSet付与を前提運用とする |
-| 権限で不可視のレコード | 合計から自動除外（SECURITY_ENFORCED動作） | `notices.visibilityWarnings` に概要を記録 |
-| `counts` の返却キー | 常に全キー（issue/plan/requirements/ticket/overall）を返す | データなし時は 0 埋め。テンプレがキー存在を前提にできるようにする |
-| `counts.overall` 整合 | `byObject` 4階層の合算と一致すること | ユニットテストで byObject 合算 = overall を必ず検証する |
+| 項目                     | 制約値                                                     | 備考                                                                                   |
+| ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| nextActions 上限         | 最大3件                                                    | 安定した会話応答のため                                                                 |
+| SOQL発行数               | 5クエリ固定                                                | 0除算 → progressRate = 0 で返す                                                        |
+| ガバナ上限行数           | 各Junctionクエリで最大 50,000行                            | PoCでは問題なし                                                                        |
+| `WITH SECURITY_ENFORCED` | 全クエリに必須                                             | FLS不足は例外終了（PoC範囲）。graceful degrade は将来検討。PermSet付与を前提運用とする |
+| 権限で不可視のレコード   | 合計から自動除外（SECURITY_ENFORCED動作）                  | `notices.visibilityWarnings` に概要を記録                                              |
+| `counts` の返却キー      | 常に全キー（issue/plan/requirements/ticket/overall）を返す | データなし時は 0 埋め。テンプレがキー存在を前提にできるようにする                      |
+| `counts.overall` 整合    | `byObject` 4階層の合算と一致すること                       | ユニットテストで byObject 合算 = overall を必ず検証する                                |
 
 ---
 
@@ -364,11 +455,11 @@ private static String normalize(String raw) {
 
 ### 8-3. 欠据検知
 
-| ケース | 処理 |
-|------|------|
-| `issueIds` が空セット | クエリ 2以降をスキップ　1行目の notices に DataGap記録 |
-| Junction不在で子が 0 件 | counts 0埋めで返す。notices の DataGap に記録 |
-| Junction譌で同一子レコードが重複 | Set<Id> で dedup してから集計 |
+| ケース                           | 処理                                                   |
+| -------------------------------- | ------------------------------------------------------ |
+| `issueIds` が空セット            | クエリ 2以降をスキップ　1行目の notices に DataGap記録 |
+| Junction不在で子が 0 件          | counts 0埋めで返す。notices の DataGap に記録          |
+| Junction譌で同一子レコードが重複 | Set<Id> で dedup してから集計                          |
 
 ### 8-4. nextActions 実装骨子
 
